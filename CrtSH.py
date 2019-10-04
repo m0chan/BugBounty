@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
+#@felamos for JSON Assistance :)
 
-
-#@felamos for JSON Assistance :) 
+ 
 from crtsh import crtshAPI
 import json
 import sys
@@ -32,6 +32,9 @@ def Main():
                 sub = url['name_value']
                 f.write(sub+"\n")
                 #print(sub)
+
+        linecount = sum(1 for line in open(domain + "_domains.subs"))
+        print("[*] Succesfully Found " + str(linecount) + " Domains")
         print("[*] Saved SubDomains to " + domain + "_domains.subs")
 	
     save(domain, api(domain))
