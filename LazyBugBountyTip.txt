@@ -1,0 +1,7 @@
+Want to do some lazy bug bounty hunting today?
+
+Get the ASN of a company by using this (in this case, Tesla):
+
+whois -h http://whois.cymru.com $(dig +short http://tesla.com)
+
+Then use the ASN filter in Shodan to scroll through their IP space.
