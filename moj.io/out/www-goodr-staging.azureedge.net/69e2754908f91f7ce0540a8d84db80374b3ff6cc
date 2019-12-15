@@ -1,0 +1,14 @@
+http://www-goodr-staging.azureedge.net/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: www-goodr-staging.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: no-cache
+< Date: Sun, 15 Dec 2019 14:25:30 GMT
+< Expires: Sun, 15 Dec 2019 14:25:29 GMT
+< Location: https://www.staging-maddfunding.com/
+< Server: ECAcc (lpl/EF55)
+< Content-Length: 0
+

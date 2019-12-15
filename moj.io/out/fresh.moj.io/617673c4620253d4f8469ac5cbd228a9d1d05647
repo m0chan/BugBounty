@@ -1,0 +1,399 @@
+https://fresh.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: fresh.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html; charset=UTF-8
+< Date: Sun, 15 Dec 2019 14:28:56 GMT
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+< Upgrade: h2,h2c
+< Vary: Accept-Encoding
+< X-Endurance-Cache-Level: 2
+< Server: Apache
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< Link: <https://fresh.moj.io/wp-json/>; rel="https://api.w.org/"
+
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<link rel="shortcut icon" href="https://fresh.moj.io/wp-content/themes/mojio/favicon.ico" />
+
+	<script type="text/javascript">window.MojioSiteURL = 'https://fresh.moj.io';</script>
+	<title>Page not found - Mojio</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v12.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Page not found - Mojio" />
+<meta property="og:site_name" content="Mojio" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Page not found - Mojio" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://fresh.moj.io/#website","url":"https://fresh.moj.io/","name":"Mojio","potentialAction":{"@type":"SearchAction","target":"https://fresh.moj.io/?s={search_term_string}","query-input":"required name=search_term_string"}}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Mojio &raquo; Feed" href="https://fresh.moj.io/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mojio &raquo; Comments Feed" href="https://fresh.moj.io/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/fresh.moj.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.5"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='bootstrap4-css'  href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css?ver=5.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css?ver=5.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-theme-css'  href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css?ver=5.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://fresh.moj.io/wp-includes/css/dist/block-library/style.min.css?ver=5.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='mojio-style-css'  href='https://fresh.moj.io/wp-content/themes/mojio/style.css?ver=16658' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-css'  href='https://use.fontawesome.com/releases/v5.11.2/css/all.css' type='text/css' media='all' integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+<link rel='stylesheet' id='font-awesome-official-v4shim-css'  href='https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css' type='text/css' media='all' integrity="sha384-/EdpJd7d6gGFiQ/vhh7iOjiZdf4+6K4al/XrX6FxxZwDSrAdWxAynr4p/EA/vyPQ" crossorigin="anonymous" />
+<style id='font-awesome-official-v4shim-inline-css' type='text/css'>
+@font-face {
+    font-family: "FontAwesome";
+    src: url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-brands-400.eot"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-brands-400.woff2") format("woff2"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-brands-400.woff") format("woff"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-brands-400.ttf") format("truetype"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-solid-900.eot"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-solid-900.woff2") format("woff2"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-solid-900.woff") format("woff"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-solid-900.ttf") format("truetype"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-regular-400.eot"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-regular-400.woff2") format("woff2"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-regular-400.woff") format("woff"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-regular-400.ttf") format("truetype"),
+         url("https://use.fontawesome.com/releases/v5.11.2/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+    unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F057-F059,U+F06E,U+F070,U+F075,U+F07B-F07C,U+F080,U+F086,U+F089,U+F094,U+F09D,U+F0A0,U+F0A4-F0A7,U+F0C5,U+F0C7-F0C8,U+F0E0,U+F0EB,U+F0F3,U+F0F8,U+F0FE,U+F111,U+F118-F11A,U+F11C,U+F133,U+F144,U+F146,U+F14A,U+F14D-F14E,U+F150-F152,U+F15B-F15C,U+F164-F165,U+F185-F186,U+F191-F192,U+F1AD,U+F1C1-F1C9,U+F1CD,U+F1D8,U+F1E3,U+F1EA,U+F1F6,U+F1F9,U+F20A,U+F247-F249,U+F24D,U+F254-F25B,U+F25D,U+F267,U+F271-F274,U+F279,U+F28B,U+F28D,U+F2B5-F2B6,U+F2B9,U+F2BB,U+F2BD,U+F2C1-F2C2,U+F2D0,U+F2D2,U+F2DC,U+F2ED,U+F328,U+F358-F35B,U+F3A5,U+F3D1,U+F410,U+F4AD;
+}
+</style>
+<script type='text/javascript' src='https://fresh.moj.io/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://fresh.moj.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://fresh.moj.io/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fresh.moj.io/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://fresh.moj.io/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.5" />
+</head>
+
+<body class="error404 hfeed no-sidebar">
+<div id="mobile-indicator"></div>
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header">
+		<div class="site-branding">
+			<a href="https://fresh.moj.io" class="custom-logo">Mojio Home</a>				<p class="site-title"><a href="https://fresh.moj.io/" rel="home">Mojio</a></p>
+								<p class="site-description">Connected Car Platform</p>
+					</div><!-- .site-branding -->
+
+		<nav id="site-navigation" class="main-navigation">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button>
+			<div class="menu-top-container"><ul id="primary-menu" class="menu"><li id="menu-item-72" class="no-click menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-72"><a href="https://fresh.moj.io/products/">Products</a>
+<ul class="sub-menu">
+	<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="https://fresh.moj.io/connected-car-platform/">Connected Mobility Platform</a></li>
+	<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="https://fresh.moj.io/motion-connected-car-app/">Motion for Cars</a></li>
+</ul>
+</li>
+<li id="menu-item-636" class="no-click menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-636"><a href="https://fresh.moj.io/solutions/">Solutions</a>
+<ul class="sub-menu">
+	<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="https://fresh.moj.io/wireless-carriers/">Mobile Network Operators</a></li>
+	<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a href="https://fresh.moj.io/automotive-oem-solutions/">Automakers</a></li>
+</ul>
+</li>
+<li id="menu-item-638" class="no-click menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-638"><a href="https://fresh.moj.io/partners/">Partners</a>
+<ul class="sub-menu">
+	<li id="menu-item-1360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1360"><a href="https://fresh.moj.io/customers/">Customers</a></li>
+</ul>
+</li>
+<li id="menu-item-637" class="no-click menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-637"><a href="https://fresh.moj.io/resources/">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-639"><a href="https://fresh.moj.io/resources/">Publications</a></li>
+	<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="https://fresh.moj.io/press-room/">Press Room</a></li>
+</ul>
+</li>
+<li id="menu-item-93" class="no-click menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-93"><a href="https://fresh.moj.io/company/">Company</a>
+<ul class="sub-menu">
+	<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="https://fresh.moj.io/our-company/">About Mojio</a></li>
+	<li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="https://fresh.moj.io/careers/">Careers</a></li>
+</ul>
+</li>
+<li id="menu-item-100" class="notification-placeholder menu-item menu-item-type-custom menu-item-object-custom menu-item-100"><div class="notification-container"><div class="notification-content"><div class="notification-text"><span>Mojio Named Fastest Growing Tech Company in BC, No. 6 in Canada and No. 30 in North America by Deloitte!</span><a href="https://www.moj.io/blog/mojio-named-fastest-growing-company-in-bc-2019-deloitte-fast50/" target="_blank">Learn More</a></div></div></div></li>
+</ul></div>		</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+			<section class="error-404 not-found">
+				<header class="page-header">
+					<h1 class="page-title">Oops! That page can&rsquo;t be found.</h1>
+				</header><!-- .page-header -->
+
+				<div class="page-content">
+					<p>It looks like nothing was found at this location. Maybe try one of the links below or a search?</p>
+
+					<form role="search" method="get" class="search-form" action="https://fresh.moj.io/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>		<div class="widget widget_recent_entries">		<h2 class="widgettitle">Recent Posts</h2>		<ul>
+											<li>
+					<a href="https://fresh.moj.io/news/mojio-named-british-columbias-fastest-growing-company-in-the-2019-deloitte-technology-fast-50-awards/">Mojio Named British Columbia’s Fastest Growing Company in the 2019 Deloitte Technology Fast 50™ Awards</a>
+									</li>
+											<li>
+					<a href="https://fresh.moj.io/news/mojio-appoints-olivier-poissonnier-as-chief-financial-officer/">Mojio Appoints Olivier Poissonnier as Chief Financial Officer</a>
+									</li>
+											<li>
+					<a href="https://fresh.moj.io/news/mojio-wins-2019-comparably-award-for-best-leadership-team/">Mojio Wins 2019 Comparably Award for Best Leadership Team</a>
+									</li>
+											<li>
+					<a href="https://fresh.moj.io/news/t-mobile-syncup-drive-gets-a-fresh-upgrade-new-features-same-price/">T-Mobile SyncUP DRIVE Gets a Fresh Upgrade: New Features, Same Price</a>
+									</li>
+											<li>
+					<a href="https://fresh.moj.io/news/vivint-smart-home-launches-vivint-car-guard-to-extend-smart-security-to-your-car/">Vivint Smart Home Launches Vivint Car Guard to Extend Smart Security to Your Car</a>
+									</li>
+					</ul>
+		</div>
+					<div class="widget widget_categories">
+						<h2 class="widget-title">Most Used Categories</h2>
+						<ul>
+								<li class="cat-item cat-item-5"><a href="https://fresh.moj.io/category/news/">News</a> (48)
+</li>
+						</ul>
+					</div><!-- .widget -->
+
+					<div class="widget widget_archive"><h2 class="widgettitle">Archives</h2><p>Try looking in the monthly archives. 🙂</p>		<label class="screen-reader-text" for="archives-dropdown--1">Archives</label>
+		<select id="archives-dropdown--1" name="archive-dropdown">
+			
+			<option value="">Select Month</option>
+				<option value='https://fresh.moj.io/2019/11/'> November 2019 </option>
+	<option value='https://fresh.moj.io/2019/07/'> July 2019 </option>
+	<option value='https://fresh.moj.io/2019/06/'> June 2019 </option>
+	<option value='https://fresh.moj.io/2019/03/'> March 2019 </option>
+	<option value='https://fresh.moj.io/2019/02/'> February 2019 </option>
+	<option value='https://fresh.moj.io/2019/01/'> January 2019 </option>
+	<option value='https://fresh.moj.io/2018/12/'> December 2018 </option>
+	<option value='https://fresh.moj.io/2018/11/'> November 2018 </option>
+	<option value='https://fresh.moj.io/2018/09/'> September 2018 </option>
+	<option value='https://fresh.moj.io/2018/08/'> August 2018 </option>
+	<option value='https://fresh.moj.io/2018/06/'> June 2018 </option>
+	<option value='https://fresh.moj.io/2018/03/'> March 2018 </option>
+	<option value='https://fresh.moj.io/2017/11/'> November 2017 </option>
+	<option value='https://fresh.moj.io/2017/10/'> October 2017 </option>
+	<option value='https://fresh.moj.io/2017/09/'> September 2017 </option>
+	<option value='https://fresh.moj.io/2017/07/'> July 2017 </option>
+	<option value='https://fresh.moj.io/2017/06/'> June 2017 </option>
+	<option value='https://fresh.moj.io/2017/02/'> February 2017 </option>
+	<option value='https://fresh.moj.io/2017/01/'> January 2017 </option>
+	<option value='https://fresh.moj.io/2016/12/'> December 2016 </option>
+	<option value='https://fresh.moj.io/2016/11/'> November 2016 </option>
+	<option value='https://fresh.moj.io/2015/12/'> December 2015 </option>
+	<option value='https://fresh.moj.io/2015/08/'> August 2015 </option>
+	<option value='https://fresh.moj.io/2015/06/'> June 2015 </option>
+	<option value='https://fresh.moj.io/2015/03/'> March 2015 </option>
+	<option value='https://fresh.moj.io/2015/01/'> January 2015 </option>
+	<option value='https://fresh.moj.io/2014/11/'> November 2014 </option>
+	<option value='https://fresh.moj.io/2014/09/'> September 2014 </option>
+	<option value='https://fresh.moj.io/2013/10/'> October 2013 </option>
+	<option value='https://fresh.moj.io/2013/06/'> June 2013 </option>
+	<option value='https://fresh.moj.io/2013/04/'> April 2013 </option>
+
+		</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown--1" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+
+		</div><div class="widget widget_tag_cloud"><h2 class="widgettitle">Tags</h2><div class="tagcloud"><a href="https://fresh.moj.io/tag/amazon-alexa/" class="tag-cloud-link tag-link-71 tag-link-position-1" style="font-size: 10.52pt;" aria-label="Amazon Alexa (2 items)">Amazon Alexa</a>
+<a href="https://fresh.moj.io/tag/amazon-alexa-fund/" class="tag-cloud-link tag-link-61 tag-link-position-2" style="font-size: 12.2pt;" aria-label="Amazon Alexa Fund (3 items)">Amazon Alexa Fund</a>
+<a href="https://fresh.moj.io/tag/amazon-echo/" class="tag-cloud-link tag-link-62 tag-link-position-3" style="font-size: 10.52pt;" aria-label="Amazon Echo (2 items)">Amazon Echo</a>
+<a href="https://fresh.moj.io/tag/api/" class="tag-cloud-link tag-link-32 tag-link-position-4" style="font-size: 10.52pt;" aria-label="api (2 items)">api</a>
+<a href="https://fresh.moj.io/tag/apps/" class="tag-cloud-link tag-link-13 tag-link-position-5" style="font-size: 8pt;" aria-label="apps (1 item)">apps</a>
+<a href="https://fresh.moj.io/tag/assurant/" class="tag-cloud-link tag-link-7 tag-link-position-6" style="font-size: 10.52pt;" aria-label="Assurant (2 items)">Assurant</a>
+<a href="https://fresh.moj.io/tag/att-global-sim/" class="tag-cloud-link tag-link-23 tag-link-position-7" style="font-size: 8pt;" aria-label="AT&amp;T Global SIM (1 item)">AT&amp;T Global SIM</a>
+<a href="https://fresh.moj.io/tag/automotive-big-data/" class="tag-cloud-link tag-link-85 tag-link-position-8" style="font-size: 10.52pt;" aria-label="Automotive Big Data (2 items)">Automotive Big Data</a>
+<a href="https://fresh.moj.io/tag/bosch/" class="tag-cloud-link tag-link-170 tag-link-position-9" style="font-size: 10.52pt;" aria-label="Bosch (2 items)">Bosch</a>
+<a href="https://fresh.moj.io/tag/carconnect/" class="tag-cloud-link tag-link-107 tag-link-position-10" style="font-size: 10.52pt;" aria-label="CarConnect (2 items)">CarConnect</a>
+<a href="https://fresh.moj.io/tag/car-to-phone-connectivity/" class="tag-cloud-link tag-link-14 tag-link-position-11" style="font-size: 8pt;" aria-label="car to phone connectivity (1 item)">car to phone connectivity</a>
+<a href="https://fresh.moj.io/tag/connected-car/" class="tag-cloud-link tag-link-8 tag-link-position-12" style="font-size: 22pt;" aria-label="connected car (19 items)">connected car</a>
+<a href="https://fresh.moj.io/tag/connected-car-apps/" class="tag-cloud-link tag-link-43 tag-link-position-13" style="font-size: 13.6pt;" aria-label="Connected Car Apps (4 items)">Connected Car Apps</a>
+<a href="https://fresh.moj.io/tag/connected-car-platform/" class="tag-cloud-link tag-link-9 tag-link-position-14" style="font-size: 17.1pt;" aria-label="connected car platform (8 items)">connected car platform</a>
+<a href="https://fresh.moj.io/tag/connected-cars/" class="tag-cloud-link tag-link-92 tag-link-position-15" style="font-size: 15.7pt;" aria-label="Connected Cars (6 items)">Connected Cars</a>
+<a href="https://fresh.moj.io/tag/connected-vehicle-platform/" class="tag-cloud-link tag-link-86 tag-link-position-16" style="font-size: 10.52pt;" aria-label="Connected Vehicle Platform (2 items)">Connected Vehicle Platform</a>
+<a href="https://fresh.moj.io/tag/connecting-car/" class="tag-cloud-link tag-link-15 tag-link-position-17" style="font-size: 8pt;" aria-label="connecting car (1 item)">connecting car</a>
+<a href="https://fresh.moj.io/tag/consumer-iot/" class="tag-cloud-link tag-link-152 tag-link-position-18" style="font-size: 10.52pt;" aria-label="Consumer IoT (2 items)">Consumer IoT</a>
+<a href="https://fresh.moj.io/tag/crash-detection/" class="tag-cloud-link tag-link-149 tag-link-position-19" style="font-size: 10.52pt;" aria-label="Crash Detection (2 items)">Crash Detection</a>
+<a href="https://fresh.moj.io/tag/deutsche-telekom/" class="tag-cloud-link tag-link-79 tag-link-position-20" style="font-size: 12.2pt;" aria-label="Deutsche Telekom (3 items)">Deutsche Telekom</a>
+<a href="https://fresh.moj.io/tag/developer/" class="tag-cloud-link tag-link-16 tag-link-position-21" style="font-size: 8pt;" aria-label="developer (1 item)">developer</a>
+<a href="https://fresh.moj.io/tag/driving-smart/" class="tag-cloud-link tag-link-17 tag-link-position-22" style="font-size: 8pt;" aria-label="driving smart (1 item)">driving smart</a>
+<a href="https://fresh.moj.io/tag/internet-of-things/" class="tag-cloud-link tag-link-10 tag-link-position-23" style="font-size: 19.9pt;" aria-label="Internet of Things (13 items)">Internet of Things</a>
+<a href="https://fresh.moj.io/tag/iot/" class="tag-cloud-link tag-link-11 tag-link-position-24" style="font-size: 21.44pt;" aria-label="IoT (17 items)">IoT</a>
+<a href="https://fresh.moj.io/tag/mojio/" class="tag-cloud-link tag-link-109 tag-link-position-25" style="font-size: 14.72pt;" aria-label="Mojio (5 items)">Mojio</a>
+<a href="https://fresh.moj.io/tag/mojio-3g-device/" class="tag-cloud-link tag-link-24 tag-link-position-26" style="font-size: 12.2pt;" aria-label="Mojio 3G Device (3 items)">Mojio 3G Device</a>
+<a href="https://fresh.moj.io/tag/mojio-connected-car/" class="tag-cloud-link tag-link-50 tag-link-position-27" style="font-size: 14.72pt;" aria-label="Mojio Connected Car (5 items)">Mojio Connected Car</a>
+<a href="https://fresh.moj.io/tag/mojio-connected-car-platform/" class="tag-cloud-link tag-link-123 tag-link-position-28" style="font-size: 12.2pt;" aria-label="Mojio Connected Car Platform (3 items)">Mojio Connected Car Platform</a>
+<a href="https://fresh.moj.io/tag/mojio-for-wireless-carriers/" class="tag-cloud-link tag-link-73 tag-link-position-29" style="font-size: 10.52pt;" aria-label="Mojio for Wireless Carriers (2 items)">Mojio for Wireless Carriers</a>
+<a href="https://fresh.moj.io/tag/mojio-international/" class="tag-cloud-link tag-link-25 tag-link-position-30" style="font-size: 8pt;" aria-label="Mojio International (1 item)">Mojio International</a>
+<a href="https://fresh.moj.io/tag/mojio-obdii-device/" class="tag-cloud-link tag-link-26 tag-link-position-31" style="font-size: 8pt;" aria-label="Mojio OBDII Device (1 item)">Mojio OBDII Device</a>
+<a href="https://fresh.moj.io/tag/open-platform/" class="tag-cloud-link tag-link-60 tag-link-position-32" style="font-size: 12.2pt;" aria-label="Open Platform (3 items)">Open Platform</a>
+<a href="https://fresh.moj.io/tag/pocket-drive/" class="tag-cloud-link tag-link-12 tag-link-position-33" style="font-size: 8pt;" aria-label="Pocket Drive (1 item)">Pocket Drive</a>
+<a href="https://fresh.moj.io/tag/powered-by-mojio/" class="tag-cloud-link tag-link-112 tag-link-position-34" style="font-size: 10.52pt;" aria-label="Powered by Mojio (2 items)">Powered by Mojio</a>
+<a href="https://fresh.moj.io/tag/relay-ventures/" class="tag-cloud-link tag-link-36 tag-link-position-35" style="font-size: 12.2pt;" aria-label="Relay Ventures (3 items)">Relay Ventures</a>
+<a href="https://fresh.moj.io/tag/sdk/" class="tag-cloud-link tag-link-20 tag-link-position-36" style="font-size: 8pt;" aria-label="sdk (1 item)">sdk</a>
+<a href="https://fresh.moj.io/tag/series-b/" class="tag-cloud-link tag-link-134 tag-link-position-37" style="font-size: 10.52pt;" aria-label="Series B (2 items)">Series B</a>
+<a href="https://fresh.moj.io/tag/t-mobile-syncup-drive/" class="tag-cloud-link tag-link-74 tag-link-position-38" style="font-size: 10.52pt;" aria-label="T-Mobile SyncUP DRIVE (2 items)">T-Mobile SyncUP DRIVE</a>
+<a href="https://fresh.moj.io/tag/t-mobile-usa/" class="tag-cloud-link tag-link-75 tag-link-position-39" style="font-size: 10.52pt;" aria-label="T-Mobile USA (2 items)">T-Mobile USA</a>
+<a href="https://fresh.moj.io/tag/tags-mojio/" class="tag-cloud-link tag-link-21 tag-link-position-40" style="font-size: 8pt;" aria-label="tags: mojio (1 item)">tags: mojio</a>
+<a href="https://fresh.moj.io/tag/telekom-deutschland/" class="tag-cloud-link tag-link-110 tag-link-position-41" style="font-size: 10.52pt;" aria-label="Telekom Deutschland (2 items)">Telekom Deutschland</a>
+<a href="https://fresh.moj.io/tag/telematics/" class="tag-cloud-link tag-link-27 tag-link-position-42" style="font-size: 10.52pt;" aria-label="telematics (2 items)">telematics</a>
+<a href="https://fresh.moj.io/tag/telus-drive/" class="tag-cloud-link tag-link-113 tag-link-position-43" style="font-size: 10.52pt;" aria-label="TELUS Drive+ (2 items)">TELUS Drive+</a>
+<a href="https://fresh.moj.io/tag/vehicle-data/" class="tag-cloud-link tag-link-22 tag-link-position-44" style="font-size: 8pt;" aria-label="vehicle data (1 item)">vehicle data</a>
+<a href="https://fresh.moj.io/tag/zte/" class="tag-cloud-link tag-link-76 tag-link-position-45" style="font-size: 13.6pt;" aria-label="ZTE (4 items)">ZTE</a></div>
+</div>
+				</div><!-- .page-content -->
+			</section><!-- .error-404 -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer">
+		<section id="custom_html-2" class="widget_text widget footer-subscribe-sidebar widget_custom_html"><div class="textwidget custom-html-widget">
+                <div class='gf_browser_unknown gform_wrapper' id='gform_wrapper_1' ><div id='gf_1' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/phpinfo.php#gf_1'>
+                        <div class='gform_body'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><li id='field_1_1'  class='gfield gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible' ><label class='gfield_label' for='input_1_1' >Email<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_1_1' type='text' value='' class='medium'   placeholder='Enter your email' aria-required="true" aria-invalid="false" />
+                        </div></li><li id='field_1_2'  class='gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_2' >Name</label><div class='ginput_container'><input name='input_2' id='input_1_2' type='text' value='' /></div><div class='gfield_description' id='gfield_description__2'>This field is for validation purposes and should be left unchanged.</div></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <input type="submit" class="button subscribe orange" id="gform_submit_button_1" value="Subscribe"> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=&amp;tabindex=0' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsIjBmZDQxZDAyZWE1OTg4ZjMyMGM5MjU0MDgwNTI0ZmZhIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1'>This iframe contains the logic required to handle Ajax powered Gravity Forms.</iframe>
+                <script type='text/javascript'>jQuery(document).ready(function($){gformInitSpinner( 1, 'https://fresh.moj.io/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://fresh.moj.io/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;}, 50);}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1, current_page]);} );} );</script><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1, 1]) } ); </script></div></section>		<div class="footer-bottom">
+						<div class="footer-sidebar footer-sidebar-1">
+				<section id="nav_menu-2" class="widget widget_nav_menu"><div class="menu-footer-support-container"><ul id="menu-footer-support" class="menu"><li id="menu-item-102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a href="/support/">Support</a></li>
+<li id="menu-item-103" class="typeform-needs-init menu-item menu-item-type-custom menu-item-object-custom menu-item-103"><a href="#">Contact Us</a></li>
+</ul></div></section><section id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">&copy; Mojio 2019</div></section><section id="nav_menu-3" class="widget widget_nav_menu"><div class="menu-footer-terms-container"><ul id="menu-footer-terms" class="menu"><li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://fresh.moj.io/terms/">Terms of Use</a></li>
+<li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-110"><a href="https://fresh.moj.io/privacy/">Privacy</a></li>
+</ul></div></section>			</div>
+						<div class="footer-sidebar footer-sidebar-2">
+				<section id="nav_menu-4" class="widget widget_nav_menu"><div class="menu-top-container"><ul id="menu-top" class="menu"><li class="no-click menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-72"><a href="https://fresh.moj.io/products/">Products</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="https://fresh.moj.io/connected-car-platform/">Connected Mobility Platform</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="https://fresh.moj.io/motion-connected-car-app/">Motion for Cars</a></li>
+</ul>
+</li>
+<li class="no-click menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-636"><a href="https://fresh.moj.io/solutions/">Solutions</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="https://fresh.moj.io/wireless-carriers/">Mobile Network Operators</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a href="https://fresh.moj.io/automotive-oem-solutions/">Automakers</a></li>
+</ul>
+</li>
+<li class="no-click menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-638"><a href="https://fresh.moj.io/partners/">Partners</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1360"><a href="https://fresh.moj.io/customers/">Customers</a></li>
+</ul>
+</li>
+<li class="no-click menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-637"><a href="https://fresh.moj.io/resources/">Resources</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-639"><a href="https://fresh.moj.io/resources/">Publications</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="https://fresh.moj.io/press-room/">Press Room</a></li>
+</ul>
+</li>
+<li class="no-click menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-93"><a href="https://fresh.moj.io/company/">Company</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="https://fresh.moj.io/our-company/">About Mojio</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="https://fresh.moj.io/careers/">Careers</a></li>
+</ul>
+</li>
+<li class="notification-placeholder menu-item menu-item-type-custom menu-item-object-custom menu-item-100"><a href="#">Notification Placeholder</a></li>
+</ul></div></section>			</div>
+					</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<link rel='stylesheet' id='gforms_reset_css-css'  href='https://fresh.moj.io/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css'  href='https://fresh.moj.io/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css'  href='https://fresh.moj.io/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css'  href='https://fresh.moj.io/wp-content/plugins/gravityforms/css/browsers.min.css?ver=2.4.15' type='text/css' media='all' />
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js?ver=5.2.5'></script>
+<script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js?ver=5.2.5'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js?ver=5.2.5'></script>
+<script type='text/javascript' src='https://fresh.moj.io/wp-content/themes/mojio/js/retina.min.js?ver=1.3.1'></script>
+<script type='text/javascript' src='https://fresh.moj.io/wp-content/themes/mojio/js/main.js?ver=5882'></script>
+<script type='text/javascript' src='https://fresh.moj.io/wp-content/themes/mojio/js/typeform.js?ver=1.0.2'></script>
+<script type='text/javascript' src='https://fresh.moj.io/wp-content/themes/mojio/js/navigation.js?ver=20151215'></script>
+<script type='text/javascript' src='https://fresh.moj.io/wp-content/themes/mojio/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type='text/javascript' src='https://fresh.moj.io/wp-includes/js/wp-embed.min.js?ver=5.2.5'></script>
+<script type='text/javascript' src='https://fresh.moj.io/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.15'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"Canadian Dollar","symbol_left":"$","symbol_right":"CAD","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/fresh.moj.io\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/fresh.moj.io\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://fresh.moj.io/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.15'></script>
+<script type='text/javascript' src='https://fresh.moj.io/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.15'></script>
+
+</body>
+</html>

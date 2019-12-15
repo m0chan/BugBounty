@@ -1,0 +1,15 @@
+http://bcdn.flybe.com/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: bcdn.flybe.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:29:45 GMT
+< Cache-Control: max-age=3600
+< Cf-Ray: 54591c8efe29362d-MAN
+< Location: https://bcdn.flybe.com/security.txt
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Expires: Sun, 15 Dec 2019 15:29:45 GMT
+

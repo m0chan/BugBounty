@@ -1,0 +1,29 @@
+http://preview.my.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: preview.my.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Set-Cookie: __cfduid=d8ce412a6749274c4e346602d13ab01491576420232; expires=Tue, 14-Jan-20 14:30:32 GMT; path=/; domain=.moj.io; HttpOnly
+< Cf-Cache-Status: DYNAMIC
+< Content-Type: text/html; charset=utf-8
+< Server: cloudflare
+< Cf-Ray: 54591db48a82366f-MAN
+< Date: Sun, 15 Dec 2019 14:30:32 GMT
+< X-Amz-Request-Id: 323E3A6F81961B68
+< X-Amz-Id-2: SilDrAPlGccDOKC7hh5BSCJ8MxLcxw0PecbmS8QzM7Ipv5gpXPxWH5LDQ3bmCf/Kj4R6JU5Pptg=
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<h1>403 Forbidden</h1>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+<li>RequestId: 323E3A6F81961B68</li>
+<li>HostId: SilDrAPlGccDOKC7hh5BSCJ8MxLcxw0PecbmS8QzM7Ipv5gpXPxWH5LDQ3bmCf/Kj4R6JU5Pptg=</li>
+</ul>
+<hr />
+</body>
+</html>

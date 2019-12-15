@@ -1,0 +1,14 @@
+https://prd1-push.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: prd1-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 103
+< Content-Type: text/html
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=320d390f03ba78b67ddaec76aed71cc259cab6d416e9fbfe0b78c2c3768365ef;Path=/;HttpOnly;Domain=prd1-push.moj.io
+< Date: Sun, 15 Dec 2019 14:29:50 GMT
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

@@ -1,0 +1,18 @@
+http://reports.saas.devshared.ondemand.qas.com/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: reports.saas.devshared.ondemand.qas.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://reports.saas.devshared.ondemand.qas.com/phpinfo.php
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Set-Cookie: visid_incap_1405244=N0wEVIbzRhGuAATaBlKEHx1D9l0AAAAAQUIPAAAAAABJT4p2VmdZBFr4lPATpp46; expires=Mon, 14 Dec 2020 10:03:33 GMT; path=/; Domain=.saas.devshared.ondemand.qas.com
+< Set-Cookie: incap_ses_453_1405244=rrYeenFkNHq3WFZiF2JJBh1D9l0AAAAAn1xVuepoiqooMRpS3Nv8cA==; path=/; Domain=.saas.devshared.ondemand.qas.com
+< X-Cdn: Incapsula
+< Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://cdn.edq.com/ https://cdn.walkme.com/ https://playerserver.walkme.com https://www.googletagmanager.com/ https://www.gstatic.com/ https://www.google-analytics.com/ https://d3sbxpiag177w8.cloudfront.net/; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.edq.com/ https://www.gstatic.com/ https://stackpath.bootstrapcdn.com/ https://cdn.walkme.com/; font-src 'self' data: https://fonts.gstatic.com/ https://cdn.edq.com/ https://stackpath.bootstrapcdn.com/; connect-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/ https://ec.walkme.com/ https://reportsapi.saas.devshared.ondemand.qas.com/ https://rapi.walkme.com; img-src 'self' data: https://www.edq.com/ https://cdn.edq.com/ https://ec.walkme.com/ https://cdn.walkme.com/ https://www.google-analytics.com/; frame-src 'self' https://cdn.walkme.com/;
+< Date: Sun, 15 Dec 2019 14:28:45 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< X-Iinfo: 5-99996437-99996438 NNNN CT(69 -1 0) RT(1576420125167 0) q(0 0 1 -1) r(2 2) U11
+

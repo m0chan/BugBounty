@@ -1,0 +1,29 @@
+http://mina-us.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: mina-us.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: cloudflare
+< Cf-Ray: 54591d2e989ebfcf-MAN
+< Access-Control-Allow-Origin: *
+< Content-Security-Policy: default-src 'self'
+< X-Powered-By: Express
+< Cf-Cache-Status: DYNAMIC
+< Date: Sun, 15 Dec 2019 14:30:11 GMT
+< Content-Type: text/html; charset=utf-8
+< Vary: Accept-Encoding
+< Set-Cookie: __cfduid=d95065ff5340ce41167821d34cbbca0031576420210; expires=Tue, 14-Jan-20 14:30:10 GMT; path=/; domain=.moj.io; HttpOnly
+< X-Content-Type-Options: nosniff
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/apidocs</pre>
+</body>
+</html>

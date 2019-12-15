@@ -1,0 +1,123 @@
+<div ng-controller="Sim2MultiController as mc">
+   <div class="row">
+      <div id="map_canvas" style="height:290px" class="col-md-6"></div>
+      <div class="col-md-6">
+         <div class="panel panel-default">
+            <div style="height:290px" class="panel-body">
+               <div class="row">
+                  <div class="col-md-2">Vehicle</div>
+                  <div class="col-md-4">
+                     <select ng-model="AddVehicleData.Imei">
+                        <option ng-repeat="v in AllDevices" value="{{v.Imei}}">{{v.Title}}</option>
+                     </select>
+                  </div>
+                  <div class="col-md-2">Trip</div>
+                  <div class="col-md-4">
+                     <select ng-model="AddVehicleData.TripRow">
+                        <option ng-repeat="t in SavedSimulatorTrip track by $index" value="{{$index}}">{{t.Title}}</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="row">
+                  <br/>
+               </div>
+               <div class="row">
+                  <div class="col-md-6">
+                     <button ng-click="AddVehicle()" ng-disabled="AddVehicleData.Imei==null || AddVehicleData.TripRow==null" class="mb-sm btn btn-labeled btn-default">
+                        <span class="btn-label"><i class="fa fa-plus"></i>
+                        </span>&nbsp;Add Vehicle</button>
+                  </div>
+                  <div class="col-md-6">
+                     <button ng-click="AddVehicleAuto()" ng-if="AllDevices.length!=0 &amp;&amp; SavedSimulatorTrip.length!=0" class="mb-sm btn btn-labeled btn-default">
+                        <span class="btn-label"><i class="fa fa-plus"></i>
+                        </span>&nbsp;Add All Vehicles</button>
+                  </div>
+               </div>
+               <div class="row">
+                  <br/>
+                  <div class="col-md-12">
+                     <button ng-click="ChangeContinuesDriving()" type="button" class="mb-sm btn btn-labeled btn-default">
+                        <span class="btn-label"><i ng-class="{'fa-check-square-o':SimulationData.ContinuesDriving,'fa-square-o':!SimulationData.ContinuesDriving}" class="fa"></i>
+                        </span>&nbsp;Continues</button>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-6">
+                     <button ng-click="ChangeParallelDriving()" type="button" class="mb-sm btn btn-labeled btn-default">
+                        <span class="btn-label"><i ng-class="{'fa-check-square-o':SimulationData.ParallelDriving,'fa-square-o':!SimulationData.ParallelDriving}" class="fa"></i>
+                        </span>&nbsp;Parallel</button>
+                  </div>
+                  <div class="col-md-6">
+                     <button ng-click="ChangeParallelDriving()" type="button" class="mb-sm btn btn-labeled btn-default">
+                        <span class="btn-label"><i ng-class="{'fa-check-square-o':!SimulationData.ParallelDriving,'fa-square-o':SimulationData.ParallelDriving}" class="fa"></i>
+                        </span>&nbsp;Sequential</button>
+                  </div>
+               </div>
+               <div class="row">
+                  <br/>
+                  <div class="col-md-6">
+                     <button ng-disabled="SimulationData.Data.length==0" ng-click="SaveSimulator()" type="button" class="mb-sm btn-labeled btn btn-success">
+                        <span class="btn-label"><i class="fa fa-upload"></i>
+                        </span>Export</button>
+                  </div>
+                  <div class="col-md-6">
+                     <button type="button" class="mb-sm btn-labeled btn btn-success">
+                        <span class="btn-label"><i class="fa fa-download"></i>
+                        </span>Import</button>
+                     <input type="file" file="fileObj" fileread="FileContent" readtype="text" style="opacity: 0;filter: alpha(opacity=0);position:relative;top:-30px" />
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-md-12">
+         <table class="table">
+            <thead>
+               <tr>
+                  <th>&nbsp;</th>
+                  <th class="fieldHeader">Imei</th>
+                  <th class="fieldHeader">Trip</th>
+                  <th class="fieldHeader">Duration</th>
+                  <th class="fieldHeader">Delay Start</th>
+                  <th class="fieldHeader">Step</th>
+                  <th class="fieldHeader">Status</th>
+                  <th style="zoom:50%;width:200px">
+                     <button ng-disabled="SimulationData.Data.length==0" ng-if="SimulationMode.ShowPlay" ng-click="SimulationPlay()" type="button" class="mb-sm btn btn-success"><i class="fa fa-play"></i>
+                     </button>
+                     <button ng-disabled="SimulationData.Data.length==0" ng-if="SimulationMode.ShowPause" ng-click="SimulationPause()" type="button" class="mb-sm btn btn-info"><i class="fa fa-pause"></i>
+                     </button>
+                     <button ng-disabled="SimulationData.Data.length==0" ng-if="SimulationMode.ShowStop" ng-click="SimulationStop()" type="button" class="mb-sm btn btn-danger"><i class="fa fa-stop"></i>
+                     </button>
+                  </th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr ng-repeat="row in SimLogics">
+                  <td style="zoom:50%">
+                     <button are-you-sure="RemoveVehicle($index)" class="mb-sm btn btn-danger">
+                        <li class="fa fa-times"></li>
+                     </button>
+                  </td>
+                  <td>{{row.Vehicle.Imei}}</td>
+                  <td>{{row.Settings.Title}}</td>
+                  <td>{{row.Settings.Duration}}</td>
+                  <td><a editable-text="row.WaitBefore" buttons="no">{{row.WaitBefore}} ms</a>
+                  </td>
+                  <td>{{row.SimulationStep}}/{{row.Settings.VehicleStates.length}}</td>
+                  <td>{{row.SimulationMode}}</td>
+                  <td style="zoom:50%;width:200px">
+                     <button ng-if="row.SimulationMode!='Play'" ng-click="SimulationPlay($index)" type="button" class="mb-sm btn btn-success"><i class="fa fa-play"></i>
+                     </button>
+                     <button ng-if="row.SimulationMode=='Play'" ng-click="SimulationPause($index)" type="button" class="mb-sm btn btn-info"><i class="fa fa-pause"></i>
+                     </button>
+                     <button ng-if="row.SimulationMode!='Stop'" ng-click="SimulationStop($index,true)" type="button" class="mb-sm btn btn-danger"><i class="fa fa-stop"></i>
+                     </button>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </div>
+</div>

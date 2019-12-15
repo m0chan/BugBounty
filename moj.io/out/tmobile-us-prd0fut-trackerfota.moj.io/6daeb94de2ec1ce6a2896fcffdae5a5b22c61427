@@ -1,0 +1,16 @@
+http://tmobile-us-prd0fut-trackerfota.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: tmobile-us-prd0fut-trackerfota.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Ms-Request-Id: 70522fef-601e-0082-5454-b3e09a000000
+< Content-Length: 223
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:25 GMT
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:70522fef-601e-0082-5454-b3e09a000000
+Time:2019-12-15T14:30:25.3562388Z</Message></Error>

@@ -1,0 +1,17 @@
+https://www.earthhour.org.au/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: www.earthhour.org.au
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Cache-Control: no-cache
+< Date: Sun, 15 Dec 2019 14:30:07 GMT
+< Expires: -1
+< Pragma: no-cache
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=wshqzoua2b0jle0y5eowporx; path=/;HttpOnly; secure; HttpOnly; SameSite=Lax
+< X-Powered-By: ASP.NET
+< Access-Control-Allow-Origin: *
+

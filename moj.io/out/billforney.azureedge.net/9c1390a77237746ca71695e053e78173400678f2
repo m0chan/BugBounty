@@ -1,0 +1,19 @@
+http://billforney.azureedge.net/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: billforney.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Request-Context: appId=cid-v1:58dd9d2d-7583-4bbe-aa25-e93c0adacb78
+< X-Powered-By: William Forney
+< X-Content-Type-Options: nosniff
+< X-Azure-Ref-Originshield: 05kL2XQAAAABa7ym8RCHZTqCYR1Syc2pGTE9OMjFFREdFMDMxNwA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< Date: Sun, 15 Dec 2019 14:27:49 GMT
+< Content-Length: 0
+< X-Cache: TCP_MISS
+< Content-Security-Policy: object-src 'none';
+< Arr-Disable-Session-Affinity: True
+< X-Azure-Ref: 05kL2XQAAAAB1tx2+DxSuSaOhlYb62EIYTUFOMzBFREdFMDMwOQA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< X-Ua-Compatible: IE=Edge,chrome=1
+

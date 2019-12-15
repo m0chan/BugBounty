@@ -1,0 +1,24 @@
+http://moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: __cfduid=d6b3c645326e893e92ea8e9251469b0b71576420195; expires=Tue, 14-Jan-20 14:29:55 GMT; path=/; domain=.moj.io; HttpOnly
+< Cf-Cache-Status: DYNAMIC
+< Date: Sun, 15 Dec 2019 14:29:55 GMT
+< Location: https://www.moj.io/application.wadl
+< Server: cloudflare
+< Cf-Ray: 54591ccbfb14d214-MAN
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.moj.io/application.wadl">here</a>.</p>
+<hr>
+<address>Apache/2.2.34 (Amazon) Server at moj.io Port 80</address>
+</body></html>

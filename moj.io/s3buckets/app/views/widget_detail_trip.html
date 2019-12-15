@@ -1,0 +1,53 @@
+<div class="row">
+   <div class="panel">
+      <div class="panel-body">
+         <div class="col-md-12">
+            <span class="fa fa-openid fa-2x"></span>Trip Information
+            <hr/>
+            <div class="row">
+               <div class="col-md-6">
+                  <div>From
+                     <span mojio-location="mojio-location" geoloc="data.StartLocation" address="data.StartAddress"></span>
+                  </div>
+                  <div>To
+                     <span mojio-location="mojio-location" geoloc="data.EndLocation" address="data.EndAddress"></span>
+                  </div>
+                  <hr/>
+                  <div>Start: {{data.StartTime | date:'yy-MM-dd HH:mm'}}
+                     <br/>End: {{data.EndTime | date:'yy-MM-dd HH:mm'}}</div>
+                  <hr/>
+                  <div>Fuel Level:
+                     <progressbar max="100" value="data.FuelLevel" ng-style="{height:7}" class="progress-striped active"></progressbar>Fuel Efficiency: {{data.FuelEfficiency}}</div>
+                  <hr/>
+                  <div>Max Speed: {{data.MaxSpeed}}
+                     <br/>Max Acceleration: {{data.MaxAcceleration}}
+                     <br/>Max Deceleration: {{data.DecAcceleration}}
+                     <br/>Max RPM: {{data.MaxRPM}}</div>
+                  <div>Distance: {{data.Distance}}</div>
+               </div>
+               <div class="col-md-6">Operations:
+                  <ul class="fa-ul">
+                     <li><i class="fa-li fa fa-tag"></i><a href="" ng-click="$parent.deselect()">&nbsp;Deselect This Trip</a>
+                     </li>
+                     <li><i class="fa-li fa fa-user"></i><a href="" ng-click="showVehicle()">&nbsp;Show Vehicle</a>
+                     </li>
+                     <li><i class="fa-li fa fa-user"></i><a href="" ng-click="showDevice()">&nbsp;Show Device</a>
+                     </li>
+                     <li><i class="fa-li fa fa-bolt"></i><a ng-if="!rel.events.length &amp;&amp; !rel.loadEvents" href="" ng-click="showRecentEvents()">&nbsp;List of Recent Events</a>
+                        <span ng-if="rel.events.length || rel.loadEvents">&nbsp;List of Recent Events
+                           <ul class="fa-ul">
+                              <li ng-repeat="eve in rel.events"><i class="fa-li fa fa-bolt"></i><a ng-click="broadcast(eve)">{{eve.EventType}} ({{eve.Time | date:'yy-MM-dd HH:mm'}})</a>
+                              </li>
+                              <li ng-if="rel.loadEvents"><i class="fa-li fa fa-spinner fa-spin"></i>Loading...</li>
+                              <li ng-if="rel.moreEvents"><i class="fa-li fa fa-bolt"></i><a href="" ng-click="showRecentEvents()">&nbsp;Load more</a>
+                              </li>
+                           </ul>
+                        </span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

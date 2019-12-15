@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="28px" viewBox="0 0 24 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Pin-5-off@1.5x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.45165745,21.3744768 L10.8,26 L13.1001248,21.4694512 C18.1707297,20.5040512 22,16.1091037 22,10.8333333 C22,4.85024854 17.0751322,0 11,0 C6.30436162,0 2.29591118,2.89762252 0.717611138,6.97631363 C0.25393505,8.17455952 0,9.47474089 0,10.8333333 C0,15.9524909 3.60529874,20.2423444 8.45165745,21.3744768 Z" id="path-1"></path>
+        <filter x="-9.1%" y="-3.8%" width="118.2%" height="115.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="01-Design:-Flow-and-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.02-(Low-Severity-DTC,-Low-Battery)-Copy-3" transform="translate(-52.000000, -404.000000)">
+            <g id="Pin-5-off" transform="translate(53.000000, 404.000000)">
+                <g id="Group-23">
+                    <g id="Combined-Shape-Copy-28">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M8.45165745,21.3744768 L10.8,26 L13.1001248,21.4694512 C18.1707297,20.5040512 22,16.1091037 22,10.8333333 C22,4.85024854 17.0751322,0 11,0 C6.30436162,0 2.29591118,2.89762252 0.717611138,6.97631363 C0.25393505,8.17455952 0,9.47474089 0,10.8333333 C0,15.9524909 3.60529874,20.2423444 8.45165745,21.3744768 Z" id="Combined-Shape-Copy-40" fill="#545454" opacity="0.5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

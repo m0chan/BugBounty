@@ -1,0 +1,14 @@
+http://www.corteva.com/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: www.corteva.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=1800
+< Date: Sun, 15 Dec 2019 14:30:26 GMT
+< Expires: Sun, 15 Dec 2019 15:00:26 GMT
+< Location: Https://www.corteva.com/swagger-ui
+< Server: ECAcc (lpl/EF41)
+< Content-Length: 0
+

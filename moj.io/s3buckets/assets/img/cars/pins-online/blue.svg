@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="68px" viewBox="0 0 57 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Pin-11@1.5x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.1291436,54.2582872 L27,66 L32.750312,54.4993761 C45.4268242,52.0487453 55,40.8923402 55,27.5 C55,12.3121694 42.6878306,0 27.5,0 C15.7609041,0 5.73977795,7.35550332 1.79402784,17.7091038 C0.634837624,20.7508049 0,24.0512653 0,27.5 C0,40.4947847 9.01324686,51.3844127 21.1291436,54.2582872 Z" id="path-1"></path>
+        <filter x="-3.6%" y="-1.5%" width="107.3%" height="106.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="01-Design:-Flow-and-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.02-(Low-Severity-DTC,-Low-Battery)-Copy-3" transform="translate(-196.000000, -256.000000)">
+            <g id="Pin-11" transform="translate(197.000000, 256.000000)">
+                <g id="Combined-Shape-Copy-21">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M21.1291436,54.2582872 L27,66 L32.750312,54.4993761 C45.4268242,52.0487453 55,40.8923402 55,27.5 C55,12.3121694 42.6878306,0 27.5,0 C15.7609041,0 5.73977795,7.35550332 1.79402784,17.7091038 C0.634837624,20.7508049 0,24.0512653 0,27.5 C0,40.4947847 9.01324686,51.3844127 21.1291436,54.2582872 Z" id="Combined-Shape-Copy-25" fill="#0B73E0"></path>
+            </g>
+        </g>
+    </g>
+</svg>

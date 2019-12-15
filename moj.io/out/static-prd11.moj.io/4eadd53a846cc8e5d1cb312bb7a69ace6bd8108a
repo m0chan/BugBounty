@@ -1,0 +1,20 @@
+https://static-prd11.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: static-prd11.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 215
+< X-Ms-Request-Id: aaf6c5ef-201e-0088-4054-b3e2bf000000
+< X-Ms-Version: 2009-09-19
+< X-Azure-Ref-Originshield: 0eEP2XQAAAAC5GUWJtie7S5g7N2dY+MbnTE9OMjFFREdFMDMwNwBjZTNjODVlYy03ZDRhLTRjNjEtYTIzNS01NzE1ODdhNzBmODk=
+< X-Azure-Ref: 0eEP2XQAAAADsou6IaR4JTL1DmtAivQsATUFOMzBFREdFMDMxMQBjZTNjODVlYy03ZDRhLTRjNjEtYTIzNS01NzE1ODdhNzBmODk=
+< Date: Sun, 15 Dec 2019 14:30:16 GMT
+< Content-Type: application/xml
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Cache: TCP_MISS
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:aaf6c5ef-201e-0088-4054-b3e2bf000000
+Time:2019-12-15T14:30:17.1346936Z</Message></Error>

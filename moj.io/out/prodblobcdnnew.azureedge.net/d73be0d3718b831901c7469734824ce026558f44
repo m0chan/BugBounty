@@ -1,0 +1,18 @@
+https://prodblobcdnnew.azureedge.net/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: prodblobcdnnew.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: x-ms-request-id,Server,Content-Length,Date,Transfer-Encoding
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:20 GMT
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: f6ba1f02-801e-00b3-2a54-b37fda000000
+< Content-Length: 223
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:f6ba1f02-801e-00b3-2a54-b37fda000000
+Time:2019-12-15T14:29:21.2807920Z</Message></Error>

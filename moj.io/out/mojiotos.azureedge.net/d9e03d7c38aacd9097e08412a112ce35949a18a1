@@ -1,0 +1,17 @@
+http://mojiotos.azureedge.net/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: mojiotos.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 215
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:55 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: dfd94585-e01e-00e6-0454-b38444000000
+< X-Ms-Version: 2014-02-14
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:dfd94585-e01e-00e6-0454-b38444000000
+Time:2019-12-15T14:29:55.5904649Z</Message></Error>

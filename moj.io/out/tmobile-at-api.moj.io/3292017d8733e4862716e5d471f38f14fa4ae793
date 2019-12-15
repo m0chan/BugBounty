@@ -1,0 +1,14 @@
+https://tmobile-at-api.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: tmobile-at-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=85749329b460578b5538b02378bcd6e753dadaf6a2dc663e2ab035f52d59bdc4;Path=/;HttpOnly;Domain=tmobile-at-api.moj.io
+< Date: Sun, 15 Dec 2019 14:30:35 GMT
+< Content-Length: 24
+< Request-Context: appId=cid-v1:b4f3dc5f-bd72-4647-99a2-e4a1ecb0016e
+
+{ "Message": "404 eh!" }

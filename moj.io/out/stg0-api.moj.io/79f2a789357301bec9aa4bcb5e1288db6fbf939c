@@ -1,0 +1,15 @@
+https://stg0-api.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: stg0-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=77f15deea82226eaf27fe28a8d70be457e06e1d9c7b33511eea919811e39c2a3;Path=/;HttpOnly;Domain=stg0-api.moj.io
+< Date: Sun, 15 Dec 2019 14:30:02 GMT
+< Content-Length: 103
+< Content-Type: text/html
+< Request-Context: appId=cid-v1:efbef410-6cd7-40a7-b985-46fe54a0dbd4
+< X-Powered-By: ASP.NET
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

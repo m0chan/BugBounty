@@ -1,0 +1,19 @@
+https://democdn.dx2.co.nz/info.php
+
+> GET /info.php HTTP/1.1
+> Host: democdn.dx2.co.nz
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding
+< Content-Type: application/xml
+< X-Ms-Request-Id: b84c8668-d01e-000c-0f53-b3ee96000000
+< Content-Length: 215
+< Access-Control-Allow-Origin: *
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Version: 2009-09-19
+< Date: Sun, 15 Dec 2019 14:29:02 GMT
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:b84c8668-d01e-000c-0f53-b3ee96000000
+Time:2019-12-15T14:29:02.0863014Z</Message></Error>

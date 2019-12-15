@@ -1,0 +1,25 @@
+http://dev0-trackerfota.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: dev0-trackerfota.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Vary: Accept-Encoding
+< X-Azure-Ref: 0/EL2XQAAAAA3vPgrn2jIQIMvan/XN1THTUFOMzBFREdFMDMyMQA5MDYxYzNhOS05NGUxLTQ5MWEtYmI3Ni0wYjAzMzQ4MGFlYzI=
+< Content-Type: text/html; charset=iso-8859-1
+< Server: Apache/2.2.22 (Ubuntu)
+< X-Cache: TCP_MISS
+< X-Azure-Ref-Originshield: 0/EL2XQAAAAA/YLWHtl+cQ7AIJW7vk/sVTE9OMjFFREdFMDMwNwA5MDYxYzNhOS05NGUxLTQ5MWEtYmI3Ni0wYjAzMzQ4MGFlYzI=
+< Date: Sun, 15 Dec 2019 14:28:12 GMT
+< Keep-Alive: timeout=5, max=100
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /info.php was not found on this server.</p>
+<hr>
+<address>Apache/2.2.22 (Ubuntu) Server at 109.74.206.50 Port 80</address>
+</body></html>

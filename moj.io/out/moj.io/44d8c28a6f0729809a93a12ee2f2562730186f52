@@ -1,0 +1,24 @@
+http://moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://www.moj.io/swagger-ui
+< Cf-Cache-Status: DYNAMIC
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: __cfduid=dd0524be0dfd020d7cbf1f55e06d0a45a1576420225; expires=Tue, 14-Jan-20 14:30:25 GMT; path=/; domain=.moj.io; HttpOnly
+< Server: cloudflare
+< Cf-Ray: 54591d8778dde58f-MAN
+< Date: Sun, 15 Dec 2019 14:30:25 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.moj.io/swagger-ui">here</a>.</p>
+<hr>
+<address>Apache/2.2.34 (Amazon) Server at moj.io Port 80</address>
+</body></html>

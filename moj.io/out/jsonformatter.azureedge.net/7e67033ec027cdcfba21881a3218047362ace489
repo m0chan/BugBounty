@@ -1,0 +1,17 @@
+https://jsonformatter.azureedge.net/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: jsonformatter.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:28:08 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 36edc49b-501e-001b-3753-b3df84000000
+< X-Ms-Version: 2014-02-14
+< Content-Length: 215
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:36edc49b-501e-001b-3753-b3df84000000
+Time:2019-12-15T14:28:08.7891820Z</Message></Error>

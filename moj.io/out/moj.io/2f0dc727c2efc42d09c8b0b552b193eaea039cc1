@@ -1,0 +1,22 @@
+https://moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:29:41 GMT
+< X-Powered-By: PHP/5.3.29
+< Set-Cookie: __cfduid=d655be3c0671af5106cbc855709c73e891576420180; expires=Tue, 14-Jan-20 14:29:40 GMT; path=/; domain=.moj.io; HttpOnly
+< Set-Cookie: aelia_cs_selected_currency=CAD; expires=Mon, 16-Dec-2019 14:29:41 GMT; path=/
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+< Pragma: no-cache
+< Server: cloudflare
+< X-Pingback: https://www.moj.io/xmlrpc.php
+< Cf-Ray: 54591c704a20d20c-MAN
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< Location: https://www.moj.io/package.json
+< Cf-Cache-Status: DYNAMIC
+

@@ -1,0 +1,39 @@
+{
+    "obd_locator":
+    {
+        "version":"V.0.2",
+        "home":"Home",
+        "title":"Sprawdź, czy Twój samochód jest kompatybilny.",
+        "desc":"Większość samochodów produkowanych po 2001 roku posiada OBD-II (On Boarding Diagnostics version 2), do którego wpięte jest urządzenie.",
+        "select_car":"Wybierz swój samochód.",
+        "check_if_compatible":"Sprawdź, gdzie znajduje się port OBD-II w Twoim samochodzie.",
+        "check_if_compatible_warning":"(Nie wszystkie samochody z portem OBD-II s¹ kompatybilne ze wszystkim funkcjami urz¹dzenia.)",
+        "select_make":"WYBIERZ MARKĘ",
+        "select_model":"WYBIERZ MODEL",
+        "select_year":"WYBIERZ ROK",
+        "select_engine":"WYBIERZ SILNIK",
+        "need_help":"Potrzebujesz pomocy?",
+        "contact_us":"Skontaktuj się",
+        "has_obd":"TWÓJ SAMOCHÓD POSAIDA PORT OBD-II",
+        "select_new_vehicle":"WYBIERZ NOWY POJAZD",
+        "loading":"£adowanie..."
+    },
+    "vehicle_compatibility":{
+        "version":"V.0.2",
+        "home":"Home",
+        "title":"Sprawdź, czy Twój samochód jest kompatybilny.",
+        "desc":"Większość samochodów produkowanych po 2001 roku posiada OBD-II (On Boarding Diagnostics version 2), do którego wpięte jest urządzenie.",
+        "select_car":"Wybierz swój samochód.",
+        "check_if_compatible":"Sprawdź, gdzie znajduje się port OBD-II w Twoim samochodzie.",
+        "check_if_compatible_warning":"(Nie wszystkie samochody z portem OBD-II s¹ kompatybilne ze wszystkim funkcjami urz¹dzenia.)",
+        "select_make":"WYBIERZ MARKĘ",
+        "select_model":"WYBIERZ MODEL",
+        "select_year":"WYBIERZ ROK",
+        "select_engine":"WYBIERZ SILNIK",
+        "need_help":"Potrzebujesz pomocy?",
+        "contact_us":"Skontaktuj się",
+        "has_obd":"TWÓJ SAMOCHÓD POSAIDA PORT OBD-II",
+        "select_new_vehicle":"WYBIERZ NOWY POJAZD",
+        "loading":"£adowanie..."
+    }
+}

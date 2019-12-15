@@ -1,0 +1,20 @@
+https://cdn.billforney.com/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: cdn.billforney.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Azure-Ref-Originshield: 0aEP2XQAAAAA7Sc7Nm8I6T59wiCTBAqCUTE9OMjFFREdFMDMxNwA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< Date: Sun, 15 Dec 2019 14:29:59 GMT
+< X-Cache: TCP_MISS
+< Strict-Transport-Security: max-age=2592000
+< X-Powered-By: William Forney
+< X-Ua-Compatible: IE=Edge,chrome=1
+< Arr-Disable-Session-Affinity: True
+< Content-Length: 0
+< Request-Context: appId=cid-v1:58dd9d2d-7583-4bbe-aa25-e93c0adacb78
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: object-src 'none';
+< X-Azure-Ref: 0aEP2XQAAAAAoEECBD1V0SpZVvrJcT6TsTUFOMzBFREdFMDMxMwA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+

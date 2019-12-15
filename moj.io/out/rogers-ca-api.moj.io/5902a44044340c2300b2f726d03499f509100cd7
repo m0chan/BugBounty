@@ -1,0 +1,15 @@
+https://rogers-ca-api.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: rogers-ca-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 103
+< Content-Type: text/html
+< Request-Context: appId=cid-v1:b4f3dc5f-bd72-4647-99a2-e4a1ecb0016e
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=b03a802ebc88de1036424d723364a2e111595f8140498d8c942a24b5c88d0898;Path=/;HttpOnly;Domain=rogers-ca-api.moj.io
+< Date: Sun, 15 Dec 2019 14:28:51 GMT
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

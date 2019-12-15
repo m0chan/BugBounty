@@ -1,0 +1,62 @@
+<h3>Service Item and Validation Report</h3>
+<div class="row">
+   <div class="col-xs-12">
+      <div class="pull-left">
+         <button ng-click="export()" class="btn btn-primary">Export</button>
+      </div>
+   </div>
+   <div class="col-xs-12">
+      <table class="table table-striped">
+         <thead class="bb">
+            <tr>
+               <th>Vehicle</th>
+               <th colspan="3">Customer</th>
+               <th>Start Date</th>
+               <th colspan="2">Service Item</th>
+               <th colspan="2">Offer</th>
+               <th colspan="2">Validation</th>
+               <th colspan="2">Redemption</th>
+               <th colspan="3">Validation Detail</th>
+            </tr>
+            <tr>
+               <th></th>
+               <th>Full Name</th>
+               <th>Email</th>
+               <th>Phone</th>
+               <th>&nbsp;</th>
+               <th>Last</th>
+               <th>Count</th>
+               <th>Last</th>
+               <th>Count</th>
+               <th>Last</th>
+               <th>Count</th>
+               <th>Last</th>
+               <th>Count</th>
+               <th>Date</th>
+               <th>ServiceRep</th>
+               <th>Order #</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr ng-repeat="(pos,row) in data track by $index">
+               <td>{{row.mojioVehicleId}}</td>
+               <td>{{row.Firstname}} {{row.Lastname}}</td>
+               <td>{{row.Email}}</td>
+               <td>{{row.Phone}}</td>
+               <td>{{row.createDate | date:'yyyy-MM-dd'}}</td>
+               <td>{{row.lastServiceItemDate | date:'yyyy-MM-dd'}}</td>
+               <td>{{row.ServiceItemCount}}</td>
+               <td>{{row.lastOfferDate | date:'yyyy-MM-dd'}}</td>
+               <td>{{row.OfferCount}}</td>
+               <td>{{row.lastOfferValidationDate | date:'yyyy-MM-dd'}}</td>
+               <td>{{row.UsedOfferCount}}</td>
+               <td>{{row.lastRedemptionDate | date:'yyyy-MM-dd'}}</td>
+               <td>{{row.RedemptionCount}}</td>
+               <td>{{row.validated | date:'yyyy-MM-dd'}}</td>
+               <td>{{row.agent}}</td>
+               <td>{{row.repairOrder}}</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>

@@ -1,0 +1,115 @@
+<!-- START Top Navbar-->
+<nav role="navigation" class="navbar topnavbar">
+   <!-- START navbar header-->
+   <div class="navbar-header">
+      <a href="#/" class="navbar-brand">
+         <div class="brand-logo">
+            <img src="app/img/logo.png" alt="App Logo" class="img-responsive" />
+         </div>
+         <div class="brand-logo-collapsed">
+            <img src="app/img/logo-single.png" alt="App Logo" class="img-responsive" />
+         </div>
+      </a>
+   </div>
+   <!-- END navbar header-->
+   <!-- START Nav wrapper-->
+   <div class="nav-wrapper">
+      <!-- START Left navbar-->
+      <ul class="nav navbar-nav">
+         <li>
+            <!-- Button used to collapse the left sidebar. Only visible on tablet and desktops-->
+            <a ng-if="!$root.app.layout.horizontal" ng-click="app.layout.isCollapsed = !app.layout.isCollapsed" class="hidden-xs">
+               <em class="fa fa-navicon"></em>
+            </a>
+            <!-- Button to show/hide the sidebar on mobile. Visible on mobile only.-->
+            <a toggle-state="aside-toggled" no-persist="no-persist" class="visible-xs sidebar-toggle">
+               <em class="fa fa-navicon"></em>
+            </a>
+         </li>
+         <li>
+            <!-- Button used to collapse the left sidebar. Only visible on tablet and desktops-->
+            <a ng-click="toggleUserBlock()" title="Show User Info">
+               <em class="fa fa-user"></em>
+            </a>
+         </li>
+         <!-- END User avatar toggle-->
+         <!-- START lock screen-->
+         <li>
+            <a ng-click="userLogout()" title="Logout">
+               <em class="fa fa-sign-out"></em>
+            </a>
+         </li>
+         <!-- END lock screen-->
+      </ul>
+      <!-- END Left navbar-->
+      <!-- START Right Navbar-->
+      <ul class="nav navbar-nav navbar-right">
+         <!-- Search icon-->
+         <li ng-if="$root.selectedProject.ProjectName=='Admin'">
+            <a search-open="" title="Search">
+               <em class="fa fa-search"></em>
+            </a>
+         </li>
+         <!-- START Offsidebar button-->
+         <li dropdown="dropdown" title="Change Unit" ng-if="false" class="dropdown dropdown-list">
+            <a dropdown-toggle="dropdown-toggle">
+               <em class="fa fa-globe"></em>
+            </a>
+            <ul role="menu" class="dropdown-menu animated rotateIn">
+               <li>
+                  <!-- START list group-->
+                  <div class="list-group">
+                     <!-- list item-->
+                     <a href="#" ng-click="changeUnit('i')" class="list-group-item">
+                        <div class="media-box">
+                           <div class="pull-left">
+                              <em ng-class="{'fa-check-square-o':$root.app.layout.unit=='i','fa-square-o':$root.app.layout.unit!='i'}" class="fa"></em>
+                           </div>
+                           <div class="media-box-body clearfix">
+                              <p class="m0">Imperial</p>
+                              <p class="m0 text-muted">
+                                 <small>mile and gallon ...</small>
+                              </p>
+                           </div>
+                        </div>
+                     </a>
+                     <!-- list item-->
+                     <a href="#" ng-click="changeUnit('m')" class="list-group-item">
+                        <div class="media-box">
+                           <div class="pull-left">
+                              <em ng-class="{'fa-check-square-o':$root.app.layout.unit=='m','fa-square-o':$root.app.layout.unit!='m'}" class="fa"></em>
+                           </div>
+                           <div class="media-box-body clearfix">
+                              <p class="m0">Metric</p>
+                              <p class="m0 text-muted">
+                                 <small>meter and liter ...</small>
+                              </p>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </li>
+            </ul>
+         </li>
+         <!-- END Offsidebar menu-->
+         <li>
+            <a toggle-state="offsidebar-open" no-persist="no-persist" title="Settings">
+               <em class="fa fa-sliders"></em>
+            </a>
+         </li>
+         <!-- END Offsidebar menu-->
+      </ul>
+      <!-- END Right Navbar-->
+   </div>
+   <!-- END Nav wrapper-->
+   <!-- START Search form-->
+   <form role="search" ng-if="$root.selectedProject.ProjectName=='Admin'" class="navbar-form">
+      <div class="form-group has-feedback">
+         <input type="text" placeholder="Search users, mojios and vehicles" ng-keypress="doSearch($event)" class="form-control" />
+         <div search-dismiss="search-dismiss" class="fa fa-times form-control-feedback"></div>
+      </div>
+      <button type="submit" class="hidden btn btn-default">Submit</button>
+   </form>
+   <!-- END Search form-->
+</nav>
+<!-- END Top Navbar-->

@@ -1,0 +1,17 @@
+http://gortyn-web-static-dev.azureedge.net/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: gortyn-web-static-dev.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< Vary: Origin
+< X-Ms-Request-Id: 7d3de0d9-b01e-0002-5054-b38345000000
+< Content-Length: 226
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:55 GMT
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>OutOfRangeInput</Code><Message>One of the request inputs is out of range.
+RequestId:7d3de0d9-b01e-0002-5054-b38345000000
+Time:2019-12-15T14:29:55.7606276Z</Message></Error>

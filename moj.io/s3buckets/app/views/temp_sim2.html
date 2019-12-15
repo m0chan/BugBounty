@@ -1,0 +1,643 @@
+<div ng-controller="tempSim2Controller as mc">
+   <div class="row">
+      <div class="col-md-8">
+         <div class="panel panel-default">
+            <div style="height:300px" class="panel-body">
+               <div class="row">
+                  <div ng-class="{'col-md-12':SimulationMode=='Stop','col-md-8':SimulationMode!='Stop'}">
+                     <div id="map_canvas" style="height:285px"></div>
+                  </div>
+                  <div ng-show="SimulationMode!='Stop'" class="col-md-4">
+                     <div id="pano" style="height:285px"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="panel-footer">
+               <div class="row">
+                  <div class="col-md-12">
+                     <button ng-click="PointType='s'" type="button" ng-class="{'btn-success':PointType=='s','btn-default':PointType!='s'}" class="mb-sm btn btn-labeled btn-xs">
+                        <span class="btn-label"><i class="fa fa-street-view"></i>
+                        </span>&nbsp;Start</button>
+                     <button ng-click="PointType='w'" type="button" ng-class="{'btn-success':PointType=='w','btn-default':PointType!='w'}" class="mb-sm btn btn-labeled btn-xs">
+                        <span class="btn-label"><i class="fa fa-street-view"></i>
+                        </span>&nbsp;Way</button>
+                     <button ng-click="PointType='e'" type="button" ng-class="{'btn-success':PointType=='e','btn-default':PointType!='e'}" class="mb-sm btn btn-labeled btn-xs">
+                        <span class="btn-label"><i class="fa fa-street-view"></i>
+                        </span>&nbsp;End</button>
+                     <button ng-click="ClearPoints()" type="button" class="mb-sm btn btn-labeled btn-default btn-xs">
+                        <span class="btn-label"><i class="fa fa-times"></i>
+                        </span>&nbsp;Remove All</button>
+                     <div class="pull-right">
+                        <button ng-click="CircularTrip()" type="button" class="mb-sm btn btn-labeled btn-default btn-xs">
+                           <span class="btn-label"><i ng-class="{'fa-check-square-o':Settings.CircularTrip,'fa-square-o':!Settings.CircularTrip}" class="fa"></i>
+                           </span>&nbsp;Return To Start Point</button>
+                     </div>
+                  </div>
+               </div>
+               <div ng-if="legs!=null &amp;&amp; Settings.VehicleStates==null">
+                  <div class="row">
+                     <div class="col-md-6">Speed: {{Settings.Speed.Min}} - {{Settings.Speed.Max}}</div>
+                     <div class="col-md-6">
+                        <div style="margin-top:8px" data-range-slider="data-range-slider" data-floor="0" data-ceiling="200" data-step="1" data-precision="1" data-highlight="left" data-ng-model-low="Settings.Speed.Min" data-ng-model-high="Settings.Speed.Max"></div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6">RPM: {{Settings.RPM.Min}} - {{Settings.RPM.Max}}</div>
+                     <div class="col-md-6">
+                        <div style="margin-top:8px" data-range-slider="data-range-slider" data-floor="0" data-ceiling="5000" data-step="1" data-precision="1" data-highlight="left" data-ng-model-low="Settings.RPM.Min" data-ng-model-high="Settings.RPM.Max"></div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6">Fuel Level: {{Settings.Fuel.Min}} - {{Settings.Fuel.Max}}</div>
+                     <div class="col-md-6">
+                        <div style="margin-top:8px" data-range-slider="data-range-slider" data-floor="0" data-ceiling="100" data-step="1" data-precision="1" data-highlight="left" data-ng-model-low="Settings.Fuel.Min" data-ng-model-high="Settings.Fuel.Max"></div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6">Fuel Efficiency: {{Settings.FuelEfficiency.Min}} - {{Settings.FuelEfficiency.Max}}</div>
+                     <div class="col-md-6">
+                        <div style="margin-top:8px" data-range-slider="data-range-slider" data-floor="0" data-ceiling="100" data-step="1" data-precision="1" data-highlight="left" data-ng-model-low="Settings.FuelEfficiency.Min" data-ng-model-high="Settings.FuelEfficiency.Max"></div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6">Battery: {{Settings.Battery.Min}} - {{Settings.Battery.Max}}</div>
+                     <div class="col-md-6">
+                        <div style="margin-top:8px" data-range-slider="data-range-slider" data-floor="0" data-ceiling="100" data-step="1" data-precision="1" data-highlight="left" data-ng-model-low="Settings.Battery.Min" data-ng-model-high="Settings.Battery.Max"></div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6">Events: {{Settings.NoOfVehicleStates}}% &nbsp;<i tooltip="You can control how many events you want to send for this trip. Based on your route on map, you can send maximum {{Info.EventsNo}} events." class="fa fa-question-circle text-info"></i>
+                     </div>
+                     <div class="col-md-6">
+                        <div style="margin-top:8px" data-range-slider="data-range-slider" data-floor="1" data-ceiling="100" data-step="1" data-precision="1" data-highlight="left" data-ng-model="Settings.NoOfVehicleStates"></div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <button ng-if="legs!=null" ng-click="CreateVehicleStates()" class="mb-sm btn btn-labeled btn-info btn-xs">
+                           <span class="btn-label"><i class="fa fa-bolt"></i>
+                           </span>Create VehicleStates</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div ng-if="Settings.VehicleStates!=null" class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title">Vehicle State - {{Settings.VehicleStates.length}} States ({{SelState.No}} Selected)</h4>
+            </div>
+            <div class="panel-body">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div style="margin-top:8px" data-range-slider="data-range-slider" data-floor="0" data-ceiling="{{Settings.VehicleStates.length-1}}" data-step="1" data-precision="1" data-highlight="left" data-ng-model="SelState.No"></div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title">Movement
+                              <div class="pull-right">
+                                 <label class="switch">
+                                    <input type="checkbox" ng-model="SelState.Obj.IncludedData.Movement" />
+                                    <span></span>
+                                 </label>
+                              </div>
+                           </h4>
+                        </div>
+                        <div class="panel-body bt">
+                           <div class="row">
+                              <div class="col-xs-6">Acceleration</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.Acceleration.Value" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-6">Deceleration</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.Deceleration.Value" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-6">RPM</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.RPM.Value" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-6">Speed</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.Speed.Value" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title">Location
+                              <div class="pull-right">
+                                 <label class="switch">
+                                    <input type="checkbox" ng-model="SelState.Obj.IncludedData.Location" />
+                                    <span></span>
+                                 </label>
+                              </div>
+                           </h4>
+                        </div>
+                        <div class="panel-body bt">
+                           <div class="row">
+                              <div class="col-xs-6">Lat</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.Location.Lat" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-6">Lng</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.Location.Lng" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-6">Altitude</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.Location.Altitude" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-6">Status</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.Location.Status" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title">Accelerometer
+                              <div class="pull-right">
+                                 <label class="switch">
+                                    <input type="checkbox" ng-model="SelState.Obj.IncludedData.Accelerometer" />
+                                    <span></span>
+                                 </label>
+                              </div>
+                           </h4>
+                        </div>
+                        <div class="panel-body bt">
+                           <div class="row">
+                              <div class="col-xs-6">X</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.Accelerometer.X" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-6">Y</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.Accelerometer.Y" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-6">Z</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.Accelerometer.Z" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title">Odometer
+                              <div class="pull-right">
+                                 <label class="switch">
+                                    <input type="checkbox" ng-model="SelState.Obj.IncludedData.Odometer" />
+                                    <span></span>
+                                 </label>
+                              </div>
+                           </h4>
+                        </div>
+                        <div class="panel-body bt">
+                           <div class="row">
+                              <div class="col-xs-6">VirtualOdometer</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.VirtualOdometer.Value" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title">Heading
+                              <div class="pull-right">
+                                 <label class="switch">
+                                    <input type="checkbox" ng-model="SelState.Obj.IncludedData.Heading" />
+                                    <span></span>
+                                 </label>
+                              </div>
+                           </h4>
+                        </div>
+                        <div class="panel-body bt">
+                           <div class="row">
+                              <div class="col-xs-6">Heading</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.Heading.Value" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title">Diagnostics
+                              <div class="pull-right">
+                                 <label class="switch">
+                                    <input type="checkbox" ng-model="SelState.Obj.IncludedData.Diagnostics" />
+                                    <span></span>
+                                 </label>
+                              </div>
+                           </h4>
+                        </div>
+                        <div class="panel-body bt">
+                           <div class="row">
+                              <div class="col-xs-6">MilStatus</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <label class="switch">
+                                       <input type="checkbox" ng-model="SelState.Obj.Vehicle.MilStatus" />
+                                       <span></span>
+                                    </label>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-6">DiagnosticCodes</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.DiagnosticCodes[0].Code" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title">Ignition
+                              <div class="pull-right">
+                                 <label class="switch">
+                                    <input type="checkbox" ng-model="SelState.Obj.IncludedData.Ignition" />
+                                    <span></span>
+                                 </label>
+                              </div>
+                           </h4>
+                        </div>
+                        <div class="panel-body bt">
+                           <div class="row">
+                              <div class="col-xs-6">State</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <label class="switch">
+                                       <input type="checkbox" ng-model="SelState.Obj.Vehicle.IgnitionState.Value" />
+                                       <span></span>
+                                    </label>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title">Fuel
+                              <div class="pull-right">
+                                 <label class="switch">
+                                    <input type="checkbox" ng-model="SelState.Obj.IncludedData.Fuel" />
+                                    <span></span>
+                                 </label>
+                              </div>
+                           </h4>
+                        </div>
+                        <div class="panel-body bt">
+                           <div class="row">
+                              <div class="col-xs-6">FuelEfficiency</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.FuelEfficiency.Value" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-6">FuelLevel</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.FuelLevel.Value" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title">Battery
+                              <div class="pull-right">
+                                 <label class="switch">
+                                    <input type="checkbox" ng-model="SelState.Obj.IncludedData.Battery" />
+                                    <span></span>
+                                 </label>
+                              </div>
+                           </h4>
+                        </div>
+                        <div class="panel-body bt">
+                           <div class="row">
+                              <div class="col-xs-6">Connected</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <label class="switch">
+                                       <input type="checkbox" ng-model="SelState.Obj.Vehicle.Battery.Connected" />
+                                       <span></span>
+                                    </label>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-6">Value</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.Vehicle.Battery.Value" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title">AwakeState
+                              <div class="pull-right">
+                                 <label class="switch">
+                                    <input type="checkbox" ng-model="SelState.Obj.IncludedData.AwakeState" />
+                                    <span></span>
+                                 </label>
+                              </div>
+                           </h4>
+                        </div>
+                        <div class="panel-body bt">
+                           <div class="row">
+                              <div class="col-xs-6">AwakeReason</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <input ng-model="SelState.Obj.TelematicDevice.AwakeState.AwakeReason" class="inp-small" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-6">Value</div>
+                              <div class="col-xs-6">
+                                 <div class="pull-right">
+                                    <label class="switch">
+                                       <input type="checkbox" ng-model="SelState.Obj.TelematicDevice.AwakeState.Value" />
+                                       <span></span>
+                                    </label>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-12">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title">States
+                              <div class="pull-right">
+                                 <label class="switch">
+                                    <input type="checkbox" ng-model="SelState.Obj.IncludedData.States" />
+                                    <span></span>
+                                 </label>
+                              </div>
+                           </h4>
+                        </div>
+                        <div class="panel-body bt">
+                           <div class="row">
+                              <div class="col-md-2">TowState</div>
+                              <div class="col-md-2">
+                                 <div class="pull-right">
+                                    <label class="switch">
+                                       <input type="checkbox" ng-model="SelState.Obj.Vehicle.TowState.Value" />
+                                       <span></span>
+                                    </label>
+                                 </div>
+                              </div>
+                              <div class="col-md-2">AccidentState</div>
+                              <div class="col-md-2">
+                                 <div class="pull-right">
+                                    <label class="switch">
+                                       <input type="checkbox" ng-model="SelState.Obj.Vehicle.AccidentState.Value" />
+                                       <span></span>
+                                    </label>
+                                 </div>
+                              </div>
+                              <div class="col-md-2">IdleState</div>
+                              <div class="col-md-2">
+                                 <div class="pull-right">
+                                    <label class="switch">
+                                       <input type="checkbox" ng-model="SelState.Obj.Vehicle.IdleState.Value" />
+                                       <span></span>
+                                    </label>
+                                 </div>
+                              </div>
+                              <div class="col-md-2">HarshEventState</div>
+                              <div class="col-md-2">
+                                 <div class="pull-right">
+                                    <label class="switch">
+                                       <input type="checkbox" ng-model="SelState.Obj.Vehicle.HarshEventState.Value" />
+                                       <span></span>
+                                    </label>
+                                 </div>
+                              </div>
+                              <div class="col-md-2">ParkedState</div>
+                              <div class="col-md-2">
+                                 <div class="pull-right">
+                                    <label class="switch">
+                                       <input type="checkbox" ng-model="SelState.Obj.Vehicle.ParkedState.Value" />
+                                       <span></span>
+                                    </label>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title">Simulation Controls</h4>
+            </div>
+            <div class="panel-body">
+               <div class="row">
+                  <div class="col-md-3">Imei:</div>
+                  <div class="col-md-9">
+                     <input ng-model="Vehicle.Imei" />
+                  </div>
+               </div>
+               <div class="row mt-lg">
+                  <div class="col-md-3">VIN:</div>
+                  <div class="col-md-9">
+                     <input ng-model="Vehicle.VIN" />
+                  </div>
+               </div>
+               <div class="row mt-lg">
+                  <div class="col-md-6">Duration: {{Settings.Duration}} minutes &nbsp;<i tooltip="Warning: Based on the number of events, it is impossible to simulate it less than {{MinTripDuration()}} " ng-if="Settings.Events!=null &amp;&amp; Settings.Duration&lt;Settings.Events.length/120"
+                     class="fa fa-question-circle text-danger"></i>
+                  </div>
+                  <div class="col-md-6">
+                     <div style="margin-top:8px" data-range-slider="data-range-slider" data-floor="1" data-ceiling="9" data-step="1" data-precision="1" data-highlight="left" data-ng-model="Settings.Duration"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="panel-footer">
+               <div class="row">
+                  <div class="col-md-12">
+                     <button ng-disabled="Settings.VehicleStates==null" ng-if="SimulationMode!='Play'" ng-click="SimulationPlay()" type="button" title="Play" class="mb-sm btn btn-success btn-xs"><i class="fa fa-play"></i>
+                     </button>
+                     <button ng-disabled="Settings.VehicleStates==null" ng-if="SimulationMode=='Play'" ng-click="SimulationPause()" type="button" title="Pause" class="mb-sm btn btn-info btn-xs"><i class="fa fa-pause"></i>
+                     </button>
+                     <button ng-disabled="Settings.VehicleStates==null" ng-if="SimulationMode!='Stop'" ng-click="SimulationStop()" type="button" title="Stop" class="mb-sm btn btn-danger btn-xs"><i class="fa fa-stop"></i>
+                     </button>
+                     <span class="pull-right"><a ng-click="ShowVehicleStatesMoreOptions=!ShowVehicleStatesMoreOptions"><i ng-class="{'fa-plus':!ShowVehicleStatesMoreOptions,'fa-minus':ShowVehicleStatesMoreOptions}" class="fa fa-times"></i>&nbsp;Options</a>
+                     </span>
+                  </div>
+               </div>
+               <div ng-show="ShowVehicleStatesMoreOptions" class="row">
+                  <div class="col-md-4">
+                     <button ng-if="Settings.VehicleStates!=null" modal-input="SaveSimulator" input-value="Settings.Title" output-value="Settings.Title" class="mb-sm btn btn-labeled btn-primary btn-xs">
+                        <span class="btn-label"><i class="fa fa-upload"></i>
+                        </span>Save</button>
+                  </div>
+                  <div class="col-md-4">
+                     <div dropdown="dropdown" class="btn-group">
+                        <button dropdown-toggle="dropdown-toggle" class="btn mb-sm btn-labeled btn-green dropdown-toggle btn-xs">
+                           <span class="btn-label"><i class="fa fa-download"></i>
+                           </span>Load</button>
+                        <ul role="menu" class="dropdown-menu pull-right">
+                           <li ng-repeat="sst in SavedSimulatorTrip track by $index"><a><i are-you-sure="DeleteSimulator($index)" title="Delete Trip" class="fa fa-times"></i>&nbsp;<span ng-click="LoadSimulator(sst)">{{sst.Title}}</span></a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <button ng-if="Settings.VehicleStates!=null" ng-click="ClearVehicleStates()" type="button" class="mb-sm btn btn-labeled btn-danger btn-xs">
+                        <span class="btn-label"><i class="fa fa-times"></i>
+                        </span>Clear</button>
+                  </div>
+               </div>
+               <div ng-show="ShowVehicleStatesMoreOptions" class="row">
+                  <div class="col-md-4">
+                     <button ng-if="Settings.VehicleStates!=null" ng-click="ExportSimulator()" class="mb-sm btn btn-labeled btn-default btn-xs">
+                        <span class="btn-label"><i class="fa fa-upload"></i>
+                        </span>Export</button>
+                  </div>
+                  <div class="col-md-4">
+                     <button type="button" class="mb-sm btn-labeled btn btn-default btn-xs">
+                        <span class="btn-label"><i class="fa fa-download"></i>
+                        </span>Import</button>
+                     <input type="file" fileread="FileContent" readtype="text" style="opacity: 0;filter: alpha(opacity=0);position:relative;top:-30px" />
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div ng-if="legs!=null" class="panel panel-default">
+            <div class="panel-body">
+               <div class="row">
+                  <div class="col-md-12">Mini Trips: {{Info.LegsNo}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Direction Steps: {{Info.StepsNo}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Max VehicleStates No: {{Info.VehicleStatesNo}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Current Step: {{SimulationStep}} / {{Settings.VehicleStates.length}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <kbd>{{Info.LastImportantEvent.EventType || "Last Important Event"}}</kbd>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Last Event: &nbsp;{{Info.LastEvent.EventType}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Distance: &nbsp;{{Info.LastEvent.Odometer}}m</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">RPM: &nbsp;{{Info.LastEvent.RPM}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Speed: &nbsp;{{Info.LastEvent.Speed}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Fuel: &nbsp;{{Info.LastEvent.FuelLevel}}%</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Network Latency:{{Info.LastNetworkLatency}}ms &nbsp;
+                     <span title="Total">T: {{Info.TotalNetworkLatency}}ms
+                     </span>&nbsp;
+                     <span title="Average">A: {{Info.AvgNetworkLatency}}ms
+                     </span>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Sending Wait: &nbsp;{{Info.LastWaitBeforeSendingEvent}}ms &nbsp;
+                     <span title="Total">T: {{Info.TotalWaitBeforeSendingEvent}}ms
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

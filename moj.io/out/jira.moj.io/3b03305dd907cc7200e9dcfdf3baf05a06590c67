@@ -1,0 +1,16 @@
+https://jira.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: jira.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Sun, 15 Dec 2019 15:29:51 GMT
+< Location: https://1mojio.atlassian.net/security.txt
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Server: cloudflare
+< Date: Sun, 15 Dec 2019 14:29:51 GMT
+< Cache-Control: max-age=3600
+< Vary: Accept-Encoding
+< Cf-Ray: 54591cb7a92de58f-MAN
+

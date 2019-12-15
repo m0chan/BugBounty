@@ -1,0 +1,15 @@
+http://bcdn.flybe.com/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: bcdn.flybe.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cf-Ray: 54591d0bff34bfcf-MAN
+< Cache-Control: max-age=3600
+< Expires: Sun, 15 Dec 2019 15:30:05 GMT
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Date: Sun, 15 Dec 2019 14:30:05 GMT
+< Location: https://www.flybe.com/maintenance/a.html
+

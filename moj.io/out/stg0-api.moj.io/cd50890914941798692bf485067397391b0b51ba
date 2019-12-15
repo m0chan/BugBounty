@@ -1,0 +1,15 @@
+http://stg0-api.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: stg0-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=1582b7e8a6ece875590acf90006da05427639af2aca114fa2cbad1f286ab7b6f;Path=/;HttpOnly;Domain=stg0-api.moj.io
+< Date: Sun, 15 Dec 2019 14:25:30 GMT
+< Content-Length: 103
+< Content-Type: text/html
+< Request-Context: appId=cid-v1:efbef410-6cd7-40a7-b985-46fe54a0dbd4
+< X-Powered-By: ASP.NET
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

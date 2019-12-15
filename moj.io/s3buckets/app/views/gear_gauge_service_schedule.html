@@ -1,0 +1,24 @@
+<div class="text-center bb bg-white">
+   <div class="text-center bg-white">
+      <div class="row pt-lg">
+         <em class="fa icon-gauge fa-2x text-gray-light"></em>
+      </div>
+      <div class="row">
+         <span class="widget-title">{{ "gear.gear_gauge_service_schedule.Title" | translate }}</span>
+      </div>
+      <div class="row pb-sm">
+         <span class="widget-byapp">{{ "gear.gear_gauge_service_schedule.SubTitle" | translate }}</span>
+      </div>
+   </div>
+</div>
+<div ng-repeat="(p,service) in Services" ng-if="p&lt;3" class="row mb-lg">
+   <div class="col-xs-12 text-center">&nbsp; {{service.MaintenanceName}}</div>
+   <h5 ng-if="service.Units=='Months' || service.Units=='Weeks'" class="col-xs-12 text-center text-uppercase">{{service.Value | number:"0"}} {{("common.Units." + service.Units) | translate }}</h5>
+   <h5 ng-if="service.Units!='Months' &amp;&amp; service.Units!='Weeks'" ng-class="{'text-warning':NearService(service.Value)}" class="col-xs-12 text-center text-uppercase">{{ "gear.gear_gauge_service_schedule.In" | translate }} &nbsp; {{CalculateDistanceToService(service.Value) | convertUnit:'Distance':$root.app.layout.unit | number:'1'}} {{("common.Units." + (service.Units | unitTitle:$root.app.layout.unit)) | translate
+      }}</h5>
+</div>
+<div ng-if="Services.length==0" class="row">
+   <h3 class="text-center text-uppercase">{{ "gear.gear_gauge_service_schedule.NoServiceScheduleFound.part1" | translate }}</h3>
+   <h3 class="text-center text-uppercase">{{ "gear.gear_gauge_service_schedule.NoServiceScheduleFound.part2" | translate }}</h3>
+   <h3 class="text-center text-uppercase">{{ "gear.gear_gauge_service_schedule.NoServiceScheduleFound.part3" | translate }}</h3>
+</div>

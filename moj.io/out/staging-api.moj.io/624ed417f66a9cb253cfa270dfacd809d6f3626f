@@ -1,0 +1,14 @@
+http://staging-api.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: staging-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Server: nginx/1.15.6
+< Nginx-Version: 4.11.0.19
+< X-Mojio-Route: sfapi
+< Set-Cookie: ARRAffinity=fee32919d2c92a18a9513bc2956a7bd6178b03d988ba5663272b18c259f8760c;Path=/;HttpOnly;Domain=staging-api.moj.io
+< Date: Sun, 15 Dec 2019 14:29:54 GMT
+

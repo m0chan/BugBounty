@@ -1,0 +1,54 @@
+<div class="text-center bb">
+   <div class="row pt-lg">
+      <em class="fa icon-trek fa-2x text-gray-light"></em>
+   </div>
+   <div class="row">
+      <span dropdown="dropdown" class="dropdown dropdown-list">
+         <span dropdown-toggle="dropdown-toggle">{{SelectedType.title | translate}}
+            <em class="fa fa-caret-down"></em>
+         </span>
+         <ul role="menu" style="top:initial" class="dropdown-menu">
+            <li>
+               <div class="list-group">
+                  <a ng-repeat="ct in ChartTypes" ng-click="changeChartType(ct,$index)" class="list-group-item">
+                     <div class="media-box">
+                        <div class="media-box-body clearfix p0">
+                           <p class="h6 m0">{{ct.title | translate}}</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </li>
+         </ul>
+      </span>
+      <span dropdown="dropdown" class="dropdown dropdown-list">
+         <span dropdown-toggle="dropdown-toggle">&nbsp;{{SelectedRange.title | translate}}
+            <em class="fa fa-caret-down"></em>
+         </span>
+         <ul role="menu" style="top:initial" class="dropdown-menu pull-right">
+            <li>
+               <div class="list-group">
+                  <a ng-repeat="r in AllRange" ng-click="changeDateRange(r,$index)" class="list-group-item">
+                     <div class="media-box">
+                        <div class="media-box-body clearfix p0">
+                           <p class="h6 m0">{{r.title | translate}}</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </li>
+         </ul>
+      </span>
+   </div>
+   <div class="row pb-sm">
+      <span class="widget-byapp">{{ "gear.gear_trek_chart.SubTitle" | translate }}</span>
+   </div>
+</div>
+<div class="text-center">
+   <div height="220px">
+      <flot ng-if="splineData[0].data.length&gt;=6" dataset="splineData" options="splineOptions" height="220px"></flot>
+      <div ng-if="splineData[0].data.length&lt;6" class="fa-2x">{{ "gear.gear_trek_chart.NotEnoughData" | translate }}</div>
+   </div>
+   <span ng-show="loading"><i style="position:relative;top:-140px" class="fa fa-spinner fa-spin fa-4x text-gray"></i>
+   </span>
+</div>

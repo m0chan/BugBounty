@@ -1,0 +1,16 @@
+https://tmobile-us-prd0fut-trackerfota.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: tmobile-us-prd0fut-trackerfota.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: f9b2734e-d01e-0075-3154-b3c671000000
+< Content-Length: 226
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:00 GMT
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>OutOfRangeInput</Code><Message>One of the request inputs is out of range.
+RequestId:f9b2734e-d01e-0075-3154-b3c671000000
+Time:2019-12-15T14:30:00.7538752Z</Message></Error>

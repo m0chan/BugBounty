@@ -1,0 +1,14 @@
+https://bell-ca-push.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: bell-ca-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=0045031641a65304789e81d551c9ceb6aee324a5029760a68434005481999c42;Path=/;HttpOnly;Domain=bell-ca-push.moj.io
+< Date: Sun, 15 Dec 2019 14:29:02 GMT
+< Content-Length: 103
+< Content-Type: text/html
+< X-Powered-By: ASP.NET
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

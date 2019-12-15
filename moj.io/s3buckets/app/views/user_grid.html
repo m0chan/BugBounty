@@ -1,0 +1,110 @@
+<!--Created by pooyaparidel on 15-03-27.
+-->
+<span data-alias="UserMojioGrid" data-mojioapi="{{api}}">
+   <span st-pipe="callServer" st-table="displayed">
+      <div ng-show="selectedRow==null" ng-if="settings" class="pull-right">
+         <div dropdown="dropdown" class="btn-group">
+            <button type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="btn btn-default dropdown-toggle">Fields
+               <span class="caret"></span>
+            </button>
+            <ul role="menu" class="dropdown-menu">
+               <li ng-repeat="x in s.f"><a ng-click="ShowHide(x.name)"><i ng-show="!x.show" class="fa fa-square-o"></i><i ng-show="x.show" class="fa fa-check-square-o"></i>{{ x.name }}</a>
+               </li>
+            </ul>
+         </div>
+         <div dropdown="dropdown" class="btn-group">
+            <button type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="btn btn-default dropdown-toggle">Page Size
+               <span class="fa fa-list"></span>
+            </button>
+            <ul role="menu" class="dropdown-menu">
+               <li><a ng-click="changeItemsPerPage(10)"><i class="fa fa-check-square-o"></i>10</a>
+               </li>
+               <li><a ng-click="changeItemsPerPage(20)"><i class="fa fa-check-square-o"></i>20</a>
+               </li>
+            </ul>
+         </div>
+         <div dropdown="dropdown" class="btn-group">
+            <button type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="btn btn-default dropdown-toggle">Export
+               <span class="fa fa-download"></span>
+            </button>
+            <ul role="menu" class="dropdown-menu pull-right">
+               <li><a ng-click="exportData(EXPORT_CURRENT_PAGE,EXPORT_CSV)"><i class="fa fa-check-square-o"></i>Export Current Page</a>
+               </li>
+               <li><a ng-click="exportData(EXPORT_VISITED_PAGES,EXPORT_CSV)"><i class="fa fa-check-square-o"></i>Export Visited Pages</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div class="panel-body">
+         <table class="table table-striped table-hover table-bordered table-condensed">
+            <thead ng-show="selectedRow==null">
+               <tr>
+                  <th colspan="4"><i class="fa fa-user fa-2x"></i>
+                  </th>
+                  <th ng-show="s.f[0].show" data-show="true" st-sort="IMEI" class="fieldHeader">USERNAME</th>
+                  <th ng-show="s.f[1].show" data-show="true" st-sort="NAME" class="fieldHeader">EMAIL</th>
+                  <th ng-show="s.f[2].show" data-show="true" st-sort="STATE" class="fieldHeader">FULL NAME</th>
+                  <th><i class="fa fa-lock"></i>
+                  </th>
+               </tr>
+            </thead>
+            <tbody ng-show="selectedRow==null &amp;&amp; !isLoading">
+               <tr ng-repeat-start="row in displayed">
+                  <td>
+                     <a ng-if="broadcast!='off'" href="" ng-click="detailRow(row,'broadcast')">
+                        <li class="fa fa-tag"></li>
+                     </a>
+                  </td>
+                  <td>
+                     <a ng-if="rowDetail!='off'" href="" ng-click="detailRow(row)">
+                        <li class="fa fa-code"></li>
+                     </a>
+                  </td>
+                  <td>
+                     <a ng-if="subDevice!='off'" href="" ng-click="showSubGrid(row,'Mojios')">
+                        <li class="fa fa-hdd-o"></li>
+                     </a>
+                  </td>
+                  <td>
+                     <a ng-if="subVehicle!='off'" href="" ng-click="showSubGrid(row,'Vehicles')">
+                        <li class="fa fa-car"></li>
+                     </a>
+                  </td>
+                  <td ng-show="s.f[0].show">{{row.UserName}}</td>
+                  <td ng-show="s.f[1].show">{{row.Email}}</td>
+                  <td ng-show="s.f[2].show">{{row.FirstName}} {{row.LastName}}</td>
+                  <td ng-click="impersonate(row._id)"><i class="fa fa-lock"></i>
+                  </td>
+               </tr>
+               <tr ng-repeat-end="ng-repeat-end">
+                  <td colspan="40" ng-if="subGrid==row &amp;&amp; subGridType=='Mojios'">
+                     <device-grid search-imei="false" delete="true" search-property="false" broadcast="broadcast" admin-mode="adminMode" settings="settings" row-detail="rowDetail" sub-subs-grid="subSubsGrid" footer="footer" api="[{'MojioModel':'Mojios','defaultCriteria':'OwnerId=:id','criteria':''}]"></device-grid>
+                  </td>
+                  <td colspan="40" ng-if="subGrid==row &amp;&amp; subGridType=='Vehicles'">
+                     <vehicle-grid broadcast="broadcast" admin-mode="adminMode" settings="settings" row-detail="rowDetail" sub-trip="subSubsGrid" sub-event="subSubsGrid" sub-subs-grid="subSubsGrid" footer="footer" api="[{'MojioModel':'Users/:id/Vehicles','defaultCriteria':'','criteria':''}]"></vehicle-grid>
+                  </td>
+               </tr>
+            </tbody>
+            <tbody ng-show="selectedRow!=null &amp;&amp; selectedType==&quot;&quot;" ng-if="rowDetail!='off'">
+               <tr>
+                  <td>
+                     <button type="button" href="" ng-click="detailRow(null)" class="btn">
+                        <li class="fa fa-arrow-left"></li>Close</button>
+                     <br/>
+                     <br/>
+                     <pre ng-if="rowDetail=='lite'">{{selectedRow | json}}</pre>
+                     <json-formatter ng-if="rowDetail!='lite'" open="1" json="selectedRow"></json-formatter>
+                  </td>
+               </tr>
+            </tbody>
+            <tfoot ng-if="footer=='pagination'">
+               <tr ng-show="selectedRow==null &amp;&amp; (displayed.length!=0 || isLoading)">
+                  <td ng-show="isLoading" colspan="40"><i class="fa fa-spinner fa-spin fa-2x"></i>
+                  </td>
+                  <td ng-show="!isLoading" st-pagination="" st-displayed-pages="10" st-items-by-page="itemsPerPage || 10" colspan="40" class="text-center"></td>
+               </tr>
+            </tfoot>
+         </table>
+      </div>
+   </span>
+</span>

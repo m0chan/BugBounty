@@ -1,0 +1,15 @@
+http://vast.hypers.com.cn/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: vast.hypers.com.cn
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:22 GMT
+< Server: ECAcc (lpl/EF55)
+< X-Amz-Request-Id: tx0000000000000021e4cec-005df64331-34fcc4-default
+< Content-Length: 223
+< Accept-Ranges: bytes
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><BucketName>admin.php</BucketName><RequestId>tx0000000000000021e4cec-005df64331-34fcc4-default</RequestId><HostId>34fcc4-default-default</HostId></Error>

@@ -1,0 +1,142 @@
+<h3 class="mb0 dropdown-list">
+   <span dropdown="dropdown" class="dropdown dropdown-list">
+      <span dropdown-toggle="dropdown-toggle">
+         <em class="fa fa-car"></em>&nbsp;{{AllData.SelectedVehicle.Name || "No Name Vehicle"}}
+         <em class="fa fa-caret-down"></em>
+      </span>
+      <ul role="menu" style="top:initial" class="dropdown-menu">
+         <li>
+            <div class="list-group">
+               <a ng-repeat="v in AllData.Vehicles" ng-click="changeSelectedVehicle(v)" class="list-group-item">
+                  <div class="media-box">
+                     <div class="pull-left">
+                        <em class="fa fa-car"></em>
+                     </div>
+                     <div class="media-box-body clearfix">
+                        <p class="m0">{{v.Name || "No Name Vehicle"}}</p>
+                        <p class="m0 text-muted">
+                           <small ng-if="v.VIN!=null &amp;&amp; v.VIN!=''">VIN: {{v.VIN}}</small>
+                           <small ng-if="v.LicensePlate!=null">License Plate: {{v.LicensePlate}}</small>
+                        </p>
+                     </div>
+                  </div>
+               </a>
+            </div>
+         </li>
+      </ul>
+   </span>
+   <span class="pull-right">
+      <span dropdown="dropdown" class="dropdown dropdown-list mr-lg">
+         <span dropdown-toggle="dropdown-toggle">
+            <em class="fa fa-calendar"></em>&nbsp;{{SelectedRange.title}}
+            <em class="fa fa-caret-down"></em>
+         </span>
+         <ul role="menu" style="top:initial" class="dropdown-menu">
+            <li>
+               <div class="list-group">
+                  <a ng-repeat="r in AllRange" ng-click="changeDateRange(r)" class="list-group-item">
+                     <div class="media-box">
+                        <div class="pull-left">
+                           <em class="fa fa-calendar"></em>
+                        </div>
+                        <div class="media-box-body clearfix">
+                           <p class="m0">{{r.title}}</p>
+                           <p class="m0 text-muted"></p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </li>
+         </ul>
+      </span>
+      <span ng-click="changeSortDirection()">
+         <em ng-class="{'text-gray-light':SortAsc,'text-green':!SortAsc}" class="fa fa-long-arrow-down pull-right"></em>
+         <em ng-class="{'text-gray-light':!SortAsc,'text-green':SortAsc}" class="fa fa-long-arrow-up pull-right"></em>
+      </span>
+      <span dropdown="dropdown" class="dropdown dropdown-list">
+         <span dropdown-toggle="dropdown-toggle">&nbsp;{{SortBy.title}}
+            <em class="fa fa-caret-down"></em>
+         </span>
+         <ul role="menu" style="top:initial" class="dropdown-menu">
+            <li>
+               <div class="list-group">
+                  <a ng-repeat="s in AllSort" ng-click="changeSort(s)" class="list-group-item">
+                     <div class="media-box">
+                        <div class="media-box-body clearfix">
+                           <p class="m0">{{s.title}}</p>
+                           <p class="m0 text-muted"></p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </li>
+         </ul>
+      </span>
+   </span>
+</h3>
+<div class="row m0 p0">
+   <div class="col-md-7 fullheight p-sm">
+      <div id="map" class="fullheight b"></div>
+   </div>
+   <div class="col-md-5 p-sm">
+      <table class="table fixheader b">
+         <thead>
+            <tr>
+               <th class="fieldHeader bg-gray">
+                  <div class="row bb">
+                     <div class="col-xs-12">
+                        <span class="mr-lg">{{SelectedTrips.length}} Trips Selected</span>
+                        <span class="mr-lg">
+                           <em ng-class="{'fa-square-o':SelectedTrips.length!=Trips.length,'fa-check-square-o':SelectedTrips.length==Trips.length}" ng-click="selectAll()" class="fa"></em>&nbsp;Select All</span>
+                        <span class="mr-lg">
+                           <em ng-class="{'fa-square-o':SelectedTrips.length!=Trips.length,'fa-check-square-o':SelectedTrips.length==Trips.length}" ng-click="selectAll()" class="fa"></em>&nbsp;Heat map</span>
+                        <span class="mr-lg">
+                           <em class="fa fa-trash-o"></em>&nbsp;Delete</span>
+                        <span class="mr-lg">
+                           <em class="fa fa-compress"></em>&nbsp;Merge</span>
+                        <span class="mr-lg">
+                           <em ng-click="downloadTrips()" class="fa fa-download"></em>&nbsp;Export</span>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-xs-3">
+                        <em class="fa fa-clock-o"></em>
+                     </div>
+                     <div class="col-xs-5">Location</div>
+                     <div class="col-xs-3">
+                        <em class="fa fa-dashboard"></em>
+                     </div>
+                     <div class="col-xs-1"></div>
+                  </div>
+               </th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr ng-repeat="row in Trips | orderBy:SortBy.field:SortAsc" ng-click="selectTrip(row,false)" ng-class="{'bg-info':row.selected}" ng-mouseenter="ng-mouseenter">
+               <td>
+                  <div class="row">
+                     <div class="col-xs-3">{{row.StartTime | date:'yy-MM-dd'}}
+                        <br/>{{row.StartTime | date:'HH:mm'}}
+                        <br/>&nbsp;
+                        <br/>{{row.EndTime | date:'yy-MM-dd'}}
+                        <br/>{{row.EndTime | date:'HH:mm'}}</div>
+                     <div class="col-xs-5">{{row.StartAddress.Address1}}
+                        <br/>{{row.StartAddress.City}}, {{row.StartAddress.State}}
+                        <br/>&nbsp;
+                        <br/>{{row.EndAddress.Address1}}
+                        <br/>{{row.EndAddress.City}}, {{row.EndAddress.State}}</div>
+                     <div class="col-xs-3">
+                        <em class="fa icon-trip"></em>&nbsp; {{row.Distance | number:'1'}}
+                        <br/>
+                        <em class="fa fa-clock-o"></em>&nbsp; {{showDuration(row)}}
+                     </div>
+                     <div class="col-xs-1">
+                        <em ng-click="selectTrip(row,true)" ng-class="{'fa-check-square-o':row.selected,'fa-square-o':!row.selected}" class="fa"></em>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>

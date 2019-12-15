@@ -1,0 +1,13 @@
+https://develop-services.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: develop-services.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=1afaa7f1b72f18339442ad472c08d3b7e701f1af0a92b3eef97d79e69e6bd8ec;Path=/;HttpOnly;Domain=develop-services.moj.io
+< Date: Sun, 15 Dec 2019 14:30:07 GMT
+< Content-Length: 0
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+

@@ -1,0 +1,14 @@
+http://plugin-goodr-staging.azureedge.net/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: plugin-goodr-staging.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: ECAcc (lpl/EF33)
+< Content-Length: 0
+< Cache-Control: no-cache
+< Date: Sun, 15 Dec 2019 14:28:23 GMT
+< Expires: Sun, 15 Dec 2019 14:28:22 GMT
+< Location: https://plugin.staging-maddfunding.com/
+

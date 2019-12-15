@@ -1,0 +1,16 @@
+http://au1-live1-eh-cdn1.azureedge.net/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: au1-live1-eh-cdn1.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Date: Sun, 15 Dec 2019 14:29:10 GMT
+< Location: https://au1-live1-eh-cdn1.azureedge.net/admin.php
+< Server: Microsoft-IIS/10.0
+< X-Powered-By: ASP.NET
+< Content-Length: 161
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.earthhour.org.au/admin.php">here</a></body>

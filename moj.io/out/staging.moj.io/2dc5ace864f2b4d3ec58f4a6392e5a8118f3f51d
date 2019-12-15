@@ -1,0 +1,16 @@
+http://staging.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: staging.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Internal Server Error
+< X-Powered-By: PHP/5.3.29
+< Cache-Control: max-age=0
+< Expires: Sun, 15 Dec 2019 14:27:50 GMT
+< Content-Length: 87
+< Content-Type: text/html; charset=utf-8
+< Date: Sun, 15 Dec 2019 14:27:50 GMT
+< Server: Apache/2.2.34 (Amazon)
+
+Your server is running PHP version 5.3.29 but WordPress 5.2.4 requires at least 5.6.20.

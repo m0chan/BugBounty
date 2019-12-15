@@ -1,0 +1,23 @@
+https://prod-cdn1-agco-com.azureedge.net/swagger
+
+> GET /swagger HTTP/1.1
+> Host: prod-cdn1-agco-com.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Sun, 15 Dec 2019 15:00:22 GMT
+< Content-Length: 261
+< Date: Sun, 15 Dec 2019 14:30:22 GMT
+< Location: https://prod-cdn1-agco-com.azureedge.net/swagger.html
+< Server: ECAcc (lpl/EF40)
+< Set-Cookie: TS01cd730d=01afac7ebb47705dd85fc66347863c8358b00928a9833381a5c33a9f7cede6e9de937e90558557f4719a8e073f40e80647861a8a34; Path=/; Secure; HTTPOnly
+< Cache-Control: max-age=1800
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://prod-cdn1-agco-com.azureedge.net/swagger.html">here</a>.</p>
+</body></html>

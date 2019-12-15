@@ -1,0 +1,15 @@
+https://hypers-vast.azureedge.net/package.json
+
+> GET /package.json HTTP/1.1
+> Host: hypers-vast.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Accept-Ranges: bytes
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:42 GMT
+< Server: ECAcc (lpl/EF6A)
+< X-Amz-Request-Id: tx0000000000000021e4e63-005df64355-34fcc4-default
+< Content-Length: 226
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><BucketName>package.json</BucketName><RequestId>tx0000000000000021e4e63-005df64355-34fcc4-default</RequestId><HostId>34fcc4-default-default</HostId></Error>

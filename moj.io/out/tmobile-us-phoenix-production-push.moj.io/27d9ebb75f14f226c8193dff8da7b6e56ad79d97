@@ -1,0 +1,17 @@
+https://tmobile-us-phoenix-production-push.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: tmobile-us-phoenix-production-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=a9dff408ea8a67397caeba18ae72a718324d48815aa5b3c89ecc04ec95bc5f18;Path=/;HttpOnly;Domain=tmobile-us-phoenix-production-push.moj.io
+< Date: Sun, 15 Dec 2019 14:29:20 GMT
+< X-Powered-By: ASP.NET
+< Nginx-Version: 4.11.0.8
+< X-Mojio-Route: legacy
+< Content-Length: 24
+< Server: nginx/1.15.6
+< Request-Context: appId=cid-v1:b4f3dc5f-bd72-4647-99a2-e4a1ecb0016e
+
+{ "Message": "404 eh!" }

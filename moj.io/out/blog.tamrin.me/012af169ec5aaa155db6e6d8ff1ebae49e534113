@@ -1,0 +1,12 @@
+http://blog.tamrin.me/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: blog.tamrin.me
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:29:45 GMT
+< Location: https://blog.tamrin.me/security.txt
+< Server: ECAcc (lpl/EF51)
+< Content-Length: 0
+

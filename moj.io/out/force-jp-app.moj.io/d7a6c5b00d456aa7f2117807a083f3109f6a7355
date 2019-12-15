@@ -1,0 +1,18 @@
+http://force-jp-app.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: force-jp-app.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Retry-After: 0
+< Location: https://force-jp-app.moj.io/application.wadl
+< Content-Length: 0
+< Accept-Ranges: bytes
+< Date: Sun, 15 Dec 2019 14:29:55 GMT
+< X-Cache: HIT
+< Server: Varnish
+< X-Served-By: cache-man4123-MAN
+< X-Cache-Hits: 0
+< X-Timer: S1576420195.180488,VS0,VE0
+

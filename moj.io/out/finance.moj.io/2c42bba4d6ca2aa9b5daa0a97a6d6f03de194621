@@ -1,0 +1,34 @@
+http://finance.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: finance.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Set-Cookie: __cfduid=d51857304b647a37a0b07eb2c4c3949b91576420211; expires=Tue, 14-Jan-20 14:30:11 GMT; path=/; domain=.moj.io; HttpOnly
+< X-Amz-Request-Id: AB5A0FC1F2197178
+< X-Amz-Id-2: zzTPVq2f4LKiZT4TNq5sj+zMF7CGreykRDS/TcPcc9NS+i1i+a919lacyFd+E10pq4NbrSMFndo=
+< Server: cloudflare
+< Cf-Ray: 54591d328cabe5a3-MAN
+< Content-Type: text/html; charset=utf-8
+< Cf-Cache-Status: DYNAMIC
+< Date: Sun, 15 Dec 2019 14:30:11 GMT
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<h1>403 Forbidden</h1>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+<li>RequestId: AB5A0FC1F2197178</li>
+<li>HostId: zzTPVq2f4LKiZT4TNq5sj+zMF7CGreykRDS/TcPcc9NS+i1i+a919lacyFd+E10pq4NbrSMFndo=</li>
+</ul>
+<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+</ul>
+<hr />
+</body>
+</html>

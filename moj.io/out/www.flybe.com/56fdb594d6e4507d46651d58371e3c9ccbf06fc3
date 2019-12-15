@@ -1,0 +1,15 @@
+http://www.flybe.com/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: www.flybe.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:29:15 GMT
+< Expires: Sun, 15 Dec 2019 15:29:15 GMT
+< Server: cloudflare
+< Cf-Ray: 54591bd45c05bfc0-MAN
+< Cache-Control: max-age=3600
+< Location: https://www.flybe.com/apidocs
+< Vary: Accept-Encoding
+

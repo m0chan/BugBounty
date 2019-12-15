@@ -1,0 +1,15 @@
+http://bcdn.flybe.com/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: bcdn.flybe.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cf-Ray: 54591d88e8d2d224-MAN
+< Server: cloudflare
+< Cache-Control: max-age=3600
+< Expires: Sun, 15 Dec 2019 15:30:25 GMT
+< Location: https://bcdn.flybe.com/swagger-ui
+< Vary: Accept-Encoding
+< Date: Sun, 15 Dec 2019 14:30:25 GMT
+

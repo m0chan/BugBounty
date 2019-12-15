@@ -1,0 +1,14 @@
+http://stg7-identity.moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: stg7-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Server: Kestrel
+< Content-Security-Policy: default-src 'self' mojiostg7assets-frontend.azureedge.net; font-src 'self' https://fonts.gstatic.com mojiostg7assets-frontend.azureedge.net data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com mojiostg7assets-frontend.azureedge.net 'unsafe-inline'; script-src 'self' 'unsafe-inline' mojiostg7assets-frontend.azureedge.net; img-src 'self' mojiostg7assets-frontend.azureedge.net
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=5c89c155d3004ce79bb645c2fb491c98ad25b278e2358bb23d51c1e92031c79b;Path=/;HttpOnly;Domain=stg7-identity.moj.io
+< Date: Sun, 15 Dec 2019 14:29:40 GMT
+

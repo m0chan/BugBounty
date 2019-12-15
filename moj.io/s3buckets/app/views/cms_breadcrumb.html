@@ -1,0 +1,20 @@
+<div class="btn-group btn-breadcrumb"><a href="" ng-click="GotoNode(Content.masterNode)" class="btn btn-default"><i class="fa fa-home"></i></a>
+   <div ng-repeat="anc in Content.selectedNode.Ancestors | orderBy : 'level'" class="btn btn-default">
+      <span dropdown="dropdown" href=""><i type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="fa fa-caret-down"></i>
+         <ul role="menu" class="dropdown-menu">
+            <li ng-repeat="bcn in Child(Parent(anc))"><a ng-click="GotoNode(bcn)">{{bcn.title}}</a>
+            </li>
+         </ul>
+      </span>&nbsp;
+      <span ng-click="GotoNode(anc)">{{anc.title}}</span>
+   </div>
+   <div ng-if="Content.selectedNode.level!=0" class="btn btn-default">
+      <span dropdown="dropdown" href=""><i type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="fa fa-caret-down"></i>
+         <ul role="menu" class="dropdown-menu">
+            <li ng-repeat="bcn in Child(Parent(Content.selectedNode))"><a ng-click="GotoNode(bcn)">{{bcn.title}}</a>
+            </li>
+         </ul>
+      </span>&nbsp;
+      <span>{{Content.selectedNode.title}}</span>
+   </div>
+</div>

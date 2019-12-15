@@ -1,0 +1,14 @@
+http://www.staging-maddfunding.com/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: www.staging-maddfunding.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Sun, 15 Dec 2019 14:27:49 GMT
+< Location: https://www.staging-maddfunding.com/
+< Server: ECAcc (lpl/EF33)
+< Content-Length: 0
+< Cache-Control: no-cache
+< Date: Sun, 15 Dec 2019 14:27:50 GMT
+

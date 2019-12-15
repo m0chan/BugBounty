@@ -1,0 +1,23 @@
+https://www.corteva.com/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: www.corteva.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=1800
+< Date: Sun, 15 Dec 2019 14:29:21 GMT
+< Expires: Sun, 15 Dec 2019 14:59:21 GMT
+< Content-Type: text/html; charset=iso-8859-1
+< Location: https://www.corteva.com/apidocs.html
+< Server: ECAcc (lpl/EF4E)
+< Set-Cookie: TS01cd730d=01afac7ebb8cb301f0e5910c0b9f55b4ff056f5454f00e2c1f339c7b8980a400d1f0d4331128332d1141ee3ff2f781a5b71eb09c0a; Path=/; Secure; HTTPOnly
+< Content-Length: 244
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.corteva.com/apidocs.html">here</a>.</p>
+</body></html>

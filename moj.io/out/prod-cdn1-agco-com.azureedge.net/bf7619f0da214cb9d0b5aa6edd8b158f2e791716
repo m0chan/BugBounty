@@ -1,0 +1,23 @@
+https://prod-cdn1-agco-com.azureedge.net/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: prod-cdn1-agco-com.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Set-Cookie: TS01cd730d=01afac7ebb445eed7143f12a4dfdf9f4992b451a879e8d345445d12fbcd3b60997d294d4253b46a48caee295381c0fc48e54eafdd4; Path=/; Secure; HTTPOnly
+< Content-Length: 265
+< Location: https://prod-cdn1-agco-com.azureedge.net/phpinfo.php.html
+< Server: ECAcc (lpl/EF33)
+< Date: Sun, 15 Dec 2019 14:27:56 GMT
+< Expires: Sun, 15 Dec 2019 14:57:56 GMT
+< Cache-Control: max-age=1800
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://prod-cdn1-agco-com.azureedge.net/phpinfo.php.html">here</a>.</p>
+</body></html>

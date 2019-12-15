@@ -1,0 +1,18 @@
+http://force-us-app.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: force-us-app.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache-Hits: 0
+< X-Timer: S1576420211.405071,VS0,VE0
+< Server: Varnish
+< Location: https://force-us-app.moj.io/api/apidocs
+< Content-Length: 0
+< Accept-Ranges: bytes
+< X-Cache: HIT
+< Retry-After: 0
+< Date: Sun, 15 Dec 2019 14:30:11 GMT
+< X-Served-By: cache-man4120-MAN
+

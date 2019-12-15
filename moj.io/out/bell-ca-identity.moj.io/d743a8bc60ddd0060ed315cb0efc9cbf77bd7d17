@@ -1,0 +1,13 @@
+https://bell-ca-identity.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: bell-ca-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Internal Server Error
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=2557292b43642c73e28721435af7d42026011d9bd39e16c67e7c63b7c027ea23;Path=/;HttpOnly;Domain=bell-ca-identity.moj.io
+< Date: Sun, 15 Dec 2019 14:30:02 GMT
+< Content-Length: 0
+

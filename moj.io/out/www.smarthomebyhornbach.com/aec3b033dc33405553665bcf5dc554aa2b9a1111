@@ -1,0 +1,20 @@
+https://www.smarthomebyhornbach.com/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: www.smarthomebyhornbach.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding
+< Content-Type: application/xml
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Version: 2009-09-19
+< Content-Length: 215
+< Date: Sun, 15 Dec 2019 14:30:31 GMT
+< X-Frame-Options: DENY
+< X-Ms-Request-Id: 4808c6e1-c01e-0106-2054-b31000000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:4808c6e1-c01e-0106-2054-b31000000000
+Time:2019-12-15T14:30:32.2071013Z</Message></Error>

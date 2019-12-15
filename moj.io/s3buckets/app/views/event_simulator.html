@@ -1,0 +1,81 @@
+<div ng-controller="eventSimulatorController as mc">
+   <div class="row">
+      <div class="col-md-6">
+         <div class="panel panel-default">
+            <div class="panel-body">
+               <div class="row">
+                  <div class="col-md-2">Vehicle</div>
+                  <div class="col-md-4">
+                     <select ng-model="Data.Vehicle">
+                        <option ng-repeat="v in Vehicles" value="{{$index}}">{{v.Name}}</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-2">Event</div>
+                  <div class="col-md-4">
+                     <select ng-model="Data.EventType">
+                        <option ng-repeat="t in EventTypes track by $index" value="{{t.value}}">{{t.text}}</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <ul class="fa-ul">
+                        <li ng-repeat="(key,fl) in EventTemplate">{{key}}:&nbsp;<a ng-if="key!='Location'" editable-text="EventTemplate[key]" buttons="no">{{(fl==="" || fl===null)?"null":fl}}</a>
+                           <span ng-if="key=='Location'">[<a editable-text="fl.Lat" buttons="no">{{(fl.Lat==="" || fl.Lat===null)?"null":fl.Lat}}</a>,<a editable-text="fl.Lng" buttons="no">{{(fl.Lng==="" || fl.Lng===null)?"null":fl.Lng}}</a>]<i tooltip="Leave Location Blank to send event with the vehicle last location"
+                              class="fa fa-question-circle text-info"></i>
+                           </span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-4">
+                     <button ng-click="SendEvent()" class="mb-sm btn btn-labeled btn-default btn-xs">
+                        <span class="btn-label"><i class="fa fa-bolt"></i>
+                        </span>&nbsp;Send Event</button>
+                  </div>
+                  <div class="col-md-4">
+                     <button ng-click="AddToList()" class="mb-sm btn btn-labeled btn-default btn-xs">
+                        <span class="btn-label"><i class="fa fa-plus"></i>
+                        </span>&nbsp;Add to List</button>
+                  </div>
+                  <div class="col-md-4">
+                     <button class="mb-sm btn btn-labeled btn-default btn-xs">
+                        <span class="btn-label"><i class="fa fa-download"></i>
+                        </span>&nbsp;From File</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-6">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title">Event List</h4>
+            </div>
+            <div style="max-height:263px;overflow-y:scroll" class="panel-body">
+               <ul class="fa-ul">
+                  <li ng-repeat="ev in Events"><i ng-click="ChangeViewStatus(ev)" ng-class="{'fa-caret-right':ev._viewStatus=='c','fa-caret-down':ev._viewStatus=='e'}" class="fa fa-li"></i>{{$index}}:<a editable-select="ev.EventType" buttons="no" e-ng-options="s.value as s.text for s in EventTypes">{{ev.EventType}}</a>
+                     <ul
+                     ng-if="ev._viewStatus=='e'">
+                        <li ng-repeat="(key,fl) in ev" ng-if="showEventField(key) || key=='Location'">{{key}}:&nbsp;<a ng-if="showEventField(key)" editable-text="fl" buttons="no">{{(fl==="" || fl===null)?"null":fl}}</a>
+                           <span ng-if="key=='Location'">[<a editable-text="fl.Lat" buttons="no">{{fl.Lat}}</a>,<a editable-text="fl.Lng" buttons="no">{{fl.Lng}}</a>]</span>
+                        </li>
+               </ul>
+               </li>
+               </ul>
+            </div>
+            <div ng-show="Events.length!=0" class="panel-footer">
+               <button ng-show="SimulationMode!='Play'" ng-click="SimulationPlay()" type="button" title="Play" class="mb-sm btn btn-success btn-xs"><i class="fa fa-play"></i>
+               </button>
+               <button ng-show="SimulationMode=='Play'" ng-click="SimulationPause()" type="button" title="Pause" class="mb-sm btn btn-info btn-xs"><i class="fa fa-pause"></i>
+               </button>
+               <button ng-show="SimulationMode!='Stop'" ng-click="SimulationStop()" type="button" title="Stop" class="mb-sm btn btn-danger btn-xs"><i class="fa fa-stop"></i>
+               </button>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

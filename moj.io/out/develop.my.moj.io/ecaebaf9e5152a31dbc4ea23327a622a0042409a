@@ -1,0 +1,20 @@
+https://develop.my.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: develop.my.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 151
+< Cf-Ray: 54591b3dbf43d21c-MAN
+< Server: cloudflare
+< Date: Sun, 15 Dec 2019 14:28:51 GMT
+< Content-Type: text/html
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>

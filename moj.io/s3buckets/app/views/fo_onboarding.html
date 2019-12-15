@@ -1,0 +1,28 @@
+<div ng-style="'background-image': 'url({{dealer.artwork}})'" class="row">
+   <img src="{{dealer.icon}}" class="bt bl br bb" />
+</div>
+<div class="row">
+   <div class="col-md-4">FirstName</div>
+   <div class="col-md-8"><a href="" editable-text="UserData.FirstName" buttons="no">{{ UserData.FirstName || 'Enter First Name' }}</a>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-4">LastName</div>
+   <div class="col-md-8"><a href="" editable-text="UserData.LastName" buttons="no">{{ UserData.LastName || 'Enter Last Name' }}</a>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-4">Email</div>
+   <div class="col-md-8"><a href="" editable-text="UserData.Email[0].Address" buttons="no">{{ UserData.Email[0].Address || 'Enter Email' }}</a>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-4">Phone</div>
+   <div class="col-md-8"><a href="" editable-text="UserData.PhoneNumber" buttons="no">{{ UserData.PhoneNumber || 'Enter PhoneNumber' }}</a>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-4">
+      <button ng-click="StartOperation()">I Agree</button>
+   </div>
+</div>

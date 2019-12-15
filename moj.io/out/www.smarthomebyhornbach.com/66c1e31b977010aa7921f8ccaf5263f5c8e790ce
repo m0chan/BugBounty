@@ -1,0 +1,20 @@
+https://www.smarthomebyhornbach.com/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: www.smarthomebyhornbach.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding
+< X-Ms-Version: 2009-09-19
+< Content-Length: 215
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:02 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Frame-Options: DENY
+< X-Ms-Request-Id: 2fecbfa0-d01e-0095-2754-b3c01e000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:2fecbfa0-d01e-0095-2754-b3c01e000000
+Time:2019-12-15T14:30:02.2629941Z</Message></Error>

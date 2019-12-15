@@ -1,0 +1,14 @@
+http://tmobile-us-push.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: tmobile-us-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=a9dff408ea8a67397caeba18ae72a718324d48815aa5b3c89ecc04ec95bc5f18;Path=/;HttpOnly;Domain=tmobile-us-push.moj.io
+< Date: Sun, 15 Dec 2019 14:28:04 GMT
+< Content-Length: 103
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

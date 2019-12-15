@@ -1,0 +1,13 @@
+http://cdn.realgear.net/swagger
+
+> GET /swagger HTTP/1.1
+> Host: cdn.realgear.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Accept-Ranges: bytes
+< Cache-Control: max-age=10
+< X-Hw: 1576420215.cds106.lo4.h2,1576420215.cds106.lo4.h2c
+< Date: Sun, 15 Dec 2019 14:30:15 GMT
+< Content-Length: 0
+

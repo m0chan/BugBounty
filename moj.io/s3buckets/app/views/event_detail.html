@@ -1,0 +1,110 @@
+<h3>Event Detail</h3>
+<span ng-controller="eventDetailController as mc">
+   <div class="panel panel-default">
+      <div class="panel-collapse collapse in">
+         <div class="panel-body">
+            <div class="row">
+               <div class="col-md-2">
+                  <notification-icon type="{{Event.EventType}}"></notification-icon>
+               </div>
+               <div class="col-md-2">{{Event.EventType}}</div>
+               <div class="col-md-4">Received: {{Event.Time | date:'yy-MM-dd HH:mm'}}</div>
+               <div class="col-md-4">Location:
+                  <mojio-location geoloc="Event.Location"></mojio-location>
+               </div>
+            </div>
+            <div class="row">
+               <br/>
+               <div class="col-md-6">
+                  <div class="panel panel-default">
+                     <div class="panel-heading">
+                        <h4 class="panel-title">Map</h4>
+                     </div>
+                     <div class="panel-collapse collapse in">
+                        <div class="panel-body">
+                           <div mojio-simple-map="mojio-simple-map" style="height: 300px" geoloc="Event.Location"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="panel panel-default">
+                     <div class="panel-heading">
+                        <h4 class="panel-title">Measurments</h4>
+                     </div>
+                     <div class="panel-collapse collapse in">
+                        <div class="panel-body">
+                           <div class="row">
+                              <div class="col-md-4">Altitude</div>
+                              <div class="col-md-8">{{Event.Altitude}}</div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-4">Heading</div>
+                              <div class="col-md-8">{{Event.Heading}}</div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-4">Distance</div>
+                              <div class="col-md-8">{{Event.Distance}}</div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-4">Fuel Level</div>
+                              <div class="col-md-8">{{Event.FuelLevel}}</div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-4">Fuel Efficiency</div>
+                              <div class="col-md-8">{{Event.FuelEfficiency}}</div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-4">Speed</div>
+                              <div class="col-md-8">{{Event.Speed}}</div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-4">Acceleration</div>
+                              <div class="col-md-8">{{Event.Acceleration}}</div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-4">Deceleration</div>
+                              <div class="col-md-8">{{Event.Deceleration}}</div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-4">Odometer</div>
+                              <div class="col-md-8">{{Event.Odometer}}</div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-4">RPM</div>
+                              <div class="col-md-8">{{Event.RPM}}</div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-4">Accelerometer</div>
+                              <div class="col-md-8">
+                                 <div class="row">
+                                    <div class="col-md-4">X</div>
+                                    <div class="col-md-8">{{Event.Accelerometer.X}}</div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-4">Y</div>
+                                    <div class="col-md-8">{{Event.Accelerometer.Y}}</div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-4">Z</div>
+                                    <div class="col-md-8">{{Event.Accelerometer.Z}}</div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-4">Magnitude</div>
+                                    <div class="col-md-8">{{Event.Accelerometer.Magnitude}}</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-4">Battery Voltage</div>
+                              <div class="col-md-8">{{Event.BatteryVoltage}}</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</span>

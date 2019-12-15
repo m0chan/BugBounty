@@ -1,0 +1,14 @@
+https://motion-identity.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: motion-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Server: Kestrel
+< Content-Security-Policy: default-src 'self' static.moj.io; font-src 'self' https://fonts.gstatic.com static.moj.io data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com static.moj.io 'unsafe-inline'; script-src 'self' 'unsafe-inline' static.moj.io; img-src 'self' static.moj.io
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=32703f312b03122bbb15bf83b40b7b11b565f2040888dca3ab6a17772e60ef32;Path=/;HttpOnly;Domain=motion-identity.moj.io
+< Date: Sun, 15 Dec 2019 14:28:24 GMT
+

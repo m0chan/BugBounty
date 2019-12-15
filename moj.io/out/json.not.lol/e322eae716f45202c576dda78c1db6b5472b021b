@@ -1,0 +1,17 @@
+https://json.not.lol/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: json.not.lol
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:23:50 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 3defff33-a01e-0041-4d53-b3d905000000
+< X-Ms-Version: 2014-02-14
+< Content-Length: 215
+< Content-Type: application/xml
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:3defff33-a01e-0041-4d53-b3d905000000
+Time:2019-12-15T14:23:50.7294370Z</Message></Error>

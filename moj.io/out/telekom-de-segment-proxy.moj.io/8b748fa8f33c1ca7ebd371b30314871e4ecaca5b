@@ -1,0 +1,28 @@
+https://telekom-de-segment-proxy.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: telekom-de-segment-proxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: Microsoft-IIS/10.0
+< Request-Context: appId=cid-v1:d2da7254-80af-4f23-a3d0-8b25a889d971
+< Content-Security-Policy: default-src 'self'
+< Date: Sun, 15 Dec 2019 14:30:11 GMT
+< Set-Cookie: ARRAffinity=4565a9edc758b84937808ce2fa58d77dc72e93652b53dbf546c94bfae256ab98;Path=/;HttpOnly;Domain=telekom-de-segment-proxy.moj.io
+< Content-Length: 150
+< Content-Type: text/html; charset=utf-8
+< Access-Control-Allow-Origin: *
+< X-Content-Type-Options: nosniff
+< X-Powered-By: ASP.NET
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/apidocs</pre>
+</body>
+</html>

@@ -1,0 +1,19 @@
+http://static-prd11.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: static-prd11.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< X-Cache: TCP_MISS
+< X-Azure-Ref-Originshield: 0QUP2XQAAAAA8czJkTgKMT6CJPxL/VYIhTE9OMjFFREdFMDMxMwBjZTNjODVlYy03ZDRhLTRjNjEtYTIzNS01NzE1ODdhNzBmODk=
+< Date: Sun, 15 Dec 2019 14:29:21 GMT
+< Content-Type: application/xml
+< Server: Microsoft-HTTPAPI/2.0
+< X-Azure-Ref: 0QUP2XQAAAADInzPXI/++SYMwSIPEgT2HTUFOMzBFREdFMDMxNQBjZTNjODVlYy03ZDRhLTRjNjEtYTIzNS01NzE1ODdhNzBmODk=
+< Content-Length: 281
+< X-Ms-Request-Id: f40d1de3-501e-00a5-4354-b3617f000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AccountRequiresHttps</Code><Message>The account being accessed does not support http.
+RequestId:f40d1de3-501e-00a5-4354-b3617f000000
+Time:2019-12-15T14:29:21.8051049Z</Message><AccountName>mojioprd11stocdn</AccountName></Error>

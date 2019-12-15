@@ -1,0 +1,16 @@
+https://test.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: test.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Xss-Protection: 1
+< Date: Sun, 15 Dec 2019 14:30:31 GMT
+< Content-Type: text/plain; charset=utf-8
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: DENY
+< Content-Length: 0
+< Content-Security-Policy: block-all-mixed-content
+< Strict-Transport-Security: max-age=31536000
+

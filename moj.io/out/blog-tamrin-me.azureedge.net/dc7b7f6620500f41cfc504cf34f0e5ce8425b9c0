@@ -1,0 +1,12 @@
+http://blog-tamrin-me.azureedge.net/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: blog-tamrin-me.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:28:45 GMT
+< Location: https://blog-tamrin-me.azureedge.net/phpinfo.php
+< Server: ECAcc (lpl/EF33)
+< Content-Length: 0
+

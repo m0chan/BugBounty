@@ -1,0 +1,29 @@
+http://mina-us.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: mina-us.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:30:01 GMT
+< Content-Type: text/html; charset=utf-8
+< Content-Security-Policy: default-src 'self'
+< Set-Cookie: __cfduid=ddee052aa0c01b981dca48e654d193bb51576420200; expires=Tue, 14-Jan-20 14:30:00 GMT; path=/; domain=.moj.io; HttpOnly
+< X-Powered-By: Express
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Access-Control-Allow-Origin: *
+< X-Content-Type-Options: nosniff
+< Cf-Cache-Status: DYNAMIC
+< Cf-Ray: 54591cf0185ee59b-MAN
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /application.wadl</pre>
+</body>
+</html>

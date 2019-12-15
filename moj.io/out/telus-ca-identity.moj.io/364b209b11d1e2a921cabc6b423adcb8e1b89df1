@@ -1,0 +1,13 @@
+https://telus-ca-identity.moj.io/api
+
+> GET /api HTTP/1.1
+> Host: telus-ca-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Internal Server Error
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=b7b74ea702a5082aea591f9f3a4f4886a280564d83abc535953e7fa196a02b31;Path=/;HttpOnly;Domain=telus-ca-identity.moj.io
+< Date: Sun, 15 Dec 2019 14:29:33 GMT
+< Content-Length: 0
+

@@ -1,0 +1,22 @@
+http://static.topsmurfs.com/package.json
+
+> GET /package.json HTTP/1.1
+> Host: static.topsmurfs.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://static.topsmurfs.com/package.json
+< Content-Type: text/html; charset=UTF-8
+< Content-Length: 0
+< Date: Sun, 15 Dec 2019 14:29:40 GMT
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+< Referrer-Policy: no-referrer
+< Vary: Accept-Encoding,Cookie
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< Cache-Control: s-maxage=10
+< Feature-Policy: accelerometer 'none'; camera 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; usb 'none'
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+

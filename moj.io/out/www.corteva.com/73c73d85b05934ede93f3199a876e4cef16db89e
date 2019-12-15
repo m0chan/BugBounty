@@ -1,0 +1,23 @@
+https://www.corteva.com/swagger
+
+> GET /swagger HTTP/1.1
+> Host: www.corteva.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Expires: Sun, 15 Dec 2019 15:00:22 GMT
+< Location: https://www.corteva.com/swagger.html
+< Server: ECAcc (lpl/EF40)
+< Set-Cookie: TS01cd730d=01afac7ebb2776b6c5af4e35f6625a82680cf4a91c25263ad137fb2b75dcff149186715300158535002054b0840f23e4e61962819a; Path=/; Secure; HTTPOnly
+< Content-Length: 244
+< Cache-Control: max-age=1800
+< Date: Sun, 15 Dec 2019 14:30:22 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.corteva.com/swagger.html">here</a>.</p>
+</body></html>

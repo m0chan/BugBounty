@@ -1,0 +1,13 @@
+https://trial-identity.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: trial-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Internal Server Error
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=32703f312b03122bbb15bf83b40b7b11b565f2040888dca3ab6a17772e60ef32;Path=/;HttpOnly;Domain=trial-identity.moj.io
+< Date: Sun, 15 Dec 2019 14:29:55 GMT
+< Content-Length: 0
+

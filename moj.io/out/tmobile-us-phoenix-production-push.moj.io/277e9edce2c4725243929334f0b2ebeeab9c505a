@@ -1,0 +1,17 @@
+https://tmobile-us-phoenix-production-push.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: tmobile-us-phoenix-production-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Nginx-Version: 4.11.0.8
+< X-Mojio-Route: legacy
+< Date: Sun, 15 Dec 2019 14:30:00 GMT
+< Set-Cookie: ARRAffinity=c7f70d0f2fcfa8c5aa40272e515014fcd49453d4104a4aad39a9fec967ca71d3;Path=/;HttpOnly;Domain=tmobile-us-phoenix-production-push.moj.io
+< X-Powered-By: ASP.NET
+< Content-Length: 103
+< Content-Type: text/html
+< Server: nginx/1.15.6
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

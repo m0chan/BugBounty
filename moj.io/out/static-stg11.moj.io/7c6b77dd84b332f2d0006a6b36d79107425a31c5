@@ -1,0 +1,16 @@
+http://static-stg11.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: static-stg11.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Content-Length: 278
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:28:23 GMT
+< Server: Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 1c9e4bfc-801e-0034-5653-b34c43000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AccountRequiresHttps</Code><Message>The account being accessed does not support http.
+RequestId:1c9e4bfc-801e-0034-5653-b34c43000000
+Time:2019-12-15T14:28:24.3761313Z</Message><AccountName>mojiostg11cdn</AccountName></Error>

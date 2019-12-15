@@ -1,0 +1,18 @@
+http://force-us-app.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: force-us-app.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Retry-After: 0
+< Accept-Ranges: bytes
+< X-Cache: HIT
+< X-Timer: S1576420131.260707,VS0,VE0
+< Server: Varnish
+< Location: https://force-us-app.moj.io/phpinfo.php
+< Content-Length: 0
+< Date: Sun, 15 Dec 2019 14:28:51 GMT
+< X-Served-By: cache-man4146-MAN
+< X-Cache-Hits: 0
+

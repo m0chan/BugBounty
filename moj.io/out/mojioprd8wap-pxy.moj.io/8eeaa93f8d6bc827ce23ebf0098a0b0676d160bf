@@ -1,0 +1,28 @@
+https://mojioprd8wap-pxy.moj.io/api
+
+> GET /api HTTP/1.1
+> Host: mojioprd8wap-pxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Access-Control-Allow-Origin: *
+< X-Content-Type-Options: nosniff
+< X-Powered-By: ASP.NET
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Content-Security-Policy: default-src 'self'
+< Set-Cookie: ARRAffinity=3deb96f651fafaf5075b81e2509efb946188ee2d0a8996332b6796e166042dda;Path=/;HttpOnly;Domain=mojioprd8wap-pxy.moj.io
+< Date: Sun, 15 Dec 2019 14:29:35 GMT
+< Content-Length: 142
+< Request-Context: appId=cid-v1:d2da7254-80af-4f23-a3d0-8b25a889d971
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api</pre>
+</body>
+</html>

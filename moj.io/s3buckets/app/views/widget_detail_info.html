@@ -1,0 +1,19 @@
+<div ng-if="data==null">Hi, I am Magic. Try me!</div>
+<div ng-if="data.Type=='User'">
+   <widget-detail-user data="data"></widget-detail-user>
+</div>
+<div ng-if="data.Type=='Mojio'">
+   <widget-detail-device data="data"></widget-detail-device>
+</div>
+<div ng-if="data.Type=='Vehicle'">
+   <widget-detail-vehicle data="data"></widget-detail-vehicle>
+</div>
+<div ng-if="data.Type=='Trip'">
+   <widget-detail-trip data="data"></widget-detail-trip>
+</div>
+<div ng-if="data.Type=='Event'">
+   <widget-detail-event data="data"></widget-detail-event>
+</div>
+<div ng-if="data.Type=='App'">
+   <widget-detail-app data="data"></widget-detail-app>
+</div>

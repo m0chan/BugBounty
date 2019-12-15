@@ -1,0 +1,20 @@
+https://cdn.billforney.com/swagger
+
+> GET /swagger HTTP/1.1
+> Host: cdn.billforney.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< X-Powered-By: William Forney
+< X-Ua-Compatible: IE=Edge,chrome=1
+< Content-Security-Policy: object-src 'none';
+< X-Content-Type-Options: nosniff
+< Arr-Disable-Session-Affinity: True
+< X-Azure-Ref-Originshield: 0fEP2XQAAAABSEzyfYu07Ro5yWumBpvq2TE9OMjFFREdFMDMxOQA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< X-Azure-Ref: 0fEP2XQAAAADgNshVXLb8TpEybAWnDO92TUFOMzBFREdFMDMwOAA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< Date: Sun, 15 Dec 2019 14:30:20 GMT
+< X-Cache: TCP_MISS
+< Request-Context: appId=cid-v1:58dd9d2d-7583-4bbe-aa25-e93c0adacb78
+< Strict-Transport-Security: max-age=2592000
+

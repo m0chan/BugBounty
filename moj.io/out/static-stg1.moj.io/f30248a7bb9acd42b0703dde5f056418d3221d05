@@ -1,0 +1,16 @@
+https://static-stg1.moj.io/api
+
+> GET /api HTTP/1.1
+> Host: static-stg1.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:29:32 GMT
+< Content-Length: 223
+< Content-Type: application/xml
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: e90b664f-601e-0061-1954-b36c96000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:e90b664f-601e-0061-1954-b36c96000000
+Time:2019-12-15T14:29:32.2714956Z</Message></Error>

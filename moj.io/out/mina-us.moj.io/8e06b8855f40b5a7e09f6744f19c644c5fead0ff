@@ -1,0 +1,30 @@
+https://mina-us.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: mina-us.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< Content-Security-Policy: default-src 'self'
+< Cf-Ray: 54591dcb39d2bfed-MAN
+< Content-Type: text/html; charset=utf-8
+< Access-Control-Allow-Origin: *
+< X-Content-Type-Options: nosniff
+< Vary: Accept-Encoding
+< Cf-Cache-Status: DYNAMIC
+< Set-Cookie: __cfduid=d6f44f727d76ef8c4d96fc734e2cdac911576420236; expires=Tue, 14-Jan-20 14:30:36 GMT; path=/; domain=.moj.io; HttpOnly
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Date: Sun, 15 Dec 2019 14:30:36 GMT
+< Server: cloudflare
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /swagger-ui</pre>
+</body>
+</html>

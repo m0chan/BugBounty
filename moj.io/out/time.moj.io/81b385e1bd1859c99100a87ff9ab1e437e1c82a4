@@ -1,0 +1,16 @@
+https://time.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: time.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cf-Ray: 545913e2afa6e58f-MAN
+< Expires: Sun, 15 Dec 2019 15:23:50 GMT
+< Location: http://goo.gl/forms/K1H4MI4iGD
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Date: Sun, 15 Dec 2019 14:23:50 GMT
+< Cache-Control: max-age=3600
+

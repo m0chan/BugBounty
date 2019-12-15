@@ -1,0 +1,12 @@
+http://json.not.lol/package.json
+
+> GET /package.json HTTP/1.1
+> Host: json.not.lol
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Date: Sun, 15 Dec 2019 14:29:35 GMT
+< Location: https://json.not.lol/package.json
+< Server: ECAcc (lpl/EF6A)
+

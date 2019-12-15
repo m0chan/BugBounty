@@ -1,0 +1,18 @@
+https://segment-proxy.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: segment-proxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=87a9480c63241dff547caf50df0652f04110afd8c5e7c0d05c549971b85b59d4;Path=/;HttpOnly;Domain=segment-proxy.moj.io
+< Request-Context: appId=cid-v1:d2da7254-80af-4f23-a3d0-8b25a889d971,roleName=Web
+< Access-Control-Allow-Origin: *
+< X-Powered-By: ASP.NET
+< X-Content-Type-Options: nosniff
+< Date: Sun, 15 Dec 2019 14:30:15 GMT
+< Content-Length: 24
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+
+Cannot GET /api/apidocs

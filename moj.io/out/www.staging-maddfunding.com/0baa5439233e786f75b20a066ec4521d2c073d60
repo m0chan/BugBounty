@@ -1,0 +1,14 @@
+http://www.staging-maddfunding.com/swagger
+
+> GET /swagger HTTP/1.1
+> Host: www.staging-maddfunding.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: ECAcc (lpl/EF40)
+< Content-Length: 0
+< Cache-Control: no-cache
+< Date: Sun, 15 Dec 2019 14:30:16 GMT
+< Expires: Sun, 15 Dec 2019 14:30:15 GMT
+< Location: https://www.staging-maddfunding.com/
+

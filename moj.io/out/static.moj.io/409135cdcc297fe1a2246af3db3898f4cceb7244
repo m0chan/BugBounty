@@ -1,0 +1,16 @@
+http://static.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: static.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:04 GMT
+< Server: Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: a5c9150b-a01e-004e-0354-b3bf74000000
+< Content-Length: 276
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AccountRequiresHttps</Code><Message>The account being accessed does not support http.
+RequestId:a5c9150b-a01e-004e-0354-b3bf74000000
+Time:2019-12-15T14:30:05.3764288Z</Message><AccountName>mojioassets</AccountName></Error>

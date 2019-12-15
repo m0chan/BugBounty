@@ -1,0 +1,24 @@
+http://moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Sun, 15 Dec 2019 14:23:23 GMT
+< Content-Type: text/html; charset=iso-8859-1
+< Server: cloudflare
+< Set-Cookie: __cfduid=d0ce8fb4c119e188a1195853bdc2c19bf1576419803; expires=Tue, 14-Jan-20 14:23:23 GMT; path=/; domain=.moj.io; HttpOnly
+< Location: https://www.moj.io/phpinfo.php
+< Cf-Cache-Status: DYNAMIC
+< Cf-Ray: 5459133d892ae5a7-MAN
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.moj.io/phpinfo.php">here</a>.</p>
+<hr>
+<address>Apache/2.2.34 (Amazon) Server at moj.io Port 80</address>
+</body></html>

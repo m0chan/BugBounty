@@ -1,0 +1,15 @@
+http://jira.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: jira.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=3600
+< Expires: Sun, 15 Dec 2019 15:30:16 GMT
+< Cf-Ray: 54591d538f02d224-MAN
+< Date: Sun, 15 Dec 2019 14:30:16 GMT
+< Location: https://1mojio.atlassian.net/swagger
+< Vary: Accept-Encoding
+< Server: cloudflare
+

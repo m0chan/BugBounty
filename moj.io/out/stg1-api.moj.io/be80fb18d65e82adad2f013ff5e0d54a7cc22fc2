@@ -1,0 +1,15 @@
+http://stg1-api.moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: stg1-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:29:34 GMT
+< Content-Length: 103
+< Content-Type: text/html
+< Request-Context: appId=cid-v1:efbef410-6cd7-40a7-b985-46fe54a0dbd4
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=8650b5d90ec0a958acd2ddc1c81af4576c2f28a5f5e211211d4501e64235d621;Path=/;HttpOnly;Domain=stg1-api.moj.io
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

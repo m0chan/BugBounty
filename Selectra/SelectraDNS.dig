@@ -1,0 +1,3070 @@
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> preprod.ubiquity.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27212
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;preprod.ubiquity.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+preprod.ubiquity.selectra.info.	7088 IN	CNAME	ubiquity.selectra.info.
+ubiquity.selectra.info.	7088	IN	A	37.187.249.11
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:57 BST 2019
+;; MSG SIZE  rcvd: 89
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> amy.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50663
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;amy.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+amy.selectra.info.	7088	IN	A	151.80.141.88
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:57 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> app.recordings.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63368
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;app.recordings.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+app.recordings.selectra.io. 7088 IN	A	51.83.2.92
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:57 BST 2019
+;; MSG SIZE  rcvd: 71
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> mail.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38302
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;mail.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+mail.selectra.info.	7088	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	263	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:57 BST 2019
+;; MSG SIZE  rcvd: 97
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.cdn.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8566
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.cdn.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+staging.cdn.selectra.info. 7088	IN	CNAME	d1k1xm3yimv779.cloudfront.net.
+d1k1xm3yimv779.cloudfront.net. 15 IN	A	13.224.77.23
+d1k1xm3yimv779.cloudfront.net. 15 IN	A	13.224.77.7
+d1k1xm3yimv779.cloudfront.net. 15 IN	A	13.224.77.86
+d1k1xm3yimv779.cloudfront.net. 15 IN	A	13.224.77.102
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 161
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> www.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10521
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;www.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+www.selectra.io.	7088	IN	A	213.186.33.5
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> deckard.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45588
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;deckard.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+deckard.selectra.io.	7088	IN	A	51.91.212.57
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> dev.selectra.at
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45280
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;dev.selectra.at.		IN	A
+
+;; ANSWER SECTION:
+dev.selectra.at.	3487	IN	A	23.185.0.2
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> dory.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30079
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;dory.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+dory.selectra.info.	7088	IN	A	37.187.249.11
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> devcode.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56648
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;devcode.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+devcode.selectra.io.	7088	IN	CNAME	sfo.codeanyproxy.com.
+sfo.codeanyproxy.com.	187	IN	A	162.243.142.234
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> dory.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5765
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;dory.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+dory.selectra.io.	7088	IN	A	37.187.249.11
+
+;; Query time: 3 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> italia2.opp.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53218
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;italia2.opp.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+italia2.opp.selectra.io. 7088	IN	A	52.47.210.45
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 68
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> scarif.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59498
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;scarif.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+scarif.selectra.io.	7088	IN	A	51.68.39.111
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> ww.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23091
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;ww.selectra.io.			IN	A
+
+;; ANSWER SECTION:
+ww.selectra.io.		7088	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	262	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 93
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> darkrai.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53951
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;darkrai.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+darkrai.selectra.io.	7088	IN	A	34.95.78.131
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> landing.iad.static.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14315
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;landing.iad.static.selectra.info. IN	A
+
+;; ANSWER SECTION:
+landing.iad.static.selectra.info. 7088 IN A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 77
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> beatrice.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46687
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;beatrice.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+beatrice.selectra.io.	7088	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	262	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 99
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.darkrai.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57205
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.darkrai.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.darkrai.selectra.io. 7088 IN	A	37.187.144.133
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 72
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> pop3.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48497
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;pop3.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+pop3.selectra.info.	7088	IN	CNAME	ns0.ovh.net.
+ns0.ovh.net.		187	IN	A	193.70.18.144
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 88
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> sql.axiom.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44251
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;sql.axiom.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+sql.axiom.selectra.io.	7088	IN	CNAME	axiom.selectra.io.
+axiom.selectra.io.	7088	IN	A	54.37.83.144
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 80
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> axiom.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52579
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;axiom.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+axiom.selectra.io.	7088	IN	A	54.37.83.144
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> zoho.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46352
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;zoho.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+zoho.selectra.io.	7089	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	262	IN	A	172.217.169.51
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> bonosocial.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 940
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;bonosocial.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+bonosocial.selectra.io.	7089	IN	A	37.187.144.133
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> test.selectra.at
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53945
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;test.selectra.at.		IN	A
+
+;; ANSWER SECTION:
+test.selectra.at.	3488	IN	A	23.185.0.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> energia.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40496
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;energia.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+energia.selectra.io.	7089	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	262	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> Ubiquity.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14703
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;Ubiquity.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+Ubiquity.selectra.info.	7087	IN	A	37.187.249.11
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> rechnung.selectra.at
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6024
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;rechnung.selectra.at.		IN	A
+
+;; ANSWER SECTION:
+rechnung.selectra.at.	3488	IN	CNAME	facture.selectra.info.
+facture.selectra.info.	7097	IN	A	91.121.42.223
+
+;; Query time: 3 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 100
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> home-insurance-comparator.staging.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43984
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;home-insurance-comparator.staging.selectra.io. IN A
+
+;; ANSWER SECTION:
+home-insurance-comparator.staging.selectra.io. 7089 IN A 51.83.2.92
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 90
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.beatrice.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10979
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.beatrice.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.beatrice.selectra.io. 7089 IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	262	IN	A	172.217.169.51
+
+;; Query time: 4 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 107
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.blanco.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21116
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.blanco.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.blanco.selectra.io. 7089 IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 71
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.podfinder.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2784
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.podfinder.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.podfinder.selectra.io. 7089 IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 74
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> resiliation.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29177
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;resiliation.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+resiliation.selectra.info. 7089	IN	A	188.165.42.158
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 70
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> pg.nala.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36789
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;pg.nala.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+pg.nala.selectra.io.	7089	IN	CNAME	nala.selectra.io.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> sql.nala.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26146
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;sql.nala.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+sql.nala.selectra.io.	7089	IN	CNAME	nala.selectra.io.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> partners.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28011
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;partners.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+partners.selectra.io.	7089	IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> club.selectra.at
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22598
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;club.selectra.at.		IN	A
+
+;; ANSWER SECTION:
+club.selectra.at.	3488	IN	CNAME	club.selectra.info.
+club.selectra.info.	7089	IN	A	51.254.167.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 93
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> app-config.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34040
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;app-config.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+app-config.selectra.io.	7089	IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> admin.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15405
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;admin.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+admin.selectra.io.	7089	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	262	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 96
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> italia.opp.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63964
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;italia.opp.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+italia.opp.selectra.io.	7089	IN	A	188.165.42.158
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> wiki.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41927
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;wiki.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+wiki.selectra.io.	7089	IN	A	151.80.141.88
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.energia.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16971
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.energia.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.energia.selectra.io. 7089 IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	262	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 106
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> salientes.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19037
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;salientes.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+salientes.selectra.io.	7089	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	262	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 100
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> antargaz.proxy.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38025
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;antargaz.proxy.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+antargaz.proxy.selectra.io. 7090 IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 71
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> goldenergy.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19229
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;goldenergy.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+goldenergy.selectra.io.	7090	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	262	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 101
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> esferaluz.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29242
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;esferaluz.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+esferaluz.selectra.io.	7090	IN	A	37.187.144.133
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> camila.landorus.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61914
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;camila.landorus.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+camila.landorus.selectra.io. 7090 IN	A	151.101.65.195
+camila.landorus.selectra.io. 7090 IN	A	151.101.1.195
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 88
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> camila.landorus.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19047
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;camila.landorus.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+camila.landorus.selectra.io. 7090 IN	A	151.101.65.195
+camila.landorus.selectra.io. 7090 IN	A	151.101.1.195
+
+;; Query time: 4 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 88
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.sso.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1072
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.sso.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.sso.selectra.io. 7090	IN	A	37.187.144.133
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 68
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> porygon.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21018
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;porygon.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+porygon.selectra.io.	7090	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	262	IN	A	172.217.169.51
+
+;; Query time: 4 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> preprod.v2.club.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7233
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;preprod.v2.club.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+preprod.v2.club.selectra.info. 7096 IN	A	51.254.167.1
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 74
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.app-config.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33126
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.app-config.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.app-config.selectra.io.	7090 IN	A	91.121.42.223
+
+;; Query time: 4 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 75
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> club.selectra.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29627
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;club.selectra.com.		IN	A
+
+;; ANSWER SECTION:
+club.selectra.com.	3489	IN	A	151.101.65.195
+club.selectra.com.	3489	IN	A	151.101.1.195
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 78
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> club.selectra.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29400
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;club.selectra.com.		IN	A
+
+;; ANSWER SECTION:
+club.selectra.com.	3489	IN	A	151.101.65.195
+club.selectra.com.	3489	IN	A	151.101.1.195
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 78
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> sql.scarif.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13835
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;sql.scarif.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+sql.scarif.selectra.io.	7090	IN	A	51.38.181.10
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> www.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6084
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;www.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+www.selectra.info.	7090	IN	CNAME	selectra.info.
+selectra.info.		7091	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 76
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> pod.api.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13438
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;pod.api.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+pod.api.selectra.io.	7090	IN	A	91.121.42.223
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> calendar.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24438
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;calendar.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+calendar.selectra.info.	7090	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	262	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 101
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> auto2000.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53107
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;auto2000.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+auto2000.selectra.io.	7093	IN	A	91.121.42.223
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.ubiquity.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12777
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.ubiquity.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+staging.ubiquity.selectra.info.	7090 IN	A	37.187.249.11
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 75
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> training.energia.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25702
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;training.energia.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+training.energia.selectra.io. 7090 IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	262	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 107
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> phpmyadmin.public.production.aws.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13260
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;phpmyadmin.public.production.aws.selectra.io. IN A
+
+;; ANSWER SECTION:
+phpmyadmin.public.production.aws.selectra.io. 3489 IN A	51.38.181.10
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 89
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> be.preprod.comparateur.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22531
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;be.preprod.comparateur.selectra.info. IN A
+
+;; ANSWER SECTION:
+be.preprod.comparateur.selectra.info. 7090 IN CNAME comparateur.selectra.info.
+comparateur.selectra.info. 7095	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:58 BST 2019
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> recordings.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28439
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;recordings.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+recordings.selectra.io.	7090	IN	CNAME	recordings.selectra.io.s3.amazonaws.com.
+recordings.selectra.io.s3.amazonaws.com. 2289 IN CNAME s3-3-w.amazonaws.com.
+s3-3-w.amazonaws.com.	4	IN	A	52.218.98.66
+
+;; Query time: 50 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 141
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> it.preprod.comparateur.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9209
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;it.preprod.comparateur.selectra.info. IN A
+
+;; ANSWER SECTION:
+it.preprod.comparateur.selectra.info. 7090 IN CNAME comparateur.selectra.info.
+comparateur.selectra.info. 7095	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> tk.preprod.v2.club.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56387
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;tk.preprod.v2.club.selectra.info. IN	A
+
+;; ANSWER SECTION:
+tk.preprod.v2.club.selectra.info. 7091 IN CNAME	preprod.v2.club.selectra.info.
+preprod.v2.club.selectra.info. 7096 IN	A	51.254.167.1
+
+;; Query time: 3 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> estimation.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21515
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;estimation.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+estimation.selectra.info. 7093	IN	A	51.254.167.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 69
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> callcenter.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31535
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;callcenter.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+callcenter.selectra.io.	7091	IN	A	188.165.42.158
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> confirma.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8087
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;confirma.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+confirma.selectra.io.	7091	IN	A	212.89.28.11
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> comparador.selectra.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58400
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;comparador.selectra.com.	IN	A
+
+;; ANSWER SECTION:
+comparador.selectra.com. 3490	IN	CNAME	comparateur.selectra.info.
+comparateur.selectra.info. 7095	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 107
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> forum.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13214
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;forum.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+forum.selectra.info.	7091	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> pt.preprod.comparateur.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7190
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;pt.preprod.comparateur.selectra.info. IN A
+
+;; ANSWER SECTION:
+pt.preprod.comparateur.selectra.info. 7091 IN CNAME comparateur.selectra.info.
+comparateur.selectra.info. 7095	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> api.borgan.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4047
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;api.borgan.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+api.borgan.selectra.io.	7091	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	261	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 101
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> rappel.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27560
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;rappel.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+rappel.selectra.info.	7091	IN	A	178.33.42.7
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.selectra.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50458
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.selectra.co.uk.		IN	A
+
+;; ANSWER SECTION:
+staging.selectra.co.uk.	3490	IN	A	94.23.152.150
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> ww.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 100
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;ww.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+ww.selectra.info.	7091	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	261	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> ftp.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32088
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;ftp.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+ftp.selectra.info.	7091	IN	CNAME	selectra.info.
+selectra.info.		7091	IN	A	94.23.87.175
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 76
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> tarifrechner.selectra.at
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64113
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;tarifrechner.selectra.at.	IN	A
+
+;; ANSWER SECTION:
+tarifrechner.selectra.at. 3490	IN	CNAME	comparateur.selectra.info.
+comparateur.selectra.info. 7095	IN	A	94.23.87.175
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 108
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> blanco.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57605
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;blanco.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+blanco.selectra.io.	7091	IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.verbrauchsrechner.selectra.at
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11957
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.verbrauchsrechner.selectra.at. IN A
+
+;; ANSWER SECTION:
+staging.verbrauchsrechner.selectra.at. 3490 IN CNAME staging.estimation.selectra.info.
+staging.estimation.selectra.info. 7091 IN A	51.254.167.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 128
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> tr.preprod.comparateur.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41930
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;tr.preprod.comparateur.selectra.info. IN A
+
+;; ANSWER SECTION:
+tr.preprod.comparateur.selectra.info. 7091 IN CNAME comparateur.selectra.info.
+comparateur.selectra.info. 7095	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> es.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31217
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;es.selectra.io.			IN	A
+
+;; ANSWER SECTION:
+es.selectra.io.		7091	IN	A	37.59.92.8
+
+;; Query time: 3 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> dev.entreprises.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36004
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;dev.entreprises.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+dev.entreprises.selectra.info. 7091 IN	A	23.185.0.2
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 74
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> v2.beatrice.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6516
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;v2.beatrice.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+v2.beatrice.selectra.io. 7091	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	261	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 102
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> bulk-geocoder.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52976
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;bulk-geocoder.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+bulk-geocoder.selectra.io. 7091	IN	A	188.165.42.158
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 70
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> test.selectra.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35036
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;test.selectra.co.uk.		IN	A
+
+;; ANSWER SECTION:
+test.selectra.co.uk.	3490	IN	A	23.185.0.2
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> sql.woody.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31156
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;sql.woody.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+sql.woody.selectra.io.	7092	IN	CNAME	woody.selectra.io.
+woody.selectra.io.	7092	IN	A	51.38.181.10
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 80
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.hop.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25823
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.hop.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+staging.hop.selectra.info. 7092	IN	CNAME	staging.hop.selectra.io.
+staging.hop.selectra.io. 7092	IN	A	188.165.42.158
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 107
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.directory.api.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41180
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.directory.api.selectra.io. IN	A
+
+;; ANSWER SECTION:
+staging.directory.api.selectra.io. 7092	IN A	188.165.42.158
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 78
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> test.entreprises.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26193
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;test.entreprises.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+test.entreprises.selectra.info.	7092 IN	A	23.185.0.3
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 75
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> hop.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5540
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;hop.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+hop.selectra.info.	7092	IN	CNAME	hop.selectra.io.
+hop.selectra.io.	7092	IN	A	188.165.42.158
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> dev.en.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26443
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;dev.en.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+dev.en.selectra.info.	7092	IN	A	23.185.0.2
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> intranet.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5462
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;intranet.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+intranet.selectra.io.	7092	IN	A	188.165.42.158
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> callback.en.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17181
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;callback.en.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+callback.en.selectra.info. 7092	IN	CNAME	rappel.selectra.info.
+rappel.selectra.info.	7091	IN	A	178.33.42.7
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.callback.en.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4984
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.callback.en.selectra.info. IN	A
+
+;; ANSWER SECTION:
+staging.callback.en.selectra.info. 7092	IN CNAME staging.rappel.selectra.info.
+staging.rappel.selectra.info. 7094 IN	A	178.33.42.7
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 107
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> fr.preprod.v2.club.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45373
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;fr.preprod.v2.club.selectra.info. IN	A
+
+;; ANSWER SECTION:
+fr.preprod.v2.club.selectra.info. 7092 IN CNAME	preprod.v2.club.selectra.info.
+preprod.v2.club.selectra.info. 7095 IN	A	51.254.167.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.auto2000.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6260
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.auto2000.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.auto2000.selectra.io. 7092 IN	CNAME	auto2000.selectra.io.
+auto2000.selectra.io.	7092	IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 87
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.pod.api.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34966
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.pod.api.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.pod.api.selectra.io. 7092 IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 72
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.dialga.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4919
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.dialga.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.dialga.selectra.io. 7092 IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	261	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 105
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> status.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9292
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;status.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+status.selectra.io.	7092	IN	CNAME	stats.uptimerobot.com.
+stats.uptimerobot.com.	191	IN	A	69.162.67.138
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> dev.selectra.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51219
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;dev.selectra.co.uk.		IN	A
+
+;; ANSWER SECTION:
+dev.selectra.co.uk.	3491	IN	A	23.185.0.3
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> cloud.energia.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55145
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;cloud.energia.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+cloud.energia.selectra.io. 7092	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	261	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 104
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> opp.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22060
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;opp.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+opp.selectra.info.	7092	IN	A	188.165.42.158
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> test.en.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16411
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;test.en.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+test.en.selectra.info.	7093	IN	A	23.185.0.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> verbrauchsrechner.selectra.at
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5355
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;verbrauchsrechner.selectra.at.	IN	A
+
+;; ANSWER SECTION:
+verbrauchsrechner.selectra.at. 3492 IN	CNAME	estimation.selectra.info.
+estimation.selectra.info. 7093	IN	A	51.254.167.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 112
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> www.estimation.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32681
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;www.estimation.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+www.estimation.selectra.info. 7093 IN	CNAME	estimation.selectra.info.
+estimation.selectra.info. 7093	IN	A	51.254.167.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 87
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> www.selectra.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15428
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;www.selectra.co.uk.		IN	A
+
+;; ANSWER SECTION:
+www.selectra.co.uk.	3492	IN	A	94.23.152.150
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.admin.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43558
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.admin.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.admin.selectra.io. 7093	IN	A	37.187.144.133
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 70
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> directory.api.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65281
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;directory.api.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+directory.api.selectra.io. 7093	IN	A	188.165.42.158
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 70
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.hop.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25746
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.hop.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.hop.selectra.io. 7091	IN	A	188.165.42.158
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 68
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> it.preprod.v2.club.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8051
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;it.preprod.v2.club.selectra.info. IN	A
+
+;; ANSWER SECTION:
+it.preprod.v2.club.selectra.info. 7093 IN CNAME	preprod.v2.club.selectra.info.
+preprod.v2.club.selectra.info. 7095 IN	A	51.254.167.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> cdn.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14138
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;cdn.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+cdn.selectra.info.	7093	IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:50:59 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> mudsdale.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 599
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;mudsdale.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+mudsdale.selectra.io.	7093	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	261	IN	A	172.217.169.51
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 99
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> furiosa.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10025
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;furiosa.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+furiosa.selectra.io.	7093	IN	A	51.83.2.92
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> rtfm.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14114
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;rtfm.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+rtfm.selectra.io.	7093	IN	A	151.80.141.88
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> eon.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12651
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;eon.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+eon.selectra.io.	7093	IN	A	37.187.144.133
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> fr.preprod.comparateur.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59820
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;fr.preprod.comparateur.selectra.info. IN A
+
+;; ANSWER SECTION:
+fr.preprod.comparateur.selectra.info. 7093 IN CNAME comparateur.selectra.info.
+comparateur.selectra.info. 7094	IN	A	94.23.87.175
+
+;; Query time: 3 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> callback.selectra.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21815
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;callback.selectra.co.uk.	IN	A
+
+;; ANSWER SECTION:
+callback.selectra.co.uk. 3492	IN	CNAME	rappel.selectra.info.
+rappel.selectra.info.	7090	IN	A	178.33.42.7
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 102
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> gas.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6260
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;gas.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+gas.selectra.io.	7093	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	260	IN	A	172.217.169.51
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 94
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> partenaires.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7395
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;partenaires.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+partenaires.selectra.info. 7093	IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 70
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> www.entreprises.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32030
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;www.entreprises.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+www.entreprises.selectra.info. 7093 IN	CNAME	entreprises.selectra.info.
+entreprises.selectra.info. 7093	IN	A	23.185.0.3
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 88
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> nl.preprod.comparateur.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19691
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;nl.preprod.comparateur.selectra.info. IN A
+
+;; ANSWER SECTION:
+nl.preprod.comparateur.selectra.info. 7093 IN CNAME comparateur.selectra.info.
+comparateur.selectra.info. 7094	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.callback.selectra.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12690
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.callback.selectra.co.uk. IN	A
+
+;; ANSWER SECTION:
+staging.callback.selectra.co.uk. 3492 IN CNAME	staging.rappel.selectra.info.
+staging.rappel.selectra.info. 7093 IN	A	178.33.42.7
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 118
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> club.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22106
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;club.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+club.selectra.info.	7088	IN	A	51.254.167.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> partner.fr.preprod.comparateur.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57978
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;partner.fr.preprod.comparateur.selectra.info. IN A
+
+;; ANSWER SECTION:
+partner.fr.preprod.comparateur.selectra.info. 7093 IN CNAME comparateur.selectra.info.
+comparateur.selectra.info. 7094	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 103
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> club-telecom.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43767
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;club-telecom.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+club-telecom.selectra.info. 7094 IN	A	51.254.167.1
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 71
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> phpmyadmin.public.staging.aws.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19623
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;phpmyadmin.public.staging.aws.selectra.io. IN A
+
+;; ANSWER SECTION:
+phpmyadmin.public.staging.aws.selectra.io. 3493	IN A 51.38.181.10
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 86
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> zonestarifaires.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42419
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;zonestarifaires.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+zonestarifaires.selectra.info. 7094 IN	A	94.23.87.175
+
+;; Query time: 4 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 74
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> eau.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12513
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;eau.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+eau.selectra.info.	7094	IN	A	23.185.0.3
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> at.preprod.comparateur.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50082
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;at.preprod.comparateur.selectra.info. IN A
+
+;; ANSWER SECTION:
+at.preprod.comparateur.selectra.info. 7094 IN CNAME comparateur.selectra.info.
+comparateur.selectra.info. 7094	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> togepi.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40903
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;togepi.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+togepi.selectra.io.	7094	IN	A	91.121.42.223
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> en.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3689
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;en.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+en.selectra.info.	7094	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> woody.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23037
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;woody.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+woody.selectra.io.	7091	IN	A	51.38.181.10
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> dev.eau.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30979
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;dev.eau.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+dev.eau.selectra.info.	7094	IN	A	23.185.0.2
+
+;; Query time: 3 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> at.preprod.v2.club.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33071
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;at.preprod.v2.club.selectra.info. IN	A
+
+;; ANSWER SECTION:
+at.preprod.v2.club.selectra.info. 7094 IN CNAME	preprod.v2.club.selectra.info.
+preprod.v2.club.selectra.info. 7094 IN	A	51.254.167.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> entreprises.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11724
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;entreprises.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+entreprises.selectra.info. 7093	IN	A	23.185.0.3
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 70
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.callcenter.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58059
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.callcenter.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.callcenter.selectra.io.	7094 IN	A	188.165.42.158
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 75
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> dashboard.plum.proxy.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14605
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;dashboard.plum.proxy.selectra.io. IN	A
+
+;; ANSWER SECTION:
+dashboard.plum.proxy.selectra.io. 7094 IN A	91.121.42.223
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 77
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.togepi.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23196
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.togepi.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.togepi.selectra.io. 7094 IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 71
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> comparateur.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48370
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;comparateur.selectra.info.	IN	A
+
+;; ANSWER SECTION:
+comparateur.selectra.info. 7093	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 70
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> ww.selectra.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1677
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;ww.selectra.co.uk.		IN	A
+
+;; ANSWER SECTION:
+ww.selectra.co.uk.	3493	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	260	IN	A	172.217.169.51
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 96
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> es.preprod.v2.club.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32907
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;es.preprod.v2.club.selectra.info. IN	A
+
+;; ANSWER SECTION:
+es.preprod.v2.club.selectra.info. 7094 IN CNAME	preprod.v2.club.selectra.info.
+preprod.v2.club.selectra.info. 7094 IN	A	51.254.167.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> staging.mew.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51346
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;staging.mew.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+staging.mew.selectra.io. 7094	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	260	IN	A	172.217.169.51
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 102
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> www.selectra.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57496
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;www.selectra.com.		IN	A
+
+;; ANSWER SECTION:
+www.selectra.com.	3493	IN	A	188.165.42.158
+
+;; Query time: 8 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> club-v3.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46884
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;club-v3.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+club-v3.selectra.info.	7094	IN	A	51.254.167.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> plum.proxy.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18479
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;plum.proxy.selectra.io.		IN	A
+
+;; ANSWER SECTION:
+plum.proxy.selectra.io.	6122	IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> preprod.plum.proxy.selectra.io
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19490
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;preprod.plum.proxy.selectra.io.	IN	A
+
+;; ANSWER SECTION:
+preprod.plum.proxy.selectra.io.	7094 IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 75
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> groupe.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10736
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;groupe.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+groupe.selectra.info.	7094	IN	A	188.165.42.158
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> bills.selectra.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15662
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;bills.selectra.co.uk.		IN	A
+
+;; ANSWER SECTION:
+bills.selectra.co.uk.	3493	IN	CNAME	facture.selectra.info.
+facture.selectra.info.	7094	IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 100
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> facture.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42109
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;facture.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+facture.selectra.info.	7094	IN	A	91.121.42.223
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> go.selectra.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61098
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;go.selectra.info.		IN	A
+
+;; ANSWER SECTION:
+go.selectra.info.	7094	IN	A	94.23.87.175
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Oct 10 09:51:00 BST 2019
+;; MSG SIZE  rcvd: 61
+

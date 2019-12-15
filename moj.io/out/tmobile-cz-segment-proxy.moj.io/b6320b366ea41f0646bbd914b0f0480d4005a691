@@ -1,0 +1,28 @@
+https://tmobile-cz-segment-proxy.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: tmobile-cz-segment-proxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Security-Policy: default-src 'self'
+< X-Powered-By: ASP.NET
+< Content-Length: 147
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Request-Context: appId=cid-v1:d2da7254-80af-4f23-a3d0-8b25a889d971
+< Access-Control-Allow-Origin: *
+< X-Content-Type-Options: nosniff
+< Set-Cookie: ARRAffinity=0e620387664f656d9541c5bdbe8212bf1f49b6890c45c520fb65fba7c5240709;Path=/;HttpOnly;Domain=tmobile-cz-segment-proxy.moj.io
+< Date: Sun, 15 Dec 2019 14:29:00 GMT
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /info.php</pre>
+</body>
+</html>

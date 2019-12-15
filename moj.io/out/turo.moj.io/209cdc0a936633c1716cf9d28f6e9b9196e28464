@@ -1,0 +1,13 @@
+https://turo.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: turo.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/plain; charset=ISO-8859-1
+< P3p: CP="This is not a privacy policy."
+< X-Proxy-Backend: page-server
+< Date: Sun, 15 Dec 2019 14:30:02 GMT
+
+The requested URL was not found on this server.

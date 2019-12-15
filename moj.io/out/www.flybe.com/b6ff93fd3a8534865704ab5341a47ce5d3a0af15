@@ -1,0 +1,15 @@
+http://www.flybe.com/swagger
+
+> GET /swagger HTTP/1.1
+> Host: www.flybe.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:30:15 GMT
+< Cache-Control: max-age=3600
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Cf-Ray: 54591d4ca99ee597-MAN
+< Expires: Sun, 15 Dec 2019 15:30:15 GMT
+< Location: https://www.flybe.com/swagger
+

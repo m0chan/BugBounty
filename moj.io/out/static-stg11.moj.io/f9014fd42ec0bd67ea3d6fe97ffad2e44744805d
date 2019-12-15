@@ -1,0 +1,17 @@
+https://static-stg11.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: static-stg11.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Ms-Request-Id: 746d87b5-b01e-0062-6253-b3bdac000000
+< X-Ms-Version: 2009-09-19
+< Content-Length: 215
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:01 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:746d87b5-b01e-0062-6253-b3bdac000000
+Time:2019-12-15T14:29:02.0114036Z</Message></Error>

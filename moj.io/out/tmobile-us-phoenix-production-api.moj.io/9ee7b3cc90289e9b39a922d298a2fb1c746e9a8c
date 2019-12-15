@@ -1,0 +1,15 @@
+https://tmobile-us-phoenix-production-api.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: tmobile-us-phoenix-production-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://prd0-api.moj.io/swagger/ui/index
+< Server: nginx/1.15.6
+< Set-Cookie: ARRAffinity=ed41ca322a49669b612bcebf273fd24041177ae99ea92e4ec42dded8575d2518;Path=/;HttpOnly;Domain=tmobile-us-phoenix-production-api.moj.io
+< Request-Context: appId=cid-v1:b4f3dc5f-bd72-4647-99a2-e4a1ecb0016e
+< X-Powered-By: ASP.NET
+< Date: Sun, 15 Dec 2019 14:30:20 GMT
+< Content-Length: 0
+

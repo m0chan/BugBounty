@@ -1,0 +1,18 @@
+https://staging-push.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: staging-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Powered-By: ASP.NET
+< X-Mojio-Route: legacy
+< Server: nginx/1.15.6
+< Set-Cookie: ARRAffinity=77f15deea82226eaf27fe28a8d70be457e06e1d9c7b33511eea919811e39c2a3;Path=/;HttpOnly;Domain=staging-push.moj.io
+< Set-Cookie: ARRAffinity=fee32919d2c92a18a9513bc2956a7bd6178b03d988ba5663272b18c259f8760c;Path=/;HttpOnly;Domain=staging-push.moj.io
+< Nginx-Version: 4.11.0.19
+< Date: Sun, 15 Dec 2019 14:25:40 GMT
+< Content-Length: 103
+< Content-Type: text/html
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

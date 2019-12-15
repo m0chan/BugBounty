@@ -1,0 +1,15 @@
+http://bcdn.flybe.com/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: bcdn.flybe.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Sun, 15 Dec 2019 15:27:50 GMT
+< Date: Sun, 15 Dec 2019 14:27:50 GMT
+< Location: https://bcdn.flybe.com/phpinfo.php
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Cf-Ray: 545919bd8901d210-MAN
+< Cache-Control: max-age=3600
+

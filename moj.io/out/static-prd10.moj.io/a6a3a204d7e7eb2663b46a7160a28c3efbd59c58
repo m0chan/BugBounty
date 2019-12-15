@@ -1,0 +1,16 @@
+http://static-prd10.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: static-prd10.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:20 GMT
+< Server: Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: c9137d80-a01e-00e2-4454-b301f1000000
+< Content-Length: 278
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AccountRequiresHttps</Code><Message>The account being accessed does not support http.
+RequestId:c9137d80-a01e-00e2-4454-b301f1000000
+Time:2019-12-15T14:29:21.7270306Z</Message><AccountName>mojioprd10cdn</AccountName></Error>

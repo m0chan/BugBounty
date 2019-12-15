@@ -1,0 +1,14 @@
+https://tmobile-us-stg0fut-trackerfota.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: tmobile-us-stg0fut-trackerfota.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Internal Server Error
+< X-Cache: TCP_MISS
+< X-Azure-Ref-Originshield: 0hkP2XQAAAADXCOuDx5BFQ55K8iCsShh5TE9OMjFFREdFMDMyMAAwY2JjZGJhMC1mZmNmLTRiNjAtOTYxMC0zZDEzMzA4ZDdjOGQ=
+< X-Azure-Ref: 0hkP2XQAAAABXhP4C8kPzSqcQEczHnQvfTUFOMzBFREdFMDMxNwAwY2JjZGJhMC1mZmNmLTRiNjAtOTYxMC0zZDEzMzA4ZDdjOGQ=
+< Date: Sun, 15 Dec 2019 14:30:31 GMT
+< Content-Length: 26
+
+Internal Error 0x830c0108.

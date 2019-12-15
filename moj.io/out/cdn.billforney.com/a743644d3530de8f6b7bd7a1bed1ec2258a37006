@@ -1,0 +1,20 @@
+https://cdn.billforney.com/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: cdn.billforney.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Azure-Ref-Originshield: 0XkP2XQAAAADtkm9o5IwiSpLMituOG5HJTE9OMjFFREdFMDMwOAA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< X-Azure-Ref: 0XkP2XQAAAAA0c8ZQ651XS6hJ2c279/T3TUFOMzBFREdFMDMwNgA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< Content-Length: 0
+< X-Cache: TCP_MISS
+< Request-Context: appId=cid-v1:58dd9d2d-7583-4bbe-aa25-e93c0adacb78
+< Content-Security-Policy: object-src 'none';
+< Arr-Disable-Session-Affinity: True
+< Date: Sun, 15 Dec 2019 14:29:50 GMT
+< Strict-Transport-Security: max-age=2592000
+< X-Powered-By: William Forney
+< X-Content-Type-Options: nosniff
+< X-Ua-Compatible: IE=Edge,chrome=1
+

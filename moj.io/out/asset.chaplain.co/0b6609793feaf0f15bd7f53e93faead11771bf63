@@ -1,0 +1,26 @@
+https://asset.chaplain.co/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: asset.chaplain.co
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< X-Frame-Options: SAMEORIGIN
+< Date: Sun, 15 Dec 2019 14:23:49 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-App-Id: CCoAssetCDN
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Content-Type-Options: nosniff
+< Access-Control-Allow-Origin: *
+< Content-Security-Policy: default-src 'self' chaplain.co *.chaplain.co asset.chaplain.co access.chaplain.co; form-action 'none'; base-uri 'self'; frame-ancestors https://*.chaplain.co https://chaplain.co; upgrade-insecure-requests; block-all-mixed-content; referrer origin-when-cross-origin; report-uri https://chplnco.report-uri.com/r/d/csp/enforce;
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< X-Powered-By: Sharks with frickin' laser beams attached to their heads
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 226
+< Access-Control-Expose-Headers: x-ms-request-id,Server,Content-Length,Date,Transfer-Encoding
+< Content-Type: application/xml
+< X-Ms-Request-Id: 997758b3-201e-0021-3753-b3300a000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>OutOfRangeInput</Code><Message>One of the request inputs is out of range.
+RequestId:997758b3-201e-0021-3753-b3300a000000
+Time:2019-12-15T14:23:50.8461448Z</Message></Error>

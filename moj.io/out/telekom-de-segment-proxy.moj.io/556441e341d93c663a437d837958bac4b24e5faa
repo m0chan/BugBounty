@@ -1,0 +1,28 @@
+https://telekom-de-segment-proxy.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: telekom-de-segment-proxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: Microsoft-IIS/10.0
+< Request-Context: appId=cid-v1:d2da7254-80af-4f23-a3d0-8b25a889d971
+< Access-Control-Allow-Origin: *
+< Set-Cookie: ARRAffinity=c2d87a7dbf7d6e3662874e00d2c212aa90b623d0e2ff8d9c85d9ef2b3a0f4e97;Path=/;HttpOnly;Domain=telekom-de-segment-proxy.moj.io
+< Date: Sun, 15 Dec 2019 14:30:22 GMT
+< Content-Length: 146
+< Content-Type: text/html; charset=utf-8
+< Content-Security-Policy: default-src 'self'
+< X-Content-Type-Options: nosniff
+< X-Powered-By: ASP.NET
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /swagger</pre>
+</body>
+</html>

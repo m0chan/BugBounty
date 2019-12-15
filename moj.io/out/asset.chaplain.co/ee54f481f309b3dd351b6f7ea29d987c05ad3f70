@@ -1,0 +1,31 @@
+http://asset.chaplain.co/info.php
+
+> GET /info.php HTTP/1.1
+> Host: asset.chaplain.co
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-App-Id: CCoAssetCDN
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 345
+< Content-Security-Policy: default-src 'self' chaplain.co *.chaplain.co asset.chaplain.co access.chaplain.co; form-action 'none'; base-uri 'self'; frame-ancestors https://*.chaplain.co https://chaplain.co; upgrade-insecure-requests; block-all-mixed-content; referrer origin-when-cross-origin; report-uri https://chplnco.report-uri.com/r/d/csp/enforce;
+< Date: Sun, 15 Dec 2019 14:28:33 GMT
+< Server: ECAcc (lpl/EF2D)
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: Sharks with frickin' laser beams attached to their heads
+< Content-Type: text/html
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>404 - Not Found</title>
+	</head>
+	<body>
+		<h1>404 - Not Found</h1>
+	</body>
+</html>

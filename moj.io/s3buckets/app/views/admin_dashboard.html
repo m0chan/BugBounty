@@ -1,0 +1,101 @@
+<h3>Dashboard</h3>
+<!-- START widgets box-->
+<div ng-controller="adminDashboardController" class="row">
+   <div class="col-md-3">
+      <!-- START widget-->
+      <div class="panel widget">
+         <div class="row row-table">
+            <div class="col-xs-12 text-center">Total Number of Mojios</div>
+         </div>
+         <div class="row row-table">
+            <div class="col-xs-4">
+               <div class="fa fa-cubes fa-2x"></div>
+            </div>
+            <div class="col-xs-8">
+               <strong class="lead">{{mojiosTotal}}</strong>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-md-3">
+      <!-- START widget-->
+      <div class="panel widget">
+         <div class="row row-table">
+            <div class="col-xs-12 text-center">Total Number of Cars</div>
+         </div>
+         <div class="row row-table">
+            <div class="col-xs-4">
+               <em class="fa fa-car fa-2x"></em>
+            </div>
+            <div class="col-xs-8">
+               <strong class="lead">{{carsTotal}}</strong>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-md-3">
+      <!-- START widget-->
+      <div class="panel widget">
+         <div class="row row-table">
+            <div class="col-xs-12 text-center">Total Number of Users</div>
+         </div>
+         <div class="row row-table">
+            <div class="col-xs-4">
+               <em class="fa fa-users fa-2x"></em>
+            </div>
+            <div class="col-xs-8">
+               <strong class="lead">{{usersTotal}}</strong>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-md-3">
+      <!-- START widget-->
+      <div class="panel widget">
+         <div class="row row-table">
+            <div class="col-xs-12 text-center">Total Number of Trips</div>
+         </div>
+         <div class="row row-table">
+            <div class="col-xs-4">
+               <em class="fa fa-openid fa-2x"></em>
+            </div>
+            <div class="col-xs-8">
+               <strong class="lead">{{tripsTotal}}</strong>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-md-3">
+      <!-- START widget-->
+      <div class="panel widget">
+         <div class="row row-table">
+            <div class="col-xs-12 text-center">Number of Driving Cars</div>
+         </div>
+         <div class="row row-table">
+            <div class="col-xs-4">
+               <em class="fa fa-car fa-2x"></em>
+            </div>
+            <div class="col-xs-8">
+               <strong class="lead">{{carsDriving}}</strong>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-md-3">
+      <!-- START widget-->
+      <div class="panel widget">
+         <div class="row row-table">
+            <div class="col-xs-12 text-center">Number of Connected Cars</div>
+         </div>
+         <div class="row row-table">
+            <div class="col-xs-4">
+               <em class="fa fa-car fa-2x"></em>
+            </div>
+            <div class="col-xs-8">
+               <strong class="lead">{{carsConnected}}</strong>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- END widgets box-->

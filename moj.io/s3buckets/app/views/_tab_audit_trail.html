@@ -1,0 +1,142 @@
+<!--Created by pooyaparidel on 15-03-17.
+-->
+<div class="container-fluid">
+   <!-- START row-->
+   <div class="row">
+      <div class="col-lg-6">
+         <!-- START panel-->
+         <div class="panel panel-default">
+            <div class="panel-heading">Update State</div>
+            <div class="panel-wrapper">
+               <div ng-if="auditTrailShowUpdatePanel" class="panel-body">
+                  <div class="row">
+                     <div class="col-lg-6">Update Type</div>
+                     <div class="col-lg-6">Update State</div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-6">2122121</div>
+                     <div class="col-lg-6">3226565</div>
+                  </div>
+                  <div class="row">
+                     <br/>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-6">Firmware Stamp</div>
+                     <div class="col-lg-6">Configuration Stamp</div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-6">2122121</div>
+                     <div class="col-lg-6">3226565</div>
+                  </div>
+                  <div class="row">
+                     <br/>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-6">Modify Update</div>
+                     <div class="col-lg-6">
+                        <select ng-model="UpdateState.UpdateMod" class="form-control">
+                           <option value="abort">Abort</option>
+                           <option value="resume">Resume</option>
+                        </select>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <button ng-click="auditTrailModifyUpdate()" class="btn btn-default">Modify Update</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-6">
+         <!-- START panel-->
+         <div class="panel panel-default">
+            <div class="panel-heading">Deploy Update</div>
+            <div collapse="panelStream" class="panel-wrapper">
+               <div class="panel-body">
+                  <accordion>
+                     <accordion-group heading="Safety Switch" is-open="false">
+                        <div class="row">
+                           <div class="col-lg-6">Type</div>
+                           <div class="col-lg-6">
+                              <select ng-model="DeployUpdate.Type" class="form-control">
+                                 <option value="cfg">Configuration</option>
+                                 <option value="fw">Firmware</option>
+                              </select>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <br/>
+                        </div>
+                        <div class="row">
+                           <div class="col-lg-6">Update</div>
+                           <div class="col-lg-6">
+                              <select ng-model="DeployUpdate.Update1" ng-if="DeployUpdate.Type=='cfg'" class="form-control">
+                                 <option ng-repeat="op in compatibleCfg" value="op._id">{{op.ProfileName}}</option>
+                              </select>
+                              <select ng-model="DeployUpdate.Update2" ng-if="DeployUpdate.Type=='fw'" class="form-control">
+                                 <option ng-repeat="fw in compatibleCfg" value="fw._id">{{fw.Name}}</option>
+                              </select>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-lg-12">
+                              <input type="checkbox" ng-model="DeployUpdate.Launch" id="launch-chkbox" />
+                              <label for="launch-chkbox">Launch after Deploy</label>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-lg-12">Name
+                              <br/>
+                              <input ng-model="DeployUpdate.Name" class="col-lg-12" />
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-lg-12">Description
+                              <br/>
+                              <textarea ng-model="DeployUpdate.Description" class="col-lg-12"></textarea>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <br/>
+                        </div>
+                        <div class="row">
+                           <div class="col-lg-12">
+                              <button ng-click="auditTrailSubmitUpdate()" class="btn btn-default">Submit Update</button>
+                           </div>
+                        </div>
+                     </accordion-group>
+                  </accordion>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-md-12">
+         <table class="table table-hover table-bordered table-striped table-condensed">
+            <thead>
+               <tr>
+                  <th class="fieldHeader">Update Type</th>
+                  <th class="fieldHeader">Firmware Stamp</th>
+                  <th class="fieldHeader">Configuration Stamp</th>
+                  <th class="fieldHeader">State</th>
+                  <th class="fieldHeader">Date Deployed</th>
+                  <th class="fieldHeader">Last Updated</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr ng-repeat="row in UpdateHistory">
+                  <td>{{row.UpdateType}}</td>
+                  <td>{{row.FirmwareStamp}}</td>
+                  <td>{{row.ConfigurationStamp}}</td>
+                  <td>{{row.UpdateState}}</td>
+                  <td>{{row.LaunchTime | date:'yy-MM-dd HH:mm:ss'}}</td>
+                  <td>{{row.LastUpdateTime | date:'yy-MM-dd HH:mm:ss'}}</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </div>
+</div>

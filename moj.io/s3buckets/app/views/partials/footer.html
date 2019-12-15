@@ -1,0 +1,1 @@
+<span>&copy; {{app.year}} - {{ app.name }}</span>

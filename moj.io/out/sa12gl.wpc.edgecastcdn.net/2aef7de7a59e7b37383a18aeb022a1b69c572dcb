@@ -1,0 +1,23 @@
+http://sa12gl.wpc.edgecastcdn.net/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: sa12gl.wpc.edgecastcdn.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: ECAcc (lpl/EF4E)
+< Content-Length: 345
+< Content-Type: text/html
+< Date: Sun, 15 Dec 2019 14:29:16 GMT
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>404 - Not Found</title>
+	</head>
+	<body>
+		<h1>404 - Not Found</h1>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+https://mina-us.moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: mina-us.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: __cfduid=d4402ae851ffeb2063906855644030c981576420186; expires=Tue, 14-Jan-20 14:29:46 GMT; path=/; domain=.moj.io; HttpOnly
+< X-Powered-By: Express
+< Content-Security-Policy: default-src 'self'
+< Vary: Accept-Encoding
+< Cf-Cache-Status: DYNAMIC
+< Date: Sun, 15 Dec 2019 14:29:46 GMT
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Cf-Ray: 54591c92ab97e5a7-MAN
+< Access-Control-Allow-Origin: *
+< Server: cloudflare
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /package.json</pre>
+</body>
+</html>

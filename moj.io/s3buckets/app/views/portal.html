@@ -1,0 +1,111 @@
+<span ng-controller="portalController">
+   <span style="position:fixed;top:15px;right:70px;margin:5px;z-index:1001">
+      <span style="background-color:#ffffff;border-radius:5px;padding:2px">
+         <span ng-if="selData[0].Type==''">None</span>
+         <span ng-if="selData[0].Type!=''">
+            <a href="" ng-click="deselect()">
+               <li class="fa fa-times"></li>
+            </a>{{selData[0] | mojioTitle}}</span>
+         <div style="cursor:pointer" dropdown="dropdown" ng-if="selData.length&gt;1" class="btn-group">
+            <span type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="dropdown-toggle">
+               <li class="fa fa-caret-square-o-down faa-tada animated-hover"></li>
+            </span>
+            <ul role="menu" class="dropdown-menu pull-right">
+               <div ng-repeat="(p,d) in selData" ng-if="p!=0">
+                  <a href="" ng-click="broadcast(d)">
+                     <li class="fa fa-check-square-o"></li>&nbsp; {{d | mojioTitle}}</a>
+               </div>
+            </ul>
+         </div>
+      </span>&nbsp;&nbsp;&nbsp;
+      <span style="background-color:#ffffff;border-radius:5px;padding:2px">
+         <a href="" ng-click="showAddPortletWindow()" class="faa-tada animated-hover">
+            <li class="fa fa-plus"></li>
+         </a>
+         <a href="" ng-click="savePortalState()" class="faa-tada animated-hover">
+            <li class="fa fa-floppy-o"></li>
+         </a>
+      </span>&nbsp;&nbsp;&nbsp;</span>
+   <!-- START widgets box-->
+   <div class="row">
+      <div ng-repeat="(k,v) in portal" class="portlet {{portletCol(v.Col)}} panelNo{{k}}">
+         <!-- START panel-->
+         <div class="panel {{v.Style}}">
+            <div class="pull-right toolbar">
+               <span ng-click="fullScreen($event)">
+                  <li class="fa fa-desktop"></li>
+               </span>
+               <span ng-click="editPortlet(k)">
+                  <li class="fa faa-tada animated-hover {{ v.Edit ? 'fa-check' : 'fa-pencil' }}"></li>
+               </span>
+               <span message="Are you sure ?" are-you-sure="removePortlet(k)">
+                  <li class="fa fa-close"></li>
+               </span>
+            </div>
+            <div ng-if="v.Title" class="panel-heading">
+               <li class="fa fa-1x {{v.Icon}}"></li>&nbsp;{{v.Title}}</div>
+            <div collapse="panelNo{{k}}" class="panel-wrapper">
+               <div style="overflow-y:auto;margin:0px;padding:0px;border:0px;{{portletRow(v.Row)}}" ng-if="!v.Edit" dynamic="{{portletDirective(v.Portlet,k)}}" class="panel-body"></div>
+               <div style="overflow-y:auto;{{portletRow(v.Row)}}" ng-if="v.Edit" class="panel-body">
+                  <div class="form-group">
+                     <div class="input-group">
+                        <span class="input-group-addon">Title</span>
+                        <input type="text" placeholder="Title" ng-model="v.Title" class="form-control" />
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <div class="input-group">
+                        <span class="input-group-addon">Footer</span>
+                        <input type="text" placeholder="Footer" ng-model="v.Footer" class="form-control" />
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <div class="input-group">
+                        <span class="input-group-addon">Style</span>
+                        <select ng-model="v.Style" ng-options="st.Style as st.Title for st in styles" class="form-control"></select>
+                     </div>
+                  </div>
+                  <div ng-if="v.Resizable.col" class="form-group">
+                     <div class="input-group">
+                        <span class="input-group-addon">Width</span>
+                        <span class="form-control">
+                           <button ng-disabled="v.Col&lt;=v.Resizable.minCol" ng-click="resizeDecCol(k,v.Resizable.minCol)" class="mb-sm btn btn-labeled btn-info"><i class="fa fa-fast-backward"></i>
+                           </button>
+                           <button ng-disabled="v.Col&lt;=v.Resizable.minCol" ng-click="resizeDecCol(k)" class="mb-sm btn btn-labeled btn-info"><i class="fa fa-step-backward"></i>
+                           </button>
+                           <button ng-disabled="v.Col&gt;=v.Resizable.maxCol" ng-click="resizeIncCol(k)" class="mb-sm btn btn-labeled btn-info"><i class="fa fa-step-forward"></i>
+                           </button>
+                           <button ng-disabled="v.Col&gt;=v.Resizable.maxCol" ng-click="resizeIncCol(k,v.Resizable.maxCol)" class="mb-sm btn btn-labeled btn-info"><i class="fa fa-fast-forward"></i>
+                           </button>
+                        </span>
+                     </div>
+                  </div>
+                  <div ng-if="v.Resizable.row" class="form-group">
+                     <div class="input-group">
+                        <span class="input-group-addon">Height</span>
+                        <span class="form-control">
+                           <button ng-disabled="v.Row&lt;=v.Resizable.minRow" ng-click="resizeDecRow(k,v.Resizable.minRow)" class="mb-sm btn btn-labeled btn-info"><i class="fa fa-fast-backward fa-rotate-90"></i>
+                           </button>
+                           <button ng-disabled="v.Row&lt;=v.Resizable.minRow" ng-click="resizeDecRow(k)" class="mb-sm btn btn-labeled btn-info"><i class="fa fa-step-backward fa-rotate-90"></i>
+                           </button>
+                           <button ng-disabled="v.Row&gt;=v.Resizable.maxRow" ng-click="resizeIncRow(k)" class="mb-sm btn btn-labeled btn-info"><i class="fa fa-step-forward fa-rotate-90"></i>
+                           </button>
+                           <button ng-disabled="v.Row&gt;=v.Resizable.maxRow" ng-click="resizeIncRow(k,v.Resizable.maxRow)" class="mb-sm btn btn-labeled btn-info"><i class="fa fa-fast-forward fa-rotate-90"></i>
+                           </button>
+                        </span>
+                     </div>
+                  </div>
+                  <div ng-repeat="(dkey,dval) in v.Data" class="form-group">
+                     <div class="input-group">
+                        <div>{{dval.Title}}</div>
+                        <textarea ng-model="dval.Data"></textarea>
+                     </div>
+                  </div>
+               </div>
+               <div ng-if="v.Footer" class="panel-footer">{{v.Footer}}</div>
+            </div>
+         </div>
+         <!-- END panel-->
+      </div>
+   </div>
+</span>

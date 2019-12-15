@@ -1,0 +1,19 @@
+https://dx2-demo-cdn-endpoint.azureedge.net/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: dx2-demo-cdn-endpoint.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: application/xml
+< X-Ms-Request-Id: dd4b8ddc-901e-00a1-2553-b3cefc000000
+< Content-Length: 215
+< Access-Control-Allow-Origin: *
+< Date: Sun, 15 Dec 2019 14:25:36 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Version: 2009-09-19
+< Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:dd4b8ddc-901e-00a1-2553-b3cefc000000
+Time:2019-12-15T14:25:36.7656963Z</Message></Error>

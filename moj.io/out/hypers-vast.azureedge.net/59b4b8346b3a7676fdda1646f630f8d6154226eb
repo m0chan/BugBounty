@@ -1,0 +1,15 @@
+http://hypers-vast.azureedge.net/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: hypers-vast.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Amz-Request-Id: tx0000000000000021e4e94-005df64359-34fcc4-default
+< Content-Length: 226
+< Accept-Ranges: bytes
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:02 GMT
+< Server: ECAcc (lpl/EF51)
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><BucketName>security.txt</BucketName><RequestId>tx0000000000000021e4e94-005df64359-34fcc4-default</RequestId><HostId>34fcc4-default-default</HostId></Error>

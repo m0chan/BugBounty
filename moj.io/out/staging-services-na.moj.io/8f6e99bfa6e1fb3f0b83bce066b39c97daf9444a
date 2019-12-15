@@ -1,0 +1,13 @@
+https://staging-services-na.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: staging-services-na.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=f663cead981b3ece9a70a3ed82d02ed416045db020bb9305ee30a0eba13f2b21;Path=/;HttpOnly;Domain=staging-services-na.moj.io
+< Date: Sun, 15 Dec 2019 14:30:16 GMT
+< Content-Length: 0
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+

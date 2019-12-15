@@ -1,0 +1,14 @@
+http://staging-accounts.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: staging-accounts.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Security-Policy: default-src 'self' mojiodevassets-frontend.azureedge.net; font-src 'self' https://fonts.gstatic.com mojiodevassets-frontend.azureedge.net data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com mojiodevassets-frontend.azureedge.net 'unsafe-inline'; script-src 'self' 'unsafe-inline' mojiodevassets-frontend.azureedge.net; img-src 'self' mojiodevassets-frontend.azureedge.net
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=b5a0d74d40b23827777b478c36b12f43d24ea193cebd5882ef727410a741132b;Path=/;HttpOnly;Domain=staging-accounts.moj.io
+< Date: Sun, 15 Dec 2019 14:29:11 GMT
+< Content-Length: 0
+< Server: Kestrel
+

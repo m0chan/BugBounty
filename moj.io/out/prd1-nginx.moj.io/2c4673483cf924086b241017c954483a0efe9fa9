@@ -1,0 +1,15 @@
+http://prd1-nginx.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: prd1-nginx.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:28:33 GMT
+< Content-Length: 0
+< Server: nginx/1.15.6
+< Request-Context: appId=cid-v1:9a078a5a-f690-4446-8daa-949a94461788
+< Nginx-Version: 4.11.0.17
+< X-Mojio-Route: sfapi
+< Set-Cookie: ARRAffinity=341b768fc49455e18091f5063d13391e034e3b8570558d994fba7687534feb33;Path=/;HttpOnly;Domain=prd1-nginx.moj.io
+

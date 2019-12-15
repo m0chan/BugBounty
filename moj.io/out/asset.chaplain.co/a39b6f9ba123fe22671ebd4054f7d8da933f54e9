@@ -1,0 +1,26 @@
+https://asset.chaplain.co/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: asset.chaplain.co
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Referrer-Policy: strict-origin-when-cross-origin
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Frame-Options: SAMEORIGIN
+< Access-Control-Expose-Headers: x-ms-request-id,Server,Content-Length,Date,Transfer-Encoding
+< Content-Security-Policy: default-src 'self' chaplain.co *.chaplain.co asset.chaplain.co access.chaplain.co; form-action 'none'; base-uri 'self'; frame-ancestors https://*.chaplain.co https://chaplain.co; upgrade-insecure-requests; block-all-mixed-content; referrer origin-when-cross-origin; report-uri https://chplnco.report-uri.com/r/d/csp/enforce;
+< X-App-Id: CCoAssetCDN
+< X-Content-Type-Options: nosniff
+< Access-Control-Allow-Origin: *
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< X-Powered-By: Sharks with frickin' laser beams attached to their heads
+< X-Xss-Protection: 1; mode=block
+< Content-Type: application/xml
+< X-Ms-Request-Id: 407c7a7f-d01e-00b7-2e54-b3523e000000
+< Date: Sun, 15 Dec 2019 14:29:20 GMT
+< Content-Length: 223
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:407c7a7f-d01e-00b7-2e54-b3523e000000
+Time:2019-12-15T14:29:21.2599635Z</Message></Error>

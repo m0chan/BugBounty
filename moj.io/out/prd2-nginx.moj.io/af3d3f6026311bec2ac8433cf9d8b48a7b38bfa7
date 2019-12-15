@@ -1,0 +1,15 @@
+http://prd2-nginx.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: prd2-nginx.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Server: nginx/1.15.6
+< Request-Context: appId=cid-v1:323bf6ad-b32c-4066-93c6-a9c90ff25f5f
+< Nginx-Version: 4.11.0.17
+< X-Mojio-Route: sfapi
+< Set-Cookie: ARRAffinity=5869ab2b19db54ab1fc3138b40cd744a8060aae3ae1797c06555ae8e3eaaec5d;Path=/;HttpOnly;Domain=prd2-nginx.moj.io
+< Date: Sun, 15 Dec 2019 14:30:06 GMT
+

@@ -1,0 +1,128 @@
+<span ng-controller="firmwareDetailController">
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseOne">Firmware Detail</a>
+         </h4>
+      </div>
+      <div class="panel-collapse collapse in">
+         <div class="panel-body">
+            <div class="form-group col-lg-3">
+               <label>Firmware Name</label>
+               <br/>{{firmwareRow.Name}}</div>
+            <div class="form-group col-lg-3">
+               <label>Device Type</label>
+               <br/>{{firmwareRow.DeviceType}}</div>
+            <div class="form-group col-lg-3">
+               <label>Default Configuration</label>
+               <br/>{{config.ProfileName}}</div>
+            <div class="form-group col-lg-3">
+               <label>Date Modified</label>
+               <br/>{{firmwareRow.DateModified | date:'yy-MM-dd HH:mm'}}</div>
+            <div class="form-group col-lg-3">
+               <label>OBD Firmware</label>
+               <br/>{{firmwareRow.ObdFirmware}}</div>
+            <div class="form-group col-lg-6">
+               <label>Description</label>
+               <br/>{{firmwareRow.Description}}</div>
+         </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-lg-6">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseOne">Deploy</a>
+               </h4>
+            </div>
+            <div class="panel-collapse collapse in">
+               <div class="panel-body">
+                  <div class="row">
+                     <div class="col-lg-12">Name
+                        <br/>
+                        <input ng-model="Deploy.Name" />
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12">Description
+                        <br/>
+                        <textarea ng-model="Deploy.Description" class="col-lg-12"></textarea>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <br/>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <input type="checkbox" ng-model="Deploy.AllDevice" id="all-device" />
+                        <label for="all-device">Deploy onto all devices</label>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12">Device (IMEI) deploy list
+                        <br/>
+                        <textarea ng-model="Deploy.DeviceList" class="col-lg-12"></textarea>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <br/>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <button ng-click="deploy()" class="btn btn-default">Deploy</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-6">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseOne">Modify</a>
+               </h4>
+            </div>
+            <div class="panel-collapse collapse in">
+               <div class="panel-body">
+                  <div class="row">
+                     <div class="col-lg-12">Default Configuration
+                        <br/>
+                        <select ng-model="Modify.Configuration" class="form-control">
+                           <option ng-repeat="cf in Configuration" value="cf._id">{{op.ProfileName}}</option>
+                        </select>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <br/>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <input type="checkbox" ng-model="Modify.SpecifyOBD" id="Specify-OBD" />
+                        <label for="Specify-OBD">Specify OBD Firmware (Leave blank if none)</label>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12">OBD Firmware
+                        <br/>
+                        <input ng-model="Modify.OBDFirmware" />
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12">Description
+                        <br/>
+                        <textarea ng-model="Modify.Description" class="col-lg-12"></textarea>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <br/>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <button ng-click="modify()" class="btn btn-default">Modify</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</span>

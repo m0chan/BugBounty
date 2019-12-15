@@ -1,0 +1,14 @@
+https://rogers-identity.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: rogers-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Server: Kestrel
+< Content-Security-Policy: default-src 'self' static-prd2.moj.io; font-src 'self' https://fonts.gstatic.com static-prd2.moj.io data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com static-prd2.moj.io 'unsafe-inline'; script-src 'self' 'unsafe-inline' static-prd2.moj.io; img-src 'self' static-prd2.moj.io
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=2557292b43642c73e28721435af7d42026011d9bd39e16c67e7c63b7c027ea23;Path=/;HttpOnly;Domain=rogers-identity.moj.io
+< Date: Sun, 15 Dec 2019 14:23:51 GMT
+

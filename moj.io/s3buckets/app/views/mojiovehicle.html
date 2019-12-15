@@ -1,0 +1,58 @@
+<!--Created by pooyaparidel on 15-03-27.-->
+<h3>{{ "mymojio_account.title" | translate }}</h3>
+<div class="row">
+   <div class="col-md-12 card">
+      <div class="row">
+         <div class="col-md-12 bb text-center text-space-3 bg-info-light p-lg">{{ "mymojio_account.MyVehicles" | translate }}</div>
+      </div>
+      <span>
+         <div class="panel-body">
+            <table class="table table-striped">
+               <thead ng-show="selectedRow==null" class="bb">
+                  <tr>
+                     <th></th>
+                     <th>{{ "mymojio_account.Status" | translate }}</th>
+                     <th>{{ "mymojio_account.Name" | translate }}</th>
+                     <th>{{ "common.LicensePlate" | translate }}</th>
+                     <th class="visible-md visible-lg">Last Contact</th>
+                     <th>
+                        <li class="fa fa-cube"></li>
+                     </th>
+                     <th>{{ "mymojio_account.Delete" | translate }}</th>
+                  </tr>
+               </thead>
+               <tbody ng-show="selectedRow==null &amp;&amp; !isLoading">
+                  <tr ng-repeat="(pos,row) in result" ng-dblclick="PrintInConsole(row)">
+                     <td><i ng-class="{'fa-square-o':!row.selected,'fa-check-square-o':row.selected}" ng-click="selectVehicle(row)" class="fa"></i>
+                     </td>
+                     <td>{{CarStatus(row)}}</td>
+                     <td><a href="" editable-text="row.Name" onaftersave="updateVehicle(row)">{{ row.Name || ('mymojio_account.NoName' | translate) }}</a>
+                     </td>
+                     <td><a href="" editable-text="row.LicensePlate" onaftersave="updateVehicle(row)">{{ row.LicensePlate || ('mymojio_account.NoLicensePlate' | translate) }}</a>
+                     </td>
+                     <td class="visible-md visible-lg">{{row.LastContactTime | date:'yy-MM-dd &nbsp; HH:mm:ss'}}</td>
+                     <td>
+                        <span ng-show="row.Mojio!=null"><a href="" editable-text="row.Mojio.Name" onaftersave="updateMojio(row.Mojio)">{{ row.Mojio.Name || ('mymojio_account.NoName' | translate) }}</a>
+                        </span>
+                     </td>
+                     <td>
+                        <a href="" are-you-sure="deleteRow(row)">
+                           <li class="fa fa-trash-o"></li>
+                        </a>
+                     </td>
+                  </tr>
+               </tbody>
+               <tfoot>
+                  <tr>
+                     <th colspan="6">
+                        <button ng-disabled="SelectedVehicle!=2" ng-click="MergeVehicles(result)" class="mb-sm btn btn-labeled btn-danger btn-xs">
+                           <span class="btn-label"><i class="fa fa-compress"></i>
+                           </span>&nbsp; Merge</button>
+                     </th>
+                  </tr>
+               </tfoot>
+            </table>
+         </div>
+      </span>
+   </div>
+</div>

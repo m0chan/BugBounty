@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-controller="myCtrl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>OBD Locator</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.1.3/ui-bootstrap-tpls.min.js"></script>
+    <script src="bower_components/angular-translate/angular-translate.min.js"></script>
+    <script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+
+    <script src="script/common.js?v=20161120-01"></script>
+    <script src="script/vehicle-compatibility-eu.js?v=20161120-01"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6269334/6300352/css/fonts.css" />
+
+    <link ng-if="brand=='mojio'" href="style/mojio/style.css?v=20161120-01" rel="stylesheet">
+    <link ng-if="brand=='tmobile'" href="style/tmobile/style.css?v=20161120-01" rel="stylesheet">
+    <link ng-if="brand=='tmcz'" href="style/tmcz/style.css?v=20161120-01" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body class="bg-charcoal">
+
+    <div class="container-fluid">
+
+        <div class="row bg-blue pt15">
+            <img class="logo" ng-src="style/{{brand}}/logo.png" />
+            <a href="https://moj.io/" class="home-link fs16 fw400 text-white">{{ 'vehicle_compatibility.home' | translate }}</a>
+        </div>
+        <div class="row bg-blue text-center text-white fs35 fw800 ls3 pt25 text-padding">
+            {{ 'vehicle_compatibility.title' | translate }}
+        </div>
+        <div class="row bg-blue text-center text-white fs16 fw400 pt5 text-padding">
+            {{ 'vehicle_compatibility.desc' | translate }}
+        </div>
+
+        <div class="row bg-blue pt25 pb40 text-center" >
+            <img class="obd-port"  ng-src="style/{{brand}}/vehicle.png" />
+        </div>
+
+        <div class="row bg-khaki fs35 fw800 pt25 ls3 text-padding text-center text-dark">
+            {{ 'vehicle_compatibility.select_car' | translate }}
+        </div>
+        <div class="row bg-khaki fs16 fw400 pt16 text-padding text-center text-dark">
+            {{ 'vehicle_compatibility.check_if_compatible' | translate }}
+        </div>
+        <div class="row bg-khaki fs12 fw400 pt16 pb25 text-padding text-center text-dark">
+            {{ 'vehicle_compatibility.check_if_compatible_warning' | translate }}
+        </div>
+
+        <div class="row bg-khaki pt15 text-center">
+            <span>
+                <select class="nice" ng-model="data.Selected.Make" ng-change="MakeChange()">
+                    <option value="">{{ 'vehicle_compatibility.select_make' | translate }}</option>
+                    <option ng-repeat="option in data.Makes | orderBy" value="{{option}}">{{option}}</option>
+                </select>
+            </span>
+
+            <span>
+                <select class="nice" ng-model="data.Selected.Model" ng-change="ModelChange()" ng-disabled="data.Selected.Make==''">
+                    <option value="">{{ 'vehicle_compatibility.select_model' | translate }}</option>
+                    <option ng-repeat="option in data.Models | orderBy" value="{{option}}">{{option}}</option>
+                </select>
+            </span>
+
+            <span>
+                <select class="nice" ng-model="data.Selected.Year" ng-change="YearChange()" ng-disabled="data.Selected.Model==''">
+                    <option value="">{{ 'vehicle_compatibility.select_year' | translate }}</option>
+                    <option ng-repeat="option in data.Years" value="{{option}}">{{option}}</option>
+                </select>
+            </span>
+
+        </div>
+
+        <div class="row bg-khaki fs18 fw800 pt25 pb25 ls3 text-padding text-center text-dark">
+            <div ng-show="data.Compatible.length!=0">
+                <img ng-show="data.IsCompatible==true" ng-src="style/{{brand}}/Check.png" witdh="30px" height="30px"/>
+                <img ng-show="data.IsCompatible==false" ng-src="style/{{brand}}/NotCheck.png" witdh="30px" height="30px"/>
+            </div>
+            {{data.Compatible}}
+        </div>
+
+        <div class="row fs25 fw800 pt25 ls3 text-padding text-center text-white">
+            {{ 'vehicle_compatibility.need_help' | translate }}
+        </div>
+        <div class="row pb25 ls3 pt15 text-padding text-center text-white">
+            <a ng-href="{{obdLocatorUrl}}" class="contact-button fs14" target="_self">{{ 'vehicle_compatibility.click_here' | translate }}</a>
+        </div>
+        <div class="version">{{ 'obd_locator.version' | translate }}</div>      
+    </div>
+</body>
+</html>

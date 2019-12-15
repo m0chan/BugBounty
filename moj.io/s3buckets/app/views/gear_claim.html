@@ -1,0 +1,48 @@
+<div class="text-center bb">
+   <em class="fa fa-info fa-2x"></em>
+   <br/>{{ "gear.claim.Title" | translate }}
+   <br/>
+   <span class="text-gray-light">{{ "common.BYMOJIO" | translate }}</span>
+</div>
+<div class="row">
+   <div class="col-xs-10 col-xs-offset-1">
+      <h3>{{ "gear.claim.Desc1" | translate }}</h3>
+      <div ng-show="Step=='claimform'" class="row">
+         <div class="col-ms-12">
+            <ul>
+               <li>{{ "gear.claim.Desc2" | translate }}</li>
+            </ul>
+         </div>
+         <div class="col-md-7">
+            <div class="input-group">
+               <span class="input-group-btn">
+                  <div class="btn btn-default">{{ "common.ImeiLong" | translate }}</div>
+               </span>
+               <input ng-model="Data.IMEI" class="form-control" />
+            </div>
+         </div>
+         <div class="col-md-2">
+            <button ng-click="claimNewDevice()" class="btn btn-default">
+               <li class="fa fa-cubes"></li>&nbsp; {{ "gear.claim.claimBtn" | translate }}</button>
+         </div>
+      </div>
+      <div ng-show="Step=='device-disconnected'" class="row">
+         <div class="col-ms-12">
+            <ul>
+               <li>{{ "gear.claim.noVehicle" | translate }}
+                  <br/><a href="http://www.moj.io/setup">{{ "gear.claim.setupDetail" | translate }}</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div ng-show="Step=='finished'" class="row">
+         <div class="col-ms-12">
+            <ul>
+               <li>{{ "gear.claim.finalMsg" | translate }}
+                  <br/><a href="http://www.moj.io/setup">{{ "gear.claim.setupDetail" | translate }}</a>
+                  <br/>{{ "gear.claim.refreshMsg" | translate }}</li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</div>

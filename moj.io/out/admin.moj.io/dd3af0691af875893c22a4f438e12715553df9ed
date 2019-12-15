@@ -1,0 +1,288 @@
+https://admin.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: admin.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Cf-Ray: 54591bbc898ae593-MAN
+< X-Amz-Error-Message: Access Denied
+< Server: cloudflare
+< X-Amz-Id-2: OLrUQg3gIM0SwIch+ng2+9585p/mQV61mRpNMXHU5QnEGPAawLaCBjYHfCvoDR+zd0QvjK4Op2k=
+< Cf-Cache-Status: DYNAMIC
+< Date: Sun, 15 Dec 2019 14:29:12 GMT
+< Content-Type: text/html
+< X-Amz-Error-Code: AccessDenied
+< Set-Cookie: __cfduid=d267850f4666f2171d0f0a28f11e53ae71576420151; expires=Tue, 14-Jan-20 14:29:11 GMT; path=/; domain=.moj.io; HttpOnly
+< Last-Modified: Mon, 12 Sep 2016 19:43:27 GMT
+< X-Amz-Request-Id: 8E79D150521664E1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mojio</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Mojio">
+<meta name="author" content="Mojio Inc.">
+<link rel="icon" type="image/png" href="favicon.ico">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+<link href='assets/demo/variations/default.css' rel='stylesheet' type='text/css' media='all' id='styleswitcher'>
+
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="assets/css/668b0601.ie8.css">
+      <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/charts-flot/excanvas.min.js"></script>
+      <script type='text/javascript' src='assets/plugins/misc/placeholdr.js'></script>
+    <![endif]-->
+<!--[if IE 9]>
+      <script type="text/javascript" src="assets/plugins/misc/media.match.min.js"></script>
+    <![endif]-->
+
+<link rel="stylesheet" href="assets/css/68100a4e.vendor.css" />
+<link rel="stylesheet" href="assets/css/db871b96.main.css" />
+</head>
+<body class="" ng-show="$root.showPage" ng-app="themesApp" ng-controller="MainController" ng-class="{
+              'static-header': !style_fixedHeader,
+              'focusedform': style_fullscreen,
+              'layout-horizontal': style_layoutHorizontal,
+              'fixed-layout': style_layoutBoxed,
+              'collapse-leftbar': style_leftbarCollapsed && !style_leftbarShown,
+              'show-rightbar': style_rightbarCollapsed,
+              'show-leftbar': style_leftbarShown
+            }" ng-click="hideSearchBar();hideHeaderBar();" ng-cloak>
+<div id="headerbar" ng-class="{topNegative1000: style_headerBarHidden, topZero: !style_headerBarHidden}">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-6 col-sm-2">
+<a href="#" class="shortcut-tiles tiles-brown">
+<div class="tiles-body">
+<div class="pull-left"><i class="fa fa-pencil"></i></div>
+</div>
+<div class="tiles-footer">
+Create Post
+</div>
+</a>
+</div>
+<div class="col-xs-6 col-sm-2">
+<a href="#" class="shortcut-tiles tiles-grape">
+<div class="tiles-body">
+<div class="pull-left"><i class="fa fa-group"></i></div>
+<div class="pull-right"><span class="badge">2</span></div>
+</div>
+<div class="tiles-footer">
+Contacts
+</div>
+</a>
+</div>
+<div class="col-xs-6 col-sm-2">
+<a href="#" class="shortcut-tiles tiles-primary">
+<div class="tiles-body">
+<div class="pull-left"><i class="fa fa-envelope-o"></i></div>
+<div class="pull-right"><span class="badge">10</span></div>
+</div>
+<div class="tiles-footer">
+Messages
+</div>
+</a>
+</div>
+<div class="col-xs-6 col-sm-2">
+<a href="#" class="shortcut-tiles tiles-inverse">
+<div class="tiles-body">
+<div class="pull-left"><i class="fa fa-camera"></i></div>
+<div class="pull-right"><span class="badge">3</span></div>
+</div>
+<div class="tiles-footer">
+Gallery
+</div>
+</a>
+</div>
+<div class="col-xs-6 col-sm-2">
+<a href="#" class="shortcut-tiles tiles-midnightblue">
+<div class="tiles-body">
+<div class="pull-left"><i class="fa fa-cog"></i></div>
+</div>
+<div class="tiles-footer">
+Settings
+</div>
+</a>
+</div>
+<div class="col-xs-6 col-sm-2">
+<a href="#" class="shortcut-tiles tiles-orange">
+<div class="tiles-body">
+<div class="pull-left"><i class="fa fa-wrench"></i></div>
+</div>
+<div class="tiles-footer">
+Plugins
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<header class="navbar navbar-inverse" ng-class="{'navbar-fixed-top': style_fixedHeader, 'navbar-static-top': !style_fixedHeader}" role="banner">
+<a id="leftmenu-trigger" tooltip-placement="right" tooltip="Toggle Sidebar" ng-click="toggleLeftBar()"></a>
+
+<div class="navbar-header pull-left">
+<a class="navbar-brand" href="#/">Mojio</a>
+</div>
+<ul class="nav navbar-nav pull-right toolbar">
+<li class="dropdown" ng-show="!isLoggedIn">
+<a href="#/extras-login2" style="font-size: 14px"><i class="fa fa-sign-in"></i> Log in</a>
+</li>
+<li class="dropdown" ng-show="isLoggedIn">
+<a href="#" class="dropdown-toggle username"><span class="hidden-xs">{{$root.User.Emails[0].Address}}</span><img src="assets/demo/avatar/user.png" alt="Dangerfield" /></a>
+<ul class="dropdown-menu userinfo arrow">
+<li class="userlinks">
+<ul class="dropdown-menu">
+<li><a href="#">Edit Profile <i class="pull-right fa fa-fw fa-pencil"></i></a></li>
+<li class="divider"></li>
+<li><a href="" class="text-right" ng-click="logOut()">Sign Out</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+
+
+</ul>
+</header>
+<nav class="navbar navbar-default ng-hide" role="navigation" ng-show="style_layoutHorizontal">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+<i class="fa fa-reorder"></i>
+</button>
+</div>
+<div class="collapse navbar-collapse navbar-ex1-collapse" ng-class="{'large-icons-nav': style_layoutHorizontalLargeIcons}" id="horizontal-navbar">
+<ul ng-controller="NavigationController" id="top-nav" class="nav navbar-nav">
+<li ng-repeat="item in menu" ng-if="!item.hideOnHorizontal" ng-class="{ hasChild: (item.children!==undefined),
+                                    active: item.selected,
+                                      open: (item.children!==undefined) && item.open }" ng-include="'templates/nav_renderer_horizontal.html'"></li>
+</ul>
+</div>
+</nav>
+<div id="page-container" class="clearfix">
+
+<nav id="page-leftbar" role="navigation">
+<div>
+<ul ng-controller="NavigationController" id="sidebar" sticky-scroll="40">
+<li id="search" ng-class="{'keep-open':style_showSearchCollapsed}">
+<a href="" ng-class="{blockImportant:style_leftbarCollapsed && !style_showSearchCollapsed}" ng-click="showSearchBar($event)"><i class="fa fa-search opacity-control"></i></a>
+<form ng-show="!style_leftbarCollapsed || style_showSearchCollapsed" ng-style="{display: style_showSearchCollapsed? 'block':''}" ng-click="$event.stopPropagation()" ng-submit="goToSearch(searchQuery)">
+<input type="text" ng-model="searchQuery" class="search-query" placeholder="Search..." ng-style="{width: style_showSearchCollapsed? 'auto':''}">
+<button type="submit" ng-click="goToSearch(searchQuery)"><i class="fa fa-search"></i></button>
+</form>
+</li>
+<li ng-repeat="item in menu" ng-class="{ hasChild: (item.children!==undefined),
+                                    active: item.selected,
+                                      open: (item.children!==undefined) && item.open }" ng-include="'templates/nav_renderer.html'"></li>
+</ul>
+</div>
+
+</nav>
+
+<div id="page-rightbar" sticky-scroll="40" rightbar-right-position="style_layoutBoxed" style="">
+<div jscrollpane="{autoReinitialise:true, autoReinitialiseDelay: 100}" style="height: 100%;padding-bottom:40px">
+<accordion close-others="rightbarAccordionsShowOne">
+<accordion-group is-open="rightbarAccordions[0].open" ng-class="{open:rightbarAccordions[0].open}">
+<accordion-heading>Account Summary</accordion-heading>
+<div class="widget-block mt0" style="background: #7dcc93;">
+<div class="pull-left">
+<small>Current Balance</small>
+<h5>$71,182</h5>
+</div>
+<div class="pull-right"><div id="currentbalance">
+<span sparklines="{
+                              type: 'bar',
+                              barColor: '#67a879',
+                              height: '41',
+                              barWidth: 5.5}" data-data="[12700,8573,10145,21077,15380,14399,19158,23911,15401,16793,13115,12315]"></span>
+</div></div>
+</div>
+<div class="widget-block mt10 mb0" style="background: #4f5259;">
+<div class="pull-left">
+<small>Total Sales</small>
+<h5>$185,603</h5>
+</div>
+<div class="pull-right"><div id="totalsales">
+<span sparklines="{
+                              type: 'bar',
+                              barColor: '#787d87',
+                              height: '41',
+                              barWidth: 5.5}" data-data="[27543,58573,43145,75077,37281,24389,69158,73911,45451,11393,48815,15626]"></span>
+</div></div>
+</div>
+</accordion-group>
+<accordion-group is-open="rightbarAccordions[1].open" ng-class="{open:rightbarAccordions[1].open}">
+<accordion-heading>
+Pending Tasks <small>(5)</small>
+</accordion-heading>
+<progressbar contextual="true" value="25" heading="Backend Development" type="info"></progressbar>
+<progressbar contextual="true" value="77" heading="Bug Fix" type="primary"></progressbar>
+<progressbar contextual="true" value="70" heading="Javascript Code" type="success"></progressbar>
+<progressbar contextual="true" value="55" heading="Preparing Documentation" type="danger"></progressbar>
+<progressbar contextual="true" value="25" heading="Mobile App" type="orange"></progressbar>
+<span class="more"><a href="#/ui-progressbars">View all Pending</a></span>
+</accordion-group>
+<accordion-group is-open="rightbarAccordions[2].open" ng-class="{open:rightbarAccordions[2].open}" id="chatbar">
+<accordion-heading>
+Online Contacts
+</accordion-heading>
+<ul class="chat-users">
+<li data-stats="online"><a href="#/extras-chatroom"><img src="assets/demo/avatar/potter.png" alt=""><span>Jeremy Potter</span></a></li>
+<li data-stats="online"><a href="#/extras-chatroom"><img src="assets/demo/avatar/tennant.png" alt=""><span>David Tennant</span></a></li>
+<li data-stats="online"><a href="#/extras-chatroom"><img src="assets/demo/avatar/johansson.png" alt=""><span>Anna Johansson</span></a></li>
+<li data-stats="busy"><a href="#/extras-chatroom"><img src="assets/demo/avatar/jackson.png" alt=""><span>Eric Jackson</span></a></li>
+<li data-stats="away"><a href="#/extras-chatroom"><img src="assets/demo/avatar/jobs.png" alt=""><span>Howard Jobs</span></a></li>
+<li data-stats="online"><a href="#/extras-chatroom"><img src="assets/demo/avatar/potter.png" alt=""><span>Jeremy Potter</span></a></li>
+<li data-stats="online"><a href="#/extras-chatroom"><img src="assets/demo/avatar/tennant.png" alt=""><span>David Tennant</span></a></li>
+<li data-stats="online"><a href="#/extras-chatroom"><img src="assets/demo/avatar/johansson.png" alt=""><span>Anna Johansson</span></a></li>
+<li data-stats="busy"><a href="#/extras-chatroom"><img src="assets/demo/avatar/jackson.png" alt=""><span>Eric Jackson</span></a></li>
+<li data-stats="away"><a href="#/extras-chatroom"><img src="assets/demo/avatar/jobs.png" alt=""><span>Howard Jobs</span></a></li>
+</ul>
+<span class="more"><a href="#/extras-chatroom">See all</a></span>
+</accordion-group>
+<accordion-group is-open="rightbarAccordions[3].open" ng-class="{open:rightbarAccordions[3].open}">
+<accordion-heading>
+Storage Space
+</accordion-heading>
+<div class="clearfix" style="margin-bottom: 5px;margin-top:10px;">
+<div class="progress-title pull-left">1.31 GB of 1.50 GB used</div>
+<div class="progress-percentage pull-right">87.3%</div>
+</div>
+<div class="progress">
+<div class="progress-bar progress-bar-success" style="width: 50%"></div>
+<div class="progress-bar progress-bar-warning" style="width: 25%"></div>
+<div class="progress-bar progress-bar-danger" style="width: 12.3%"></div>
+</div>
+</accordion-group>
+</accordion>
+</div>
+</div>
+
+<div id="page-content" class="clearfix" fit-height>
+<div id="wrap" ng-view="" class="mainview-animation">
+</div> 
+</div> 
+<footer role="contentinfo">
+<div class="clearfix">
+<ul class="list-unstyled list-inline pull-left">
+<li>Mojio Inc. &copy; 2016</li>
+</ul>
+<button class="pull-right btn btn-default btn-xs hidden-print" back-to-top style="padding: 1px 10px;"><i class="fa fa-angle-up"></i></button>
+</div>
+</footer>
+</div> 
+<!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+<script type='text/javascript' src='//maps.google.com/maps/api/js?sensor=true'></script>
+<script src="scripts/fb7c2174.vendor.js"></script>
+<script src="scripts/1009c806.scripts.js"></script>
+</body>
+</html>

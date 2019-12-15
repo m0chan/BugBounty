@@ -1,0 +1,18 @@
+https://segment-proxy.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: segment-proxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=31e12a3103bbd3eb5cd97db64687f7cb32440ad762964642597c287687039ffa;Path=/;HttpOnly;Domain=segment-proxy.moj.io
+< Content-Length: 24
+< Server: Microsoft-IIS/10.0
+< Request-Context: appId=cid-v1:d2da7254-80af-4f23-a3d0-8b25a889d971,roleName=Web
+< Access-Control-Allow-Origin: *
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< X-Powered-By: ASP.NET
+< Date: Sun, 15 Dec 2019 14:23:55 GMT
+
+Cannot GET /phpinfo.php

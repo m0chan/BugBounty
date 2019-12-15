@@ -1,0 +1,15 @@
+http://hypers-vast.azureedge.net/api
+
+> GET /api HTTP/1.1
+> Host: hypers-vast.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: ECAcc (lpl/EF52)
+< X-Amz-Request-Id: tx0000000000000021e4e1f-005df64345-34fcc4-default
+< Content-Length: 217
+< Accept-Ranges: bytes
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:42 GMT
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><BucketName>api</BucketName><RequestId>tx0000000000000021e4e1f-005df64345-34fcc4-default</RequestId><HostId>34fcc4-default-default</HostId></Error>

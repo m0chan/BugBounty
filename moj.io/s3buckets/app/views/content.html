@@ -1,0 +1,13 @@
+<script src="app/js/jade.min.js"></script>
+<script src="app/js/markdown.min.js"></script>
+<div ng-if="Content.IsReady" class="row">
+   <div class="col-md-12">
+      <div ng-if="Content.selectedNode.breadcrumbs" class="row">
+         <cms-breadcrumb class="col-md-12 mb-lg"></cms-breadcrumb>
+      </div>
+      <div class="row">
+         <cms-menu viewmode="Content.selectedNode.leftMenu.viewMode" nodes="MenuNodes(Content.selectedNode,'leftMenu')" menuconfig="Content.selectedNode.leftMenu" class="col-md-{{Content.selectedNode.leftMenu.columns}} col-md-offset-{{Content.selectedNode.leftMenu.offset}} {{Content.selectedNode.leftMenu.menuClass}}"></cms-menu>
+         <div ng-if="Content.selectedNode.templateContent.length!=0" dynamic="Content.selectedNode.templateContent" class="col-md-{{Content.selectedNode.main.columns}} col-md-offset-{{Content.selectedNode.main.offset}} {{Content.selectedNode.main.class}}"></div>
+      </div>
+   </div>
+</div>

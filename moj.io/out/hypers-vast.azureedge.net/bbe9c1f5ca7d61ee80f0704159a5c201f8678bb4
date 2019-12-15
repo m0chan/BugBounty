@@ -1,0 +1,15 @@
+http://hypers-vast.azureedge.net/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: hypers-vast.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 225
+< Accept-Ranges: bytes
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:24:01 GMT
+< Server: ECAcc (lpl/EF33)
+< X-Amz-Request-Id: tx0000000000000021e3f32-005df641f0-34fcc4-default
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><BucketName>phpinfo.php</BucketName><RequestId>tx0000000000000021e3f32-005df641f0-34fcc4-default</RequestId><HostId>34fcc4-default-default</HostId></Error>

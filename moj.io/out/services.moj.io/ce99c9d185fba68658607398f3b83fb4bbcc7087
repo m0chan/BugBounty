@@ -1,0 +1,13 @@
+https://services.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: services.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=63412a6d28cb70d7e221c44b3f1b095f6806fd0752daaf1b4ea53fc75ed44155;Path=/;HttpOnly;Domain=services.moj.io
+< Date: Sun, 15 Dec 2019 14:30:10 GMT
+< Content-Length: 0
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+

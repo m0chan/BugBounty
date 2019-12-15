@@ -1,0 +1,25 @@
+http://dev0-trackerfota.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: dev0-trackerfota.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html; charset=iso-8859-1
+< Vary: Accept-Encoding
+< X-Azure-Ref-Originshield: 0WUP2XQAAAAAglqsmALMGTo+AMiSC636cTE9OMjFFREdFMDMwNwA5MDYxYzNhOS05NGUxLTQ5MWEtYmI3Ni0wYjAzMzQ4MGFlYzI=
+< X-Azure-Ref: 0WUP2XQAAAACQPz/fzv+5TqwkGossFmoQTUFOMzBFREdFMDMxMwA5MDYxYzNhOS05NGUxLTQ5MWEtYmI3Ni0wYjAzMzQ4MGFlYzI=
+< Keep-Alive: timeout=5, max=100
+< Server: Apache/2.2.22 (Ubuntu)
+< X-Cache: TCP_MISS
+< Date: Sun, 15 Dec 2019 14:29:44 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /security.txt was not found on this server.</p>
+<hr>
+<address>Apache/2.2.22 (Ubuntu) Server at 109.74.206.50 Port 80</address>
+</body></html>

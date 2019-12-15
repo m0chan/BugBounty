@@ -1,0 +1,22 @@
+http://static.topsmurfs.com/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: static.topsmurfs.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Vary: Accept-Encoding,Cookie
+< Content-Length: 0
+< Location: https://static.topsmurfs.com/swagger-ui
+< Server: Apache
+< Referrer-Policy: no-referrer
+< Content-Type: text/html; charset=UTF-8
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< Cache-Control: s-maxage=10
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+< Feature-Policy: accelerometer 'none'; camera 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; usb 'none'
+< X-Content-Type-Options: nosniff
+< Date: Sun, 15 Dec 2019 14:30:30 GMT
+

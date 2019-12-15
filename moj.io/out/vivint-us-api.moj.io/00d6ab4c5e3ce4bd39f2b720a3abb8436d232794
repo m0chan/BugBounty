@@ -1,0 +1,15 @@
+https://vivint-us-api.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: vivint-us-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=762e6ea7c42cc1c109228d46fe4b76bb6f4b2c0525f4ce1ddb378168a163ae33;Path=/;HttpOnly;Domain=vivint-us-api.moj.io
+< Date: Sun, 15 Dec 2019 14:28:08 GMT
+< Content-Length: 103
+< Content-Type: text/html
+< Request-Context: appId=cid-v1:b4f3dc5f-bd72-4647-99a2-e4a1ecb0016e
+< X-Powered-By: ASP.NET
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

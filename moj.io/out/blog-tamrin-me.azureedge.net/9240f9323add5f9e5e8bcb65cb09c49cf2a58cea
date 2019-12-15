@@ -1,0 +1,12 @@
+http://blog-tamrin-me.azureedge.net/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: blog-tamrin-me.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://blog-tamrin-me.azureedge.net/api/apidocs.html
+< Server: ECAcc (lpl/EF17)
+< Content-Length: 0
+< Date: Sun, 15 Dec 2019 14:30:05 GMT
+

@@ -1,0 +1,25 @@
+https://stg7-nginx.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: stg7-nginx.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://www.moj.io/apidocs
+< Set-Cookie: __cfduid=daedfb0def8d2ed38f430cdd5db483f541576420167; expires=Tue, 14-Jan-20 14:29:27 GMT; path=/; domain=.moj.io; HttpOnly
+< Set-Cookie: ARRAffinity=81e1f111fb40730d6455cff9726eca51022363fe71a34a36f52d37876019d205;Path=/;HttpOnly;Domain=stg7-nginx.moj.io
+< Cf-Cache-Status: DYNAMIC
+< Date: Sun, 15 Dec 2019 14:29:26 GMT
+< Content-Type: text/html; charset=iso-8859-1
+< Server: nginx/1.15.6
+< Cf-Ray: 54591c1c0b089ed3-ORD
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.moj.io/apidocs">here</a>.</p>
+<hr>
+<address>Apache/2.2.34 (Amazon) Server at moj.io Port 80</address>
+</body></html>

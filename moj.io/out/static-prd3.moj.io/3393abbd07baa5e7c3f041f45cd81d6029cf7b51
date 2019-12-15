@@ -1,0 +1,17 @@
+http://static-prd3.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: static-prd3.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:14 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: bb0e7b5f-901e-00ce-0e54-b35ba4000000
+< X-Ms-Version: 2009-09-19
+< Content-Length: 215
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:bb0e7b5f-901e-00ce-0e54-b35ba4000000
+Time:2019-12-15T14:30:15.2171296Z</Message></Error>

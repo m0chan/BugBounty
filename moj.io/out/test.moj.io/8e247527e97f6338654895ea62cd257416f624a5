@@ -1,0 +1,16 @@
+https://test.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: test.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Xss-Protection: 1
+< Content-Length: 0
+< Content-Security-Policy: block-all-mixed-content
+< Content-Type: text/plain; charset=utf-8
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< Date: Sun, 15 Dec 2019 14:29:21 GMT
+< X-Frame-Options: DENY
+

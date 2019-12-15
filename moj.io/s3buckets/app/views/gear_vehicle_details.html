@@ -1,0 +1,45 @@
+<div class="text-center bb">
+   <em class="fa icon-location fa-2x"></em>
+   <br/>LAST TRIP
+   <br/>
+   <span class="text-gray-light">BY TREK</span>
+</div>
+<div class="row text-center">
+   <div class="col-xs-1 col-xs-offset-2">
+      <div class="label label-info">A</div>
+   </div>
+   <div class="col-xs-7 text-left">{{$parent.AllData.SelectedVehicle.LastTripData.StartAddress.Address1}}
+      <br/>
+      <span class="text-gray">10:12:12 AM</span>
+   </div>
+</div>
+<div class="row text-center">
+   <div class="col-xs-1 col-xs-offset-2">
+      <div class="label label-warning">B</div>
+   </div>
+   <div class="col-xs-7 text-left">{{$parent.AllData.SelectedVehicle.LastTripData.EndAddress.Address1}}
+      <br/>
+      <span class="text-gray">10:12:12 AM</span>
+   </div>
+</div>
+<div class="row text-center">
+   <div class="col-xs-1 col-xs-offset-2">
+      <em class="icon-trip"></em>
+   </div>
+   <div class="col-xs-3 text-left">Distance</div>
+   <div class="col-xs-3 text-left">{{$parent.AllData.SelectedVehicle.LastTripData.Distance | number:'1'}} KM</div>
+</div>
+<div class="row text-center">
+   <div class="col-xs-1 col-xs-offset-2">
+      <em class="icon-clock"></em>
+   </div>
+   <div class="col-xs-3 text-left">Duration</div>
+   <div class="col-xs-3 text-left">{{showDuration($parent.AllData.SelectedVehicle.LastTripData)}} Minutes</div>
+</div>
+<div class="row text-center">
+   <div class="col-xs-1 col-xs-offset-2">
+      <em class="icon-fuel"></em>
+   </div>
+   <div class="col-xs-3 text-left">Efficiency</div>
+   <div class="col-xs-3 text-left">{{$parent.AllData.SelectedVehicle.LastTripData.FuelEfficiency}} MPG</div>
+</div>

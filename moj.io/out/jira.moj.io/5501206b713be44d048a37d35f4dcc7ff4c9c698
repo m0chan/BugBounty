@@ -1,0 +1,15 @@
+http://jira.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: jira.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=3600
+< Expires: Sun, 15 Dec 2019 15:28:56 GMT
+< Date: Sun, 15 Dec 2019 14:28:56 GMT
+< Location: https://1mojio.atlassian.net/info.php
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Cf-Ray: 54591b5dad17e5a3-MAN
+

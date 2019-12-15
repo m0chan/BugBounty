@@ -1,0 +1,14 @@
+https://telus-ca-push.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: telus-ca-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=b03a802ebc88de1036424d723364a2e111595f8140498d8c942a24b5c88d0898;Path=/;HttpOnly;Domain=telus-ca-push.moj.io
+< Date: Sun, 15 Dec 2019 14:28:39 GMT
+< Content-Length: 103
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

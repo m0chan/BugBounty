@@ -1,0 +1,8 @@
+<div ng-if="nodes.length!=0" class="row">
+   <div class="col-md-12 text-info">
+      <ul class="fa-ul">
+         <li ng-repeat="node in nodes" class="{{menuconfig.menuNodeClass}}"><i class="fa {{node.icon}}"></i><a ng-click="GotoNode(node)" style="white-space: nowrap;">&nbsp;{{node.title}}</a>
+         </li>
+      </ul>
+   </div>
+</div>

@@ -1,0 +1,29 @@
+http://preview.my.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: preview.my.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Set-Cookie: __cfduid=d4f020f4946d238468609f1889948f1331576420162; expires=Tue, 14-Jan-20 14:29:22 GMT; path=/; domain=.moj.io; HttpOnly
+< X-Amz-Id-2: 0gyF3vhWX3c6EatXyNoZpWrfiwme98Qjw549+wT1QSivbEey2fKuk0SdrtxRN+Z4pDDLFwL7jjk=
+< Cf-Cache-Status: DYNAMIC
+< Server: cloudflare
+< Date: Sun, 15 Dec 2019 14:29:22 GMT
+< Content-Type: text/html; charset=utf-8
+< Cf-Ray: 54591bfe8a8cd220-MAN
+< X-Amz-Request-Id: B5F9218A56822AA7
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<h1>403 Forbidden</h1>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+<li>RequestId: B5F9218A56822AA7</li>
+<li>HostId: 0gyF3vhWX3c6EatXyNoZpWrfiwme98Qjw549+wT1QSivbEey2fKuk0SdrtxRN+Z4pDDLFwL7jjk=</li>
+</ul>
+<hr />
+</body>
+</html>

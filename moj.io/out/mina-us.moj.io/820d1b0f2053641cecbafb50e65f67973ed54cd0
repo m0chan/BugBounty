@@ -1,0 +1,29 @@
+http://mina-us.moj.io/api
+
+> GET /api HTTP/1.1
+> Host: mina-us.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:29:31 GMT
+< Set-Cookie: __cfduid=de252dad597e388037a96ad0cfdc3b6d91576420170; expires=Tue, 14-Jan-20 14:29:30 GMT; path=/; domain=.moj.io; HttpOnly
+< Access-Control-Allow-Origin: *
+< Content-Security-Policy: default-src 'self'
+< Cf-Ray: 54591c34ae29e593-MAN
+< X-Content-Type-Options: nosniff
+< Vary: Accept-Encoding
+< X-Powered-By: Express
+< Server: cloudflare
+< Content-Type: text/html; charset=utf-8
+< Cf-Cache-Status: DYNAMIC
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api</pre>
+</body>
+</html>

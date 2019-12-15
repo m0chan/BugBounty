@@ -1,0 +1,16 @@
+http://mymojio.azureedge.net/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: mymojio.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< X-Ms-Request-Id: 56b582ee-601e-00c7-4553-b332bb000000
+< Content-Length: 272
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:23:52 GMT
+< Server: Microsoft-HTTPAPI/2.0
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AccountRequiresHttps</Code><Message>The account being accessed does not support http.
+RequestId:56b582ee-601e-00c7-4553-b332bb000000
+Time:2019-12-15T14:23:52.3465530Z</Message><AccountName>mymojio</AccountName></Error>

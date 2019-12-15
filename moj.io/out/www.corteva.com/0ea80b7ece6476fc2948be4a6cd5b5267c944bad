@@ -1,0 +1,23 @@
+https://www.corteva.com/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: www.corteva.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:30:01 GMT
+< Location: https://www.corteva.com/application.wadl.html
+< Server: ECAcc (lpl/EF51)
+< Set-Cookie: TS01cd730d=01afac7ebbd81d2518c5eff2f12dfb5b1307a49609870de5a06d417b7eb0798a1799158ace0da53a14c94b547229688995f5879b80; Path=/; Secure; HTTPOnly
+< Content-Length: 253
+< Cache-Control: max-age=1800
+< Content-Type: text/html; charset=iso-8859-1
+< Expires: Sun, 15 Dec 2019 15:00:01 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.corteva.com/application.wadl.html">here</a>.</p>
+</body></html>

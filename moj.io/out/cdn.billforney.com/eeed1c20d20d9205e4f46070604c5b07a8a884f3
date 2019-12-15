@@ -1,0 +1,19 @@
+http://cdn.billforney.com/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: cdn.billforney.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Cache: TCP_MISS
+< Request-Context: appId=cid-v1:58dd9d2d-7583-4bbe-aa25-e93c0adacb78
+< X-Content-Type-Options: nosniff
+< Arr-Disable-Session-Affinity: True
+< X-Azure-Ref-Originshield: 08EH2XQAAAAD3z0IfGUGqSK7778j8JfkMTE9OMjFFREdFMDMxMwA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< X-Azure-Ref: 08EH2XQAAAABs931ajLLxQrVJeYwLAjEnTUFOMzBFREdFMDMyMgA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< Content-Length: 0
+< X-Powered-By: William Forney
+< X-Ua-Compatible: IE=Edge,chrome=1
+< Content-Security-Policy: object-src 'none';
+< Date: Sun, 15 Dec 2019 14:23:44 GMT
+

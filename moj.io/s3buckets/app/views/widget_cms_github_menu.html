@@ -1,0 +1,18 @@
+<script type="text/ng-template" id="tree_item_renderer.html">
+   <i ng-if="node.type=='folder' &amp;&amp; node.status=='expand'" ng-click="node.status='collapse'" class="fa fa-li fa-minus-square-o"></i><i ng-if="node.type=='folder' &amp;&amp; node.status=='collapse'" ng-click="node.status='expand'" class="fa fa-li fa-plus-square-o"></i><i ng-if="node.type!='folder'" class="fa fa-li fa-file-o"></i><span ng-if="node.type=='folder'">{{FileTitle(node)}}</span><a ng-click="NodeClick(node)" ng-if="node.type!='folder'">{{FileTitle(node)}}</a><ul ng-if="node.status=='expand'" class="fa-ul"><li ng-repeat="node in node.children" ng-include="'tree_item_renderer.html'"></li></ul>
+</script>
+<div class="row">
+   <div class="col-md-12">
+      <ul ng-if="ViewMode == 'toc'" class="fa-ul">
+         <li ng-repeat="node in node.children" ng-include="'tree_item_renderer.html'"></li>
+      </ul><a ng-if="ViewMode == 'html'" target="_blank" ng-href="{{LastPage.GitHubUrl}}" class="pull-right"><i class="fa fa-github"></i>&nbsp; Edit on GitHub</a>
+      <span ng-if="ViewMode == 'html'" ng-click="ShowTOC()" popover="TOC" popover-placement="bottom"
+      popover-trigger="mouseenter" class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-bars fa-stack-1x"></i>
+      </span>
+      <span ng-if="ViewMode == 'html' &amp;&amp; p!=LastPage" ng-repeat="p in pages"><i class="fa fa-arrow-left"></i>
+         <span ng-click="ShowPage(p)" popover="{{p.Title}}" popover-placement="bottom" popover-trigger="mouseenter" class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-file-o fa-stack-1x"></i>
+         </span>
+      </span>
+      <div ng-if="ViewMode == 'html'" ng-bind-html="LastPage.Content" class="col-md-12"></div>
+   </div>
+</div>

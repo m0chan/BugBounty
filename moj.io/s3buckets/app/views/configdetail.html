@@ -1,0 +1,86 @@
+<span ng-controller="configDetailController as mc">
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseOne">Configuration Detail</a>
+         </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in">
+         <div class="panel-body">
+            <div class="form-group col-lg-3">
+               <label>Profile Name</label>
+               <br/>{{mc.configRow.ProfileName}}</div>
+            <div class="form-group col-lg-3">
+               <label>Profile Id</label>
+               <br/>{{mc.configRow.ProfileId}}</div>
+            <div class="form-group col-lg-3">
+               <label>Device Type</label>
+               <br/>{{mc.configRow.DeviceType}}</div>
+            <div class="form-group col-lg-3">
+               <label>Protocol Version</label>
+               <br/>{{mc.configRow.ProtocolVersion}}</div>
+            <div class="form-group col-lg-3">
+               <label>Deploy State</label>
+               <br/>{{mc.configRow.DeployState}}</div>
+            <div class="form-group col-lg-3">
+               <label>Date Modified</label>
+               <br/>{{mc.configRow.DateModified}}</div>
+            <div class="form-group col-lg-12">
+               <label>Packet Strings</label>
+               <br/>
+               <pre ng-bind="mc.showArray(mc.configRow.PacketArray)"></pre>
+            </div>
+            <div class="form-group col-lg-6">
+               <label>Description</label>
+               <br/>
+               <pre ng-bind="mc.configRow.Description"></pre>
+            </div>
+            <div class="form-group col-lg-6">
+               <label>Compatible Firmware</label>
+               <br/>
+               <pre ng-bind="mc.showArray(mc.configRow.CompatibleFirmware)"></pre>
+            </div>
+            <div class="form-group col-lg-12">
+               <button type="button" href="" ng-click="mc.delete()" class="btn btn-danger">
+                  <li class="fa fa-trash-o">Delete</li>
+               </button>
+               <button type="button" href="" ng-click="mc.modify()" class="btn btn-warning">
+                  <li class="fa fa-magic">Modify</li>
+               </button>
+               <button type="button" href="" ng-click="mc.deploy()" class="btn btn-info">
+                  <li class="fa fa-pinterest">Deploy</li>
+               </button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapse2">Vehicle Settings</a>
+         </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse in">
+         <div class="panel-body">
+            <table class="table">
+               <thead ng-show="mc.selectedRow==null">
+                  <tr>
+                     <th>SETTING</th>
+                     <th>DESCRIPTION</th>
+                     <th>UNITS</th>
+                     <th>VALUE</th>
+                     <th>MODIFIED VALUE</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr ng-repeat="(key,value) in mc.configRow.Settings">
+                     <td>{{key}}</td>
+                     <td>{{value.Description}}</td>
+                     <td>{{value.Units}}</td>
+                     <td>{{value.Value}}</td>
+                     <td>{{value.Value}}</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </div>
+</span>

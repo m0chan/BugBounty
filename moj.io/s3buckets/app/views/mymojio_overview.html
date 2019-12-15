@@ -1,0 +1,66 @@
+<h3>Overview</h3>
+<div class="row">
+   <div ng-if="Data.DisconnectedVehicles.length!=0" class="col-lg-3 col-sm-6">
+      <!-- START widget-->
+      <div class="panel widget bg-primary">
+         <div class="row row-table">
+            <div class="col-xs-4 text-center bg-primary-dark pv-lg">
+               <em class="fa fa-plug fa-3x pt-lg pb-lg pl-lg"></em>
+            </div>
+            <div class="col-xs-8 pv-lg">
+               <div class="h2 mt0">{{Data.DisconnectedVehicles.length}}</div>
+               <div class="text-uppercase">Disconnected</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div ng-if="Data.VehiclesWithFaults.length!=0" class="col-lg-3 col-sm-6">
+      <!-- START widget-->
+      <div class="panel widget bg-purple">
+         <div class="row row-table">
+            <div class="col-xs-4 text-center bg-purple-dark pv-lg">
+               <em class="fa fa-exclamation-triangle fa-3x pt-lg pb-lg pl-lg"></em>
+            </div>
+            <div class="col-xs-8 pv-lg">
+               <div class="h2 mt0">{{Data.VehiclesWithFaults.length}}</div>
+               <div class="text-uppercase">DTC Fault</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div ng-if="Data.VehiclesWithFaults.length!=0" class="col-lg-3 col-sm-6">
+      <!-- START widget-->
+      <div class="panel widget bg-green">
+         <div class="row row-table">
+            <div class="col-xs-4 text-center bg-green-dark pv-lg">
+               <em class="fa fa-battery-quarter fa-3x pt-lg pb-lg pl-lg"></em>
+            </div>
+            <div class="col-xs-8 pv-lg">
+               <div class="h2 mt0">{{Data.VehiclesWithFaults.length}}</div>
+               <div class="text-uppercase">Low Battery</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-lg-3 col-md-6 col-sm-12">
+      <!-- START date widget-->
+      <div class="panel widget">
+         <div class="row row-table">
+            <div class="col-xs-4 text-center bg-green pv-lg">
+               <!-- See formats: https://docs.angularjs.org/api/ng/filter/date-->
+               <now format="MMMM" class="text-sm"></now>
+               <br/>
+               <now format="d" class="h2 mt0"></now>
+            </div>
+            <div class="col-xs-8 pv-lg">
+               <now format="EEEE" class="text-uppercase"></now>
+               <br/>
+               <now format="h:mm" class="h2 mt0"></now>
+               <now format="a" class="text-muted text-sm"></now>
+            </div>
+         </div>
+      </div>
+      <!-- END date widget-->
+   </div>
+</div>
+<!-- END widgets box-->

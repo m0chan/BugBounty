@@ -1,0 +1,16 @@
+https://jira.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: jira.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Sun, 15 Dec 2019 15:25:36 GMT
+< Location: https://1mojio.atlassian.net/admin.php
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Cf-Ray: 54591678af1fd21c-MAN
+< Date: Sun, 15 Dec 2019 14:25:36 GMT
+< Cache-Control: max-age=3600
+

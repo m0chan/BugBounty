@@ -1,0 +1,714 @@
+https://www.corteva.com/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: www.corteva.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Frame-Options: sameorigin
+< X-Ua-Compatible: IE=Edge
+< Date: Sun, 15 Dec 2019 14:29:51 GMT
+< Expires: Sun, 15 Dec 2019 14:59:51 GMT
+< Set-Cookie: TS01cd730d=01afac7ebb0e842037c2c5456a5963c81bb182ab6aba9bff3f5c10c23a5223bad8cbbcf6ee13418746d51233f40894569a2972891d; Path=/; Secure; HTTPOnly
+< X-Content-Type-Options: nosniff
+< Cache-Control: max-age=1800
+< Content-Type: text/html; charset=UTF-8
+< Server: ECAcc (lpl/EF51)
+< X-Xss-Protection: 1; mode=block
+
+<!DOCTYPE HTML>
+
+
+    
+
+    
+        <html lang="en" dir="ltr" data-country="us">
+        <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+ 
+ 
+ 
+ <script>
+  var digitalData = {
+		country: 'us',
+		language: 'en',
+	   	pageTemplate: 'corteva-blank-page-template',
+        company: 'corteva-corporate',
+		environment: 'prod',
+		category: 'errors',
+		subcategory: '404',
+		pageName: '404',
+       	productCategory: '',
+		cropCategory: '',
+        productTypeTags: '',
+        productName: '',
+		productId: '',
+        contentType: 'Legal'
+   }
+  </script>
+  
+  
+  
+
+
+
+  <meta name="keywords"/>
+  <meta name="description" content="Corteva 404 Page Not Found"/>
+  
+    <link rel="canonical" href="https://www.corteva.com/errors/404.html">
+  
+  <meta name="robots" content="noindex,nofollow"/>
+  <meta name="contentType" content="Legal"/>
+  <meta name="lastModifiedDate" content="09 Apr 2019 05:30:46 EDT"/>
+  <meta name="title" content="Corteva 404 Page Not Found">
+  <meta name="productType"/>
+  <meta property="og:title" content="Corteva 404 Page Not Found"/>
+  <meta property="og:type" content="website"/>
+  
+  
+  
+  <link rel="alternate" href="http://www.corteva.com/errors/404.html" hreflang="en-us"/>
+  
+  
+  
+    <meta property="og:url" content="https://www.corteva.com/errors/404.html"/>
+  
+  
+  
+  
+  <meta property="og:description" content="Corteva 404 Page Not Found"/>
+  
+  
+          
+	
+  
+
+
+
+    
+           <link rel="stylesheet" href="/etc.clientlibs/corteva/components/clientlib/toplib.4b7ae82447fc771fddbc6920ee0e2cef.css" type="text/css">
+
+
+
+
+
+
+
+
+  <script src="//assets.adobedtm.com/774f5cd356eb/4f4e5c010e65/launch-8d2f81594131.min.js" async></script>
+
+  
+
+  
+<!-- generics -->
+<link rel="icon" type="image/ico" href="/etc/designs/app/favicon.ico">
+<link rel="icon" href="/etc/designs/app/favicon-16x16.png" sizes="16x16">
+<link rel="icon" href="/etc/designs/app/favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="/etc/designs/app/favicon-96x96.png" sizes="96x96">
+
+<!-- Android -->
+<link rel="shortcut icon" sizes="192x192" href="/etc/designs/app/android-icon-192x192.png">
+
+<!-- iOS -->
+<link rel="apple-touch-icon" href="/etc/designs/app/apple-icon-57x57.png" sizes="57x57">
+<link rel="apple-touch-icon" href="/etc/designs/app/apple-icon-76x76.png" sizes="76x76">
+<link rel="apple-touch-icon" href="/etc/designs/app/apple-icon-120x120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="/etc/designs/app/apple-icon-152x152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="/etc/designs/app/apple-icon-180x180.png" sizes="180x180">
+
+<!-- Windows 8 IE 10-->
+<meta name="msapplication-TileColor" content="#FFFFFF"/>
+<meta name="msapplication-TileImage" content="/etc/designs/app/ms-icon-144x144.png"/>
+
+<!-- Windows 8.1 + IE11 and above -->
+
+<meta name="msapplication-config" content="/etc/designs/app/browserconfig.xml"/>
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Kanit:400,400i,500,500i,600,600i,700,700i,800,800i|Noto+Sans+JP:100,300,400,500,700,900|Noto+Sans+KR:100,300,400,500,700,900" rel="stylesheet">  
+  <title>Corteva 404 Page Not Found</title>
+  
+ <meta name="google-site-verification" content="VFEIXQRASQZFv-cii8nsceONMqsct03wIs5nMyf9kl4"/>
+  </head>
+        <body>
+  
+  
+
+
+	
+    	
+  	
+
+
+  
+
+<div class="feature-flag" data-componentname="globalHeader" data-featureflagvalue="on">
+    
+        
+        
+        
+        <div class="global-nav">
+            <!-- accessibility fix-->
+            <a href="#body" class="skip-nav" tabindex="0">Skip Navigation</a>
+            <div class="logo">
+                <a href="http://www.corteva.com" title="Corteva Agriscience™ logo">
+                    <img alt="Corteva Agriscience™ logo" src="https://s7d4.scene7.com/is/image/dpagco/CortevaLegal_HorColor_RGB_no_tagline?$globalHeader_desktop$"/>
+                </a>
+            </div>            
+            <nav class="topline">
+                
+<div class="feature-flag" data-componentname="linkList" data-featureflagvalue="on">
+   
+      
+      
+         <nav class="without-seperator">
+            
+			   
+			   
+               
+               
+                  <a data-analytics-type="globel-footer" href="https://investors.corteva.com/home/default.aspx" title="Investors" target="_blank" rel="noopener noreferrer"> 
+                     Investors
+                  </a>
+               
+            
+			   
+			   
+               
+               
+                  <a data-analytics-type="globel-footer" href="https://careers.corteva.com" title="Careers" target="_blank" rel="noopener noreferrer"> 
+                     Careers
+                  </a>
+               
+            
+			   
+			   
+               
+                  <a data-analytics-type="globel-footer" href="/country-selector.html" title="Corporate Global (English)" target="_self" class="country-selector-mobilenav"> 
+                     <span class="flag-icon flag-icon-global"></span>Corporate Global (English)<strong>Change</strong>
+                  </a>
+               
+               
+            
+         </nav>
+      
+   
+</div>
+
+            </nav>
+
+            <!-- nav search starts from here-->
+            <div class="nav-search">
+                
+
+<div class="feature-flag nav-search-wrap" data-componentname="navSearch" data-featureflagvalue="on">
+    
+        
+        
+			
+            <form class="search" method="get" action="/search.html" data-autocomplete-url="https://content.atomz.com/autocomplete/sp10/04/f8/eb/" data-suggestions-limit="5" data-minchars="3">
+                <input type="search" id="top-search" name="q" class="top-search" placeholder="Search" autocomplete="off">
+                <input type="hidden" id="search-country" name="country" value=""/>
+                <label for="top-search" class="submit-search">Search</label>
+                <button type="submit" class="submit-search" title="Search" disabled></button>
+                <input type="reset" class="reset-search" title="Clear search form" tabindex="-1"/>
+            </form>
+			
+        
+    
+</div>
+
+
+
+
+
+            </div>
+
+            <!-- main navigation starts from here-->
+            <nav class="main">
+                <button>Menu</button>
+                <ul style="background-image:url(https://s7d4.scene7.com/is/image/dpagco/CortevaLegal_HorColor_RGB_no_tagline?$globalHeader_desktop$)">
+                    
+                        <li>
+                        
+                            
+                            <a class="has-dropdown" target="_self" data-analytics-type="global-dropdown-navigation">Who We Are</a>
+                            <div class="cq-dd-paragraph"><div class="navigationdropdown navigationDropdown">
+
+<div class="feature-flag" data-componentname="navigationDropdown" data-featureflagvalue="on">
+	
+		
+		
+			<nav>
+				<div class="subnav">
+					
+						<div class="image" style="background-image: url(https://s7d4.scene7.com/is/image/dpagco/71657-06C-HeroImage-FarmingFood_400x261?$navigationDropdown_desktop$);"></div>
+						<div class="featured">
+						
+						
+							<a data-analytics-type="global-sub-navigation" target="_blank" rel="noopener noreferrer" href="https://consumer-hub.corteva.com">Farming, Food and You</a>
+						
+								<p>The Consumer Hub provides a forum for consumers to share ideas, questions, and concerns about agriculture today.</p>
+
+						</div>
+					
+					<ul>
+						
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/who-we-are/our-purpose-and-values.html">Our Purpose &amp; Values</a></li>
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/who-we-are/our-leadership.html">Leadership</a></li>
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/who-we-are/our-history.html">History</a></li>
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/who-we-are/our-diversity.html">Diversity</a></li>
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/who-we-are/outlook.html">Outlook</a></li>
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/who-we-are/keepgrowing.html">Keep Growing</a></li>
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/code-of-conduct.html">Our Code of Conduct</a></li>
+							
+						
+					</ul>
+				</div>
+			</nav>
+		
+	
+</div></div>
+</div>
+                 
+                        
+                        
+                        </li>
+                    
+                        <li>
+                        
+                            
+                            <a class="has-dropdown" target="_self" data-analytics-type="global-dropdown-navigation">Our Impact</a>
+                            <div class="cq-dd-paragraph"><div class="navigationdropdown_1259514876 navigationDropdown">
+
+<div class="feature-flag" data-componentname="navigationDropdown" data-featureflagvalue="on">
+	
+		
+		
+			<nav>
+				<div class="subnav">
+					
+					<ul>
+						
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/our-impact.html">Our Impact</a></li>
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/our-impact/innovation.html">Innovation</a></li>
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/our-impact/enrichinglivestogether.html">Enriching Lives Together</a></li>
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/our-impact/product-stewardship.html">Product Stewardship</a></li>
+							
+						
+					</ul>
+				</div>
+			</nav>
+		
+	
+</div></div>
+</div>
+                 
+                        
+                        
+                        </li>
+                    
+                        <li>
+                        
+                        
+                            <a href="/products-and-services.html" target="_self" data-analytics-type="global-navigation" data-analytics-value="Products &amp; Services">Products &amp; Services</a>
+                       
+                        </li>
+                    
+                        <li>
+                        
+                            
+                            <a href="/resources/blog.html" class="has-dropdown" target="_self" data-analytics-type="global-dropdown-navigation">Blog</a>
+                            <div class="cq-dd-paragraph"><div class="navigationdropdown_1066939578 navigationDropdown">
+
+<div class="feature-flag" data-componentname="navigationDropdown" data-featureflagvalue="on">
+	
+		
+		
+			<nav>
+				<div class="subnav">
+					
+					<ul>
+						
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/resources/blog/blog-articles/plate-wise.html">PLATE-WISE</a></li>
+							
+						
+					</ul>
+				</div>
+			</nav>
+		
+	
+</div></div>
+</div>
+                 
+                        
+                        
+                        </li>
+                    
+                        <li>
+                        
+                            
+                            <a href="/resources/media-center.html" class="has-dropdown" target="_self" data-analytics-type="global-dropdown-navigation">Media Center</a>
+                            <div class="cq-dd-paragraph"><div class="navigationdropdown_903195879 navigationDropdown">
+
+<div class="feature-flag" data-componentname="navigationDropdown" data-featureflagvalue="on">
+	
+		
+		
+			<nav>
+				<div class="subnav">
+					
+					<ul>
+						
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/resources/media-center.html">Corporate News</a></li>
+							
+								<li><a data-analytics-type="global-sub-navigation" href="/resources/feature-stories.html">Feature Stories</a></li>
+							
+						
+					</ul>
+				</div>
+			</nav>
+		
+	
+</div></div>
+</div>
+                 
+                        
+                        
+                        </li>
+                    
+                    
+                        <li class="nav-topline" tabindex="-1">                            
+                            
+<div class="feature-flag" data-componentname="linkList" data-featureflagvalue="on">
+   
+      
+      
+         <nav class="without-seperator">
+            
+			   
+			   
+               
+               
+                  <a data-analytics-type="globel-footer" href="https://investors.corteva.com/home/default.aspx" title="Investors" target="_blank" rel="noopener noreferrer"> 
+                     Investors
+                  </a>
+               
+            
+			   
+			   
+               
+               
+                  <a data-analytics-type="globel-footer" href="https://careers.corteva.com" title="Careers" target="_blank" rel="noopener noreferrer"> 
+                     Careers
+                  </a>
+               
+            
+			   
+			   
+               
+                  <a data-analytics-type="globel-footer" href="/country-selector.html" title="Corporate Global (English)" target="_self" class="country-selector-mobilenav"> 
+                     <span class="flag-icon flag-icon-global"></span>Corporate Global (English)<strong>Change</strong>
+                  </a>
+               
+               
+            
+         </nav>
+      
+   
+</div>
+
+                        </li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <!-- accessibility fix-->
+        <a id="body"></a>
+        
+        
+    
+</div>
+  
+  <div class="root responsivegrid">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="cmp cmp-breadcrumb aem-GridColumn aem-GridColumn--default--12">
+
+<div class="feature-flag" data-componentname="breadcrumb" data-featureflagvalue="on">
+    
+        
+        <div class="band nav01-breadcrumbs">
+            <div class="band-content">
+                <div class="breadcrumb-links">
+            
+                    
+                    <a>Home</a>
+                </div>               
+                <!--<div class="breadcrumb-icons">
+                    <a href="" class="email-icon"></a>
+                    <a href="" class="print-icon"></a>
+                    <a href="" class="download-icon"></a>
+                </div>-->
+            </div>
+        </div>
+
+       
+
+
+        
+    
+</div></div>
+<div class="aem-wrap--rich-text aem-GridColumn aem-GridColumn--default--12">
+
+
+
+	<div class="band det16-rich-text-field ">
+  <div class="band-content">
+     <p>404 Page Not Found<br>
+</p>
+<h1><strong>We lost you!</strong></h1>
+<p>We weren’t able to find the page you are looking for.</p>
+<p><strong>What might have happened?</strong></p>
+<ul style="list-style-position: inside;">
+<li>The link you followed might be old or have a typo in it.</li>
+<li>The page might have been moved to&nbsp;another place on the site.</li>
+<li>You may have mistyped the URL into your browser's address bar.</li>
+</ul>
+<p><strong>What you can do:</strong></p>
+<ul style="list-style-position: inside;">
+<li>Go to the <a href="http://www.corteva.com">Corteva homepage</a></li>
+<li><a href="/contact-us.html">Contact us</a> to give us feedback on the website</li>
+</ul>
+<p>&nbsp;</p>
+
+    </div>
+</div>
+</div>
+
+    
+</div></div>
+
+    
+</div></div>
+
+  <script type="text/javascript">_satellite.pageBottom();</script>
+
+  
+  
+
+<div class="feature-flag" data-componentname="globalfooter" data-featureflagvalue="on">
+	
+		<footer class="band">
+			<div class="band-content">
+				
+					<div class="footer-col-left">	
+							<a class="logo" href="http://www.corteva.com">
+								<img src="https://s7d4.scene7.com/is/image/dpagco/corteva-logo-white-footer-New?$icon_desktop$" alt="corteva-logo-white-footer-New">
+							</a>
+					
+						<nav class="social">
+							<p>Connect with us:</p>
+								
+									<a href="https://www.facebook.com/Corteva/" class="Facebook" target="_blank" rel="noopener noreferrer"><img src="https://s7d4.scene7.com/is/image/dpagco/ICN-Facebook-Negative?$icon_desktop$" alt="Facebook"/></a>
+								
+									<a href="https://twitter.com/corteva" class="Twitter" target="_blank" rel="noopener noreferrer"><img src="https://s7d4.scene7.com/is/image/dpagco/ICN-Twitter_Negative?$icon_desktop$" alt="Twitter"/></a>
+								
+									<a href="https://www.instagram.com/corteva/" class="Instagram" target="_blank" rel="noopener noreferrer"><img src="https://s7d4.scene7.com/is/image/dpagco/ICON-instagram-Negative?$icon_desktop$" alt="Instagram"/></a>
+								
+									<a href="https://www.linkedin.com/company/corteva" class="Linkedin" target="_blank" rel="noopener noreferrer"><img src="https://s7d4.scene7.com/is/image/dpagco/ICN-LinkedIn-Negative?$icon_desktop$" alt="Linkedin"/></a>
+								
+									<a href="https://www.youtube.com/channel/UCbOwcjO4YSGOe8-gucxIkUQ" class="YouTube" target="_blank" rel="noopener noreferrer"><img src="https://s7d4.scene7.com/is/image/dpagco/ICN-YouTube-Negative?$icon_desktop$" alt="YouTube"/></a>
+								
+						</nav>
+					
+				</div>
+				<div class="footer-col-right">
+					<div class="primary">
+						
+<div class="feature-flag" data-componentname="linkList" data-featureflagvalue="on">
+   
+      
+      
+         <nav class="without-seperator">
+            
+			   
+			   
+               
+                  <a data-analytics-type="globel-footer" href="/contact-us.html" title="Contact Corteva Agriscience" target="_self"> 
+                     Contact Corteva Agriscience
+                  </a>
+               
+               
+            
+			   
+			   
+               
+                  <a data-analytics-type="globel-footer" href="/resources/media-center.html" title="Media Center" target="_self"> 
+                     Media Center
+                  </a>
+               
+               
+            
+			   
+			   
+               
+               
+                  <a data-analytics-type="globel-footer" href="http://www.investors.corteva.com" title="Investors" target="_blank" rel="noopener noreferrer"> 
+                     Investors
+                  </a>
+               
+            
+			   
+			   
+               
+               
+                  <a data-analytics-type="globel-footer" href="https://careers.corteva.com" title="Careers" target="_blank" rel="noopener noreferrer"> 
+                     Careers
+                  </a>
+               
+            
+			   
+			   
+               
+                  <a data-analytics-type="globel-footer" href="/accessibility.html" title="Accessibility" target="_self"> 
+                     Accessibility
+                  </a>
+               
+               
+            
+			   
+			   
+               
+                  <a data-analytics-type="globel-footer" href="/sitemap.html" title="Sitemap" target="_self"> 
+                     Sitemap
+                  </a>
+               
+               
+            
+			   
+			   
+               
+                  <a data-analytics-type="globel-footer" href="/code-of-conduct.html" title="Ethics Hotline" target="_self"> 
+                     Ethics Hotline
+                  </a>
+               
+               
+            
+			   
+			   
+               
+                  <a data-analytics-type="globel-footer" href="https://www.supplier-center.corteva.com/" title="Supplier Center" target="_self"> 
+                     Supplier Center
+                  </a>
+               
+               
+            
+         </nav>
+      
+   
+</div>
+
+					</div>
+					<div class="secondary">
+						
+<div class="feature-flag" data-componentname="linkList" data-featureflagvalue="on">
+   
+      
+      
+         <nav class="without-seperator">
+            
+			   
+			   
+               
+                  <a data-analytics-type="globel-footer" href="/terms-and-conditions.html" title="Terms of Use" target="_self"> 
+                     Terms of Use
+                  </a>
+               
+               
+            
+			   
+			   
+               
+                  <a data-analytics-type="globel-footer" href="/privacy-policy.html" title="Privacy Policy" target="_self"> 
+                     Privacy Policy
+                  </a>
+               
+               
+            
+			   
+			   
+               
+               
+                  <a data-analytics-type="globel-footer" href="https://investors.corteva.com/corporate-governance/default.aspx" title="Corporate Governance" target="_blank" rel="noopener noreferrer"> 
+                     Corporate Governance
+                  </a>
+               
+            
+         </nav>
+      
+   
+</div>
+
+					</div>
+					<div class="copyright"><p><sup>™ ®</sup> Trademarks of Dow AgroSciences, DuPont or Pioneer, and their affiliated companies or their respective owners.<br />
+© #year Corteva.</p>
+</div>
+				</div>
+				
+			</div>
+		</footer>
+	
+</div>
+  
+    
+<script type="text/javascript" src="/etc/designs/app/clientlibraries/third-party.9957f4c1d1694b9263a2c6921bd8564b.js"></script>
+
+
+
+  
+
+
+
+    
+<script type="text/javascript" src="/etc.clientlibs/corteva/components/clientlib/toplib.a8f21d64bb97935a71071753b34a3b1f.js"></script>
+<script type="text/javascript" src="/etc/designs/app/clientlibraries/blankPage.40f1832f9d820876e828b4265aaae90c.js"></script>
+
+
+
+
+
+
+  
+<div class="feature-flag" data-componentname="jsFramework" data-featureflagvalue="on">
+</div>
+  
+  
+	  <a href="#top" class="back-to-top"></a>
+
+  
+  <div data-language="en"></div>
+  <div class="productSource" data-product-source-api="/bin/corteva/product/getProductDetails.json"></div>
+  
+
+  </body>
+        </html>

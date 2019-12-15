@@ -1,0 +1,13 @@
+http://turo.moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: turo.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< P3p: CP="This is not a privacy policy."
+< X-Proxy-Backend: page-server
+< Date: Sun, 15 Dec 2019 14:29:37 GMT
+< Content-Type: text/plain; charset=ISO-8859-1
+
+The requested URL was not found on this server.

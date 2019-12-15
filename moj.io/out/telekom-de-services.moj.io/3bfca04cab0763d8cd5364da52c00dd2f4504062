@@ -1,0 +1,13 @@
+https://telekom-de-services.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: telekom-de-services.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=85749329b460578b5538b02378bcd6e753dadaf6a2dc663e2ab035f52d59bdc4;Path=/;HttpOnly;Domain=telekom-de-services.moj.io
+< Date: Sun, 15 Dec 2019 14:28:14 GMT
+< Content-Length: 0
+

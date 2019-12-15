@@ -1,0 +1,23 @@
+https://tmobile-cz-web.moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: tmobile-cz-web.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Cf-Cache-Status: DYNAMIC
+< X-Amz-Error-Code: NoSuchKey
+< X-Amz-Id-2: 06PogO5FEzuaoqvRpMG6mRbs6skbay3mdezwSTvuk648ZqVNRuu1YxxupVsEIUWroflOzaerMi0=
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Set-Cookie: __cfduid=d4a192ca1ee7c6e782c7da4606fbcbb381576420182; expires=Tue, 14-Jan-20 14:29:42 GMT; path=/; domain=.moj.io; HttpOnly
+< Last-Modified: Thu, 21 Mar 2019 23:35:20 GMT
+< X-Amz-Error-Detail-Key: package.json
+< Cf-Ray: 54591c7c4f6fd21c-MAN
+< Date: Sun, 15 Dec 2019 14:29:42 GMT
+< Content-Type: text/html
+< X-Amz-Error-Message: The specified key does not exist.
+< X-Amz-Request-Id: 9EFC8ED2D5478326
+< Server: cloudflare
+
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><meta http-equiv="Content-Security-Policy" content="worker-src blob: ;default-src 'self' webpack:; child-src blob: ; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com *.googleapis.com data:; img-src 'self' www.google-analytics.com *.gstatic.com *.googleapis.com data: blob: ; connect-src 'self' *.moj.io ws: *.mapbox.com *.google-analytics.com data: ; style-src 'self' 'unsafe-inline' *.googleapis.com *.mapbox.com; font-src 'self' *.gstatic.com data:;"><title>Motion Web Dashboard</title><meta name="description" content="Motion Web Dashboard"><link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css" rel="stylesheet" /><base href="/"><link rel="apple-touch-icon" sizes="57x57" href="/assets/icon/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/assets/icon/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/assets/icon/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/assets/icon/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/assets/icon/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/assets/icon/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/assets/icon/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/assets/icon/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/icon/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/assets/icon/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png"><link rel="manifest" href="/assets/manifest.json"><meta name="msapplication-TileColor" content="#00bcd4"><meta name="msapplication-TileImage" content="/assets/icon/ms-icon-144x144.png"><meta name="theme-color" content="#00bcd4"><script type="text/javascript">window.onunload = function(){};</script><script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-109850939-1', 'auto');</script><script async src="https://www.google-analytics.com/analytics.js"></script><link rel="preload" href="polyfills.ce4c15205c3f512234b1.bundle.js" as="script" /><link rel="preload" href="main.ad67a99e5118a600dec7.bundle.js" as="script" /></head><body><app>Loading...</app><script type="text/javascript" src="inline.329b5adda4284c9c1560.bundle.js"></script><script type="text/javascript" src="polyfills.ce4c15205c3f512234b1.bundle.js"></script><script type="text/javascript" src="main.ad67a99e5118a600dec7.bundle.js" async></script></body></html>

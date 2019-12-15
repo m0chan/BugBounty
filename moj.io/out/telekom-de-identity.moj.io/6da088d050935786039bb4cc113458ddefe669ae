@@ -1,0 +1,14 @@
+http://telekom-de-identity.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: telekom-de-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=c2d87a7dbf7d6e3662874e00d2c212aa90b623d0e2ff8d9c85d9ef2b3a0f4e97;Path=/;HttpOnly;Domain=telekom-de-identity.moj.io
+< Date: Sun, 15 Dec 2019 14:30:20 GMT
+< Content-Length: 0
+< Server: Kestrel
+< Content-Security-Policy: default-src 'self' static-prd3.moj.io; font-src 'self' https://fonts.gstatic.com static-prd3.moj.io data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com static-prd3.moj.io 'unsafe-inline'; script-src 'self' 'unsafe-inline' static-prd3.moj.io; img-src 'self' static-prd3.moj.io
+< X-Powered-By: ASP.NET
+

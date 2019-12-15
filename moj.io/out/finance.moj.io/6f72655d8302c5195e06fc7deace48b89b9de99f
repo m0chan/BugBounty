@@ -1,0 +1,34 @@
+http://finance.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: finance.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: cloudflare
+< Content-Type: text/html; charset=utf-8
+< X-Amz-Request-Id: EA58F0B40464B1C8
+< X-Amz-Id-2: x5pzjHTKP2zP/zcwbowbZXOGKZHcDxOqcoMR+w5dDNubU2NrrS4+TStAZCkPGxp8/Pu2f8sO5eA=
+< Cf-Cache-Status: DYNAMIC
+< Date: Sun, 15 Dec 2019 14:30:21 GMT
+< Set-Cookie: __cfduid=d5cec2f69bb10d0fe7384dd40ddd192b01576420221; expires=Tue, 14-Jan-20 14:30:21 GMT; path=/; domain=.moj.io; HttpOnly
+< Cf-Ray: 54591d70db41d218-MAN
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<h1>403 Forbidden</h1>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+<li>RequestId: EA58F0B40464B1C8</li>
+<li>HostId: x5pzjHTKP2zP/zcwbowbZXOGKZHcDxOqcoMR+w5dDNubU2NrrS4+TStAZCkPGxp8/Pu2f8sO5eA=</li>
+</ul>
+<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+</ul>
+<hr />
+</body>
+</html>

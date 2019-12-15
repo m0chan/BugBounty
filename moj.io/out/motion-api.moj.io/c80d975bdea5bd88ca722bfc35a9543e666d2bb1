@@ -1,0 +1,13 @@
+http://motion-api.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: motion-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:23:52 GMT
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< Location: https://motion-api.moj.io/phpinfo.php
+< Server: Microsoft-IIS/10.0
+

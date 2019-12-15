@@ -1,0 +1,39 @@
+<span dropdown="" ng-click="doone($event)" class="dropdown dropdown-list">
+   <a dropdown-toggle="">
+      <em ng-show="vehicles.length&gt;1" class="fa fa-angle-down"></em>&nbsp;{{selectedVehicle.Name || ("common.NoNameVehicle" | translate)}}</a>
+   <!-- START Dropdown menu-->
+   <ul class="m0 p0 dropdown-menu">
+      <li class="m0 p0">
+         <!-- START list group-->
+         <div class="list-group m0 p0">
+            <!-- list item-->
+            <a ng-click="$event.stopPropagation()" ng-show="vehicles.length&gt;5" class="list-group-item">
+               <div class="media-box">
+                  <div class="pull-left">
+                     <em class="fa fa-search"></em>
+                  </div>
+                  <div class="media-box-body clearfix">
+                     <p class="m0">
+                        <input ng-model="VehicleSearch" style="width:100px" />
+                     </p>
+                  </div>
+               </div>
+            </a>
+            <a ng-repeat="v in ShowList" ng-click="changeSelectedVehicle(v)" class="list-group-item">
+               <div class="media-box">
+                  <div class="media-box-body clearfix">
+                     <p class="m0">
+                        <em ng-attr-style="color:{{VehicleColor(v._id)}}" class="fa fa-car"></em>&nbsp; {{v.Name || ("common.NoNameVehicle" | translate) }}</p>
+                     <p class="m0 text-muted">
+                        <div ng-if="v.VIN!=null &amp;&amp; v.VIN!=''" class="small">{{v.VIN}}</div>
+                        <div ng-if="v.LicensePlate!=null" class="small">{{v.LicensePlate}}</div>
+                     </p>
+                  </div>
+               </div>
+            </a>
+         </div>
+         <!-- END list group-->
+      </li>
+   </ul>
+   <!-- END Dropdown menu-->
+</span>

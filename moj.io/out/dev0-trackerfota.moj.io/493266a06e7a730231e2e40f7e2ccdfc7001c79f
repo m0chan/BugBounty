@@ -1,0 +1,14 @@
+https://dev0-trackerfota.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: dev0-trackerfota.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 502 Bad Gateway
+< X-Azure-Ref: 0FkP2XQAAAACAXHgX2y2cRaBzp+lDglr+TUFOMzBFREdFMDMxMQA5MDYxYzNhOS05NGUxLTQ5MWEtYmI3Ni0wYjAzMzQ4MGFlYzI=
+< Date: Sun, 15 Dec 2019 14:28:38 GMT
+< Content-Length: 25
+< X-Cache: TCP_MISS
+< X-Azure-Ref-Originshield: 0FkP2XQAAAADvGiuar2JzRbOFvVV0/MekTE9OMjFFREdFMDMxNAA5MDYxYzNhOS05NGUxLTQ5MWEtYmI3Ni0wYjAzMzQ4MGFlYzI=
+
+Request cannot be served.

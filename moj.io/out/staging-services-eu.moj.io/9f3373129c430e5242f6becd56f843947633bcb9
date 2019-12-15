@@ -1,0 +1,13 @@
+https://staging-services-eu.moj.io/api
+
+> GET /api HTTP/1.1
+> Host: staging-services-eu.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=2cee1d665c22c8ea0650234a3e8a8027725f5539aaaf441b0b772ef57ec4ed92;Path=/;HttpOnly;Domain=staging-services-eu.moj.io
+< Date: Sun, 15 Dec 2019 14:29:30 GMT
+< Content-Length: 0
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+

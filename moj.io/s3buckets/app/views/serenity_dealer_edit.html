@@ -1,0 +1,55 @@
+<h3>
+   <span ng-show="DataReadyState">
+      <img width="32" height="32" src="{{Dealer.icon}}" ng-click="" image-uploader="Dealer.icon" class="bt bl br bb" />&nbsp;<a href="" editable-text="Dealer.name" buttons="no">{{ Dealer.name || 'Enter Dealer Name' }}</a>
+      <div class="pull-right m-sm">
+         <button are-you-sure="SaveDealer()" class="btn btn-primary">Save</button>
+         <button are-you-sure="DiscardChange()" class="btn btn-warning">Discard</button>
+         <button are-you-sure="DeleteDealer()" class="btn btn-danger">Delete</button>
+      </div>
+   </span>
+   <span ng-show="!DataReadyState"><i class="fa fa-spinner fa-spin text-gray"></i>&nbsp; Loading . . .</span>
+</h3>
+<div ng-show="DataReadyState" class="well">
+   <json-formatter open="0" json="Dealer"></json-formatter>
+</div>
+<div ng-show="DataReadyState" class="well">
+   <ul class="fa-ul">
+      <li><i class="fa-li fa fa-align-justify"></i>address:&nbsp;<a href="" editable-text="Dealer.address" buttons="no">{{ Dealer.address || 'Enter Dealer address' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-align-justify"></i>phone:&nbsp;<a href="" editable-text="Dealer.phone" buttons="no">{{ Dealer.phone || 'Enter Dealer phone' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-align-justify"></i>email:&nbsp;<a href="" editable-text="Dealer.email" buttons="no">{{ Dealer.email || 'Enter Dealer email' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-align-justify"></i>CRM Email:&nbsp;<a href="" editable-text="Dealer.CRMEmail" buttons="no">{{ Dealer.CRMEmail || 'Enter Dealer CRM Email' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-picture-o"></i>Artwork:&nbsp;
+         <img image-modal="Dealer.artwork" style="max-width:32px;height:auto" src="{{Dealer.artwork}}" ng-click="" class="bt bl br bb" /><a ng-click="" image-uploader="Dealer.artwork">Change</a>
+      </li>
+      <li><i class="fa-li fa fa-align-justify"></i>MojioUserId:&nbsp;<a href="" editable-text="Dealer.MojioUserId" buttons="no">{{ Dealer.MojioUserId || 'Enter MojioUserId' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-align-justify"></i>MojioGroupId:&nbsp;<a href="" editable-text="Dealer.MojioGroupId" buttons="no">{{ Dealer.MojioGroupId || 'Enter MojioGroupId' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-user"></i>Service Rep:&nbsp;<a ng-click="AddServiceRep()">Add</a>
+         <span ng-repeat="(i,t) in Dealer.ServiceRep track by $index"><i ng-click="DeleteServiceRep(i)" class="fa fa-times"></i><a href="" editable-text="Dealer.ServiceRep[i]" buttons="no">{{ Dealer.ServiceRep[i] || 'Edit Service Rep' }}</a>,&nbsp;</span>
+      </li>
+      <li><i class="fa-li fa fa-map-marker"></i>Locations:&nbsp;
+         <ul class="fa-ul">
+            <li ng-click="AddLocation()"><i class="fa-li fa fa-plus"></i>Add New Location</li>
+            <li ng-repeat="loc in Dealer.Locations track by $index" class="bt bl br bb mt-lg p-sm">
+               <ul class="fa-ul">
+                  <li><i class="fa-li fa fa-align-justify"></i>NorthEast_lat:&nbsp;<a href="" editable-text="Dealer.Locations[$index].NorthEast_lat" buttons="no">{{Dealer.Locations[$index].NorthEast_lat || 'Enter NorthEast_lat'}}</a>
+                  </li>
+                  <li><i class="fa-li fa fa-align-justify"></i>NorthEast_lon:&nbsp;<a href="" editable-text="Dealer.Locations[$index].NorthEast_lon" buttons="no">{{ Dealer.Locations[$index].NorthEast_lon || 'Enter NorthEast_lon' }}</a>
+                  </li>
+                  <li><i class="fa-li fa fa-align-justify"></i>SouthWest_lat:&nbsp;<a href="" editable-text="Dealer.Locations[$index].SouthWest_lat" buttons="no">{{Dealer.Locations[$index].SouthWest_lat || 'Enter SouthWest_lat'}}</a>
+                  </li>
+                  <li><i class="fa-li fa fa-align-justify"></i>SouthWest_lon:&nbsp;<a href="" editable-text="Dealer.Locations[$index].SouthWest_lon" buttons="no">{{ Dealer.Locations[$index].SouthWest_lon || 'Enter SouthWest_lon' }}</a>
+                  </li>
+                  <li><a are-you-sure="DeleteLocation($index)" class="text-danger"><i class="fa fa-li fa-minus-square"></i>Delete</a>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </li>
+   </ul>
+</div>

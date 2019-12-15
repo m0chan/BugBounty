@@ -1,0 +1,71 @@
+{
+  "obd_locator":
+  {
+    "version":"V.0.2",
+    "home":"Home",
+    "title":"Check to see if your car is compatible.",
+    "desc":"Most cars that are model year 1996 or newer have an OBD-II (On Board Diagnostics version 2) port that the device plugs into.",
+    "select_car":"Select your car.",
+    "check_if_compatible":"Check where the OBD-II port is located on your car.",
+    "check_if_compatible_warning":"(Not all cars with OBD-II ports are compatible with all the features.)",
+    "select_make":"SELECT MAKE",
+    "select_model":"SELECT MODEL",
+    "select_year":"SELECT YEAR",
+    "select_engine":"SELECT ENGINE",
+    "need_help":"STILL NEED HELP?",
+    "contact_us":"CONTACT US",
+    "has_obd":"YOUR CAR HAS AN OBD-II PORT",
+    "select_new_vehicle":"SELECT NEW VEHICLE",
+    "loading":"Loading..."
+  },
+  "vehicle_compatibility":
+  {
+    "home":"Home",
+    "title":"Check to see if your car is compatible.",
+    "desc":"Most cars that are model year 1996 or newer have an OBD-II (On Board Diagnostics version 2) port that the device plugs into.",
+    "select_car":"Select your car.",
+    "check_if_compatible":"Check if your car is compatible with T-Mobile SyncUP DRIVE.",
+    "check_if_compatible_warning":"(Not all cars with OBD-II ports are compatible with all the features.)",
+    "select_make":"SELECT MAKE",
+    "select_model":"SELECT MODEL",
+    "select_year":"SELECT YEAR",
+    "select_engine": "SELECT ENGINE",
+    "need_help":"NEED HELP LOCATING YOUR PORT?",
+    "click_here":"CLICK HERE",
+    "has_obd":"YOUR CAR HAS AN OBD-II PORT",
+    "loading":"Loading...",
+    "compatible":"YOUR CAR IS COMPATIBLE",
+    "not_compatible":"YOUR CAR IS NOT COMPATIBLE",
+    "compatibility": {
+      "telus": {
+        "Full": "Congratulations! TELUS Drive+ is compatible with your vehicle.",
+        "Partial": "Congratulations! TELUS Drive+ is compatible with your vehicle.",
+        "Minimum": "Unfortunately, TELUS Drive+ is not compatible with your vehicle.",
+        "NotCompatible": "Unfortunately, TELUS Drive+ is not compatible with your vehicle.",
+        "Unknown": "Welcome! TELUS Drive+ has not been tested with your vehicle. It’s possible some data features may not be available for this particular vehicle."
+      },
+      "rogers": {
+        "Full": "Rogers Smart Drive is compatible with your vehicle. Please note that the experience may vary by vehicle make and model.",
+        "Partial": "Rogers Smart Drive is compatible with your vehicle. Please note that the experience may vary by vehicle make and model.",
+        "Minimum": "Unfortunately, Rogers Smart Drive is not compatible with your vehicle. Please do not install the device in your vehicle.",
+        "NotCompatible": "Unfortunately, Rogers Smart Drive is not compatible with your vehicle. Please do not install the device in your vehicle.",
+        "Unknown": "Rogers Smart Drive is compatible with your vehicle. Please note that the experience may vary by vehicle make and model."
+      },
+      "tmobile": {
+        "Full": "Congratulations! SyncUP Drive is compatible with your vehicle. Please enjoy your connected car experience.",
+        "Partial": "Good news! SyncUP Drive is compatible with your vehicle. Some fuel readings may not be available for this particular vehicle.",
+        "Minimum": "Be advised! SyncUP Drive is not compatible with your vehicle.",
+        "NotCompatible": "Stop! SyncUP DRIVE is not compatible with your vehicle. Please remove SyncUP Drive from this vehicle.",
+        "Unknown": "Welcome! SyncUP DRIVE has not been tested with your vehicle. It’s possible some data features may not be available for this particular vehicle."
+      },
+      "tdg": {
+        "Full": "CarConnect is compatible with your vehicle. Please note that the experience may vary by vehicle make and model.",
+        "Partial": "CarConnect is compatible with your vehicle. Please note that the experience may vary by vehicle make and model.",
+        "Minimum": "Unfortunately, CarConnect is not compatible with your vehicle. Please do not install the device in your vehicle.",
+        "NotCompatible": "Unfortunately, CarConnect is not compatible with your vehicle. Please do not install the device in your vehicle.",
+        "Unknown": "CarConnect is compatible with your vehicle. Please note that the experience may vary by vehicle make and model."
+      }
+    }
+  }
+}
+

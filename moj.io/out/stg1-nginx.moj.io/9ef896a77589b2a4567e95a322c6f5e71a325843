@@ -1,0 +1,14 @@
+https://stg1-nginx.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: stg1-nginx.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: nginx/1.15.6
+< Request-Context: appId=cid-v1:dd94d13f-43dc-4c2d-83c8-a8cbe5120820
+< Nginx-Version: 4.11.0.16
+< X-Mojio-Route: sfapi
+< Date: Sun, 15 Dec 2019 14:29:21 GMT
+< Content-Length: 0
+

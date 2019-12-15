@@ -1,0 +1,16 @@
+https://time.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: time.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:30:30 GMT
+< Location: http://goo.gl/forms/K1H4MI4iGD
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Vary: Accept-Encoding
+< Cf-Ray: 54591da6a9f8d218-MAN
+< Cache-Control: max-age=3600
+< Expires: Sun, 15 Dec 2019 15:30:30 GMT
+< Server: cloudflare
+

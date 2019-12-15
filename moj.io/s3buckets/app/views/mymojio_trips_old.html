@@ -1,0 +1,39 @@
+<h3>My Trips</h3>
+<!-- START widgets box-->
+<div ng-controller="mymojioCarsOldController" class="row">
+   <tabset>
+      <tab ng-repeat="vehicle in tabset.tabs" select="changeTab(vehicle)">
+         <tab-heading><i tooltip="{{vehicle.Name}}" class="fa fa-car">&nbsp;</i>
+            <span ng-if="tabset.tabs.length&lt;7 || vehicle._active">{{vehicle.Name}}</span>
+         </tab-heading>
+         <div ng-if="vehicle._active" class="row">
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="panel panel-primary">
+                     <div class="panel-heading"><i class="fa fa fa-car"></i>&nbsp; My Car's Status</div>
+                     <div class="panel-body">
+                        <h4>Parked</h4>
+                     </div>
+                  </div>
+                  <div class="panel panel-primary">
+                     <div class="panel-heading"><i class="fa fa fa-cubes"></i>&nbsp; Device</div>
+                     <div class="panel-body">
+                        <h4>Status: Disconnected</h4>
+                        <h4>IMEI: 2343423423423</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-9">
+                  <div class="panel panel-primary">
+                     <div class="panel-heading">Trips</div>
+                     <div class="panel-body">
+                        <trip-grid broadcast="'off'" admin-mode="false" settings="false" row-detail="'off'" footer="'pagination'" link-to-detail: "''="link-to-detail: "''" sub-event: "'on'="sub-event: "'on'" sub-subs-grid: "'on'="sub-subs-grid: "'on'" export:
+                        "true="export: "true" api="[{'Parent':'','MojioModel':'Vehicles/' + vehicle._id + '/Trips' ,'defaultCriteria':'','criteria':''}]"></trip-grid>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </tab>
+   </tabset>
+</div>

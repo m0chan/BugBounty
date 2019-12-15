@@ -1,0 +1,10 @@
+<tr>
+   <td>
+      <button type="button" href="" ng-click="detailRow(null)" class="btn">
+         <li class="fa fa-arrow-left"></li>Close</button>
+      <br/>
+      <br/>
+      <pre ng-if="rowDetail=='lite'">{{selectedRow | json}}</pre>
+      <json-formatter ng-if="rowDetail!='lite'" open="1" json="selectedRow"></json-formatter>
+   </td>
+</tr>

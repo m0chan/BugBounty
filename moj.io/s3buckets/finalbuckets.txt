@@ -1,0 +1,10 @@
+simulator.moj.io
+staging-simulator.moj.io
+prod-simulator.moj.io
+my.moj.io
+trial-my.moj.io
+mobile-pl-web.moj.io
+tmobile-pl-web.moj.io
+cz-my.moj.io
+tmobile-cz-web.moj.io
+mojio-cz-web.moj.io 

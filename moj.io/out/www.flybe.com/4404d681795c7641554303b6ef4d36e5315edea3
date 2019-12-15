@@ -1,0 +1,15 @@
+http://www.flybe.com/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: www.flybe.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:28:02 GMT
+< Cache-Control: max-age=3600
+< Vary: Accept-Encoding
+< Expires: Sun, 15 Dec 2019 15:28:02 GMT
+< Location: https://www.flybe.com/phpinfo.php
+< Server: cloudflare
+< Cf-Ray: 54591a0e9d7ebfd4-MAN
+

@@ -1,0 +1,13 @@
+http://services-na.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: services-na.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:29:50 GMT
+< Content-Length: 0
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=e6542d98ba549c57708befaa0104ee3a0d8267c5ad730919ce48720c5d020975;Path=/;HttpOnly;Domain=services-na.moj.io
+

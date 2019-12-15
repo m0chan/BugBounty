@@ -1,0 +1,12 @@
+http://jsonformatter.azureedge.net/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: jsonformatter.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:29:55 GMT
+< Location: https://jsonformatter.azureedge.net/application.wadl
+< Server: ECAcc (lpl/EF51)
+< Content-Length: 0
+

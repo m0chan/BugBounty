@@ -1,0 +1,113 @@
+<!--Created by pooyaparidel on 15-03-27.
+-->
+<span data-alias="UserMojioGrid" data-mojioapi="{{api}}">
+   <span st-pipe="callServer" st-table="displayed">
+      <div ng-show="selectedRow==null" ng-if="settings" class="pull-right">
+         <div dropdown="dropdown" class="btn-group">
+            <button type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="btn btn-default dropdown-toggle">Fields
+               <span class="caret"></span>
+            </button>
+            <ul role="menu" class="dropdown-menu">
+               <li ng-repeat="x in s.f"><a ng-click="ShowHide(x.name)"><i ng-show="!x.show" class="fa fa-square-o"></i><i ng-show="x.show" class="fa fa-check-square-o"></i>{{ x.name }}</a>
+               </li>
+            </ul>
+         </div>
+         <div dropdown="dropdown" class="btn-group">
+            <button type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="btn btn-default dropdown-toggle">Page Size
+               <span class="fa fa-list"></span>
+            </button>
+            <ul role="menu" class="dropdown-menu">
+               <li><a ng-click="changeItemsPerPage(10)"><i class="fa fa-check-square-o"></i>10</a>
+               </li>
+               <li><a ng-click="changeItemsPerPage(20)"><i class="fa fa-check-square-o"></i>20</a>
+               </li>
+            </ul>
+         </div>
+         <div dropdown="dropdown" class="btn-group">
+            <button type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="btn btn-default dropdown-toggle">Export
+               <span class="fa fa-download"></span>
+            </button>
+            <ul role="menu" class="dropdown-menu pull-right">
+               <li><a ng-click="exportData(EXPORT_CURRENT_PAGE,EXPORT_CSV)"><i class="fa fa-check-square-o"></i>Export Current Page</a>
+               </li>
+               <li><a ng-click="exportData(EXPORT_VISITED_PAGES,EXPORT_CSV)"><i class="fa fa-check-square-o"></i>Export Visited Pages</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div class="panel-body">
+         <table class="table table-hover table-bordered table-striped table-condensed">
+            <thead ng-show="selectedRow==null">
+               <tr>
+                  <th colspan="3"><i class="fa fa-openid fa-2x"></i>
+                  </th>
+                  <th ng-show="s.f[0].show" data-show="true" st-sort="IMEI" class="fieldHeader">S ADDRESS</th>
+                  <th ng-show="s.f[1].show" data-show="true" st-sort="STATE" class="fieldHeader">S TIME</th>
+                  <th ng-show="s.f[2].show" data-show="true" st-sort="CONTACT" class="fieldHeader">E ADDRESS</th>
+                  <th ng-show="s.f[3].show" data-show="true" st-sort="CONTACT" class="fieldHeader">E TIME</th>
+                  <th class="fieldHeader">
+                     <li class="fa fa-download"></li>
+                  </th>
+               </tr>
+            </thead>
+            <tbody ng-show="selectedRow==null &amp;&amp; !isLoading">
+               <tr ng-repeat-start="row in displayed">
+                  <td>
+                     <a ng-if="broadcast!='off'" href="" ng-click="detailRow(row,'broadcast')">
+                        <li class="fa fa-tag"></li>
+                     </a>
+                  </td>
+                  <td>
+                     <a ng-if="rowDetail!='off'" href="" ng-click="detailRow(row)">
+                        <li class="fa fa-code"></li>
+                     </a>
+                  </td>
+                  <td>
+                     <a ng-if="subEvent!='off'" href="" ng-click="showSubGrid(row,'Events')">
+                        <li class="fa fa-bolt"></li>
+                     </a>
+                  </td>
+                  <td ng-show="s.f[0].show">
+                     <mojio-location geoloc="row.StartLocation" address="row.StartAddress"></mojio-location>
+                  </td>
+                  <td ng-show="s.f[1].show">{{row.StartTime | date:'yy-MM-dd HH:mm'}}</td>
+                  <td ng-show="s.f[2].show">
+                     <mojio-location geoloc="row.EndLocation" address="row.EndAddress"></mojio-location>
+                  </td>
+                  <td ng-show="s.f[3].show">{{row.EndTime | date:'yy-MM-dd HH:mm'}}</td>
+                  <td>
+                     <a ng-if="export==true" href="" ng-click="showDetailView('admin.exportevents','tripRow',row)">
+                        <li class="fa fa-download"></li>
+                     </a>
+                  </td>
+               </tr>
+               <tr ng-repeat-end="ng-repeat-end">
+                  <td colspan="40" ng-if="subGrid==row &amp;&amp; subGridType=='Events'">
+                     <event-grid broadcast="broadcast" admin-mode="adminMode" settings="settings" row-detail="rowDetail" footer="footer" link-to-detail: "linkToDetail="link-to-detail: "linkToDetail" sub-subs-grid: "subSubsGrid="sub-subs-grid:
+                     "subSubsGrid" api="[{'MojioModel':'Trips/:id/Events','defaultCriteria':'','criteria':''}]"></event-grid>
+                  </td>
+               </tr>
+            </tbody>
+            <tbody ng-show="selectedRow!=null &amp;&amp; selectedType==&quot;&quot;" ng-if="rowDetail!='off'">
+               <tr>
+                  <td>
+                     <button type="button" href="" ng-click="detailRow(null)" class="btn">
+                        <li class="fa fa-arrow-left"></li>Close</button>
+                     <br/>
+                     <br/>
+                     <pre ng-if="rowDetail=='lite'">{{selectedRow | json}}</pre>
+                     <json-formatter ng-if="rowDetail!='lite'" open="1" json="selectedRow"></json-formatter>
+                  </td>
+               </tr>
+            </tbody>
+            <tfoot ng-if="footer=='pagination'">
+               <tr ng-show="selectedRow==null &amp;&amp; (displayed.length!=0 || isLoading)">
+                  <td ng-show="isLoading" colspan="40"><i class="fa fa-spinner fa-spin fa-2x"></i>
+                  </td>
+                  <td ng-show="!isLoading" st-pagination="" st-displayed-pages="10" st-items-by-page="itemsPerPage || 10" colspan="40" class="text-center"></td>
+               </tr>
+            </tfoot>
+         </table>
+      </div>
+   </span>
+</span>

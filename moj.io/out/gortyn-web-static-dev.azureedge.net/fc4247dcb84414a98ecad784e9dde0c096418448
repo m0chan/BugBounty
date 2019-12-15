@@ -1,0 +1,17 @@
+http://gortyn-web-static-dev.azureedge.net/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: gortyn-web-static-dev.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 223
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:05 GMT
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< Vary: Origin
+< X-Ms-Request-Id: acf82719-901e-00b4-3354-b38dbd000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:acf82719-901e-00b4-3354-b38dbd000000
+Time:2019-12-15T14:30:05.7846418Z</Message></Error>

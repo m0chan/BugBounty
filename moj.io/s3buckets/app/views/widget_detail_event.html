@@ -1,0 +1,45 @@
+<div class="row">
+   <div class="panel">
+      <div class="panel-body">
+         <div class="col-md-12">
+            <span class="fa fa-bolt fa-2x"></span>{{data.EventType}}
+            <hr/>
+            <div class="row">
+               <div class="col-md-6">
+                  <div>Location:
+                     <span mojio-location="mojio-location" geoloc="data.Location"></span>
+                     <br/>Time: {{data.Time | date:'yy-MM-dd HH:mm'}}</div>
+                  <hr/>
+                  <div>Fuel Level:
+                     <progressbar max="100" value="data.FuelLevel" ng-style="{height:7}" class="progress-striped active"></progressbar>Fuel Efficiency: {{data.FuelEfficiency}}</div>
+                  <hr/>
+                  <div>Speed: {{data.Speed}}
+                     <br/>RPM: {{data.RPM}}</div>
+                  <div>Distance: {{data.Distance}}</div>
+               </div>
+               <div class="col-md-6">Operations:
+                  <ul class="fa-ul">
+                     <li><i class="fa-li fa fa-tag"></i><a href="" ng-click="$parent.deselect()">&nbsp;Deselect This Trip</a>
+                     </li>
+                     <li><i class="fa-li fa fa-user"></i><a href="" ng-click="showVehicle()">&nbsp;Show Vehicle</a>
+                     </li>
+                     <li><i class="fa-li fa fa-user"></i><a href="" ng-click="showDevice()">&nbsp;Show Device</a>
+                     </li>
+                     <li><i class="fa-li fa fa-bolt"></i><a ng-if="!rel.events.length &amp;&amp; !rel.loadEvents" href="" ng-click="showRecentEvents()">&nbsp;List of Recent Events</a>
+                        <span ng-if="rel.events.length || rel.loadEvents">&nbsp;List of Recent Events
+                           <ul class="fa-ul">
+                              <li ng-repeat="eve in rel.events"><i class="fa-li fa fa-bolt"></i><a ng-click="broadcast(eve)">{{eve.EventType}} ({{eve.Time | date:'yy-MM-dd HH:mm'}})</a>
+                              </li>
+                              <li ng-if="rel.loadEvents"><i class="fa-li fa fa-spinner fa-spin"></i>Loading...</li>
+                              <li ng-if="rel.moreEvents"><i class="fa-li fa fa-bolt"></i><a href="" ng-click="showRecentEvents()">&nbsp;Load more</a>
+                              </li>
+                           </ul>
+                        </span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

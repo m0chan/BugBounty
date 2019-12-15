@@ -1,0 +1,16 @@
+<h3>Situation Editor</h3>
+<div class="row">
+   <div class="col-md-4">
+      <div ng-click="CreateSituation()" class="well">
+         <h2 class="mt0 pt0"><i class="fa fa-plus-square"></i>&nbsp; New Situation</h2>
+         <div class="mt-lg"><i class="fa fa-pencil"></i>&nbsp;Create</div>
+      </div>
+   </div>
+   <div ng-repeat="s in Situation" class="col-md-4">
+      <div ng-click="EditSituation(s._id)" class="well">
+         <h2 class="mt0 pt0">
+            <img width="32" height="32" src="{{s.icon}}" class="bt bl br bb" />&nbsp; {{ s.name || 'No Name Situation' }}</h2>
+         <div class="mt-lg"><i class="fa fa-pencil"></i>&nbsp;Edit</div>
+      </div>
+   </div>
+</div>

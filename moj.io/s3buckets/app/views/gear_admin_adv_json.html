@@ -1,0 +1,27 @@
+<div class="text-center bb">
+   <div class="row mt-lg">
+      <span dropdown="dropdown" class="dropdown dropdown-list">
+         <span dropdown-toggle="dropdown-toggle">{{AllTypes[data.SelectedTypes].title}}
+            <em class="fa fa-caret-down"></em>
+         </span>
+         <ul role="menu" style="top:initial" class="dropdown-menu">
+            <li>
+               <div class="list-group">
+                  <a ng-repeat="dt in AllTypes" ng-click="changeType(dt,$index)" class="list-group-item">
+                     <div class="media-box">
+                        <div class="media-box-body clearfix p0">
+                           <p class="h6 m0">{{dt.title}}</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </li>
+         </ul>
+      </span>
+   </div>
+</div>
+<div class="row">
+   <div style="height:400px;overflow:auto" class="col-xs-12">
+      <json-formatter ng-if="rowDetail!='lite'" open="1" json="result"></json-formatter>
+   </div>
+</div>

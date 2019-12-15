@@ -1,0 +1,13 @@
+http://rogers-identity.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: rogers-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< Location: https://rogers-identity.moj.io/security.txt
+< Server: Microsoft-IIS/10.0
+< Date: Sun, 15 Dec 2019 14:29:46 GMT
+

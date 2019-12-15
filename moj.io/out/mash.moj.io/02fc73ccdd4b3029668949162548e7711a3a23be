@@ -1,0 +1,20 @@
+https://mash.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: mash.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:29:17 GMT
+< Server: Apache
+< Content-Length: 196
+< Content-Type: text/html; charset=iso-8859-1
+< Via: 1.1 vegur
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+</body></html>

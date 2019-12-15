@@ -1,0 +1,98 @@
+http://alexa.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: alexa.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Site Not Found
+< Date: Sun, 15 Dec 2019 14:28:33 GMT
+< Content-Length: 2778
+< Content-Type: text/html
+< Server: Microsoft-IIS/10.0
+
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Microsoft Azure Web App - Error 404</title>
+    <style type="text/css">
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+        #feature {
+            width: 960px;
+            margin: 75px auto 0 auto;
+            overflow: auto;
+        }
+
+        #content {
+            font-family: "Segoe UI";
+            font-weight: normal;
+            font-size: 22px;
+            color: #ffffff;
+            float: left;
+            margin-top: 68px;
+            margin-left: 0px;
+            vertical-align: middle;
+        }
+
+            #content h1 {
+                font-family: "Segoe UI Light";
+                color: #ffffff;
+                font-weight: normal;
+                font-size: 60px;
+                line-height: 48pt;
+                width: 800px;
+            }
+
+        a, a:visited, a:active, a:hover {
+            color: #ffffff;
+        }
+
+        #content a.button {
+            background: #0DBCF2;
+            border: 1px solid #FFFFFF;
+            color: #FFFFFF;
+            display: inline-block;
+            font-family: Segoe UI;
+            font-size: 24px;
+            line-height: 46px;
+            margin-top: 10px;
+            padding: 0 15px 3px;
+            text-decoration: none;
+        }
+
+            #content a.button img {
+                float: right;
+                padding: 10px 0 0 15px;
+            }
+
+            #content a.button:hover {
+                background: #1C75BC;
+            }
+    </style>
+    <script type="text/javascript">
+        function toggle_visibility(id) {
+            var e = document.getElementById(id);
+            if (e.style.display == 'block')
+                e.style.display = 'none';
+            else
+                e.style.display = 'block';
+        }
+    </script>
+</head>
+<body bgcolor="#00abec">
+    <div id="feature">
+        <div id="content">
+            <h1>404 Web Site not found.</h1>
+            <p>You may be seeing this error due to one of the reasons listed below :</p>
+            <ul>
+                <li>Custom domain has not been configured inside Azure. See <a href="https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-tutorial-custom-domain">how to map an existing domain</a> to resolve this.</li>
+                <li>Client cache is still pointing the domain to old IP address. Clear the cache by running the command <i>ipconfig/flushdns.</i></li>
+            </ul>
+            <p>Checkout <a href="https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains/">App Service Domain FAQ</a> for more questions.</p>
+        </div>
+     </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<h3>Export Events</h3>
+<span ng-controller="exportEventsController as mc">
+   <div class="form-group col-lg-2">Margin (sec) {{settings.margin}}</div>
+   <div class="form-group col-lg-10">
+      <div style="margin-top:8px" data-range-slider="data-range-slider" data-floor="1" data-ceiling="100" data-step="1" data-precision="1" data-highlight="left" data-ng-model="settings.margin"></div>
+   </div>
+   <div class="form-group col-lg-12">
+      <button ng-click="importData()" class="btn btn-info">
+         <li class="fa fa-upload"></li>&nbsp; Import</button>
+   </div>
+</span>

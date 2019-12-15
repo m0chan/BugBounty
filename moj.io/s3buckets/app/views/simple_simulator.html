@@ -1,0 +1,73 @@
+<div ng-controller="simpleSimulatorController as mc">
+   <div class="row">
+      <div class="col-md-6">
+         <div class="panel panel-default">
+            <div class="panel-body">
+               <div class="row">
+                  <div class="col-md-12 text-info">This is the simple simulator without any control over simulation settings. if you need to customize your simulation, you can use Advance Simulator</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-2">Vehicle:</div>
+                  <div class="col-md-4"><a ng-if="Vehicles!=null" editable-select="Vehicle.Selected" buttons="no" e-ng-options="v._id as v.Name for v in Vehicles">{{showVehicle()}}</a>
+                  </div>
+                  <div class="col-md-6">
+                     <span class="pull-right">
+                        <button ng-if="SimulationMode!='Play'" ng-click="SimpleSimulationPlay()" type="button" title="Play" class="mb-sm btn btn-success"><i class="fa fa-play"></i>
+                        </button>
+                        <button ng-if="SimulationMode!='Stop'" ng-click="SimulationStop()" type="button" title="Stop" class="mb-sm btn btn-danger"><i class="fa fa-stop"></i>
+                        </button>
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="panel panel-default">
+            <div class="panel-body">
+               <div class="row">
+                  <div class="col-md-12">Direction Steps: {{Info.StepsNo}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Max Events No: {{Info.EventsNo}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Current Step: {{SimulationStep}} / {{Settings.Events.length}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <kbd>{{Info.LastImportantEvent.EventType || "Last Important Event"}}</kbd>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Last Event: &nbsp;{{Info.LastEvent.EventType}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Distance: &nbsp;{{Info.LastEvent.Odometer}}m</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">RPM: &nbsp;{{Info.LastEvent.RPM}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Speed: &nbsp;{{Info.LastEvent.Speed}}</div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">Fuel: &nbsp;{{Info.LastEvent.FuelLevel}}%</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-6">
+         <div class="panel panel-default">
+            <div style="height:355px" class="panel-body">
+               <div class="row">
+                  <div ng-class="{'col-md-12':SimulationMode=='Stop','col-md-8':SimulationMode!='Stop'}">
+                     <div id="map_canvas" style="height:330px"></div>
+                  </div>
+                  <div ng-show="SimulationMode!='Stop'" class="col-md-4">
+                     <div id="pano" style="height:330px"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

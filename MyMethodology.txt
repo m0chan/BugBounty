@@ -1,0 +1,4 @@
+1) OWASP Checklist 
+	Found in /BugBounty & $Tools in .xlsx Format
+2)
+

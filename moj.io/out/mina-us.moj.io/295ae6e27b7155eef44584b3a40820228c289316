@@ -1,0 +1,30 @@
+https://mina-us.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: mina-us.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Content-Type-Options: nosniff
+< Date: Sun, 15 Dec 2019 14:28:34 GMT
+< X-Powered-By: Express
+< Access-Control-Allow-Origin: *
+< Content-Security-Policy: default-src 'self'
+< Cf-Cache-Status: DYNAMIC
+< Cf-Ray: 54591acf7b38e5a3-MAN
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Server: cloudflare
+< Content-Type: text/html; charset=utf-8
+< Set-Cookie: __cfduid=d6a64b09c7a12db79fa05a33d04386a791576420113; expires=Tue, 14-Jan-20 14:28:33 GMT; path=/; domain=.moj.io; HttpOnly
+< Vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /phpinfo.php</pre>
+</body>
+</html>

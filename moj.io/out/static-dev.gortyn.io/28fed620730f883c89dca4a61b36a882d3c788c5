@@ -1,0 +1,17 @@
+https://static-dev.gortyn.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: static-dev.gortyn.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Vary: Origin
+< X-Ms-Request-Id: 8538d17a-301e-0018-3454-b3ac2a000000
+< Content-Length: 223
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:20 GMT
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:8538d17a-301e-0018-3454-b3ac2a000000
+Time:2019-12-15T14:30:21.4225479Z</Message></Error>

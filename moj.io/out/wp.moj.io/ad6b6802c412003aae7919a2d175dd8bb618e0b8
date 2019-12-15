@@ -1,0 +1,522 @@
+https://wp.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: wp.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< Pragma: no-cache
+< Date: Sun, 15 Dec 2019 14:29:52 GMT
+< X-Powered-By: PHP/5.3.29
+< X-Pingback: https://www.moj.io/xmlrpc.php
+< Content-Type: text/html; charset=UTF-8
+< Server: Apache/2.2.34 (Amazon)
+< Set-Cookie: aelia_cs_selected_currency=CAD; expires=Mon, 16-Dec-2019 14:29:52 GMT; path=/
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+
+<!DOCTYPE html>
+    <html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js skrollr is-not-mobile">
+  <head>
+    <title>Page not found - Mojio - Connected Car Platform</title>
+    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="wp_is_mobile" content="false">
+    <link rel="profile" href="//gmpg.org/xfn/11">
+    <link rel="pingback" href="//www.moj.io/xmlrpc.php">
+    <link rel="shortcut icon" href="//www.moj.io/wp-content/themes/mojio-child/favicon.ico">
+    
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || []
+</script>
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Page not found - Mojio - Connected Car Platform" />
+<meta property="og:site_name" content="Mojio - Connected Car Platform" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Page not found - Mojio - Connected Car Platform"/>
+<meta name="twitter:domain" content="Mojio - Connected Car Platform"/>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Mojio - Connected Car Platform &raquo; Feed" href="//www.moj.io/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mojio - Connected Car Platform &raquo; Comments Feed" href="//www.moj.io/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/www.moj.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.1"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='mojio_child_style_vendor-css'  href='//www.moj.io/wp-content/themes/mojio-child/assets/css/prod/mojio.vendor..css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mojio_child_style_app-css'  href='//www.moj.io/wp-content/themes/mojio-child/assets/css/prod/mojio.app..css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='announcement_bar_css-css'  href='//www.moj.io/wp-content/themes/mojio-child/assets/css/../../../../plugins/announcement-bar/css/style.css?ver=4.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='//www.moj.io/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='//www.moj.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='//www.moj.io/wp-content/themes/mojio-child/assets/js/mojio.vendor.min..js?ver=4.3.1'></script>
+<script type='text/javascript' src='//www.moj.io/wp-content/themes/mojio-child/assets/js/mojio.app.min..js?ver=4.3.1'></script>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+
+<!-- Google Tag Manager for WordPress by DuracellTomi -->
+<script type="text/javascript">
+	dataLayer.push([]);
+</script>    <script type="text/javascript">(function(o){var b="https://briskpelican.io/anywhere/",t="fe6ec186a57b4944826d87489689de3a2c4b784aaf6c4d20b326bc047e0cb48d",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});</script>
+      </head>
+  <body class="error404 mojio wpb-js-composer js-comp-ver-3.7.3 vc_responsive">
+  <!-- Start Google Tag Manager -->
+  
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KB82D67"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KB82D67');</script>
+<!-- End Google Tag Manager -->
+
+<div class="hamburger-container">
+    <div class="hamburger"></div>
+    <a href="https://www.moj.io" class="mobilelogo"><img class="mobilelogo-image" src="//www.moj.io/wp-content/themes/mojio-child/assets/img/mojio-logo-new.png"></a>
+</div>
+<div class="navtint navtint--solid"></div>
+<header class="newheader">
+    <div class="newheader-menucontainer">
+        <div class="newheader-menucontainer-logo">
+            <a class="newheader-menucontainer-logo-link" href="https://www.moj.io">
+                <img src="//www.moj.io/wp-content/themes/mojio-child/assets/img/mojio-logo-new.png" class="newheader-menucontainer-logo-link-image">
+            </a>
+        </div>
+        <ul class="newheader-menucontainer-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="#">Products</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="https://www.moj.io/connected-car-platform/">Connected Car Platform</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="https://www.moj.io/motion-connected-car-app/">Motion App</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="#">Industries</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="https://www.moj.io/wireless-carriers/">Wireless Carriers</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="https://www.moj.io/automotive-oem-solutions/">Automakers</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="#">Company</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="https://www.moj.io/our-company/">About Mojio</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="https://www.moj.io/press-room/">Press Room</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="https://www.moj.io/partners/">Partners</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="https://www.moj.io/resources/">Resources</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="https://www.moj.io/careers/">Careers</a></li>
+<li class="secondary secondary-first menu-item menu-item-type-post_type menu-item-object-page newheader-menucontainer-menu-item"><a class="nav-menu-item-link" href="https://www.moj.io/support/">Support</a></li>
+</ul>    </div>  
+</header>
+
+<main class="page-404 page-default-main">
+<div class="container-wrap">
+	
+	<div class="container main-content">
+		
+		<div class="row">
+			<div id="error-404">
+				<div class="padded-container">
+					<h1>404</h1>
+					<h2>Page Not Found.</h2>
+					<!-- <p>Sorry, the page you are looking for does not exist</p> -->
+				</div>
+			</div>
+		</div><!--/row-->
+		
+	</div><!--/container-->
+	
+</div>
+</main>
+
+<footer class="newfooter clearfix">
+    <div class="section-content-container">
+        <div class="newfooter-menucontainer">
+            <ul class="newfooter-menucontainer-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="#">Products</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="https://www.moj.io/connected-car-platform/">Connected Car Platform</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="https://www.moj.io/motion-connected-car-app/">Motion App</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="#">Industries</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="https://www.moj.io/automotive-oem-solutions/">Automakers</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="https://www.moj.io/wireless-carriers/">Wireless Carriers</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="#">Company</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="https://www.moj.io/our-company/">About Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="https://www.moj.io/careers/">Careers</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="https://www.moj.io/partners/">Partners</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="https://www.moj.io/press-room/">Press Room</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="https://www.moj.io/resources/">Resources</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="#">More</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page newfooter-menucontainer-menu-item"><a class="footer-menu-item-link" href="https://www.moj.io/support/">Support</a></li>
+</ul>
+</li>
+</ul>        </div>
+        <div id="getstarted" class="newfooter-getstarted">
+            <h3 class="newfooter-getstarted-header">Get Started</h3>
+            <a href="#newfootergetstartedrequestinfo" data-lity class="newfooter-getstarted-requestinfo">contact us</a>
+            <div id="newfootergetstartedrequestinfo" class="lity-hide"><div role="form" class="wpcf7" id="wpcf7-f8278-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/security.txt#wpcf7-f8278-o1" method="post" class="wpcf7-form contactform" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="8278" />
+<input type="hidden" name="_wpcf7_version" value="4.3" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f8278-o1" />
+<input type="hidden" name="_wpnonce" value="0639a5a3f2" />
+</div>
+<h3>We’re Eager to Help Your Business</h3>
+<div style="margin-bottom: 20px; color: #999;">
+<p style="margin-bottom: 5px;">Please let us know how we can help you accelerate your connected car business.</p>
+<p style="margin-bottom: 0;">For end user support, please  <a href="/support" target="_blank" style="font-weight: bold; color: #ccc;">contact your wireless carrier or service provider directly</a>.</p>
+</div>
+<div class="wpcf7-response-output wpcf7-display-none"></div>
+<div class="row no-padding">
+<div class="columns small-12">
+<div class="gfield_description">How can we help you?</div>
+<div><span class="wpcf7-form-control-wrap how-can-we-help-you"><select name="how-can-we-help-you" class="wpcf7-form-control wpcf7-select gfield_select" aria-invalid="false"><option value="Sales/Marketing Inquiry">Sales/Marketing Inquiry</option><option value="Support Request">Support Request</option><option value="Other">Other</option></select></span>
+</div>
+</div>
+</div>
+<div class="row no-padding">
+<div class="columns small-6">
+    <span class="wpcf7-form-control-wrap first-name"><input type="text" name="first-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required contactform-names" aria-required="true" aria-invalid="false" placeholder="First Name" /></span>
+</div>
+<div class="columns small-6">
+    <span class="wpcf7-form-control-wrap last-name"><input type="text" name="last-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required contactform-names" aria-required="true" aria-invalid="false" placeholder="Last Name" /></span>
+</div>
+</div>
+<div class="row no-padding">
+<div class="columns small-12">
+    <span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email contactform-email" aria-required="true" aria-invalid="false" placeholder="Business Email" /></span>
+</div>
+</div>
+<div class="row no-padding">
+<div class="columns small-12">
+    <span class="wpcf7-form-control-wrap phone"><input type="tel" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel contactform-phone" aria-invalid="false" placeholder="Mobile Phone" /></span>
+</div>
+</div>
+<div class="row no-padding">
+<div class="columns small-12">
+    <span class="wpcf7-form-control-wrap company"><input type="text" name="company" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required contactform-company" aria-required="true" aria-invalid="false" placeholder="Company" /></span>
+</div>
+</div>
+<div class="row no-padding">
+<div class="columns small-12">
+    <span class="wpcf7-form-control-wrap job-title"><input type="text" name="job-title" value="" size="40" class="wpcf7-form-control wpcf7-text contactform-job-title" aria-invalid="false" placeholder="Job Title" /></span>
+</div>
+</div>
+<div class="row no-padding">
+<div class="columns small-12 contactform-message">
+    <span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your Message"></textarea></span>
+</div>
+</div>
+<div class="row no-padding">
+<div class="columns small-12">
+<div data-sitekey="6LcUrJsUAAAAAC3UGzsOoTzoW8WU7XMWT7imR5He" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"></div>
+<noscript>
+	<div style="width: 302px; height: 422px;">
+		<div style="width: 302px; height: 422px; position: relative;">
+			<div style="width: 302px; height: 422px; position: absolute;">
+				<iframe src="https://www.google.com/recaptcha/api/fallback?k=6LcUrJsUAAAAAC3UGzsOoTzoW8WU7XMWT7imR5He" frameborder="0" scrolling="no" style="width: 302px; height:422px; border-style: none;">
+				</iframe>
+			</div>
+			<div style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+				<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;">
+				</textarea>
+			</div>
+		</div>
+	</div>
+</noscript>
+
+<p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" />
+</p></div>
+</div>
+<script type='text/javascript'>
+
+						if(contactform === undefined){
+							var contactform = [];
+						}
+						var innerVal = [8278,'mail_sent_ok','Thanks for contacting us! We will get in touch with you shortly.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'mail_sent_ng','Failed to send your message. Please try later or contact the administrator by another method.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'validation_error','Validation errors occurred. Please confirm the fields and submit it again.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'spam','Failed to send your message. Please try later or contact the administrator by another method.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'accept_terms','Please accept the terms to proceed.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'invalid_required','Please fill in the required field.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'invalid_too_long','This input is too long.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'invalid_too_short','This input is too short.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'invalid_date','Date format seems invalid.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'date_too_early','This date is too early.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'date_too_late','This date is too late.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'upload_failed','Failed to upload file.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'upload_file_type_invalid','This file type is not allowed.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'upload_file_too_large','This file is too large.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'upload_failed_php_error','Failed to upload file. Error occurred.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'invalid_number','Number format seems invalid.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'number_too_small','This number is too small.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'number_too_large','This number is too large.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'quiz_answer_not_correct','Your answer is not correct.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'invalid_email','Email address seems invalid.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'invalid_url','URL seems invalid.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'invalid_tel','Telephone number seems invalid.'];
+						contactform.push(innerVal);
+						var innerVal = [8278,'gdpr',''];
+						contactform.push(innerVal);
+						</script></form></div></div>
+                    </div>
+        <div id="latestnews" class="newfooter-latestnews">
+            
+                <div class='gf_browser_unknown gform_wrapper' id='gform_wrapper_2014868633' ><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_2014868633' id='gform_2014868633'  action='/security.txt'>
+                        <div class='gform_heading'>
+                            <h3 class='gform_title'>Get The Latest News</h3>
+                        </div>
+                        <div class='gform_body'><ul id='gform_fields_2014868633' class='gform_fields top_label form_sublabel_below description_below'><li id='field_2014868633_1'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_2014868633_1' >Email<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_2014868633_1' type='text' value='' class='medium'   placeholder='Enter Your Email' aria-required="true" aria-invalid="false" />
+                        </div></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <button type='submit' id='gform_submit_button_2014868633' class='gform_button'>SUBSCRIBE</button> <input type='hidden' name='gform_ajax' value='form_id=2&amp;title=1&amp;description=&amp;tabindex=0' />
+            <input type='hidden' class='gform_hidden' name='is_submit_2' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='2' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_2' value='WyJbXSIsIjZmZTgyNGM1OTcxNzJlZjQ5MWRhY2QyYzE5ZWExZGNjIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_2' id='gform_target_page_number_2' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_2' id='gform_source_page_number_2' value='1' />
+            <input type='hidden' name='gform_random_id' value='2014868633' /><input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_2014868633' id='gform_ajax_frame_2014868633'>This iframe contains the logic required to handle Ajax powered Gravity Forms.</iframe>
+                <script type='text/javascript'>jQuery(document).ready(function($){gformInitSpinner( 2014868633, 'https://www.moj.io/wp-content/themes/mojio-child/assets/img/spinner.svg' );jQuery('#gform_ajax_frame_2014868633').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_2014868633');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_2014868633').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;if(is_form){jQuery('#gform_wrapper_2014868633').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_2014868633').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_2014868633').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_2').val();gformInitSpinner( 2014868633, 'https://www.moj.io/wp-content/themes/mojio-child/assets/img/spinner.svg' );jQuery(document).trigger('gform_page_loaded', [2014868633, current_page]);window['gf_submitting_2014868633'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_2014868633').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [2014868633]);window['gf_submitting_2014868633'] = false;}, 50);}else{jQuery('#gform_2014868633').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [2014868633, current_page]);} );} );</script><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 2014868633) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [2014868633, 1]) } ); </script><script type="text/javascript">window["GravityFormTitle2"] = "";window["GravityFormDescr2"] = "";</script>        </div>
+        <div class="newfooter-social">
+            <a class="newfooter-social-link" target="_blank" href="https://www.facebook.com/getmojio"><i class="newfooter-social-link-icon fa fa-facebook"></i></a>
+            <a class="newfooter-social-link" target="_blank" href="https://twitter.com/getmojio"><i class="newfooter-social-link-icon fa fa-twitter"></i></a>
+            <a class="newfooter-social-link" target="_blank" href="https://www.linkedin.com/company/mojio"><i class="newfooter-social-link-icon fa fa-linkedin"></i></a>
+        </div>
+        <div class="newfooter-legal">
+            <ul class="legal-menucontainer-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page legal-menucontainer-menu-item"><a class="legal-menu-item-link" href="https://www.moj.io/terms/">Terms of Use</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page legal-menucontainer-menu-item"><a class="legal-menu-item-link" href="https://www.moj.io/privacy/">Privacy</a></li>
+</ul>        </div>
+    </div>
+</footer>
+
+
+          <!-- Google Remarketing Code -->
+<script>
+/* <![CDATA[ */
+var google_conversion_id = 949710026;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/949710026/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+</noscript>
+    <!-- Popcorn Metrics Code -->
+<script>
+  function _pcm(u) {
+    setTimeout(function() {
+      var d = document,
+        p = "//desv383oqqc0.cloudfront.net/",
+        t = "?v=" + new Date().getTime().toString().slice(0, 7) + "000000",
+        s = d.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = p + u + ".js" + t;
+      var e = d.getElementsByTagName("script")[0];
+      e.parentNode.insertBefore(s, e);
+    }, 1);
+  }
+  _pcm("553ff5eb11129e0300000028");
+</script>
+    <!-- Visual Website Optimizer Code -->
+<script>
+  var _vwo_code = (function() {
+    var account_id = 154091,
+      settings_tolerance = 2000,
+      library_tolerance = 2500,
+      use_existing_jquery = false,
+      // DO NOT EDIT BELOW THIS LINE
+      f = false,
+      d = document;
+    return {
+      use_existing_jquery: function() {
+        return use_existing_jquery;
+      },
+      library_tolerance: function() {
+        return library_tolerance;
+      },
+      finish: function() {
+        if (!f) {
+          f = true;
+          var a = d.getElementById('_vis_opt_path_hides');
+          if (a) a.parentNode.removeChild(a);
+        }
+      },
+      finished: function() {
+        return f;
+      },
+      load: function(a) {
+        var b = d.createElement('script');
+        b.src = a;
+        b.type = 'text/javascript';
+        b.innerText;
+        b.onerror = function() {
+          _vwo_code.finish();
+        };
+        d.getElementsByTagName('head')[0].appendChild(b);
+      },
+      init: function() {
+        settings_timer = setTimeout('_vwo_code.finish()', settings_tolerance);
+        this.load('//dev.visualwebsiteoptimizer.com/j.php?a=' + account_id + '&u=' + encodeURIComponent(d.URL) + '&r=' + Math.random());
+        var a = d.createElement('style'),
+          b = 'body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',
+          h = d.getElementsByTagName('head')[0];
+        a.setAttribute('id', '_vis_opt_path_hides');
+        a.setAttribute('type', 'text/css');
+        if (a.styleSheet) a.styleSheet.cssText = b;
+        else a.appendChild(d.createTextNode(b));
+        h.appendChild(a);
+        return settings_timer;
+      }
+    };
+  }());
+  _vwo_settings_timer = _vwo_code.init();
+</script>
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Mojio",
+  "url": "http://www.moj.io",
+  "sameAs": [
+    "https://www.facebook.com/getmojio",
+    "https://twitter.com/getmojio",
+    "https://linkedin.com/company/mojio",
+    "https://www.youtube.com/user/getmojio"
+  ]
+}
+</script>
+  
+  <script type="text/javascript">
+var recaptchaCallback = function() {
+	var forms = document.getElementsByTagName('form');
+	var pattern = /(^|\s)g-recaptcha(\s|$)/;
+
+	for (var i = 0; i < forms.length; i++) {
+		var divs = forms[i].getElementsByTagName('div');
+
+		for (var j = 0; j < divs.length; j++) {
+			var sitekey = divs[j].getAttribute('data-sitekey');
+
+			if (divs[j].className && divs[j].className.match(pattern) && sitekey) {
+				grecaptcha.render(divs[j], {
+					'sitekey': sitekey,
+					'theme': divs[j].getAttribute('data-theme'),
+					'type': divs[j].getAttribute('data-type'),
+					'size': divs[j].getAttribute('data-size'),
+					'tabindex': divs[j].getAttribute('data-tabindex'),
+					'callback': divs[j].getAttribute('data-callback'),
+					'expired-callback': divs[j].getAttribute('data-expired-callback')
+				});
+
+				break;
+			}
+		}
+	}
+}
+</script>
+<style type="text/css">#announcement_bar_slider{background-color:#00BAF2;background-image:;background-repeat:repeat;background-position: ;}#announcement_bar_slider .announcement_title{font-family:;font-size:px;color:#ffffff;background-color:#36b249;background-image:;background-repeat:repeat;background-position: ;}#announcement_bar_slider .announcement_title:after{border-left-color:#36b249;}#announcement_bar_slider .announcement_content{font-family:;font-size:px;color:#333333;}#announcement_bar_slider .announcement_content a{color:#fffefe;text-decoration:none;}#announcement_bar_slider .announcement_content a:hover{color:#eeeeee;text-decoration:;}</style>
+<div class="themify_announcement bar textcenter    top fixed">
+	<div class="announcement_container">
+		<p>No Announcement posts</p>
+	</div>
+		<!-- /announcement_container -->
+</div>
+<!-- /themify_announcement -->
+
+<script type='text/javascript' src='//www.moj.io/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"https:\/\/www.moj.io\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+var _wpcf7 = {"loaderUrl":"https:\/\/www.moj.io\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.moj.io/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script>
+<script type='text/javascript' src='//www.moj.io/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/security.txt?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.moj.io/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.4.10'></script>
+<script type='text/javascript' src='//www.google.com/recaptcha/api.js?onload=recaptchaCallback&#038;render=explicit&#038;ver=2.0'></script>
+<script type='text/javascript' src='//www.moj.io/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/www.moj.io\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.moj.io\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.moj.io/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.8'></script>
+<script type='text/javascript' src='//www.moj.io/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.8'></script>
+<script type='text/javascript' src='//www.moj.io/wp-content/plugins/announcement-bar/js/jquery.carousel.js?ver=4.3.1'></script>
+<script type='text/javascript' src='//www.moj.io/wp-content/plugins/announcement-bar/js/scripts.js?ver=4.3.1'></script>
+
+<script>
+	jQuery(window).load(function(){ jQuery(window).resize(); });
+</script>
+
+  </body>
+  </html>
+

@@ -1,0 +1,5066 @@
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-0.pages.scm.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 19938
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-0.pages.scm.app.starbucks.com. IN	CNAME
+
+;; Query time: 80 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:06 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-access.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 11572
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-access.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:06 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-account.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 53727
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-account.3.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 74 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:06 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-admin.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 62843
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-admin.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 84 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:06 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-admin.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 8010
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-admin.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 92 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:06 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-affiliate.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 35116
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-affiliate.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 85 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:06 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-alumni.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 57538
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-alumni.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 253 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:07 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-amp.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 14598
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-amp.4.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 254 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:07 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-answers.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 49885
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-answers.3.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 76 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:07 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-apply.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48903
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-apply.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 70 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:07 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-archive.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 2296
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-archive.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 75 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:07 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-ask.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40247
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-ask.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 80 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:07 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-assets.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 31224
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-assets.0.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 70 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:07 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-atlas.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 11962
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-atlas.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 80 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:08 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-atlas.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 63106
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-atlas.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 100 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:08 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-auto.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 22932
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-auto.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 86 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:08 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-autodiscover.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 57232
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-autodiscover.0.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 87 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:08 BST 2019
+;; MSG SIZE  rcvd: 71
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-aws.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 43403
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-aws.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 83 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:08 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-biz.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48365
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-biz.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 85 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:08 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-blog.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 51952
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-blog.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 79 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:08 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-blogs.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 60146
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-blogs.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 103 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:08 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-cache.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 20099
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-cache.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 145 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:08 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-calendar.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 29200
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-calendar.1.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 77 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:08 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-calendar.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54519
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-calendar.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 76 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:09 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-career.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 20247
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-career.0.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 96 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:09 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-catalog.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 10299
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-catalog.0.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 130 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:09 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-cc.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 18335
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-cc.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 84 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:09 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-cc.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 412
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-cc.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 1079 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:10 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-chat.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 56678
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-chat.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 363 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:10 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-checkout.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 42275
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-checkout.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:10 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-cms.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 17627
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-cms.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:11 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-cn.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 51645
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-cn.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:11 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-confluence.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40444
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-confluence.4.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:11 BST 2019
+;; MSG SIZE  rcvd: 69
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-corp.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46324
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-corp.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:11 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-cse.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 51336
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-cse.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:11 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-d.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 36543
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-d.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 58 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:11 BST 2019
+;; MSG SIZE  rcvd: 58
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-da.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21563
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-da.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:11 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-dashboard.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61770
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-dashboard.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:11 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-data.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46144
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-data.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:11 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-de.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 33252
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-de.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:11 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-desktop.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 55975
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-desktop.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 84 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:11 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-developers.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 41523
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-developers.0.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:11 BST 2019
+;; MSG SIZE  rcvd: 69
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-dk.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24771
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-dk.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 63 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:12 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-docs.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 31288
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-docs.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 288 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:12 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-docs.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 37039
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-docs.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:12 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-downloads.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54237
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-downloads.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 70 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:12 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-drive.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 42195
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-drive.4.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 60 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:12 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-edge.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 57628
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-edge.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:12 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-emergency.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 58899
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-emergency.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 62 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:12 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-english.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 44885
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-english.1.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:12 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-es.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 19858
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-es.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 72 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:12 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-es.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 47259
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-es.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 70 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:12 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-event.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 18093
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-event.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 73 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:13 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-exchange.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 58465
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-exchange.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 63 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:13 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-ext.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 33159
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-ext.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:13 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-fb.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 16498
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-fb.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:13 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-feeds.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 6850
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-feeds.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 263 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:13 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-file.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64387
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-file.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 70 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:13 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-files.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54626
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-files.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 60 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:13 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-flights.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 62119
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-flights.3.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:13 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-forum.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 47002
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-forum.4.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 58 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:13 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-fr.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 26135
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-fr.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:13 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-ftp.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 26854
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-ftp.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:14 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-game.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 59972
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-game.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:14 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-games.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 6998
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-games.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:14 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-games.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 42786
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-games.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:14 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-geo.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46224
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-geo.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:14 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-get.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 36769
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-get.4.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:14 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-git.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 44985
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-git.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 60 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:14 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-global.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 27917
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-global.1.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:14 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-google.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 22370
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-google.1.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 73 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:14 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-health.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 34569
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-health.1.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 62 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:14 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-health.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 10793
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-health.3.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 75 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:14 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-help.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 1649
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-help.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 60 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:14 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-history.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21329
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-history.3.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 70 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:15 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-horizon.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 26897
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-horizon.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:15 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-hostmaster.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 43881
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-hostmaster.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 71 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:15 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-housing.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21488
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-housing.4.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 71 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:15 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-hr.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 23697
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-hr.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:15 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-hu.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 34817
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-hu.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:15 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-idp.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 6099
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-idp.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 72 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:15 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-images.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 50024
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-images.0.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:15 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-in.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 12316
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-in.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:15 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-info.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 45877
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-info.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:15 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-info.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 12490
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-info.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 58 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:15 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-innovation.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24755
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-innovation.4.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 72 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:15 BST 2019
+;; MSG SIZE  rcvd: 69
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-int.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 53238
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-int.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:16 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-intranet.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 65182
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-intranet.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:16 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-investor.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 32274
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-investor.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 73 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:16 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-iphone.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 62460
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-iphone.3.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:16 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-ir.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 34462
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-ir.4.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:16 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-job.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 23547
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-job.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 64 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:16 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-job.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21982
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-job.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:16 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-jobs.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 2134
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-jobs.4.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 72 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:16 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-js.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 39657
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-js.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 70 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:16 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-kr.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 45799
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-kr.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:16 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-kr.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 43226
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-kr.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 318 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:17 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-lab.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 15770
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-lab.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 61 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:17 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-law.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24699
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-law.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:17 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-library.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48984
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-library.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:17 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-link.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 12255
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-link.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 70 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:17 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-link.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 20521
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-link.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 60 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:17 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-lists.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 38405
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-lists.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 73 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:17 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-local.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 28107
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-local.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:17 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-localhost.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 51248
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-localhost.0.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:17 BST 2019
+;; MSG SIZE  rcvd: 68
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-log.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 44480
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-log.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 60 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:17 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-login.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 30483
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-login.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:17 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-lyncdiscover.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 35457
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-lyncdiscover.0.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:18 BST 2019
+;; MSG SIZE  rcvd: 71
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-maintenance.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 43027
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-maintenance.4.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:18 BST 2019
+;; MSG SIZE  rcvd: 70
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-maps.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 9698
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-maps.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:18 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-maps.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 33356
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-maps.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:18 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-math.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 11309
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-math.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 60 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:18 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-mc.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 8477
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-mc.4.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:18 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-member.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 38104
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-member.0.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:18 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-mm.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 62282
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-mm.4.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:18 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-mobilemail.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 37293
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-mobilemail.1.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:18 BST 2019
+;; MSG SIZE  rcvd: 69
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-money.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 23969
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-money.4.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:18 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-ms.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 907
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-ms.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:18 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-mt.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7293
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-mt.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:18 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-mx.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 12510
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-mx.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:19 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-my.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 44799
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-my.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:19 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-news.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 32368
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-news.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:19 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-newsletters.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24251
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-newsletters.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:19 BST 2019
+;; MSG SIZE  rcvd: 68
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-noc.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 11968
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-noc.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:19 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-online.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 44545
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-online.1.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:19 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-parking.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24803
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-parking.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:19 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-partners.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 47553
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-partners.4.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:19 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-passport.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 27094
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-passport.4.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:19 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-physics.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24672
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-physics.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 83 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:19 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-pl.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 5824
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-pl.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 124 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:19 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-plus.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 38851
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-plus.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 151 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:20 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-pop.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40740
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-pop.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 139 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:20 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-pro.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 59644
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-pro.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 91 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:20 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-prod.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 4756
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-prod.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:20 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-prod.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 28370
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-prod.4.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 64 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:20 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-profile.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64965
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-profile.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 80 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:20 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-pt.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 6741
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-pt.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:20 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-qa.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 29393
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-qa.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 63 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:20 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-redirect.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 4715
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-redirect.1.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:20 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-relay.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 55978
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-relay.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:20 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-reports.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 37221
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-reports.1.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:20 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-reviews.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 55233
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-reviews.3.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:21 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-rs.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 35151
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-rs.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:21 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-rss.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 34591
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-rss.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:21 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-ru.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 5243
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-ru.4.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 71 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:21 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-sc.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 15180
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-sc.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 64 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:21 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-se.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 41813
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-se.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:21 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-securemail.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 20847
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-securemail.1.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 64 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:21 BST 2019
+;; MSG SIZE  rcvd: 69
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-security.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7190
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-security.3.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 61 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:21 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-service.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 36080
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-service.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 61 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:21 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-services.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64044
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-services.4.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 60 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:21 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-signup.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 945
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-signup.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:21 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-sm.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 5260
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-sm.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 306 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:22 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-smetrics.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48593
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-smetrics.4.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:22 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-sms.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54722
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-sms.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:22 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-smtp.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 14420
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-smtp.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:22 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-social.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 53077
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-social.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:22 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-software.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 39629
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-software.0.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 62 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:22 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-software.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 13879
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-software.3.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:22 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-sp.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 37727
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-sp.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:22 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-spglobal.com.iii.reply.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 17556
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-spglobal.com.iii.reply.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:22 BST 2019
+;; MSG SIZE  rcvd: 79
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-sports.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 43521
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-sports.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 60 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:22 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-ssl.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7659
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-ssl.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 86 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:23 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-sso.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 13374
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-sso.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 131 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:23 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-st.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 37379
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-st.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 144 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:23 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-stage.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 50193
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-stage.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 420 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:23 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-start.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 43800
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-start.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 124 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:23 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-stat.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 23589
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-stat.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 116 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:24 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-static.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 50772
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-static.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 149 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:24 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-stats.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48039
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-stats.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 185 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:24 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-stats.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40177
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-stats.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 174 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:24 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-subscribe.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48419
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-subscribe.0.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 176 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:24 BST 2019
+;; MSG SIZE  rcvd: 68
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-surveys.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 56165
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-surveys.3.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 120 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:24 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-svn.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 25665
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-svn.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 134 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:25 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-t.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 37917
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-t.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 203 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:25 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-testing.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 18920
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-testing.1.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 144 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:25 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-testing.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 17396
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-testing.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 81 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:25 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-th.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64257
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-th.1.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 63 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:25 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-th.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 1736
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-th.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:25 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-tickets.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 9404
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-tickets.1.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 71 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:25 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-tools.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 50849
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-tools.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 70 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:25 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-tracker.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 29098
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-tracker.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 64 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:25 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-ts.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 47474
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-ts.0.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 64 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:26 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-video.4.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 5202
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-video.4.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:26 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-vip.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 33628
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-vip.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:26 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-vpn2.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64518
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-vpn2.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:26 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-w.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40614
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-w.3.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 56 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:26 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-webdisk.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 41448
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-webdisk.1.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:26 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-widget.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64346
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-widget.3.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:26 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-wireless.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24624
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-wireless.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 60 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:26 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0-www.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 60576
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0-www.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:26 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-admin.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 47124
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-admin.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:26 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-archive.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 56428
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-archive.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 71 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:26 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-blog.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 35854
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-blog.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 58 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:26 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-cache.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 56492
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-cache.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:27 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-calendar.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 19235
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-calendar.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 76 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:27 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-crm.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 44768
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-crm.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 316 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:27 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-css.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21051
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-css.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 72 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:27 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-es.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 17393
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-es.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 70 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:27 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-exchange.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 5017
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-exchange.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:27 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-git.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61210
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-git.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:27 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-math.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 60645
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-math.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:27 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-mx.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 9879
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-mx.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:27 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-newsletter.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 27730
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-newsletter.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 72 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:28 BST 2019
+;; MSG SIZE  rcvd: 69
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-online.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 1123
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-online.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 62 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:28 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-origin-www.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 6882
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-origin-www.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:28 BST 2019
+;; MSG SIZE  rcvd: 69
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-physics.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 17213
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-physics.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:28 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-registrar.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 30018
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-registrar.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 62 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:28 BST 2019
+;; MSG SIZE  rcvd: 68
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-rs.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 36676
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-rs.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:28 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-s.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 8002
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-s.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:28 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-se.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 16210
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-se.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:28 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-social.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 36313
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-social.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:28 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0-sports.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 2667
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0-sports.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:28 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 37167
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 318 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:29 BST 2019
+;; MSG SIZE  rcvd: 58
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0analytics.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 50200
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0analytics.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 102 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:29 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0dev.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54552
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0dev.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 142 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:29 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.0members.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 53635
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.0members.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 190 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:29 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-a.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 36998
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-a.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 193 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:29 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-accounts.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 23077
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-accounts.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 180 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:29 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-ad.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 16473
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-ad.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 181 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:30 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-aws.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 12897
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-aws.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 115 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:30 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-career.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 38699
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-career.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 97 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:30 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-chat.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 31277
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-chat.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 95 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:30 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-cn.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 29227
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-cn.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 86 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:30 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-cse.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 15241
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-cse.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 137 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:30 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-d.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 47789
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-d.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 163 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:30 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-dashboard.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 1432
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-dashboard.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 189 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:31 BST 2019
+;; MSG SIZE  rcvd: 68
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-download.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 55933
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-download.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 148 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:31 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-ece.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 414
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-ece.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 137 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:31 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-exchange.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 4562
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-exchange.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 146 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:31 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-file.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 20571
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-file.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 79 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:31 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-gitlab.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 52071
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-gitlab.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:31 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-hu.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 56298
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-hu.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:31 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-investor.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 36597
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-investor.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 63 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:31 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-js.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40713
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-js.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:32 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-lb.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 15435
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-lb.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:32 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-library.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 34920
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-library.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:32 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-life.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 39255
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-life.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:32 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-lists.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 2985
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-lists.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:32 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-m.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 5258
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-m.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 56 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:32 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-meet.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61169
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-meet.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:32 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-money.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 39768
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-money.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 60 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:32 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-ns.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48451
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-ns.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 70 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:32 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-passport.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46726
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-passport.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 58 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:32 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-payment.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 53961
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-payment.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 63 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:32 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-photos.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 57302
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-photos.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 63 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:32 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-player.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 18777
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-player.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 58 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:33 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-promo.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 31476
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-promo.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 58 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:33 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-push.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 53620
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-push.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 66 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:33 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-radio.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 28362
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-radio.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 97 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:33 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-resources.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 8413
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-resources.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 121 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:33 BST 2019
+;; MSG SIZE  rcvd: 68
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-ro.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48227
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-ro.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 131 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:33 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-sftp.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 39381
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-sftp.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 93 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:33 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-sg.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 34597
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-sg.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 57 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:33 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-share.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 23161
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-share.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 83 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:33 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-sites.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 12097
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-sites.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 96 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:33 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-software.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64859
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-software.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:34 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-spf.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 19757
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-spf.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 69 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:34 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-sport.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 13638
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-sport.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 70 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:34 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-storage.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 55308
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-storage.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:34 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-support.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 52649
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-support.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 99 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:34 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-sv.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54063
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-sv.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 91 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:34 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-training.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 22730
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-training.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 135 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:34 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-ugc.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 126
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-ugc.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 145 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:34 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-us.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 58235
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-us.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 149 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:35 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-v.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 22861
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-v.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 472 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:35 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-weather.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54180
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-weather.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 159 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:35 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1-webmail.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 23648
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1-webmail.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 145 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:35 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 49049
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 116 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:35 BST 2019
+;; MSG SIZE  rcvd: 58
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1extranet.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 38991
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1extranet.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 111 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:36 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1g.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 17655
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1g.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 105 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:36 BST 2019
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1li.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54559
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1li.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 86 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:36 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1maps.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 5737
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1maps.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 71 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:36 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1market.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 38437
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1market.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 71 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:36 BST 2019
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1noc.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 41267
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1noc.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 78 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:36 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.1uc.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 19226
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.1uc.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:36 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-api.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 5022
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-api.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 83 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:36 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-ar.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 43644
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-ar.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 77 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:36 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-ca.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 52183
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-ca.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 59 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:36 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-chem.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 28127
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-chem.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:37 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-dk.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 34857
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-dk.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 277 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:37 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-feedback.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40142
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-feedback.scmtest.app.starbucks.com.	IN CNAME
+
+;; Query time: 67 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:37 BST 2019
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-history.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40914
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-history.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:37 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-hub.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 35020
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-hub.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:37 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-img.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 9634
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-img.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 330 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:37 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-list.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 41127
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-list.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 62 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:38 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-maps.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 12975
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-maps.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 61 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:38 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-mx.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 26795
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-mx.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:38 BST 2019
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-noc.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 45373
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-noc.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 57 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:38 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-offers.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 39093
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-offers.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 68 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:38 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-online.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 1945
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-online.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 58 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:38 BST 2019
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-outlook.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 60234
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-outlook.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 65 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:38 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-pay.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 62086
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-pay.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 58 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:38 BST 2019
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-reviews.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 39154
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-reviews.scmtest.app.starbucks.com. IN CNAME
+
+;; Query time: 131 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:38 BST 2019
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-stat.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 41724
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-stat.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 180 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:38 BST 2019
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3-v.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 44395
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3-v.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 251 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:39 BST 2019
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 42862
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3.scmtest.app.starbucks.com.	IN	CNAME
+
+;; Query time: 180 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:39 BST 2019
+;; MSG SIZE  rcvd: 58
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> 0.3in.scmtest.app.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 65180
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;0.3in.scmtest.app.starbucks.com. IN	CNAME
+
+;; Query time: 195 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:21:39 BST 2019
+;; MSG SIZE  rcvd: 60
+

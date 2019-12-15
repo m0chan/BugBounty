@@ -1,0 +1,15 @@
+https://rogers-ca-api.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: rogers-ca-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Request-Context: appId=cid-v1:b4f3dc5f-bd72-4647-99a2-e4a1ecb0016e
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=0045031641a65304789e81d551c9ceb6aee324a5029760a68434005481999c42;Path=/;HttpOnly;Domain=rogers-ca-api.moj.io
+< Date: Sun, 15 Dec 2019 14:29:52 GMT
+< Content-Length: 103
+< Content-Type: text/html
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

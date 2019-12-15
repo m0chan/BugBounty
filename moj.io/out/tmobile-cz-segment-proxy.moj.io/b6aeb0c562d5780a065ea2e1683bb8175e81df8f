@@ -1,0 +1,13 @@
+http://tmobile-cz-segment-proxy.moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: tmobile-cz-segment-proxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://tmobile-cz-segment-proxy.moj.io/package.json
+< Server: Microsoft-IIS/10.0
+< Date: Sun, 15 Dec 2019 14:29:34 GMT
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+

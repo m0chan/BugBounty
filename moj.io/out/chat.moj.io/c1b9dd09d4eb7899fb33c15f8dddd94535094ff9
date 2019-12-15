@@ -1,0 +1,16 @@
+https://chat.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: chat.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Vary: Accept-Encoding
+< Date: Sun, 15 Dec 2019 14:23:50 GMT
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Location: https://mojiochat.slack.com/
+< Server: cloudflare
+< Cf-Ray: 545913e26f71bfd4-MAN
+< Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Expires: Thu, 01 Jan 1970 00:00:01 GMT
+

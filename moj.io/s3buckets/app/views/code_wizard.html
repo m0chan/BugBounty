@@ -1,0 +1,80 @@
+<script type="text/ng-template" id="tree_item_renderer.html">
+   <i ng-if="node.children.length!=0 &amp;&amp; node.status=='expand'" ng-click="node.status='collapse'" class="fa fa-li fa-minus-square-o"></i><i ng-if="node.children.length!=0 &amp;&amp; node.status=='collapse'" ng-click="node.status='expand'" class="fa fa-li fa-plus-square-o"></i><i ng-if="node.children.length==0" class="fa fa-li fa-file-o"></i><a ng-click="SelectNode(node)">{{node.title}}</a><ul ng-if="node.status=='expand'" class="fa-ul"><li ng-repeat="node in Child(node)" ng-include="'tree_item_renderer.html'"></li></ul>
+</script>
+<div ng-controller="codeWizardController as mc">
+   <div class="row">
+      <div class="col-md-12">
+         <div class="btn-group btn-breadcrumb"><a href="" ng-click="SelectNode(Content.masterNode)" class="btn btn-default"><i class="fa fa-home"></i></a>
+            <div ng-repeat="anc in Content.selectedNode.Ancestors | orderBy : 'level'" class="btn btn-default">
+               <span dropdown="dropdown" href="" ng-if="Child(Parent(anc)).length&gt;1"><i type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="fa fa-caret-down"></i>
+                  <ul role="menu" class="dropdown-menu">
+                     <li ng-repeat="bcn in Child(Parent(anc))" ng-if="bcn!=anc"><a ng-click="SelectNode(bcn)">{{bcn.title}}</a>
+                     </li>
+                  </ul>
+               </span>&nbsp;
+               <span ng-click="SelectNode(anc)">{{anc.title}}</span>
+            </div>
+            <div ng-if="Content.selectedNode.level!=0" class="btn btn-default">
+               <span dropdown="dropdown" href="" ng-if="Child(Parent(Content.selectedNode)).length&gt;1"><i type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="fa fa-caret-down"></i>
+                  <ul role="menu" class="dropdown-menu">
+                     <li ng-repeat="bcn in Child(Parent(Content.selectedNode))" ng-if="bcn!=Content.selectedNode"><a ng-click="SelectNode(bcn)">{{bcn.title}}</a>
+                     </li>
+                  </ul>
+               </span>&nbsp;
+               <span>{{Content.selectedNode.title}}</span>
+            </div>
+         </div>
+      </div>
+      <br/>
+      <br/>
+   </div>
+   <div class="row">
+      <div ng-if="Child(Content.selectedNode).length!=0" class="col-md-3">
+         <div class="panel panel-default">
+            <div class="panel-body">
+               <div class="row">
+                  <div class="col-md-12 text-info">
+                     <ul class="fa-ul">
+                        <li ng-repeat="node in Child(Content.selectedNode)"><i class="fa fa-li fa-file-o"></i><a ng-click="SelectNode(node)">{{node.title}}</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div ng-if="Content.selectedNode.data.length&gt;0" ng-class="{'col-md-12':Child(Content.selectedNode).length==0,'col-md-9':Child(Content.selectedNode).length!=0}">
+         <div class="panel panel-default">
+            <div class="panel-body">
+               <div ng-repeat="d in Content.selectedNode.data" class="row">
+                  <div class="col-md-12">
+                     <div class="input-group">
+                        <span class="input-group-btn">
+                           <div class="btn btn-default">{{d.title}}</div>
+                        </span>
+                        <input type="text" ng-model="d.value" class="form-control" />
+                     </div>
+                     <br/>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <button ng-click="showOutput()" ng-disabled="!Content.selectedNode.templateReady" class="btn btn-default">
+                        <li class="fa fa-download"></li>&nbsp; Show Result</button>&nbsp;
+                     <button ng-click="generateFiles()" ng-disabled="!Content.selectedNode.templateReady" class="btn btn-default">
+                        <li class="fa fa-download"></li>&nbsp; Save To File</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <tabset>
+            <tab ng-repeat="tmp in Content.selectedNode.output">
+               <tab-heading><i class="fa fa-file-o">&nbsp;</i>{{tmp.title}}</tab-heading>
+               <div class="row">
+                  <pre>{{tmp.content}}</pre>
+               </div>
+            </tab>
+         </tabset>
+      </div>
+   </div>
+</div>

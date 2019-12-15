@@ -1,0 +1,18 @@
+http://force-jp-app.moj.io/api
+
+> GET /api HTTP/1.1
+> Host: force-jp-app.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Varnish
+< Retry-After: 0
+< Location: https://force-jp-app.moj.io/api
+< X-Served-By: cache-man4134-MAN
+< X-Timer: S1576420165.191640,VS0,VE0
+< X-Cache-Hits: 0
+< Content-Length: 0
+< Accept-Ranges: bytes
+< Date: Sun, 15 Dec 2019 14:29:25 GMT
+< X-Cache: HIT
+

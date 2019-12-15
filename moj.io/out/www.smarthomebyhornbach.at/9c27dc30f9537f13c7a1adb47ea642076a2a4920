@@ -1,0 +1,13 @@
+http://www.smarthomebyhornbach.at/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: www.smarthomebyhornbach.at
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: ECAcc (lpl/EF33)
+< X-Frame-Options: DENY
+< Content-Length: 0
+< Date: Sun, 15 Dec 2019 14:28:45 GMT
+< Location: https://www.smarthomebyhornbach.com/
+

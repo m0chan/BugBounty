@@ -1,0 +1,20 @@
+http://analytics-eu.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: analytics-eu.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://analytics-eu.moj.io/swagger
+< Server: nginx/1.10.3 (Ubuntu)
+< Date: Sun, 15 Dec 2019 14:30:15 GMT
+< Content-Type: text/html
+< Content-Length: 194
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>

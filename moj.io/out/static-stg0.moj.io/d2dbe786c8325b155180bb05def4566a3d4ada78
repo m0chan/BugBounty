@@ -1,0 +1,16 @@
+http://static-stg0.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: static-stg0.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:11 GMT
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 7e592057-b01e-007f-6354-b33772000000
+< Content-Length: 223
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:7e592057-b01e-007f-6354-b33772000000
+Time:2019-12-15T14:30:11.8353477Z</Message></Error>

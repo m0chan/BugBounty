@@ -1,0 +1,59 @@
+<h3>Data Source
+   <div class="pull-right">
+      <button are-you-sure="SaveDatasource()" class="btn btn-primary">Save</button>
+   </div>
+</h3>
+<div class="well">
+   <json-formatter open="0" json="DataSource"></json-formatter>
+</div>
+<div ng-repeat="ds in DataSource track by $index" class="well pt0">
+   <h3 class="bt0"><a href="" editable-text="ds.name" buttons="no">{{ ds.name || 'Enter Datasource Name' }}</a>
+   </h3>
+   <ul class="fa-ul">
+      <li><i class="fa-li fa fa-align-justify"></i>Method:&nbsp;<a href="" editable-text="ds.config.method" buttons="no">{{ ds.config.method || 'Enter Method' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-link"></i>URL:&nbsp;<a href="" editable-text="ds.config.url" buttons="no">{{ ds.config.url || 'Enter URL' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-link"></i>Interval:&nbsp;<a href="" editable-text="ds.interval" buttons="no">{{ ds.interval || 'Enter Interval' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-link"></i>Auto Start:&nbsp;<a href="" editable-text="ds.autoStart" buttons="no">{{ ds.autoStart }}</a>
+      </li>
+      <li><i class="fa-li fa fa-align-justify"></i>Params
+         <ul class="fa-ul">
+            <li ng-repeat="p in ds.config.params"><i class="fa-li fa fa-align-justify"></i>
+               <span><a href="" editable-text="p.pname" buttons="no">{{ p.pname || 'param name' }}</a>
+               </span>&nbsp;:&nbsp;
+               <span><a href="" editable-text="p.pvalue" buttons="no">{{ p.pvalue || 'param value' }}</a>
+               </span>
+            </li>
+            <li ng-click="AddParam(ds)"><i class="fa-li fa fa-plus"></i>Add Param</li>
+         </ul>
+      </li>
+      <li><i class="fa-li fa fa-align-justify"></i>Headers
+         <ul class="fa-ul">
+            <li ng-repeat="h in ds.config.header"><i class="fa-li fa fa-align-justify"></i>
+               <span><a href="" editable-text="h.hname" buttons="no">{{ h.hname || 'header name' }}</a>
+               </span>&nbsp;:&nbsp;
+               <span><a href="" editable-text="h.hvalue" buttons="no">{{ h.hvalue || 'header value' }}</a>
+               </span>
+            </li>
+            <li ng-click="AddHeader(ds)"><i class="fa-li fa fa-plus"></i>Add Header</li>
+         </ul>
+      </li>
+      <li><i class="fa-li fa fa-align-justify"></i>Body
+         <br/>
+         <textarea ng-model="ds.config.data" cols="60" rows="6"></textarea>
+      </li>
+      <li><i class="fa-li fa fa-align-justify"></i>Related Datasource
+         <ul class="fa-ul">
+            <li ng-repeat="(key,val) in ds.relatedDatasource track by $index"><i class="fa-li fa fa-align-justify"></i><a href="" editable-text="ds.relatedDatasource[key]" buttons="no">{{ ds.relatedDatasource[key] || 'Datasource name' }}</a>
+            </li>
+            <li ng-click="AddRelatedDatasource(ds)"><i class="fa-li fa fa-plus"></i>Add</li>
+         </ul>
+      </li>
+   </ul>
+</div>
+<div class="well pt0">
+   <h3 class="bt0"><a ng-click="AddNewDatasource()">Add New Datasource</a>
+   </h3>
+</div>

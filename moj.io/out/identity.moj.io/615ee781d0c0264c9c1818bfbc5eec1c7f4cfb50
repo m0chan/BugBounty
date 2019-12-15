@@ -1,0 +1,13 @@
+http://identity.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Internal Server Error
+< Content-Length: 0
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=32b9fb9902870b7091a954ea692711f028d354822fb717dd7fd0b9de935f3045;Path=/;HttpOnly;Domain=identity.moj.io
+< Date: Sun, 15 Dec 2019 14:29:04 GMT
+

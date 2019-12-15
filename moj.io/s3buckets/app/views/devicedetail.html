@@ -1,0 +1,816 @@
+<sapn ng-controller="deviceDetailController as mc">
+   <h3>Device Management</h3>
+   <span class="pull-right">Watch<a href="" ng-click="watchDevice()"><i ng-if="watchStatus==1" class="fa fa-toggle-on"></i><i ng-if="watchStatus==0" class="fa fa-toggle-off"></i></a>
+   </span>
+   <div class="clearfix"></div>
+   <div class="row">
+      <!--Created by pooyaparidel on 15-03-17.
+-->
+      <div class="row">
+         <div class="col-lg-4">
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h4 class="panel-title">Device Information</h4>
+                  <div class="panel-body">
+                     <table class="col-xs-12">
+                        <tbody>
+                           <tr>
+                              <td>IMEI</td>
+                              <td>{{device.Imei}}</td>
+                           </tr>
+                           <tr>
+                              <td>Manufacturer</td>
+                              <td>{{device.DevicePrivate.MojioType}}</td>
+                           </tr>
+                           <tr>
+                              <td>Part Number</td>
+                              <td>{{device.DevicePrivate.PartNumber}}</td>
+                           </tr>
+                           <tr>
+                              <td>Serial Number</td>
+                              <td>{{device.DevicePrivate.SerialNumber}}</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h4 class="panel-title">SIM Card</h4>
+                  <div class="panel-body">
+                     <table class="col-xs-12">
+                        <tbody>
+                           <tr>
+                              <td>Provier</td>
+                              <td>???????</td>
+                           </tr>
+                           <tr>
+                              <td>ICCID</td>
+                              <td>{{simCard.Iccid}}</td>
+                           </tr>
+                           <tr>
+                              <td>MSISDN</td>
+                              <td>{{simCard.Msisdn}}</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-8">
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h4 class="panel-title">Health Status</h4>
+                  <div class="panel-body">
+                     <div class="col-md-6">
+                        <!-- START widget-->
+                        <div class="panel widget bg-success">
+                           <div class="row row-table">
+                              <div class="text-center">Configuration</div>
+                           </div>
+                           <div class="row row-table">
+                              <div class="col-xs-4">
+                                 <div class="fa fa-check-circle-o fa-4x"></div>
+                              </div>
+                              <div class="col-xs-8">
+                                 <h4>{{device.DevicePrivate.Configuration}}</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <!-- START widget-->
+                        <div class="panel widget bg-gray">
+                           <div class="row row-table">
+                              <div class="text-center">Firmware</div>
+                           </div>
+                           <div class="row row-table">
+                              <div class="col-xs-4">
+                                 <em class="fa fa-question-circle fa-4x"></em>
+                              </div>
+                              <div class="col-xs-8">
+                                 <h4>{{device.DevicePrivate.Firmware}}</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <!-- START widget-->
+                        <div class="panel widget bg-gray">
+                           <div class="row row-table">
+                              <div class="text-center">Last Contact</div>
+                           </div>
+                           <div class="row row-table">
+                              <div class="col-xs-4">
+                                 <div class="fa fa-question-circle fa-4x"></div>
+                              </div>
+                              <div class="col-xs-8">
+                                 <h4>{{device.LastContactTime | timeago}} ago
+                                    <br/>{{device.LastContactTime | date:'yy-MM-dd HH:mm' }}</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <!-- START widget-->
+                        <div class="panel widget bg-gray-light">
+                           <div class="row row-table">
+                              <div class="text-center">Signal Strength</div>
+                           </div>
+                           <div class="row row-table">
+                              <div class="col-xs-4">
+                                 <em class="fa fa-question-circle fa-4x"></em>
+                              </div>
+                              <div class="col-xs-8">
+                                 <h4>
+                                    <slow-update typ="'number'" real="9876543"></slow-update>
+                                 </h4>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <tabset>
+         <tab>
+            <tab-heading><i>&nbsp;User Activity</i>
+            </tab-heading>
+            <!--Created by pooyaparidel on 15-03-17.-->
+            <h4>User Activity</h4>
+            <div class="panel-body panel-default col-md-6">
+               <div class="panel-heading">
+                  <h4 class="panel-title">User</h4>
+                  <div class="panel-body">
+                     <table class="col-xs-12">
+                        <tbody>
+                           <tr>
+                              <td>User Name</td>
+                              <td>{{User.UserName}}</td>
+                           </tr>
+                           <tr>
+                              <td>Email</td>
+                              <td>{{User.Email}}</td>
+                           </tr>
+                           <tr>
+                              <td>First Name</td>
+                              <td>{{User.FirstName}}</td>
+                           </tr>
+                           <tr>
+                              <td>Last Name</td>
+                              <td>{{User.LastName}}</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="panel-body panel-default col-md-6">
+               <div class="panel-heading">
+                  <h4 class="panel-title">Vehicle</h4>
+                  <div class="panel-body">
+                     <table class="col-xs-12">
+                        <tbody>
+                           <tr>
+                              <td>Vehicle Name</td>
+                              <td>{{Vehicle.Name}}</td>
+                           </tr>
+                           <tr>
+                              <td>License Plate</td>
+                              <td>{{Vehicle.LicensePlate}}</td>
+                           </tr>
+                           <tr>
+                              <td>False Detected</td>
+                              <td>{{Vehicle.FaultsDetected}}</td>
+                           </tr>
+                           <tr>
+                              <td>Last Contact Time</td>
+                              <td>{{Vehicle.LastContactTime | date:'yy-MM-dd HH:mm'}}</td>
+                           </tr>
+                           <tr>
+                              <td>Last Location</td>
+                              <td>
+                                 <mojio-location ng-if="Vehicle" geoloc="Vehicle.LastLocation"></mojio-location>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="clearfix"></div>
+            <morris-chart xkey="xkey" ykeys="ykeys" labels="labels" data="myModel" ng-if="myModel"></morris-chart>
+         </tab>
+         <tab>
+            <tab-heading><i>&nbsp;Raw Data</i>
+            </tab-heading>
+            <!--Created by pooyaparidel on 15-03-17.
+
+-->
+            <tabset>
+               <tab>
+                  <tab-heading><i class="fa fa-cubes">&nbsp;Device</i>
+                  </tab-heading>
+                  <pre>{{device | json }}</pre>
+               </tab>
+               <tab>
+                  <tab-heading><i class="fa fa-cubes">&nbsp;SIM Card</i>
+                  </tab-heading>
+                  <pre>{{simCard | json }}</pre>
+               </tab>
+               <tab>
+                  <tab-heading><i class="fa fa-user">&nbsp;User</i>
+                  </tab-heading>
+                  <pre>{{User | json }}</pre>
+               </tab>
+               <tab>
+                  <tab-heading><i class="fa fa-car">&nbsp;Vehicle</i>
+                  </tab-heading>
+                  <pre>{{Vehicle | json }}</pre>
+               </tab>
+            </tabset>
+         </tab>
+         <tab>
+            <tab-heading><i>&nbsp;Device Activity</i>
+            </tab-heading>
+            <!--Created by pooyaparidel on 15-03-17.
+-->
+            <div class="panel panel-default">
+               <div class="panel-heading">Load Data</div>
+               <div class="panel-body">
+                  <div class="col-md-5">
+                     <div class="input-group">
+                        <span class="input-group-btn">
+                           <div class="btn btn-default">From</div>
+                        </span>
+                        <input type="text" ng-model="DeviceActivity.From" datepicker-popup="yyyy.MM.dd" is-open="DeviceActivityFromOpened" ng-click="DeviceActivityFromOpened=true" ng-required="true" close-text="" class="form-control" />
+                     </div>
+                  </div>
+                  <div class="col-md-5">
+                     <div class="input-group">
+                        <span class="input-group-btn">
+                           <div class="btn btn-default">To</div>
+                        </span>
+                        <input type="text" ng-model="DeviceActivity.To" datepicker-popup="yyyy.MM.dd" is-open="DeviceActivityToOpened" ng-click="DeviceActivityToOpened=true" ng-required="true" close-text="" class="form-control" />
+                     </div>
+                  </div>
+                  <div class="col-md-2">
+                     <button ng-click="deviceActivityLoadData()" class="btn btn-default">
+                        <li class="fa fa-search"></li>&nbsp; Load</button>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="panel panel-default">
+                     <div class="panel-heading">Reports
+                        <div ng-if="Reports.length!=0" class="pull-right"><a ng-click="deviceActivityExportReports('json')">Export</a>
+                        </div>
+                     </div>
+                     <div class="panel-body">
+                        <table class="table table-hover table-bordered table-striped table-condensed">
+                           <thead>
+                              <tr>
+                                 <th class="fieldHeader">Time</th>
+                                 <th class="fieldHeader">OpCode</th>
+                                 <th class="fieldHeader">DTD</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr ng-repeat="row in Reports">
+                                 <td>{{row.TcuTimestamp | date:'yy-MM-dd HH:mm:ss'}}</td>
+                                 <td>{{row.OpCode}}</td>
+                                 <td>{{row.MessageTimespan}}</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="panel panel-default">
+                     <div class="panel-heading">Events
+                        <div ng-if="Events.length!=0" class="pull-right"><a ng-click="deviceActivityExportEvents('json')">Export</a>
+                        </div>
+                     </div>
+                     <div class="panel-body">
+                        <table class="table table-hover table-bordered table-striped table-condensed">
+                           <thead>
+                              <tr>
+                                 <th class="fieldHeader">Time</th>
+                                 <th class="fieldHeader">Event Type</th>
+                                 <th class="fieldHeader">Location</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr ng-repeat="row in Events">
+                                 <td>{{row.Time | date:'yy-MM-dd HH:mm:ss'}}</td>
+                                 <td>{{row.EventType}}</td>
+                                 <td>
+                                    <mojio-location geoloc="row.Location"></mojio-location>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </tab>
+         <tab>
+            <tab-heading><i>&nbsp;Edit</i>
+            </tab-heading>
+            <!--Created by pooyaparidel on 15-03-17.
+
+-->
+            <tabset>
+               <tab>
+                  <tab-heading><i class="fa fa-cubes">&nbsp;Device</i>
+                  </tab-heading>
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <!-- START panel-->
+                        <div class="panel panel-default">
+                           <div class="panel-body">
+                              <!-- START table-responsive-->
+                              <div class="table-responsive">
+                                 <table class="table table-striped table-bordered table-hover">
+                                    <tbody>
+                                       <tr>
+                                          <td>Set Logging Duration</td>
+                                          <td>
+                                             <select ng-model="editDevice.LoggingDuration">
+                                                <option ng-repeat="(k,v) in LoggingDuration" value="{{k}}">{{v}}</option>
+                                             </select>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Set Proxy (server,port)</td>
+                                          <td>
+                                             <textarea ng-model="editDevice.ProxyServer" class="col-lg-12"></textarea>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                              <button ng-click="ModifyDevice()" class="btn btn-danger">Modify Device</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </tab>
+               <tab>
+                  <tab-heading><i class="fa fa-mobile">&nbsp;SIM Card</i>
+                  </tab-heading>
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <!-- START panel-->
+                        <div class="panel panel-default">
+                           <div class="panel-body">
+                              <!-- START table-responsive-->
+                              <div class="table-responsive">
+                                 <table class="table table-striped table-bordered table-hover">
+                                    <tbody>
+                                       <tr>
+                                          <td>ICCID</td>
+                                          <td>
+                                             <input ng-readonly="simCard" ng-model="editDevice.Iccid" class="col-lg-12" />
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                              <button ng-show="!simCard" ng-click="claimSimCard()" class="btn btn-primary">Claim SIM Card</button>
+                              <button ng-show="simCard" ng-click="unclaimSimCard()" class="btn btn-danger">Unclaim SIM Card</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </tab>
+               <tab>
+                  <tab-heading><i class="fa fa-user">&nbsp;User</i>
+                  </tab-heading>
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <!-- START panel-->
+                        <div class="panel panel-default">
+                           <div ng-if="!User" class="panel-body">No User For This Device</div>
+                           <div ng-if="User" class="panel-body">
+                              <!-- START table-responsive-->
+                              <div class="table-responsive">
+                                 <table class="table table-striped table-bordered table-hover">
+                                    <tbody>
+                                       <tr>
+                                          <td>User Name</td>
+                                          <td>
+                                             <input ng-model="editUser.UserName" />
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Email</td>
+                                          <td>
+                                             <input ng-model="editUser.Email" />
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>First Name</td>
+                                          <td>
+                                             <input ng-model="editUser.FirstName" />
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Last Name</td>
+                                          <td>
+                                             <input ng-model="editUser.LastName" />
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                              <button ng-click="updateUser()" class="btn btn-primary">Update User</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </tab>
+               <tab>
+                  <tab-heading><i class="fa fa-car">&nbsp;Vehicle</i>
+                  </tab-heading>
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <!-- START panel-->
+                        <div class="panel panel-default">
+                           <div ng-if="!Vehicle" class="panel-body">No Vehicle For This Device</div>
+                           <div ng-if="Vehicle" class="panel-body">
+                              <!-- START table-responsive-->
+                              <div class="table-responsive">
+                                 <table class="table table-striped table-bordered table-hover">
+                                    <tbody>
+                                       <tr>
+                                          <td>Vehicle Name</td>
+                                          <td>
+                                             <input ng-model="editVehicle.Name" class="col-lg-12" />
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>License Plate</td>
+                                          <td>
+                                             <input ng-model="editVehicle.LicensePlate" class="col-lg-6" />
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Faults Detected</td>
+                                          <td>
+                                             <input ng-model="editVehicle.FaultsDetected" />
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                              <button ng-click="updateVehicle()" class="btn btn-primary">Update Vehicle</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </tab>
+            </tabset>
+         </tab>
+         <tab>
+            <tab-heading><i>&nbsp;Diagnostics</i>
+            </tab-heading>
+            <!--Created by pooyaparidel on 15-03-17.
+-->
+            <div class="container-fluid">
+               <!-- START row-->
+               <div class="row">
+                  <div class="col-lg-8">
+                     <accordion>
+                        <accordion-group heading="Server Communication Settings" is-open="false">
+                           <p>Get the device server configuration. This includes the IP device is communicating with, port number and APN settings</p>
+                           <button ng-click="diagServerCommunicationSettings()" class="btn btn-default">
+                              <li class="fa fa-search"></li>Send Request</button>
+                        </accordion-group>
+                        <accordion-group heading="Vehicle Status" is-open="false">
+                           <p>Get the latest vehicle status report from the vehicle.</p>
+                           <button ng-click="newSearch(0)" class="btn btn-default">
+                              <li class="fa fa-search"></li>Send Request</button>
+                        </accordion-group>
+                        <accordion-group heading="Device Diagnostics" is-open="false">
+                           <p>Get the device health status. This includes GPS state, ignition status, cellular connectivity, etc..</p>
+                           <button ng-click="newSearch(0)" class="btn btn-default">
+                              <li class="fa fa-search"></li>Send Request</button>
+                        </accordion-group>
+                        <accordion-group heading="Device Profile" is-open="false">
+                           <p>Get current device configuration profile. Use this to retrieve the device's Firmware and configuration profile</p>
+                           <button ng-click="newSearch(0)" class="btn btn-default">
+                              <li class="fa fa-search"></li>Send Request</button>
+                        </accordion-group>
+                        <accordion-group heading="Set Server Configuration" is-open="false">
+                           <p>Set the device server configuration settings.</p>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <div class="input-group">
+                                    <span class="input-group-btn">
+                                       <div class="btn btn-default">Server IP</div>
+                                    </span>
+                                    <input type="text" ng-model="ServerConfiguration.Address" class="form-control" />
+                                 </div>
+                                 <br/>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <div class="input-group">
+                                    <span class="input-group-btn">
+                                       <div class="btn btn-default">Server Port</div>
+                                    </span>
+                                    <input type="text" ng-model="ServerConfiguration.Port" class="form-control" />
+                                 </div>
+                                 <br/>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <div class="input-group">
+                                    <span class="input-group-btn">
+                                       <div class="btn btn-default">Protocol</div>
+                                    </span>
+                                    <select ng-model="ServerConfiguration.ServerProtocol" class="form-control">
+                                       <option value="3">UDPw/AckCmd</option>
+                                       <option value="2">UDP</option>
+                                       <option value="1">TCP</option>
+                                    </select>
+                                 </div>
+                                 <br/>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12tab_diagnostics jade">
+                                 <button ng-click="diagSetServerConfiguration()" class="btn btn-default">
+                                    <li class="fa fa-search"></li>Send Request</button>
+                              </div>
+                           </div>
+                        </accordion-group>
+                        <accordion-group heading="Set APN Configuration" is-open="false">
+                           <p>Set the device cellular APN settings. Note: Leave the APN uername and password field blank if none is provided.</p>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <div class="input-group">
+                                    <span class="input-group-btn">
+                                       <div class="btn btn-default">APN</div>
+                                    </span>
+                                    <input type="text" ng-model="ApnConfiguration.Apn" class="form-control" />
+                                 </div>
+                                 <br/>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <div class="input-group">
+                                    <span class="input-group-btn">
+                                       <div class="btn btn-default">User Name</div>
+                                    </span>
+                                    <input type="text" ng-model="ApnConfiguration.Username" class="form-control" />
+                                 </div>
+                                 <br/>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <div class="input-group">
+                                    <span class="input-group-btn">
+                                       <div class="btn btn-default">Password</div>
+                                    </span>
+                                    <input type="text" ng-model="ApnConfiguration.Password" class="form-control" />
+                                 </div>
+                                 <br/>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <button ng-click="diagSetApnConfiguration()" class="btn btn-default">
+                                    <li class="fa fa-search"></li>Send Request</button>
+                              </div>
+                           </div>
+                        </accordion-group>
+                        <accordion-group heading="Set SMS Number" is-open="false">
+                           <p>Set the SMS numer the device replies back to.</p>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <div class="input-group">
+                                    <span class="input-group-btn">
+                                       <div class="btn btn-default">SMS Reply Number</div>
+                                    </span>
+                                    <input type="text" ng-model="SmsConfiguration.Msisdn" class="form-control" />
+                                 </div>
+                                 <br/>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <button ng-click="diagSetSmsNumber()" class="btn btn-default">
+                                    <li class="fa fa-search"></li>Send Request</button>
+                              </div>
+                           </div>
+                        </accordion-group>
+                     </accordion>
+                  </div>
+                  <div class="col-lg-4">
+                     <!-- START panel-->
+                     <div id="panelDemo1" class="panel panel-default">
+                        <div class="panel-heading">Communication Stream
+                           <paneltool tool-collapse="tool-collapse"></paneltool>
+                        </div>
+                        <div collapse="panelStream" class="panel-wrapper">
+                           <div class="panel-body">
+                              <div ng-repeat="row in diagStream" class="row">
+                                 <div ng-if="row.type=='server'" class="col-md-9">
+                                    <div class="bg-green form-control form-control-rounded">
+                                       <kbd>{{row.type}}</kbd>&nbsp; {{row.time | date:'HH:mm'}}</div>
+                                    <div class="clearfix"></div>
+                                 </div>
+                                 <div ng-if="row.type=='error'" class="col-md-9">
+                                    <div class="bg-danger form-control form-control-rounded">{{row.time | date:'HH:mm'}}</div>
+                                    <div class="clearfix"></div>
+                                 </div>
+                                 <div ng-if="row.type=='response'" class="col-md-9 col-md-offset-3">
+                                    <div class="bg-primary form-control form-control-rounded">{{row.time | date:'HH:mm'}}</div>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel-footer">
+                              <button ng-click="clearStream()" class="btn btn-default">Clear</button>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- END panel-->
+                  </div>
+               </div>
+            </div>
+         </tab>
+         <tab>
+            <tab-heading><i>&nbsp;Audit Trail</i>
+            </tab-heading>
+            <!--Created by pooyaparidel on 15-03-17.
+-->
+            <div class="container-fluid">
+               <!-- START row-->
+               <div class="row">
+                  <div class="col-lg-6">
+                     <!-- START panel-->
+                     <div class="panel panel-default">
+                        <div class="panel-heading">Update State</div>
+                        <div class="panel-wrapper">
+                           <div ng-if="auditTrailShowUpdatePanel" class="panel-body">
+                              <div class="row">
+                                 <div class="col-lg-6">Update Type</div>
+                                 <div class="col-lg-6">Update State</div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-lg-6">2122121</div>
+                                 <div class="col-lg-6">3226565</div>
+                              </div>
+                              <div class="row">
+                                 <br/>
+                              </div>
+                              <div class="row">
+                                 <div class="col-lg-6">Firmware Stamp</div>
+                                 <div class="col-lg-6">Configuration Stamp</div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-lg-6">2122121</div>
+                                 <div class="col-lg-6">3226565</div>
+                              </div>
+                              <div class="row">
+                                 <br/>
+                              </div>
+                              <div class="row">
+                                 <div class="col-lg-6">Modify Update</div>
+                                 <div class="col-lg-6">
+                                    <select ng-model="UpdateState.UpdateMod" class="form-control">
+                                       <option value="abort">Abort</option>
+                                       <option value="resume">Resume</option>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-lg-12">
+                                    <button ng-click="auditTrailModifyUpdate()" class="btn btn-default">Modify Update</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <!-- START panel-->
+                     <div class="panel panel-default">
+                        <div class="panel-heading">Deploy Update</div>
+                        <div collapse="panelStream" class="panel-wrapper">
+                           <div class="panel-body">
+                              <accordion>
+                                 <accordion-group heading="Safety Switch" is-open="false">
+                                    <div class="row">
+                                       <div class="col-lg-6">Type</div>
+                                       <div class="col-lg-6">
+                                          <select ng-model="DeployUpdate.Type" class="form-control">
+                                             <option value="cfg">Configuration</option>
+                                             <option value="fw">Firmware</option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <br/>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-lg-6">Update</div>
+                                       <div class="col-lg-6">
+                                          <select ng-model="DeployUpdate.Update1" ng-if="DeployUpdate.Type=='cfg'" class="form-control">
+                                             <option ng-repeat="op in compatibleCfg" value="op._id">{{op.ProfileName}}</option>
+                                          </select>
+                                          <select ng-model="DeployUpdate.Update2" ng-if="DeployUpdate.Type=='fw'" class="form-control">
+                                             <option ng-repeat="fw in compatibleCfg" value="fw._id">{{fw.Name}}</option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-lg-12">
+                                          <input type="checkbox" ng-model="DeployUpdate.Launch" id="launch-chkbox" />
+                                          <label for="launch-chkbox">Launch after Deploy</label>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-lg-12">Name
+                                          <br/>
+                                          <input ng-model="DeployUpdate.Name" class="col-lg-12" />
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-lg-12">Description
+                                          <br/>
+                                          <textarea ng-model="DeployUpdate.Description" class="col-lg-12"></textarea>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <br/>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-lg-12">
+                                          <button ng-click="auditTrailSubmitUpdate()" class="btn btn-default">Submit Update</button>
+                                       </div>
+                                    </div>
+                                 </accordion-group>
+                              </accordion>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <table class="table table-hover table-bordered table-striped table-condensed">
+                        <thead>
+                           <tr>
+                              <th class="fieldHeader">Update Type</th>
+                              <th class="fieldHeader">Firmware Stamp</th>
+                              <th class="fieldHeader">Configuration Stamp</th>
+                              <th class="fieldHeader">State</th>
+                              <th class="fieldHeader">Date Deployed</th>
+                              <th class="fieldHeader">Last Updated</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr ng-repeat="row in UpdateHistory">
+                              <td>{{row.UpdateType}}</td>
+                              <td>{{row.FirmwareStamp}}</td>
+                              <td>{{row.ConfigurationStamp}}</td>
+                              <td>{{row.UpdateState}}</td>
+                              <td>{{row.LaunchTime | date:'yy-MM-dd HH:mm:ss'}}</td>
+                              <td>{{row.LastUpdateTime | date:'yy-MM-dd HH:mm:ss'}}</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </tab>
+         <tab>
+            <tab-heading><i>&nbsp;SMS</i>
+            </tab-heading>
+         </tab>
+         <tab>
+            <tab-heading><i>&nbsp;Update</i>
+            </tab-heading>
+         </tab>
+         <tab>
+            <tab-heading><i>&nbsp;Provisioning</i>
+            </tab-heading>
+         </tab>
+      </tabset>
+   </div>
+</sapn>

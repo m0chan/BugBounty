@@ -1,0 +1,28 @@
+https://telekom-de-segment-proxy.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: telekom-de-segment-proxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 150
+< Access-Control-Allow-Origin: *
+< Content-Security-Policy: default-src 'self'
+< X-Content-Type-Options: nosniff
+< Set-Cookie: ARRAffinity=85749329b460578b5538b02378bcd6e753dadaf6a2dc663e2ab035f52d59bdc4;Path=/;HttpOnly;Domain=telekom-de-segment-proxy.moj.io
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Request-Context: appId=cid-v1:d2da7254-80af-4f23-a3d0-8b25a889d971
+< X-Powered-By: ASP.NET
+< Date: Sun, 15 Dec 2019 14:23:50 GMT
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /phpinfo.php</pre>
+</body>
+</html>

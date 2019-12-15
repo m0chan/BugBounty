@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #bfc0c2!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #525f6b!important;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    border-right: 0!important;
+}
+
+.navbar-dark .navbar-nav .nav-item:last-child .nav-link {
+    border-right: 2px solid rgba(82, 95, 107, 0.6)!important;
+}

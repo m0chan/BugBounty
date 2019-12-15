@@ -1,0 +1,13 @@
+http://metropcs-us-identity.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: metropcs-us-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Microsoft-IIS/10.0
+< Date: Sun, 15 Dec 2019 14:30:27 GMT
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< Location: https://metropcs-us-identity.moj.io/swagger-ui
+

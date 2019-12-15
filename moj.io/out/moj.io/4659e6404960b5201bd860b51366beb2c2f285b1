@@ -1,0 +1,22 @@
+https://moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.moj.io/phpinfo.php
+< Cf-Cache-Status: DYNAMIC
+< Date: Sun, 15 Dec 2019 14:28:52 GMT
+< X-Powered-By: PHP/5.3.29
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+< Server: cloudflare
+< Cf-Ray: 54591b3b6a9e362d-MAN
+< Content-Type: text/html; charset=UTF-8
+< X-Pingback: https://www.moj.io/xmlrpc.php
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Set-Cookie: __cfduid=d9d80ac470987b98c1c8ba9e9a4a3f8e31576420131; expires=Tue, 14-Jan-20 14:28:51 GMT; path=/; domain=.moj.io; HttpOnly
+< Set-Cookie: aelia_cs_selected_currency=CAD; expires=Mon, 16-Dec-2019 14:28:51 GMT; path=/
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< Pragma: no-cache
+

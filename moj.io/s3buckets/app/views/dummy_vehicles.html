@@ -1,0 +1,74 @@
+<div ng-controller="dummyVehiclesController as mc">
+   <div class="row">
+      <div class="col-md-12">
+         <div class="panel panel-default">
+            <div class="panel-body">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="form-group">
+                        <div class="input-group">
+                           <span class="input-group-addon">Vehicle Name</span>
+                           <input type="text" placeholder="Vehicle Name" ng-model="AddVehicleData.Name" class="form-control" />
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="form-group">
+                        <div class="input-group">
+                           <span class="input-group-addon">VIN</span>
+                           <input type="text" placeholder="Keep Blank for random VIN" ng-model="AddVehicleData.VIN" class="form-control" />
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="form-group">
+                        <div class="input-group">
+                           <span class="input-group-addon">Mojio</span>
+                           <select ng-model="AddVehicleData.MojioId" style="width:300px" class="form-control">
+                              <option ng-repeat="m in Mojios track by $index" value="{{m._id}}">{{m.Name}}</option>
+                           </select>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <button ng-click="AddVehicle()" ng-if="false" class="mb-sm btn btn-labeled btn-default">
+                        <span class="btn-label"><i class="fa fa-plus"></i>
+                        </span>&nbsp;Add Vehicle</button>
+                     <button ng-click="AddVehicleByHeartBeat()" class="mb-sm btn btn-labeled btn-default">
+                        <span class="btn-label"><i class="fa fa-plus"></i>
+                        </span>&nbsp;Add</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-md-12">
+         <table class="table">
+            <thead>
+               <tr>
+                  <th>&nbsp;</th>
+                  <th class="fieldHeader">Name</th>
+                  <th class="fieldHeader">VIN</th>
+                  <th class="fieldHeader">Device</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr ng-repeat="row in Vehicles">
+                  <td style="zoom:50%">
+                     <button are-you-sure="RemoveVehicle(row)" class="mb-sm btn btn-danger">
+                        <li class="fa fa-times"></li>
+                     </button>
+                  </td>
+                  <td>{{row.Name}}</td>
+                  <td>{{row.VIN}}</td>
+                  <td>{{row.MojioName}}</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </div>
+</div>

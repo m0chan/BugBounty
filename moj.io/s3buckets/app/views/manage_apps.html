@@ -1,0 +1,102 @@
+<!--Created by pooyaparidel on 15-03-27.-->
+<h3>Manage Applications</h3>
+<span ng-controller="manageAppsController as mc">
+   <span data-alias="AppMojioGrid" data-mojioapi="[{&quot;MojioModel&quot;:&quot;Apps&quot;,&quot;defaultCriteria&quot;:&quot;&quot;,&quot;criteria&quot;:&quot;&quot;}]" ng-controller="mojioGridController">
+      <span st-pipe="callServer" st-table="displayed">
+         <div class="panel-body">
+            <table class="table table-hover table-bordered table-striped table-condensed">
+               <thead ng-show="selectedRow==null">
+                  <tr>
+                     <th colspan="3"><i class="fa fa-th-large fa-2x"></i>
+                     </th>
+                     <th ng-show="s.f[0].show" data-show="true" st-sort="IMEI" class="fieldHeader">Name</th>
+                     <th ng-show="s.f[1].show" data-show="true" st-sort="NAME" class="fieldHeader">Description</th>
+                     <th ng-show="s.f[3].show" data-show="true" st-sort="CONTACT" class="fieldHeader">Creation Date</th>
+                  </tr>
+               </thead>
+               <tbody ng-show="selectedRow==null &amp;&amp; !isLoading">
+                  <tr ng-repeat="row in displayed">
+                     <td>
+                        <a href="" are-you-sure="deleteApp(row)">
+                           <li class="fa fa-times"></li>
+                        </a>
+                     </td>
+                     <td>
+                        <a href="" modal-input="$parent.editApp(row)" input-value="row" output-value="Data" fields="fieldDesc">
+                           <li class="fa fa-pencil-square-o"></li>
+                        </a>
+                     </td>
+                     <td>
+                        <a href="" ng-click="$parent.showAppIDE(row)">
+                           <li class="fa fa-magic"></li>
+                        </a>
+                     </td>
+                     <td ng-show="s.f[0].show">{{row.Name}}</td>
+                     <td ng-show="s.f[1].show">{{row.Description}}</td>
+                     <td ng-show="s.f[3].show">{{row.CreationDate | date:'yy-MM-dd HH:mm'}}</td>
+                  </tr>
+               </tbody>
+               <tfoot>
+                  <tr ng-show="selectedRow==null &amp;&amp; (displayed.length!=0 || isLoading)">
+                     <td ng-show="isLoading" colspan="40"><i class="fa fa-spinner fa-spin fa-2x"></i>
+                     </td>
+                     <td ng-show="!isLoading" st-pagination="" st-displayed-pages="10" st-items-by-page="itemsPerPage || 10" colspan="40" class="text-center"></td>
+                  </tr>
+               </tfoot>
+            </table>
+         </div>
+      </span>
+   </span>
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseOne">Create New App</a>
+         </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in">
+         <div class="panel-body">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="input-group">
+                     <span class="input-group-btn">
+                        <div class="btn btn-default">Name</div>
+                     </span>
+                     <input ng-model="NewApp.Name" class="form-control" />
+                  </div>
+               </div>
+            </div>
+            <br/>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="input-group">
+                     <span class="input-group-btn">
+                        <div class="btn btn-default">Description</div>
+                     </span>
+                     <input ng-model="NewApp.Description" class="form-control" />
+                  </div>
+               </div>
+            </div>
+            <br/>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="input-group">
+                     <span class="input-group-btn">
+                        <div class="btn btn-default">App Type</div>
+                     </span>
+                     <select ng-model="NewApp.ApplicationType" class="form-control">
+                        <option>Web</option>
+                        <option>Installed</option>
+                     </select>
+                  </div>
+               </div>
+            </div>
+            <br/>
+            <div class="row">
+               <div class="col-md-12">
+                  <button ng-click="CreateApp()" class="btn btn-default">
+                     <li class="fa fa-plus"></li>&nbsp; Create</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</span>

@@ -1,0 +1,17 @@
+http://betatesters.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: betatesters.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Status: 404 Not Found
+< X-Request-Id: 78bfb372-d4db-46cb-8e80-376c2d501524
+< X-Rack-Cache: miss
+< Cache-Control: no-cache
+< Date: Sun, 15 Dec 2019 14:30:07 GMT
+< Content-Type: application/json; charset=utf-8
+< X-Xss-Protection: 1; mode=block
+< X-Ua-Compatible: IE=Edge,chrome=1
+
+ 

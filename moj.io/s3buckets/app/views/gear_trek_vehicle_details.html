@@ -1,0 +1,41 @@
+<div class="text-center bb">
+   <div class="row mt-lg">
+      <em class="fa icon-gauge fa-2x text-gray-light"></em>
+   </div>
+   <div class="row">
+      <span class="widget-title">{{ "gear.gear_trek_vehicle_details.Title" | translate }}</span>
+   </div>
+   <div class="row mb-sm">
+      <span class="widget-byapp">{{ "gear.gear_trek_vehicle_details.SubTitle" | translate }}</span>
+   </div>
+</div>
+<div class="row">
+   <div class="col-xs-12 text-center">
+      <h3>{{$parent.AllData.SelectedVehicle.Info.Make}} {{$parent.AllData.SelectedVehicle.Info.Model}}
+      </h3>
+   </div>
+</div>
+<div class="row">
+   <div class="col-xs-6 text-right">{{ "gear.gear_trek_vehicle_details.VehicleType" | translate }}</div>
+   <div class="col-xs-6 text-left">{{$parent.AllData.SelectedVehicle.Info.VehicleType}}</div>
+</div>
+<div ng-if="$parent.AllData.SelectedVehicle.Info.InstalledEngine" class="row">
+   <div class="col-xs-6 text-right">{{ "gear.gear_trek_vehicle_details.Cylinders" | translate }}</div>
+   <div class="col-xs-6 text-left">{{$parent.AllData.SelectedVehicle.Info.InstalledEngine.Cylinders}}</div>
+</div>
+<div ng-if="$parent.AllData.SelectedVehicle.Info.InstalledEngine" class="row">
+   <div class="col-xs-6 text-right">{{ "gear.gear_trek_vehicle_details.Displacement" | translate }}</div>
+   <div class="col-xs-6 text-left">{{$parent.AllData.SelectedVehicle.Info.InstalledEngine.Displacement}} CID</div>
+</div>
+<div ng-if="$parent.AllData.SelectedVehicle.Info.InstalledEngine" class="row">
+   <div class="col-xs-6 text-right">{{ "gear.gear_trek_vehicle_details.MaxHorsepower" | translate }}</div>
+   <div class="col-xs-6 text-left">{{$parent.AllData.SelectedVehicle.Info.InstalledEngine.MaxHp}} @ {{$parent.AllData.SelectedVehicle.Info.InstalledEngine.MaxHpAt}}</div>
+</div>
+<div ng-if="$parent.AllData.SelectedVehicle.Info.Transmissions.length!=0" class="row">
+   <div class="col-xs-6 text-right">{{ "gear.gear_trek_vehicle_details.Transmission" | translate }}</div>
+   <div class="col-xs-6 text-left">{{$parent.AllData.SelectedVehicle.Info.Transmissions[0].Name}}</div>
+</div>
+<div class="row">
+   <div class="col-xs-6 text-right">{{ "gear.gear_trek_vehicle_details.Recalls" | translate }}</div>
+   <div class="col-xs-6 text-left">{{$parent.AllData.SelectedVehicle.Info.Recalls.length}}</div>
+</div>

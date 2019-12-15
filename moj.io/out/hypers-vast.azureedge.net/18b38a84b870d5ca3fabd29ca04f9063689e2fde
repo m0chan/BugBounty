@@ -1,0 +1,15 @@
+https://hypers-vast.azureedge.net/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: hypers-vast.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:30:31 GMT
+< Server: ECAcc (lpl/EF41)
+< X-Amz-Request-Id: tx0000000000000021e511c-005df64387-34fcc4-default
+< Content-Length: 224
+< Accept-Ranges: bytes
+< Content-Type: application/xml
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><BucketName>swagger-ui</BucketName><RequestId>tx0000000000000021e511c-005df64387-34fcc4-default</RequestId><HostId>34fcc4-default-default</HostId></Error>

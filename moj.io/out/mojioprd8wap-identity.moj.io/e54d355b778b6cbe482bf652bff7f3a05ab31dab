@@ -1,0 +1,14 @@
+https://mojioprd8wap-identity.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: mojioprd8wap-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Security-Policy: default-src 'self' static-prd8.moj.io; font-src 'self' https://fonts.gstatic.com static-prd8.moj.io data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com static-prd8.moj.io 'unsafe-inline'; script-src 'self' 'unsafe-inline' static-prd8.moj.io; img-src 'self' static-prd8.moj.io
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=136ead941a19baf9a74bd41f746b55cb14e4cf321e040e50f7bd8162d430922d;Path=/;HttpOnly;Domain=mojioprd8wap-identity.moj.io
+< Date: Sun, 15 Dec 2019 14:25:40 GMT
+< Content-Length: 0
+< Server: Kestrel
+

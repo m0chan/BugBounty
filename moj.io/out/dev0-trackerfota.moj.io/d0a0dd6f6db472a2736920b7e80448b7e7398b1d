@@ -1,0 +1,25 @@
+http://dev0-trackerfota.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: dev0-trackerfota.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Vary: Accept-Encoding
+< Server: Apache/2.2.22 (Ubuntu)
+< X-Azure-Ref-Originshield: 0gUP2XQAAAAC1yOJsK7UJQ7lb9t9Bd4spTE9OMjFFREdFMDMxMwA5MDYxYzNhOS05NGUxLTQ5MWEtYmI3Ni0wYjAzMzQ4MGFlYzI=
+< Keep-Alive: timeout=5, max=100
+< Content-Type: text/html; charset=iso-8859-1
+< X-Cache: TCP_MISS
+< X-Azure-Ref: 0gUP2XQAAAACjt2HhTZWVT6NcO0t/Wbt0TUFOMzBFREdFMDMxOQA5MDYxYzNhOS05NGUxLTQ5MWEtYmI3Ni0wYjAzMzQ4MGFlYzI=
+< Date: Sun, 15 Dec 2019 14:30:25 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /swagger-ui was not found on this server.</p>
+<hr>
+<address>Apache/2.2.22 (Ubuntu) Server at 109.74.206.50 Port 80</address>
+</body></html>

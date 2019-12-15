@@ -1,0 +1,29 @@
+http://blog.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: blog.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Authorization Required
+< Cf-Cache-Status: DYNAMIC
+< Server: cloudflare
+< Date: Sun, 15 Dec 2019 14:29:51 GMT
+< Www-Authenticate: Basic realm="Authentication Required"
+< Set-Cookie: __cfduid=d6014d5852aa7da5b83fa3a48ea6a2bf51576420191; expires=Tue, 14-Jan-20 14:29:51 GMT; path=/; domain=.moj.io; HttpOnly
+< Cf-Ray: 54591cb31de2e597-MAN
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>401 Authorization Required</title>
+</head><body>
+<h1>Authorization Required</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested. Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+<hr>
+<address>Apache/2.2.34 (Amazon) Server at blog.moj.io Port 80</address>
+</body></html>

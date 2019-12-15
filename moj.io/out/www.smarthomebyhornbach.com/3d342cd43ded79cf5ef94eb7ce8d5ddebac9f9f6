@@ -1,0 +1,20 @@
+https://www.smarthomebyhornbach.com/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: www.smarthomebyhornbach.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Version: 2009-09-19
+< Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding
+< Content-Type: application/xml
+< X-Frame-Options: DENY
+< X-Ms-Request-Id: a190d50d-401e-00b2-2853-b35a57000000
+< Content-Length: 215
+< Access-Control-Allow-Origin: *
+< Date: Sun, 15 Dec 2019 14:23:50 GMT
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:a190d50d-401e-00b2-2853-b35a57000000
+Time:2019-12-15T14:23:50.8526404Z</Message></Error>

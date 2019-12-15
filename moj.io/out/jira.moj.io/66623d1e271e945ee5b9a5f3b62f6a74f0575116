@@ -1,0 +1,15 @@
+http://jira.moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: jira.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Sun, 15 Dec 2019 15:29:36 GMT
+< Location: https://1mojio.atlassian.net/package.json
+< Server: cloudflare
+< Date: Sun, 15 Dec 2019 14:29:36 GMT
+< Cache-Control: max-age=3600
+< Vary: Accept-Encoding
+< Cf-Ray: 54591c59896fd210-MAN
+

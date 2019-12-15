@@ -1,0 +1,3 @@
+<div ng-if="nodes.length!=0">
+   <img ng-repeat="node in nodes" ng-src="{{node.pic}}" ng-click="GotoNode(node)" class="img-responsive col-md-{{menuconfig.subColumns}} {{menuconfig.menuNodeClass}}" />
+</div>

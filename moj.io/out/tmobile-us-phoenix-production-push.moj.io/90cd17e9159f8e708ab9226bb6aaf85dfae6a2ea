@@ -1,0 +1,17 @@
+http://tmobile-us-phoenix-production-push.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: tmobile-us-phoenix-production-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html
+< Server: nginx/1.15.6
+< Set-Cookie: ARRAffinity=6b963359f179159ee586044c706fd07d956b98d70b3d44666e26ac359e3349be;Path=/;HttpOnly;Domain=tmobile-us-phoenix-production-push.moj.io
+< X-Powered-By: ASP.NET
+< Nginx-Version: 4.11.0.8
+< Date: Sun, 15 Dec 2019 14:23:43 GMT
+< Content-Length: 103
+< X-Mojio-Route: legacy
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

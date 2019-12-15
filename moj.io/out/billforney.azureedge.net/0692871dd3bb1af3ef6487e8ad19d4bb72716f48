@@ -1,0 +1,19 @@
+http://billforney.azureedge.net/package.json
+
+> GET /package.json HTTP/1.1
+> Host: billforney.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Content-Type-Options: nosniff
+< X-Ua-Compatible: IE=Edge,chrome=1
+< Arr-Disable-Session-Affinity: True
+< Date: Sun, 15 Dec 2019 14:29:34 GMT
+< Content-Length: 0
+< X-Cache: TCP_MISS
+< Request-Context: appId=cid-v1:58dd9d2d-7583-4bbe-aa25-e93c0adacb78
+< X-Powered-By: William Forney
+< Content-Security-Policy: object-src 'none';
+< X-Azure-Ref-Originshield: 0T0P2XQAAAADYvJC10rmNRJ/P9YoL3O9dTE9OMjFFREdFMDMwOAA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< X-Azure-Ref: 0T0P2XQAAAACg+eajNbZ6RJAvIFw36VWSTUFOMzBFREdFMDMwOAA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+

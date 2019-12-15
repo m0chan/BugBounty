@@ -1,0 +1,20 @@
+https://analytics-eu.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: analytics-eu.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Content-Type: text/html
+< Content-Length: 170
+< Location: https://analytics-eu.moj.io/vouch/login?url=https://analytics-eu.moj.io/phpinfo.php&vouch-failcount=&X-Vouch-Token-EU=&error=
+< Server: nginx/1.10.3 (Ubuntu)
+< Date: Sun, 15 Dec 2019 14:23:50 GMT
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>

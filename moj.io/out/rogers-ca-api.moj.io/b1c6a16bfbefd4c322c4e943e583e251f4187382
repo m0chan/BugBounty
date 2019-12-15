@@ -1,0 +1,15 @@
+https://rogers-ca-api.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: rogers-ca-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=1c6d53fabcc988cc8733db1cf57828988a809a9cc1811573007fec5150af9471;Path=/;HttpOnly;Domain=rogers-ca-api.moj.io
+< Date: Sun, 15 Dec 2019 14:30:02 GMT
+< Content-Length: 103
+< Content-Type: text/html
+< Request-Context: appId=cid-v1:b4f3dc5f-bd72-4647-99a2-e4a1ecb0016e
+< X-Powered-By: ASP.NET
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

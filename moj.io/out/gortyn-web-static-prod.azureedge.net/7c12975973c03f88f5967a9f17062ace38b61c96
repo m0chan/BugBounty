@@ -1,0 +1,17 @@
+http://gortyn-web-static-prod.azureedge.net/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: gortyn-web-static-prod.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:27:50 GMT
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< Vary: Origin
+< X-Ms-Request-Id: e299c6e3-001e-0000-3553-b3e408000000
+< Content-Length: 226
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>OutOfRangeInput</Code><Message>One of the request inputs is out of range.
+RequestId:e299c6e3-001e-0000-3553-b3e408000000
+Time:2019-12-15T14:27:50.3146698Z</Message></Error>

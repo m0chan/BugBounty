@@ -1,0 +1,16 @@
+https://time.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: time.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: http://goo.gl/forms/K1H4MI4iGD
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Vary: Accept-Encoding
+< Date: Sun, 15 Dec 2019 14:30:10 GMT
+< Cache-Control: max-age=3600
+< Cf-Ray: 54591d29792ad220-MAN
+< Expires: Sun, 15 Dec 2019 15:30:10 GMT
+< Server: cloudflare
+

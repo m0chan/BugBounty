@@ -1,0 +1,26 @@
+https://asset.chaplain.co/package.json
+
+> GET /package.json HTTP/1.1
+> Host: asset.chaplain.co
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Access-Control-Allow-Origin: *
+< Content-Security-Policy: default-src 'self' chaplain.co *.chaplain.co asset.chaplain.co access.chaplain.co; form-action 'none'; base-uri 'self'; frame-ancestors https://*.chaplain.co https://chaplain.co; upgrade-insecure-requests; block-all-mixed-content; referrer origin-when-cross-origin; report-uri https://chplnco.report-uri.com/r/d/csp/enforce;
+< Content-Type: application/xml
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Powered-By: Sharks with frickin' laser beams attached to their heads
+< Access-Control-Expose-Headers: x-ms-request-id,Server,Content-Length,Date,Transfer-Encoding
+< Date: Sun, 15 Dec 2019 14:29:40 GMT
+< X-Content-Type-Options: nosniff
+< X-Ms-Request-Id: 15ba320a-201e-00cf-5754-b33a89000000
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-App-Id: CCoAssetCDN
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< Content-Length: 226
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>OutOfRangeInput</Code><Message>One of the request inputs is out of range.
+RequestId:15ba320a-201e-00cf-5754-b33a89000000
+Time:2019-12-15T14:29:40.9968462Z</Message></Error>

@@ -1,0 +1,15 @@
+http://time.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: time.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:28:12 GMT
+< Expires: Sun, 15 Dec 2019 15:28:12 GMT
+< Cf-Ray: 54591a4c4acabfcf-MAN
+< Cache-Control: max-age=3600
+< Location: http://goo.gl/forms/K1H4MI4iGD
+< Vary: Accept-Encoding
+< Server: cloudflare
+

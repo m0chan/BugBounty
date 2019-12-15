@@ -1,0 +1,49 @@
+<div class="row">
+   <div class="panel">
+      <div class="panel-body">
+         <div class="col-md-12">
+            <h4 class="mt0">
+               <span class="fa fa-hdd-o fa-2x"></span>
+               <span ng-if="data.Name!=null">&nbsp; {{data.Name}}</span>
+               <span ng-if="data.Name==null">&nbsp; No Name Device</span>
+            </h4>
+            <hr/>
+            <p>Imei:{{data.Imei}}</p>
+            <p>Last Contact: {{data.LastContactTime | timeago}}</p>Operations:
+            <ul class="fa-ul">
+               <li><i class="fa-li fa fa-tag"></i><a href="" ng-click="$parent.deselect()">&nbsp;Deselect This Device</a>
+               </li>
+               <li><i class="fa-li fa fa-user"></i><a href="" ng-click="showOwner()">&nbsp;Show Owner</a>
+               </li>
+               <li ng-if="data.VehicleId!=null"><i class="fa-li fa fa-car"></i><a href="" ng-click="showVehicle()">&nbsp;Connected Vehicle</a>
+               </li>
+               <li><i class="fa-li fa fa-openid"></i><a ng-if="!rel.trips.length &amp;&amp; !rel.loadTrips" href="" ng-click="showRecentTrips()">&nbsp;List of Recent Trips</a>
+                  <span ng-if="rel.trips.length || rel.loadTrips">&nbsp;List of Recent Trips
+                     <ul class="fa-ul">
+                        <li ng-repeat="trp in rel.trips"><i class="fa-li fa fa-openid"></i><a ng-click="broadcast(trp)">{{trp.StartTime | date:'yy-MM-dd HH:mm'}}
+-
+{{trp.EndTime | date:'HH:mm'}}</a>
+                        </li>
+                        <li ng-if="rel.loadTrips"><i class="fa-li fa fa-spinner fa-spin"></i>Loading...</li>
+                        <li ng-if="rel.moreTrips"><i class="fa-li fa fa-openid"></i><a href="" ng-click="showRecentTrips()">&nbsp;Load more</a>
+                        </li>
+                     </ul>
+                  </span>
+               </li>
+               <li><i class="fa-li fa fa-bolt"></i><a ng-if="!rel.events.length" href="" ng-click="showRecentEvents()">&nbsp;List of Recent Events</a>
+                  <span ng-if="rel.events.length|| rel.loadEvents">&nbsp;List of Recent Events
+                     <ul class="fa-ul">
+                        <li ng-repeat="eve in rel.events"><i class="fa-li fa fa-bolt"></i><a ng-click="broadcast(eve)">{{eve.EventType}} ({{eve.Time | date:'yy-MM-dd HH:mm'}})</a>
+                        </li>
+                        <li ng-if="rel.loadEvents"><i class="fa-li fa fa-spinner fa-spin"></i>Loading...</li>
+                        <li ng-if="rel.moreEvents"><i class="fa-li fa fa-bolt"></i><a href="" ng-click="showRecentEvents()">&nbsp;Load more</a>
+                        </li>
+                     </ul>
+                  </span>
+               </li>
+            </ul>
+         </div>
+         <div class="col-md-8"></div>
+      </div>
+   </div>
+</div>

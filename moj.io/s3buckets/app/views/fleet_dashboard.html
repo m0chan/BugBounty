@@ -1,0 +1,19 @@
+<div ng-controller="fleetDashboardController as mc">
+   <div class="row">
+      <div class="col-md-12">
+         <div class="panel panel-default">
+            <div style="height:300px" id="map_canvas" class="panel-body"></div>
+         </div>
+      </div>
+   </div>
+   <div class="row">
+      <div ng-repeat="row in Vehicles" class="col-md-6">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title">{{row.Name}}</h4>
+            </div>
+            <div class="panel-body"></div>
+         </div>
+      </div>
+   </div>
+</div>

@@ -1,0 +1,13 @@
+https://services.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: services.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=0251a2efb925885696d75eb9b799c5616369e8f94ea81b74aa3144c77d00b3a7;Path=/;HttpOnly;Domain=services.moj.io
+< Date: Sun, 15 Dec 2019 14:30:20 GMT
+< Content-Length: 0
+< Server: Kestrel
+

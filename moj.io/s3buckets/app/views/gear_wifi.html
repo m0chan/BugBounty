@@ -1,0 +1,38 @@
+<div class="text-center bb bg-white">
+   <div class="text-center bg-white">
+      <div class="row pt-lg">
+         <em class="fa fa-wifi fa-2x text-gray-light"></em>
+      </div>
+      <div class="row">
+         <span class="widget-title">WiFi</span>
+      </div>
+      <div class="row pb-sm">
+         <span class="widget-byapp">WiFi Settings</span>
+      </div>
+   </div>
+</div>
+<div class="row">
+   <div class="col-xs-12">
+      <div class="text-center">{{SupportWifiText}}</div>
+      <div class="row pl-lg">
+         <div class="col-xs-12">SSID</div>
+         <div class="col-xs-12">
+            <input ng-model="settings.SSID" />
+         </div>
+         <div class="col-xs-12">Password</div>
+         <div class="col-xs-12">
+            <input ng-model="settings.Password" type="password" />
+         </div>
+         <div class="col-xs-12">Enable</div>
+         <div class="col-xs-12">
+            <label class="switch">
+               <input type="checkbox" ng-model="settings.Connected" />
+               <span></span>
+            </label>
+         </div>
+         <div class="col-xs-12">
+            <button ng-click="setWiFi()" class="btn btn-default mb-sm">Set WiFi</button>
+         </div>
+      </div>
+   </div>
+</div>

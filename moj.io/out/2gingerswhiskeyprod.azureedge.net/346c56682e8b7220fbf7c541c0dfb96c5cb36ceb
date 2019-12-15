@@ -1,0 +1,15 @@
+http://2gingerswhiskeyprod.azureedge.net/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: 2gingerswhiskeyprod.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 164
+< Content-Type: text/html; charset=UTF-8
+< Date: Sun, 15 Dec 2019 14:25:30 GMT
+< Location: https://2gingerswhiskeyprod.azureedge.net/admin.php
+< Server: Microsoft-IIS/10.0
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.2gingerswhiskey.com/admin.php">here</a></body>

@@ -1,0 +1,132 @@
+<!--Created by pooyaparidel on 15-03-17.
+-->
+<div class="row">
+   <div class="col-lg-4">
+      <div class="panel panel-default">
+         <div class="panel-heading">
+            <h4 class="panel-title">Device Information</h4>
+            <div class="panel-body">
+               <table class="col-xs-12">
+                  <tbody>
+                     <tr>
+                        <td>IMEI</td>
+                        <td>{{device.Imei}}</td>
+                     </tr>
+                     <tr>
+                        <td>Manufacturer</td>
+                        <td>{{device.DevicePrivate.MojioType}}</td>
+                     </tr>
+                     <tr>
+                        <td>Part Number</td>
+                        <td>{{device.DevicePrivate.PartNumber}}</td>
+                     </tr>
+                     <tr>
+                        <td>Serial Number</td>
+                        <td>{{device.DevicePrivate.SerialNumber}}</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </div>
+      <div class="panel panel-default">
+         <div class="panel-heading">
+            <h4 class="panel-title">SIM Card</h4>
+            <div class="panel-body">
+               <table class="col-xs-12">
+                  <tbody>
+                     <tr>
+                        <td>Provier</td>
+                        <td>???????</td>
+                     </tr>
+                     <tr>
+                        <td>ICCID</td>
+                        <td>{{simCard.Iccid}}</td>
+                     </tr>
+                     <tr>
+                        <td>MSISDN</td>
+                        <td>{{simCard.Msisdn}}</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-lg-8">
+      <div class="panel panel-default">
+         <div class="panel-heading">
+            <h4 class="panel-title">Health Status</h4>
+            <div class="panel-body">
+               <div class="col-md-6">
+                  <!-- START widget-->
+                  <div class="panel widget bg-success">
+                     <div class="row row-table">
+                        <div class="text-center">Configuration</div>
+                     </div>
+                     <div class="row row-table">
+                        <div class="col-xs-4">
+                           <div class="fa fa-check-circle-o fa-4x"></div>
+                        </div>
+                        <div class="col-xs-8">
+                           <h4>{{device.DevicePrivate.Configuration}}</h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <!-- START widget-->
+                  <div class="panel widget bg-gray">
+                     <div class="row row-table">
+                        <div class="text-center">Firmware</div>
+                     </div>
+                     <div class="row row-table">
+                        <div class="col-xs-4">
+                           <em class="fa fa-question-circle fa-4x"></em>
+                        </div>
+                        <div class="col-xs-8">
+                           <h4>{{device.DevicePrivate.Firmware}}</h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <!-- START widget-->
+                  <div class="panel widget bg-gray">
+                     <div class="row row-table">
+                        <div class="text-center">Last Contact</div>
+                     </div>
+                     <div class="row row-table">
+                        <div class="col-xs-4">
+                           <div class="fa fa-question-circle fa-4x"></div>
+                        </div>
+                        <div class="col-xs-8">
+                           <h4>{{device.LastContactTime | timeago}} ago
+                              <br/>{{device.LastContactTime | date:'yy-MM-dd HH:mm' }}</h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <!-- START widget-->
+                  <div class="panel widget bg-gray-light">
+                     <div class="row row-table">
+                        <div class="text-center">Signal Strength</div>
+                     </div>
+                     <div class="row row-table">
+                        <div class="col-xs-4">
+                           <em class="fa fa-question-circle fa-4x"></em>
+                        </div>
+                        <div class="col-xs-8">
+                           <h4>
+                              <slow-update typ="'number'" real="9876543"></slow-update>
+                           </h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

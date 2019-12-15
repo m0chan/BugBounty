@@ -1,0 +1,13 @@
+http://tmobile-cz-identity.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: tmobile-cz-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Internal Server Error
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=39088ac8f3aaa7b752e5fbc1615c9853a08bf0c30f413bebc20c3fe5e6bfff8b;Path=/;HttpOnly;Domain=tmobile-cz-identity.moj.io
+< Date: Sun, 15 Dec 2019 14:30:19 GMT
+< Content-Length: 0
+< Server: Kestrel
+

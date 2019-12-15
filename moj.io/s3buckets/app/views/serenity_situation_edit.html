@@ -1,0 +1,42 @@
+<h3><a href="" editable-text="Situation.name" buttons="no">{{ Situation.name || 'Enter Situation Name' }}</a>
+   <div class="pull-right m-sm">
+      <button are-you-sure="SaveSituation()" class="btn btn-primary">Save</button>
+      <button are-you-sure="DiscardChange()" class="btn btn-warning">Discard</button>
+      <button are-you-sure="DeleteSituation()" class="btn btn-danger">Delete</button>
+   </div>
+</h3>
+<div class="well">
+   <ul class="fa-ul">
+      <li><i class="fa-li fa fa-clock-o"></i>Debounce:&nbsp;<a href="" editable-text="Situation.Debounce" buttons="no">{{ Situation.Debounce || 'Enter Situation Debounce' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-clock-o"></i>Throttle:&nbsp;<a href="" editable-text="Situation.Throttle" buttons="no">{{ Situation.Throttle || 'Enter Situation Throttle' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-check-square-o"></i>Timing:&nbsp;<a href="" editable-text="Situation.Timing" buttons="no">{{ Situation.Timing || 'Enter Situation Timing' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-bolt"></i>Events:&nbsp;
+         <ul class="fa-ul">
+            <li ng-click="AddEvent()"><i class="fa-li fa fa-plus"></i>Add New Event</li>
+            <li ng-repeat="event in Situation.events">
+               <div class="well">
+                  <ul class="fa-ul">
+                     <li><i class="fa-li fa fa-clock-o"></i>Source:&nbsp;<a href="" editable-text="event.Source" buttons="no">{{ event.Source || 'Enter Event Source' }}</a>
+                     </li>
+                     <li><i class="fa-li fa fa-clock-o"></i>Property:&nbsp;<a href="" editable-text="event.Property" buttons="no">{{ event.Property || 'Enter Event Property' }}</a>
+                     </li>
+                     <li><i class="fa-li fa fa-clock-o"></i>Condition:&nbsp;<a href="" editable-text="event.Condition" buttons="no">{{ event.Condition || 'Enter Event Condition' }}</a>
+                     </li>
+                     <li><i class="fa-li fa fa-clock-o"></i>Debounce:&nbsp;<a href="" editable-text="event.Debounce" buttons="no">{{ event.Debounce || 'Enter Event Debounce' }}</a>
+                     </li>
+                     <li><i class="fa-li fa fa-clock-o"></i>Throttle:&nbsp;<a href="" editable-text="event.Throttle" buttons="no">{{ event.Throttle || 'Enter Event Throttle' }}</a>
+                     </li>
+                     <li><i class="fa-li fa fa-check-square-o"></i>Timing:&nbsp;<a href="" editable-text="event.Timing" buttons="no">{{ event.Timing || 'Enter Event Timing' }}</a>
+                     </li>
+                     <li><a are-you-sure="RemoveEvent(event)" class="text-danger"><i class="fa fa-li fa-minus-square"></i>Delete</a>
+                     </li>
+                  </ul>
+               </div>
+            </li>
+         </ul>
+      </li>
+   </ul>
+</div>

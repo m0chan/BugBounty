@@ -1,0 +1,28 @@
+<h3>Dealer Visit Report</h3>
+<div class="row">
+   <div class="col-xs-12">
+      <div class="pull-left">
+         <button ng-click="export()" class="btn btn-primary">Export</button>
+      </div>
+   </div>
+   <div class="col-xs-12">
+      <table class="table table-striped">
+         <thead class="bb">
+            <tr>
+               <th>Full Name</th>
+               <th>Email</th>
+               <th>Phone</th>
+               <th>Visit Date</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr ng-repeat="(pos,row) in data track by $index">
+               <td>{{row.User.Firstname}} {{row.User.Lastname}}</td>
+               <td>{{row.User.Email}}</td>
+               <td>{{row.User.Phone}}</td>
+               <td>{{row.visitDate | date:'yyyy-MM-dd'}}</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>

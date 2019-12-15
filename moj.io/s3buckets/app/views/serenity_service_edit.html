@@ -1,0 +1,58 @@
+<h3>
+   <img width="32" height="32" src="{{Service.icon}}" ng-click="" image-uploader="Service.icon" class="bt bl br bb" />&nbsp;<a href="" editable-text="Service.name" buttons="no">{{ Service.name || 'Enter Service Name' }}</a>
+   <div class="pull-right m-sm">
+      <button are-you-sure="SaveService()" class="btn btn-primary">Save</button>
+      <button are-you-sure="DiscardChange()" class="btn btn-warning">Discard</button>
+      <button are-you-sure="DeleteService()" class="btn btn-danger">Delete</button>
+   </div>
+</h3>
+<div class="well">
+   <ul class="fa-ul">
+      <li><i class="fa-li fa fa-align-justify"></i>Description:&nbsp;<a href="" editable-text="Service.description" buttons="no">{{ Service.description || 'Enter Service Description' }}</a>
+      </li>
+      <li><i class="fa-li fa fa-picture-o"></i>Artwork:&nbsp;
+         <img image-modal="Service.artwork" style="max-width:32px;height:auto" src="{{Service.artwork}}" ng-click="" class="bt bl br bb" /><a ng-click="" image-uploader="Service.artwork">Change</a>
+      </li>
+      <li><i class="fa-li fa fa-bullhorn"></i>Advice:&nbsp;
+         <ul class="fa-ul">
+            <li ng-click="AddAdvice(Service)"><i class="fa-li fa fa-plus"></i>Add New Advice</li>
+            <li service-advice-edit="a" parent="Service" ng-repeat="a in Service.advice" class="bt bl br bb mt-lg p-sm"></li>
+         </ul>
+      </li>
+      <li><i class="fa-li fa fa-gift"></i>Offers:&nbsp;
+         <ul class="fa-ul">
+            <li ng-click="AddOffer(Service)"><i class="fa-li fa fa-plus"></i>Add New Offer</li>
+            <li service-offer-edit="o" parent="Service" ng-repeat="o in Service.offers" class="bt bl br bb mt-lg p-sm"></li>
+         </ul>
+      </li>
+      <li><i class="fa-li fa fa-tasks"></i>Tasks:&nbsp;
+         <ul class="fa-ul">
+            <li ng-click="AddTask(Service)"><i class="fa-li fa fa-plus"></i>Add New Tasks</li>
+            <li ng-repeat="task in Service.tasks" class="bt bl br bb mt-lg p-sm"><i ng-click="task.show=!task.show" ng-class="{ 'fa-caret-right': !task.show, 'fa-caret-down': offer.show }" class="fa-li fa"></i>
+               <img width="32" height="32" src="{{task.icon}}" ng-click="" image-uploader="task.icon" class="bt bl br bb" />&nbsp;<a href="" editable-text="task.name" buttons="no">{{ task.name || 'No Name Task' }}</a>
+               <ul ng-show="task.show" class="fa-ul">
+                  <li><i class="fa-li fa fa-align-justify"></i>Description:&nbsp;<a href="" editable-text="task.description" buttons="no">{{task.description || 'No Description'}}</a>
+                  </li>
+                  <li><i class="fa-li fa fa-picture-o"></i>Artwork:&nbsp;
+                     <img image-modal="task.artwork" style="max-width:32px;height:auto" src="{{task.artwork}}" ng-click="" class="bt bl br bb" /><a ng-click="" image-uploader="task.artwork">Change</a>
+                  </li>
+                  <li><i class="fa-li fa fa-bullhorn"></i>Advice:&nbsp;
+                     <ul class="fa-ul">
+                        <li ng-click="AddAdvice(task)"><i class="fa-li fa fa-plus"></i>Add New Advice</li>
+                        <li service-advice-edit="a" parent="task" ng-repeat="a in task.advice" class="bt bl br bb mt-lg p-sm"></li>
+                     </ul>
+                  </li>
+                  <li><i class="fa-li fa fa-gift"></i>Offers:&nbsp;
+                     <ul class="fa-ul">
+                        <li ng-click="AddOffer(task)"><i class="fa-li fa fa-plus"></i>Add New Offer</li>
+                        <li service-offer-edit="o" parent="task" ng-repeat="o in task.offers" class="bt bl br bb mt-lg p-sm"></li>
+                     </ul>
+                  </li>
+                  <li><a are-you-sure="$parent.RemoveTask(task)" class="text-danger"><i class="fa fa-li fa-minus-square"></i>Delete</a>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </li>
+   </ul>
+</div>

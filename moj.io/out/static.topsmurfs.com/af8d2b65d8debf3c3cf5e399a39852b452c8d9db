@@ -1,0 +1,22 @@
+http://static.topsmurfs.com/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: static.topsmurfs.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:23:49 GMT
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+< Referrer-Policy: no-referrer
+< Server: Apache
+< X-Xss-Protection: 1; mode=block
+< Location: https://static.topsmurfs.com/phpinfo.php
+< Vary: Accept-Encoding,Cookie
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< Cache-Control: s-maxage=10
+< Feature-Policy: accelerometer 'none'; camera 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; usb 'none'
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html; charset=UTF-8
+< X-Content-Type-Options: nosniff
+< Content-Length: 0
+

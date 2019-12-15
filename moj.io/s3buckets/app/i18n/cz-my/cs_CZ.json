@@ -1,0 +1,336 @@
+{
+    "common": {
+        "AreYouSure":"Jste si jisti?",
+        "NoNameVehicle": "Vozidlo bez názvu",
+        "VIN": "VIN",
+        "ImeiLong": "Číslo zařízení (IMEI)",
+        "LicensePlate": "Poznávací značka",
+        "BYMOJIO": "OD SPOLEČNOSTI MOJIO",
+        "ago": "nazpět",
+        "CarStatus": {
+            "Title": "Stav vozidla",
+            "Unknown": "Neznámý",
+            "Driving": "Jede",
+            "Parked": "Zaparkované"
+        },
+
+        "FuelEfficiencyScore":{
+            "poor":"Nízká",
+            "average":"Prumerná",
+            "good":"ECO",
+            "NeedMoreData":"Nedostatek jízd",
+            "FuelScore":"Úspornost jízdy"
+        },
+
+        "range": {
+            "d7": "Posledních 7 dnů",
+            "d14": "Posledních 14 dnů",
+            "d30": "Posledních 30 dnů",
+            "m3": "3 měsíce",
+            "m12": "12 měsíců",
+            "all": "Celá doba"
+        },
+        "FaultsSummary": {
+            "Unknown": "Neznámý",
+            "Sensor": "Senzor",
+            "AirFilter": "Vzduchový filtr",
+            "Coolant": "Chladicí kapalina",
+            "Drivetrain": "Hnací ústrojí",
+            "Emissions": "Emise"
+        },
+        "Units": {
+            "Months":"Měsíce",
+            "Weeks":"týdny",
+
+            "L100Km": "l/100 km",
+            "MPG": "mil/gal.",
+            "Liter": "Litr",
+            "Gallon": "Galon",
+            "Km": "Km",
+            "Mile": "Míle",
+            "Kilometers": "Kilometry",
+            "Miles": "Míle",
+            "kph": "km/h",
+            "mph": "mil/h",
+            "Kilometers_per_hour": "Kilometry za hodinu",
+            "Miles_per_hour": "Míle za hodinu",
+            "Liters_per_100_km": "Litrů na 100 km",
+            "Miles_per_gallon": "Mil na galon",
+            "Minutes": "Minuty",
+            "Trips": "Cesty"
+        }
+    },
+    "mymojio_account": {
+        "title": "Můj účet",
+        "editAccountTitle": "UPRAVIT INFORMACE O ÚČTU",
+        "uploadPicBtn": "Uložit nový obrázek",
+        "Email": "E-mail",
+        "EmailRequired": "E-mail je povinný",
+        "Username": "Uživatelské jméno",
+        "UsernameRequired": "Uživatelské jméno je povinné",
+        "FirstName": "Křestní jméno",
+        "FirstNameRequired": "Křestní jméno je povinné",
+        "LastName": "Příjmení",
+        "LastNameRequired": "Příjmení je povinné",
+        "SaveChangeBtn": "Uložit změnu",
+        "CurrentPassword": "Aktuální heslo",
+        "CurrentPasswordRequired": "Aktuální heslo je povinné",
+        "NewPassword": "Nové heslo",
+        "NewPasswordRequired": "Nové heslo je povinné",
+        "RetypePassword": "Zadejte heslo znovu",
+        "RetypePasswordRequired": "Zadejte heslo znovu je povinné",
+        "RetypePasswordNotmatch": "Musí se shodovat s předchozí položkou",
+        "ChangePasswordBtn": "Změnit heslo",
+        "MyMojioDevices": "MOJE ZAŘÍZENÍ MOJIO",
+        "Name": "Jméno",
+        "LastContact": "Poslední kontakt",
+        "Unclaim": "Nevyžádat",
+        "AddDevicePlusTitle": "Přidat nové zařízení mojio",
+        "ClaimBtn": "Vyžádat",
+        "MyVehicles": "MOJE VOZIDLA",
+        "RowNumber": "Č.",
+        "Status": "Stav",
+        "Delete": "Odstranit",
+        "NoName": "Bez názvu",
+        "NoLicensePlate": "Bez poznávací značky",
+        "uploadImage": {
+            "success": {
+                "title": "Uložit obrázek",
+                "body": "Obrázek byl úspěšně uložen"
+            },
+            "error": {
+                "title": "Uložit obrázek",
+                "body": "Obrázek musí být čtvercový a musí být větší než 200x200 pixelů"
+            }
+        },
+        "ChangePassword": {
+            "success": {
+                "title": "Změnit heslo",
+                "body": "Heslo bylo úspěšně změněno"
+            },
+            "error": {
+                "title": "Změnit heslo",
+                "body": "Heslo se nepodařilo změnit"
+            }
+        },
+        "ClaimDevice": {
+            "success": {
+                "title": "Vyžádat zařízení",
+                "body": "Zařízení bylo úspěšně vyžádáno"
+            },
+            "error": {
+                "title": "Vyžádat zařízení",
+                "body": "Vyžádání se nepodařilo"
+            }
+        },
+
+        "MergeVehicle":{
+            "success":{
+                "title": "Merge Vehicle",
+                "body":"Vehicles Merged Successfully"
+            },
+            "error":{
+                "title": "Merge Vehicle",
+                "body":"Merge was unsuccessful"
+            }
+        },
+
+        "RenameDevice": {
+            "success": {
+                "title": "Přejmenovat zařízení",
+                "body": "Zařízení bylo úspěšně přejmenováno"
+            },
+            "error": {
+                "title": "Přejmenovat zařízení",
+                "body": "Přejmenování se nepodařilo"
+            }
+        },
+        "UpdateVehicle": {
+            "success": {
+                "title": "Aktualizovat vozidlo",
+                "body": "Vozidlo bylo úspěšně aktualizováno"
+            },
+            "error": {
+                "title": "Aktualizovat vozidlo",
+                "body": "Aktualizace se nepodařila"
+            }
+        },
+        "SaveUserInformation": {
+            "success": {
+                "title": "Uložit informace o uživateli",
+                "body": "Informace o uživateli byly úspěšně uloženy"
+            },
+            "error": {
+                "title": "Uložit informace o uživateli",
+                "body": "Informace se nepodařilo uložit",
+                "invalidBody": "Poskytněte nezbytná data"
+            }
+        }
+    },
+    "mymojio_trip": {
+        "LoadingHeatMap": "Načítání mapy využití dat",
+        "sort": {
+            "Date": "Datum",
+            "Distance": "Vzdálenost"
+        },
+        "HeatMap": {
+            "HeatMapOff": "Mapa využití dat vypnutá",
+            "TripsHeatMap": "Mapa využití dat cest",
+            "ParksHeatMap": "Mapa využití dat parkování"
+        },
+        "ShowRoute":"",
+        "ShowDetail":"",
+
+        "Trips": "Cesty",
+        "Selected": "Vybrané",
+        "Merge": "Sloučit",
+        "Delete": "Odstranit",
+        "Export": "Export",
+        "SelectAll": "Vybrat vše",
+        "Deselect": "Zrušit výběr",
+        "NoTripsAvailable": "Žádné cesty nejsou k dispozici",
+        "Trip": "Cesta",
+        "TimeStamp": "Časové razítko",
+        "TripDetails": "Detaily cesty",
+        "MergeTrips": {
+            "success": {
+                "title": "Sloučit cesty",
+                "body": "Cesty byly úspěšně sloučeny"
+            },
+            "error": {
+                "title": "Chyba sloučení",
+                "body": "Cesty se nepodařilo sloučit",
+                "notNeighborBody": "Vybrané cesty nejsou sousední"
+            }
+        }
+    },
+    "mymojio_support": {
+        "Title": "Moje zdroje podpory",
+        "FAQ": "Časté otázky (FAQ)",
+        "Feedback": "Máte dotaz nebo nám chcete odeslat názor?",
+        "Email": "POŠLETE NÁM E-MAIL",
+        "Call": "Nebo nám zavolejte",
+        "KnowledgeBase": {
+            "part1": "Naše",
+            "part2": "Znalostní báze"
+        }
+    },
+    "mymojio_dashboard": {
+        "Remove": "Odebrat",
+        "MoveUp": "Přesunout nahoru",
+        "MoveDown": "Přesunout dolů",
+        "TIMELINE": "ČASOVÁ OSA",
+        "NoEvents": "Žádné události",
+        "AddWidgetTitle": "Vyberte Převodovky, které chcete přidat na Přístrojovou desku",
+        "ResetDefaultWidgetSettings": "Obnovit výchozí nastavení pomůcky",
+        "AddWidget": {
+            "success": {
+                "title": "Přidat pomůcku",
+                "body": "Pomůcka byla úspěšně přidána"
+            }
+        }
+    },
+    "gear": {
+        "gear_trek_vehicle_details": {
+            "Title": "DETAILY MÉHO VOZIDLA",
+            "SubTitle": "PODLE UKAZATELE",
+            "VehicleType": "Typ vozidla",
+            "Cylinders": "Počet válců",
+            "Displacement": "Obsah válců",
+            "MaxHorsepower": "Max. výkon",
+            "Transmission": "Převodovka",
+            "Recalls": "Znovu volá číslo",
+
+            "NotEnoughData":"Není dostatek dat",
+            "Loading":"Načítání"
+        },
+        "gear_trek_last_trip_map": {
+            "Title": "MOJE POSLEDNÍ CESTA",
+            "SubTitle": "PODLE CESTY",
+            "Distance": "Vzdálenost",
+            "Duration": "Doba",
+            "Efficiency": "Účinnost"
+        },
+        "gear_trek_driving_stat": {
+            "Title": "MOJE JÍZDNÍ STATISTIKY",
+            "SubTitle": "PODLE CESTY",
+            "MaxSpeed": "Max. rychlost",
+            "FuelEfficiency": "Účinnost paliva",
+            "TotalDrivingDistance": "Celková ujetá vzdálenost",
+            "Desc": "Založena na datech cest za 2 týdny"
+        },
+        "gear_trek_chart": {
+            "SubTitle": "PODLE CESTY",
+            "ChartType": {
+                "FuelEfficiency": "Účinnost paliva",
+                "FuelConsumption": "Spotřeba paliva",
+                "Distance": "Vzdálenost",
+                "Duration": "Doba",
+                "Trips": "Cesty",
+                "MaxSpeed": "Max. rychlost"
+            },
+            "NotEnoughData":"Není dostatek dat"
+        },
+        "gear_gauge_vehicle_health": {
+            "Title": "STAV VOZIDLA",
+            "SubTitle": "PODLE UKAZATELE",
+            "HealthStatus": {
+                "FaultsDetected": "Zjištěny závady",
+                "Good": "DOBRÝ"
+            },
+            "TotalDtcFaults": "CELKOVÝ POČET ZÁVAD"
+        },
+        "gear_gauge_service_schedule": {
+            "Title": "PŘÍŠTÍ SERVISNÍ PROHLÍDKA",
+            "SubTitle": "PODLE UKAZATELE",
+            "NoServiceScheduleFound": {
+                "part1": "Žádný servis",
+                "part2": "Plán",
+                "part3": "Nalezen"
+            },
+            "In":"ve"
+        },
+        "gear_gauge_last_diagnostics": {
+            "Title": "POSLEDNÍ DIAGNOSTIKA",
+            "SubTitle": "PODLE UKAZATELE"
+        },
+        "gear_gauge_battery_level": {
+            "Title": "ÚROVEŇ NABITÍ BATERIE",
+            "SubTitle": "PODLE UKAZATELE",
+            "VOLTS": "VOLTŮ",
+            "level": {
+                "UNKNOWN":"Neznámý",
+                "DISCONNECTED":"ZCELA VYBITÁ",
+
+                "DEAD": "ZCELA VYBITÁ",
+                "LOW": "NÍZKÁ",
+                "MEDIUM": "STŘEDNÍ",
+                "GOOD": "DOBRÁ"
+            }
+        },
+        "cloak": {
+            "Title": "STAV ZABEZPEČENÍ",
+            "SubTitle": "PODLE POLOHY"
+        },
+        "claim": {
+            "Title": "VYŽÁDAT NOVÉ ZAŘÍZENÍ",
+            "Desc1": "Vítá vás Přístrojová deska MOJIO.",
+            "Desc2": "Abyste mohli používat Moje MOJIO a další aplikace, potřebujete Zařízení Mojio. Pokud máte Zařízení MOJIO, můžete si vyžádat zařízení pomocí tohoto formuláře. Po úspěšném vyžádání zařízení můžete používat tento web a všechny aplikace.",
+            "noVehicle": "K dispozici nejsou žádná data vozidla. Musíte zapojit hardwarový klíč Mojio do portu OBD vozidla.",
+            "setupDetail": "Podrobné pokyny",
+            "finalMsg": "Vyžádali jste si zařízení. Pokud jste nezapojili zařízení do portu OBD vozidla, učiňte tak nyní.",
+            "refreshMsg": "Aktualizujte stránku, abyste zobrazili Přístrojovou desku",
+            "claimBtn": "Vyžádat",
+            "claimNewDevice": {
+                "success": {
+                    "title": "Vyžádat zařízení",
+                    "body": "Zařízení bylo úspěšně vyžádáno"
+                },
+                "error": {
+                    "title": "Vyžádat zařízení",
+                    "body": "Vyžádání se nepodařilo"
+                }
+            }
+        }
+    }
+}

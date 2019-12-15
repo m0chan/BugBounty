@@ -1,0 +1,44 @@
+<div class="text-center bb bg-white text-gray-darker">
+   <div class="row pt-lg">
+      <em class="fa icon-trek fa-2x text-gray-light"></em>
+   </div>
+   <div class="row">
+      <span class="widget-title">{{ "gear.gear_trek_driving_stat.Title" | translate }}</span>
+   </div>
+   <div class="row pb-sm">
+      <span class="widget-byapp">{{ "gear.gear_trek_driving_stat.SubTitle" | translate }}</span>
+   </div>
+</div>
+<div class="text-center">
+   <div class="row">&nbsp;</div>
+   <div class="row">
+      <div class="col-xs-5 text-right">
+         <h1 class="mt0">{{data.maxSpeed | convertUnit:'speed':$root.app.layout.unit | number:'1'}}</h1>
+      </div>
+      <div class="col-xs-7 text-left">{{'Kilometers per hour' | unitTitle:$root.app.layout.unit}}
+         <br/>
+         <span class="text-gray-light">{{ "gear.gear_trek_driving_stat.MaxSpeed" | translate }}</span>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-xs-5 text-right">
+         <h1 class="mt0">{{$parent.AllData.SelectedVehicle.LastFuelEfficiencyScore | fuelEfficiencyScore:'N'}}</h1>
+      </div>
+      <div class="col-xs-7 text-left">{{$parent.AllData.SelectedVehicle.LastFuelEfficiencyScore | fuelEfficiencyScore:'T'}}
+         <br/>
+         <span class="text-gray-light">{{ "common.FuelEfficiencyScore.FuelScore" | translate }}</span>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-xs-5 text-right">
+         <h1 class="mt0">{{data.distance | convertUnit:'distance':$root.app.layout.unit | number:'0'}}</h1>
+      </div>
+      <div class="col-xs-7 text-left">{{'Kilometers' | unitTitle:$root.app.layout.unit}}
+         <br/>
+         <span class="text-gray-light">{{ "gear.gear_trek_driving_stat.TotalDrivingDistance" | translate }}</span>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-xs-12 text-center h6 text-gray-light">{{ "gear.gear_trek_driving_stat.Desc" | translate }}</div>
+   </div>
+</div>

@@ -1,0 +1,13 @@
+http://tmobile-pl-segment-proxy.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: tmobile-pl-segment-proxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:29:50 GMT
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< Location: https://tmobile-pl-segment-proxy.moj.io/security.txt
+< Server: Microsoft-IIS/10.0
+

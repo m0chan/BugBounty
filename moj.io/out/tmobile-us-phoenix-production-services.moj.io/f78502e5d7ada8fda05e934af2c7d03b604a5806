@@ -1,0 +1,13 @@
+https://tmobile-us-phoenix-production-services.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: tmobile-us-phoenix-production-services.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=db497ba0020393419ac466ef860f11922d2080b57a6df974e13c227f651e3274;Path=/;HttpOnly;Domain=tmobile-us-phoenix-production-services.moj.io
+< Date: Sun, 15 Dec 2019 14:29:11 GMT
+< Content-Length: 0
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+

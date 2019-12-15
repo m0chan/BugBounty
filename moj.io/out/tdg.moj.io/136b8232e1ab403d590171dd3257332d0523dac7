@@ -1,0 +1,32 @@
+http://tdg.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: tdg.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 454
+< Date: Sun, 15 Dec 2019 14:30:30 GMT
+< Server: AmazonS3
+< X-Amz-Request-Id: 4C1B8D07D17511B9
+< X-Amz-Id-2: Yk4o9Rk1k4K9gKSIkoL1Tly6o9J9MYl3TWt/RELZSPItHAJv0yDF8R0sYk9YoWq1r3vKnupeKPI=
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<h1>403 Forbidden</h1>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+<li>RequestId: 4C1B8D07D17511B9</li>
+<li>HostId: Yk4o9Rk1k4K9gKSIkoL1Tly6o9J9MYl3TWt/RELZSPItHAJv0yDF8R0sYk9YoWq1r3vKnupeKPI=</li>
+</ul>
+<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+</ul>
+<hr/>
+</body>
+</html>

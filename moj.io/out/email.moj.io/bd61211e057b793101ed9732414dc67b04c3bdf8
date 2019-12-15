@@ -1,0 +1,13 @@
+http://email.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: email.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Sun, 15 Dec 2019 14:23:19 GMT
+< Server: nginx
+< Content-Length: 23
+< Content-Type: application/octet-stream
+
+Mailgun Magnificent API

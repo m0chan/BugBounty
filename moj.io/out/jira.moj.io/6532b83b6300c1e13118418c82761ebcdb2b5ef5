@@ -1,0 +1,16 @@
+https://jira.moj.io/api
+
+> GET /api HTTP/1.1
+> Host: jira.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=3600
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Cf-Ray: 54591c3c5d76d218-MAN
+< Date: Sun, 15 Dec 2019 14:29:32 GMT
+< Expires: Sun, 15 Dec 2019 15:29:32 GMT
+< Location: https://1mojio.atlassian.net/api
+

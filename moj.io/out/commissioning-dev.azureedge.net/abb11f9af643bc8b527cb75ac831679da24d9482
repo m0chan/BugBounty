@@ -1,0 +1,17 @@
+http://commissioning-dev.azureedge.net/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: commissioning-dev.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Ms-Request-Id: 5d31f443-c01e-00a1-3254-b369a2000000
+< X-Ms-Version: 2009-09-19
+< Content-Length: 215
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:05 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:5d31f443-c01e-00a1-3254-b369a2000000
+Time:2019-12-15T14:30:05.8114590Z</Message></Error>

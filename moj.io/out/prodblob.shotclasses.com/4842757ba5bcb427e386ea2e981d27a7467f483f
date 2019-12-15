@@ -1,0 +1,18 @@
+http://prodblob.shotclasses.com/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: prodblob.shotclasses.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: x-ms-request-id,Server,Content-Length,Date,Transfer-Encoding
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:28:23 GMT
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 92a8b357-501e-0044-6c53-b35548000000
+< Content-Length: 226
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>OutOfRangeInput</Code><Message>One of the request inputs is out of range.
+RequestId:92a8b357-501e-0044-6c53-b35548000000
+Time:2019-12-15T14:28:23.9822282Z</Message></Error>

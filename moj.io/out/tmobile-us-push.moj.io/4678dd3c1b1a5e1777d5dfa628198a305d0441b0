@@ -1,0 +1,14 @@
+http://tmobile-us-push.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: tmobile-us-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 24
+< Request-Context: appId=cid-v1:b4f3dc5f-bd72-4647-99a2-e4a1ecb0016e
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=e3a8761ce3056497006ce92f995ddcf6bb4651f4a55edeef03442174d6d35b37;Path=/;HttpOnly;Domain=tmobile-us-push.moj.io
+< Date: Sun, 15 Dec 2019 14:29:17 GMT
+
+{ "Message": "404 eh!" }

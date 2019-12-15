@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="66px" viewBox="0 0 55 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Pin-4@1.5x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="01-Design:-Flow-and-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.02-(Low-Severity-DTC,-Low-Battery)-Copy-3" transform="translate(-282.000000, -47.000000)" fill="#E20074">
+            <path d="M303.129144,101.258287 L309,113 L314.750312,101.499376 C327.426824,99.0487453 337,87.8923402 337,74.5 C337,59.3121694 324.687831,47 309.5,47 C297.760904,47 287.739778,54.3555033 283.794028,64.7091038 C282.634838,67.7508049 282,71.0512653 282,74.5 C282,87.4947847 291.013247,98.3844127 303.129144,101.258287 Z" id="Pin-4"></path>
+        </g>
+    </g>
+</svg>

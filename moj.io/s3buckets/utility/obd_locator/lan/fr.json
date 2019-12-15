@@ -1,0 +1,726 @@
+{
+  "obd_locator": {
+    "version":"V.0.2",
+    "home":"Accueil",
+    "title":"Vérifiez si votre voiture est compatible.",
+    "desc":"La plupart des modèles conçus à partir de 1996 sont équipés d'un port OBD-II (diagnostic intégré, version 2) dans lequel se branche le dispositif.",
+    "select_car":"Sélectionnez votre voiture.",
+    "check_if_compatible":"Localiser le port OBDII de votre voiture.",
+    "check_if_compatible_warning":"(Not all cars with OBD-II ports are compatible with all the features.)",
+    "select_make":"SÉLECTIONNER LA MARQUE",
+    "select_model":"SÉLECTIONNER LE MODÈLE",
+    "select_year":"SÉLECTIONNER L'ANNÉE",
+    "select_engine":"SÉLECTIONNER LE MOTEUR",
+    "need_help":"TOUJOURS BESOIN D’AIDE?",
+    "contact_us":"CONTACTEZ NOUS",
+    "has_obd":"YOUR CAR HAS AN OBD-II PORT",
+    "locationStringCode": { 
+      "null": "Veuillez vous référer au manuel de votre voiture propriétaire pour aider à localiser l'emplacement du port OBD-II de votre voiture.",
+      "0": "Le port OBD se trouve sous le tableau de bord du côté conducteur, près de la commande d'ouverture du capot.",
+      "1": "Le port OBD se trouve sur la partie inférieure du tableau de bord du côté conducteur, sous le volant.",
+      "2": "Le port OBD se trouve dans le panneau de seuil de porte du conducteur, à la gauche du volant.",
+      "3": "Le port OBD se trouve sur la console centrale du côté conducteur.",
+      "4": "Le port OBD se trouve sous le tableau de bord du côté conducteur, près du panneau de seuil de porte.",
+      "5": "Le port OBD se trouve sous le tableau de bord du côté conducteur, près de la pédale du frein de stationnement.",
+      "6": "Le port OBD se trouve sous le tableau de bord du côté conducteur, à la gauche du volant.",
+      "7": "Le port OBD se trouve sous le tableau de bord du côté conducteur, près de la commande du frein de stationnement.",
+      "8": "Le port OBD se trouve sous le tableau de bord du côté conducteur, à la droite du volant.",
+      "9": "Le port OBD se trouve sous le tableau de bord du côté conducteur, au-dessus de la pédale de frein.",
+      "10": "Le port OBD se trouve sur la gauche du panneau situé sous le tableau de bord, du côté conducteur.",
+      "11": "Le port OBD se trouve dans un compartiment situé sous le tableau de bord côté conducteur, à la gauche du volant.",
+      "12": "Le port OBD se trouve du côté passager de la console centrale",
+      "13": "Le port OBD se trouve à l'intérieur de l'espace de rangement de la console centrale.",
+      "14": "Le port OBD se trouve sous le tableau de bord du côté conducteur, au-dessus de la pédale d'accélérateur.",
+      "15": "Le port OBD se trouve sous le volant.",
+      "16": "Le port OBD se trouve sous le tableau de bord du côté conducteur, près de la commande d'ouverture du coffre.",
+      "17": "Le port OBD se trouve sous le tableau de bord du côté conducteur, près de la boîte à fusibles.",
+      "18": "Le port OBD se trouve à la gauche du volant.",
+   
+      "19": "Le port OBD se trouve sous le tableau de bord du côté conducteur, à la gauche de la lumière de l'espace pour les jambes.",
+   
+      "20": "Le port OBD se trouve derrière le cendrier, à l'intérieur de la console centrale.",
+   
+      "21": "Le port OBD se trouve à la gauche des pédales. Le port se trouve sous le couvercle en plastique. Retirez les deux vis.",
+   
+      "22": "Le port OBD se trouve à gauche, sous le volant. Retirez le couvercle.",
+   
+      "23": "Le port OBD se trouve à l'intérieur de la console centrale. Retirez le couvercle en plastique. Le port OBD se trouve sous celui-ci. Le port OBD",
+   
+      "24": "Le port OBD se trouve dans le panneau de seuil de porte du conducteur, à la gauche du volant, près de la commande d'ouverture du capot.",
+   
+      "25": "Le port OBD se trouve à l'intérieur du véhicule. Retirez le dessus de l'accoudoir central pour accéder au port OBD.",
+   
+      "26": "Le port OBD se trouve à la gauche des pédales, à côté de la pédale de frein.",
+   
+      "27": "Le port OBD se trouve sous le volant (du côté de la porte). Le port se trouve à la gauche des fusibles (sous le tableau de bord).",
+   
+      "28": "Le port OBD se trouve derrière le cendrier. Retirez le cendrier.",
+      
+      "29": "Le port OBD se trouve devant la console centrale, sous le cendrier, en face du levier de vitesses. Retirez le cendrier.",
+   
+      "30": "Le port OBD se trouve sous le volant, à gauche. Le port OBD se trouve derrière le tuyau en plastique.",
+   
+      "31": "Le port OBD se trouve sur le tableau de bord du côté passager, sous la boîte à gants.",
+   
+      "32": "Le port OBD se trouve sous le volant (du côté gauche), près de la pédale d'embrayage.",
+   
+      "33": "Le port OBD se trouve sous le volant. Retirez le couvercle. Le port se trouve derrière celui-ci.",
+   
+      "34": "Le port OBD se trouve sous le volant (au-dessus des pédales).",
+   
+      "35": "Le port OBD se trouve à la gauche du volant.",
+   
+      "36": "Le port OBD se trouve sous le volant. Retirez le couvercle de la boîte à fusibles.",
+   
+      "37": "Le port OBD se trouve au-dessus des pédales, à gauche. Le port OBD est visible à la gauche de la pédale d'embrayage.",
+   
+      "38": "Le port OBD se trouve sous le volant, à gauche. Retirez le couvercle de la boîte à fusibles.",
+   
+      "39": "Le port OBD se trouve sous le volant, à gauche. Retirez le couvercle de la boîte à fusibles.",
+   
+      "40": "Le port OBD se trouve à gauche, sous la boîte à fusibles. Le port de diagnostics OBD",
+   
+      "41": "Le port OBD se trouve sous la console centrale. Le port OBD est visible sous la console centrale.",
+   
+      "42": "Le port OBD se trouve sous le volant.",
+   
+      "43": "Le port OBD se trouve dans l'accoudoir central, à l'arrière.",
+   
+      "44": "Le port OBD se trouve sous le volant, au-dessus des pédales. Le port de diagnostics OBD",
+   
+      "45": "Le port OBD se trouve sous le volant. La prise se trouve au-dessus des pédales. La fiche est visible au-dessus de la pédale de frein",
+   
+      "46": "Le port OBD se trouve entre la console centrale et le levier de vitesses, derrière un couvercle en plastique situé près du levier de vitesses.",
+   
+      "47": "Le port OBD se trouve en face de la console centrale, sous la radio.",
+   
+      "48": "Le port OBD se trouve sous le volant, à gauche. Le port OBD se trouve à l'intérieur de la boîte à fusibles. Retirez le couvercle en plastique.",
+   
+      "49": "Le port OBD se trouve sous le volant, à droite. Le port OBD se trouve au-dessus des pédales, à droite.",
+   
+      "50": "Le port OBD se trouve près du compartiment de rangement central, au-dessus de la console centrale.",
+   
+      "51": "Le port OBD se trouve sous la console centrale.",
+   
+      "52": "Le port OBD se trouve sous le siège du conducteur. Le port OBD se trouve sous le siège du conducteur, derrière un couvercle.",
+   
+      "53": "Le port OBD se trouve sous le volant (du côté de la console centrale), au-dessus de la pédale d'accélérateur.",
+   
+      "54": "Le port OBD se trouve sous le volant (du côté de la console centrale). Le port OBD se trouve à droite de la pédale.",
+   
+      "55": "Le port OBD se trouve sous le volant (du côté de la porte), au-dessus de la pédale d'accélérateur.",
+   
+      "56": "Le port OBD se trouve dans le panneau de seuil de porte du conducteur, à la gauche du volant, près de la commande du frein de stationnement.",
+   
+      "57": "Le port OBD se trouve tout en bas, à gauche (près de la charnière de la porte).",
+   
+      "58": "Le port OBD se trouve derrière la prise de l'allume-cigarettes.",
+   
+      "59": "Le port OBD se trouve derrière le plateau de rangement (à la gauche du volant). Ouvrez le plateau de rangement. Tournez les deux vis pour retirer le plateau de rangement et voir le port OBD.",
+   
+      "60": "Le port OBD se trouve à l'intérieur de la boîte à gants du côté passager. Retirez le couvercle.",
+   
+      "61": "Le port OBD se trouve à l'intérieur du plateau de rangement, sous le volant.",
+   
+      "62": "Le port OBD se trouve au-dessus des pédales, à gauche. Le port OBD se trouve à la droite de la commande d'ouverture du capot.",
+   
+      "63": "Le port OBD se trouve au-dessus des pédales. Le port OBD est visible au-dessus des pédales.",
+   
+      "64": "Le port OBD se trouve tout au bas de la console centrale. Il est possible de voir le port OBD près de la prise de l'allume-cigarettes.",
+   
+      "65": "Le port OBD se trouve dans la console centrale. Ouvrez le cendrier.",
+   
+      "66": "Le port OBD se trouve près de la commande d'ouverture du capot. Le port OBD se trouve à droite.",
+   
+      "67": "Le port OBD se trouve à la gauche des pédales juste au-dessus du repose-pied.",
+   
+      "68": "Le port OBD se trouve sous le volant. Retirez le couvercle de la boîte à fusibles.",
+   
+      "69": "Le port OBD se trouve à gauche, sous le volant, en dessous de la commande d'ouverture du capot. Le port OBD se trouve sous la commande d'ouverture du capot.",
+   
+      "70": "Le port OBD se trouve sous le volant (du côté de la console centrale). Retirez le couvercle au-dessus des pédales pour voir les fusibles et le port OBD.",
+   
+      "71": "Le port OBD se trouve sous le volant (du côté gauche). Tirez sur le couvercle en plastique pour accéder aux fusibles et au port OBD.",
+   
+      "72": "Le port OBD se trouve sous le volant, au-dessus de la pédale d'embrayage.",
+   
+      "73": "Le port OBD se trouve sous le volant, au-dessus des pédales du véhicule.",
+   
+      "74": "Le port OBD se trouve sous le volant. Le connecteur se trouve au-dessus des pédales (près de la commande d'ouverture du capot).",
+   
+      "75": "Le port OBD se trouve tout au bas de la console centrale. Retirez le cendrier. Le port OBD se trouve sous celui-ci.",
+   
+      "76": "Le port OBD se trouve tout au bas de la console centrale. Retirez le couvercle sous le lecteur de carte en le poussant vers le haut.",
+   
+      "77": "Le port OBD se trouve derrière le couvercle à la gauche du volant (boîte à fusibles). Desserrez la vis derrière le potentiomètre du réglage des lumières. (au centre du panneau de fusibles)",
+   
+      "78": "Le port OBD se trouve sous le volant (près du repose-pied), derrière un couvercle (du côté de la porte)",
+   
+      "79": "Le port OBD se trouve entre les deux sièges de la voiture, sous le compartiment de rangement central. Retirez le couvercle en plastique pour trouver le port de diagnostics de la voiture.",
+   
+      "80": "Le port OBD se trouve dans le panneau central, derrière le cendrier.",
+   
+      "81": "Le port OBD se trouve au-dessus des pédales, à gauche. Le port OBD est visible à la droite de la lumière des pédales",
+   
+      "82": "Le port OBD se trouve au-dessus des pédales. Le port OBD est accessible au-dessus des pédales",
+   
+      "83": "Le port OBD se trouve au-dessus des pédales. Le port OBD est visible au-dessus de la pédale de frein",
+   
+      "84": "Le port OBD se trouve dans la console centrale.",
+   
+      "85": "Le port OBD se trouve dans la console centrale. Retirez le cendrier. Le port OBD se trouve derrière celui-ci.",
+   
+      "86": "Le port OBD se trouve près du frein de stationnement. Retirez le couvercle près du frein de stationnement. Le port OBD se trouve sous celui-ci.",
+   
+      "87": 
+      "Le port OBD se trouve près du volant (derrière un couvercle en plastique)",
+   
+      "88": 
+      "Le port OBD se trouve tout au bas de la console centrale, à la droite du volant. Le port OBD se trouve derrière le compartiment de rangement, en face du levier de vitesses. Retirez le compartiment de rangement.",
+   
+      "89": 
+      "Le port OBD se trouve à la gauche des pédales. Retirez le petit couvercle en plastique.",
+   
+      "90": 
+      "Le port OBD se trouve du côté passager, à l'intérieur de la boîte à gants.",
+   
+      "91": 
+      "Le port OBD se trouve du côté passager. Le connecteur se trouve sous la boîte à gants (du côté de la console centrale).",
+   
+      "92": 
+      "Le port OBD se trouve sous la console centrale. Le port OBD se trouve au fond du compartiment de rangement. Retirez le couvercle en plastique. Le port OBD se trouve derrière celui-ci",
+   
+      "93": 
+      "Le port OBD se trouve sous le siège du conducteur. Retirez le couvercle en plastique",
+   
+      "94": 
+      "Le port OBD se trouve sous le frein de stationnement. Retirez le couvercle sous le frein de stationnement.",
+   
+      "95": 
+      "Le port OBD se trouve sous le volant, au-dessus de la pédale d'accélérateur.",
+   
+      "96": 
+      "Le port OBD se trouve sous le volant, à l'intérieur de la boîte à fusibles. Le port OBD se trouve tout en bas, sur le support à fusibles.",
+   
+      "97": 
+      "Le port OBD se trouve sous le volant, à la gauche de la commande d'ouverture du capot. Retirez le couvercle du port OBD. La prise se trouve sous celui-ci. T",
+   
+      "98": 
+      "Le port OBD se trouve sous le volant, à gauche. Le port OBD se trouve dans le compartiment à la gauche du volant.",
+   
+      "99": 
+      "Le port OBD se trouve sous le volant, à gauche. Le port OBD se trouve sous la commande d'ouverture du capot",
+   
+      "100": 
+      "Le port OBD se trouve sous le volant, à gauche. Le port OBD est visible au-dessus des pédales, à gauche, à côté des fusibles",
+   
+      "101": 
+      "Le port OBD se trouve sous le volant, au-dessus de la pédale du frein d'urgence",
+   
+      "102": 
+      "Le port OBD se trouve sous le volant, à droite. Le port OBD est visible entre la commande d'ouverture du capot et les pédales",
+   
+      "103": 
+      "Le port OBD se trouve près de la console centrale, à l'intérieur des pochettes de rangement. Tirez sur la bande pour retirer le bas des pochettes de rangement. Retirez le couvercle.",
+   
+      "104": 
+      "Le port OBD se trouve à gauche, sous le volant. Au-dessus de la commande d'ouverture du capot, tirez sur le petit couvercle qui porte l'inscription « OBD », sous le couvercle en plastique",
+   
+      "105": 
+      "Le port OBD se trouve à la gauche du volant. Retirez le couvercle afin d'accéder au compartiment des fusibles.",
+   
+      "106": 
+      "Le port OBD se trouve sous l'accoudoir central. Retirez le petit couvercle qui cache la fiche.",
+   
+      "107": 
+      "Le port OBD se trouve sous le compartiment de rangement central. Retirez le couvercle en plastique du compartiment de rangement central.",
+   
+      "108": 
+      "Le port OBD se trouve sous le volant (du côté de la porte). Le port OBD se trouve avec les fusibles (à la droite des fusibles).",
+   
+      "109": 
+      "Le port OBD se trouve sous le volant (du côté gauche). Retirez le couvercle avec la vis (tournez-la d'un quart de tour). Retirez le couvercle noir qui protège le port.",
+   
+      "110": 
+      "Le port OBD se trouve sous le volant (du côté gauche). Retirez le couvercle près des pédales.",
+   
+      "111": 
+      "Le port OBD est sous le volant, à gauche. Retirez le couvercle en plastique. Le port OBD se trouve derrière celui-ci",
+   
+      "112": 
+      "Le port OBD se trouve sous le volant, au-dessus du repose-pied (derrière un couvercle).",
+   
+      "113": 
+      "Le port OBD se trouve sous le volant, sous les pédales.",
+   
+      "114": 
+      "Le port OBD se trouve sous le volant, près des pédales.",
+   
+      "115": 
+      "Le port OBD se trouve sous le volant. Le port OBD se trouve au-dessus de la pédale de frein.",
+   
+      "116": 
+      "Le port OBD se trouve au-dessus du cendrier dans la console centrale. Le port OBD se trouve juste au-dessus du cendrier, derrière le couvercle.",
+   
+      "117": 
+      "Le port OBD se trouve au-dessus des pédales. Retirez le couvercle en plastique pour accéder au port OBD.",
+   
+      "118": 
+      "Le port OBD se trouve derrière le couvercle, près du frein de stationnement.",
+   
+      "119": 
+      "Le port OBD se trouve dans l'accoudoir central. Repoussez complètement l'accoudoir central. Puis, retirez le couvercle beige sur le plancher en le glissant vers l'avant.",
+   
+      "120": 
+      "Le port OBD se trouve à l'intérieur de la boîte à gants. Tirez pour retirer le couvercle en plastique et accéder au port OBD.",
+   
+      "121": 
+      "Le port OBD se trouve au-dessus des pédales. Le port OBD se trouve au-dessus de la pédale d'embrayage.",
+   
+      "122": 
+      "Le port OBD se trouve tout au bas de la console centrale. Retirez le couvercle près de l'allume-cigarettes.",
+   
+      "123": 
+      "Le port OBD se trouve tout au bas de la console centrale. Retirez le couvercle en plastique sous le cendrier pour voir le port OBD.",
+   
+      "124": 
+      "Le port OBD se trouve du côté de la console centrale. Retirez le couvercle en plastique près du frein de stationnement.",
+   
+      "125": 
+      "Le port OBD se trouve sous le volant, à gauche, sous la boîte.",
+   
+      "126": 
+      "Le port OBD se trouve entre le frein de stationnement et le levier de vitesses.",
+   
+      "127": 
+      "Le port OBD se trouve à la gauche du volant. Retirez le compartiment de rangement. Le port se trouve à la droite des fusibles.",
+   
+      "128": 
+      "Le port OBD se trouve à la gauche du volant. Il se trouve derrière le couvercle en plastique, avec les fusibles.",
+   
+      "129": 
+      "Le port OBD se trouve sous le frein de stationnement. Retirez le couvercle sous le frein de stationnement. Le port se trouve sous celui-ci.",
+   
+      "130": 
+      "Le port OBD se trouve sous le volant (du côté de la console centrale).",
+   
+      "131": 
+      "Le port OBD se trouve sous le volant, au-dessus des pédales. La fiche est visible au-dessus des pédales. Retirez le couvercle de la prise de diagnostics OBD",
+   
+      "132": 
+      "Le port OBD se trouve sous le volant. Le port OBD se trouve à la droite de la commande d'ouverture du capot.",
+   
+      "133": 
+      "Le port OBD se trouve près de l'accoudoir.",
+   
+      "134": 
+      "Le port OBD se trouve près du frein de stationnement. Retirez le couvercle sous le frein de stationnement.",
+   
+      "135": 
+      "Le port OBD se trouve sur la console centrale. Le port OBD se trouve sous le cendrier. Vous devez retirer une vis.",
+   
+      "136": 
+      "Le port OBD se trouve sur le plancher (entre les sièges avant). Retirez le tapis.",
+   
+      "137": 
+      "Le port OBD se trouve à gauche, sous le volant, près de la pédale de frein.",
+   
+      "138": 
+      "Le port OBD se trouve à gauche, sous le volant. Retirez le couvercle portant l'inscription « OBD ». Le port OBD se trouve derrière le couvercle en plastique",
+   
+      "139": 
+      "Le port OBD se trouve sous le volant (du côté gauche). Près de la commande d'ouverture du coffre.",
+   
+      "140": 
+      "Le port OBD se trouve sous le tapis du côté passager. Retirez le couvercle sous le tapis pour atteindre la boîte à fusibles",
+   
+      "141": 
+      "Le port OBD se trouve sous le volant (du côté de la console centrale).",
+   
+      "142": 
+      "Le port OBD se trouve sous le volant (du côté gauche). Il est situé près du système d'ouverture du capot.",
+   
+      "143": 
+      "Le port OBD se trouve sous le volant (du côté gauche). Retirez le couvercle en plastique (utilisé comme compartiment de rangement). Le port se trouve à l'intérieur de la boîte à fusibles.",
+   
+      "144": 
+      "Le port OBD se trouve sous le volant, au-dessus de la pédale de frein.",
+   
+      "145": 
+      "Le port OBD est sous le volant, à gauche. Le port OBD se trouve sous la boîte à fusibles, à la droite de la commande d'ouverture du capot.",
+   
+      "146": 
+      "Le port OBD se trouve sous le volant, à l'intérieur de la boîte à fusibles. Retirez le couvercle de la boîte à fusibles.",
+   
+      "147": 
+      "Le port OBD se trouve sous le volant, à l'intérieur du compartiment à fusibles. Retirez le couvercle de la boîte à fusibles, à la gauche des fusibles",
+   
+      "148": 
+      "Le port OBD se trouve sous le volant. Le port OBD se trouve à l'intérieur du compartiment de rangement, sous le volant.",
+   
+      "149": 
+      "Le port OBD se trouve sous le volant. Le port OBD se trouve sur le compartiment de rangement.",
+   
+      "150": 
+      "Le port OBD se trouve à gauche, dans la boîte à fusibles. Le port OBD se trouve près des fusibles",
+   
+     "151": 
+      "Le port OBD se trouve derrière le compartiment de rangement, sous le volant. Retirez le compartiment de rangement.",
+   
+      "152": 
+      "Le port OBD se trouve dans le tablier, près de l'entrée d'air. Port de diagnostics à trois broches (pas le port standard OBD ou EOBD)",
+   
+      "153": 
+      "Le port OBD se trouve à l'intérieur du compartiment-moteur (du côté passager). Dévissez le couvercle pour accéder au port non standard. Port rond (non compatible avec un port EOBD ou OBD)",
+   
+      "154": 
+      "Le port OBD se trouve au-dessus des pédales, à droite. Le port OBD se trouve au-dessus de la pédale de frein, à la droite de la commande d'ouverture du capot",
+   
+      "155": 
+      "Le port OBD se trouve au-dessus des pédales. Le port OBD se trouve près de la pédale d'accélérateur",
+   
+      "156": 
+      "Le port OBD se trouve au-dessus des pédales. Le port OBD est visible; il n'y a aucun couvercle à retirer.",
+   
+      "157": 
+      "Le port OBD se trouve à la gauche du volant. La fiche se trouve à l'intérieur de la boîte à fusibles.",
+   
+      "158": 
+      "Le port OBD se trouve à droite, au-dessus des pédales.",
+   
+      "159": 
+      "Le port OBD se trouve sous le volant, à la hauteur des pédales. Le port OBD est visible au-dessus des pédales.",
+   
+      "160": 
+      "Le port OBD se trouve sous le volant, à gauche, derrière le couvercle en plastique. Le port OBD est accessible derrière le couvercle, sur la partie supérieure",
+   
+      "161": 
+      "Le port OBD se trouve sous le volant, à gauche.",
+   
+      "162": 
+      "Le port OBD se trouve sous le volant, à gauche. Retirez le couvercle.",
+   
+      "163": 
+      "Le port OBD se trouve sous le volant, à gauche. Retirez le couvercle en plastique de la boîte à fusibles.",
+   
+      "164": 
+      "Le port OBD se trouve sous le volant, à gauche. Le port OBD se trouve derrière le couvercle en plastique. Retirez-le. à la gauche des fusibles",
+   
+      "165": 
+      "Le port OBD se trouve sous le volant, à gauche. Le port OBD se trouve au fond du compartiment de rangement. Voici la prise de diagnostics OBD",
+   
+      "166": 
+      "Le port OBD se trouve sous le volant, à gauche. Le port OBD est visible au-dessus des pédales, à gauche.",
+   
+      "167": 
+      "Le port OBD se trouve sous le volant. La fiche se trouve sous la commande d'ouverture du coffre.",
+   
+      "168": 
+      "Le port OBD se trouve près du frein de stationnement. Levez le panneau sous le frein de stationnement.",
+   
+      "169": 
+      "Le port OBD se trouve près de la commande d'ouverture du capot.",
+   
+      "170": 
+      "Le port OBD se trouve à gauche du volant. Vous pouvez voir le port OBD au-dessus des pédales.",
+   
+      "171": 
+      "Le port OBD se trouve à gauche, sous le volant. Retirez entièrement le couvercle.",
+   
+      "172": 
+      "Le port OBD se trouve sous le volant (du côté gauche). Retirez le couvercle près du dispositif de réglage des phares.",
+   
+      "173": 
+      "Le port OBD se trouve sous le frein de stationnement. Retirez le couvercle sous le frein de stationnement.",
+   
+      "174": 
+      "Le port OBD est sous le volant, à gauche. Le port OBD est visible derrière le petit couvercle en plastique.",
+   
+      "175": 
+      "Le port OBD se trouve sous le volant, à droite. Retirez le couvercle en plastique.",
+   
+      "176": 
+      "Le port OBD se trouve sous le volant, au-dessus des pédales. Le port OBD est visible au-dessus des pédales.",
+   
+      "177": 
+      "Le port OBD se trouve sous le volant. Ouvrez la trappe en plastique pour accéder aux fusibles et au port OBD.",
+   
+      "178": 
+      "Le port OBD se trouve sous le volant. Le port OBD est visible au-dessus des pédales.",
+   
+      "179": 
+      "Le port OBD se trouve au bas du volant, à gauche. Vous pouvez accéder directement au port OBD, il n'y a pas de couvercle",
+   
+      "180": 
+      "Le port OBD se trouve à l'intérieur de la boîte à gants, du côté passager.",
+   
+      "181": 
+      "Le port OBD se trouve au-dessus des pédales, à gauche. Le port OBD se trouve sous le logo.",
+   
+      "182": 
+      "Le port OBD se trouve au-dessus des pédales. Le port OBD se trouve sous la commande d'ouverture du capot.",
+   
+      "183": 
+      "Le port OBD se trouve du côté de la console centrale. Sous le bouton de la climatisation, retirez le couvercle en plastique. Le couvercle est difficile à retirer; utilisez un tournevis plat.",
+   
+      "184": 
+      "Le port OBD se trouve du côté passager. La prise OBD se trouve sous la boîte à gants.",
+   
+      "185": 
+      "Le port OBD se trouve à la gauche du volant. Le port OBD se trouve derrière le petit compartiment de rangement. Le port OBD se trouve à côté de la boîte à fusibles.",
+   
+      "186": 
+      "Le port OBD se trouve du côté passager.",
+   
+      "187": 
+      "Le port OBD se trouve sous le volant, à l'intérieur de la boîte à fusibles. Le port OBD se trouve près des fusibles.",
+   
+      "188": 
+      "Le port OBD se trouve sous le volant, à gauche. Ouvrez la trappe. Le port OBD se trouve dans la boîte à gauche des fusibles.",
+   
+      "189": 
+      "Le port OBD se trouve sous le volant. Retirez le couvercle en plastique.",
+   
+      "190": 
+      "Le port OBD se trouve sous le. Ouvrez la boîte à fusibles; le port OBD se trouve à l'intérieur.",
+   
+      "191": 
+      "Le port OBD se trouve du côté passager. Ouvrez le compartiment de rangement. Le port OBD se trouve à l'intérieur.",
+   
+      "192": 
+      "Le port OBD se trouve au bas de la console centrale. Ouvrez la trappe pour voir le port OBD (près de l'allume-cigarettes).",
+   
+      "193": 
+      "Le port OBD se trouve sous la console centrale. La console se trouve sous le tableau de bord près du repose-pieds passager.",
+   
+      "194": 
+      "Le port OBD se trouve sous la console centrale, sous le bouton du chauffage.",
+   
+      "195": 
+      "Le port OBD se trouve sous le tableau de bord.",
+   
+      "196": 
+      "Le port OBD se trouve sous le volant (du côté de la porte). Le port OBD se trouve à la droite des pédales, derrière un couvercle en plastique (du côté de la porte).",
+   
+      "197": 
+      "Le port OBD se trouve sous le volant. Retirez le couvercle de la boîte à fusibles.",
+   
+      "198": 
+      "Le port OBD se trouve sous le volant. Retirez le panneau (dévissez-le d'un quart de tour).",
+   
+      "199": 
+      "Le port OBD se trouve sous le volant. Le port OBD se trouve au-dessus des pédales.",
+   
+      "200": 
+      "Le port OBD se trouve du côté conducteur; il y a un câble près des pédales. Le câble devrait se trouver dans le tableau de bord.",
+   
+      "201": 
+      "Le port OBD se trouve entre la console centrale et le levier de vitesses. Retirez le plateau de rangement pour voir le port OBD.",
+   
+      "202": 
+      "Le port OBD se trouve devant la console centrale. Le port OBD se trouve à l'intérieur du compartiment de rangement, en face du levier de vitesses. Retirez le couvercle en plastique du compartiment de rangement. La fiche se trouve derrière.",
+   
+     "203": 
+      "Le port OBD se trouve tout au bas de la console centrale. Retirez le couvercle sous le levier de vitesses pour voir le port OBD.",
+   
+      "204": 
+      "Le port OBD se trouve sous le volant, au-dessus de la pédale du frein de stationnement.",
+   
+      "205": 
+      "Le port OBD se trouve près de la console centrale. Le port OBD se trouve sous la console centrale.",
+   
+      "206": 
+      "Le port OBD se trouve du côté passager (console centrale). Retirez le couvercle en plastique au bas de la console centrale.",
+   
+      "207": 
+      "Le port OBD se trouve du côté passager. Le port OBD se trouve sous la boîte à gants. Prise de diagnostic spécifique (non compatible avec un port EOBD ou OBD)",
+   
+      "208": 
+      "Le port OBD se trouve sous la console centrale. Retirez le couvercle en plastique devant le levier de vitesses.",
+   
+      "209": 
+      "Le port OBD se trouve sous le volant, à gauche. Retirez le couvercle et le port OBD se trouve à l'intérieur.",
+   
+      "210": 
+      "Le port OBD se trouve sous le volant, à gauche. La prise OBD 1 est visible à la droite de la commande d'ouverture du coffre.",
+   
+      "211": 
+      "Le port OBD se trouve sous le volant, à gauche de l'embrayage.",
+   
+      "212": 
+      "Le port OBD se trouve sous le volant, derrière le couvercle en plastique.",
+   
+      "213": 
+      "Le port OBD se trouve sous le volant, au-dessus des pédales.",
+   
+      "214": 
+      "Le port OBD se trouve sous le volant, derrière le couvercle en plastique.",
+   
+      "215": 
+      "Le port OBD est sous le volant, à gauche. Retirez le couvercle en plastique de la boîte à fusibles.",
+   
+     "216": 
+      "Le port OBD est sous le volant, à gauche. Le port OBD se trouve derrière le couvercle en plastique. Retirez-le",
+   
+      "217": 
+      "Le port OBD se trouve sous le volant, à gauche, près de la commande d'ouverture du capot.",
+   
+      "218": 
+      "Le port OBD se trouve derrière le panneau d'accès aux fusibles à la gauche du volant. Ce véhicule est doté d'un port non standard.",
+   
+      "219": 
+      "Le port OBD se trouve dans le panneau de seuil de porte du conducteur, à la gauche du volant, près de la commande d'ouverture du hayon.",
+   
+     "220": 
+      "Le port OBD se trouve à l'intérieur de l'accoudoir. Le port OBD se trouve tout au fond de l'accoudoir.",
+   
+      "221": 
+      "Le port OBD se trouve au-dessus des pédales. Le port OBD est visible au-dessus de la pédale de frein.",
+   
+      "222": 
+      "Le port OBD se trouve sur la console centrale. Retirez le couvercle (au-dessus de l'allume-cigarettes).",
+   
+      "223": 
+      "Le port OBD se trouve à la gauche des pédales. Retirez le couvercle en plastique situé près de la lumière. Retirez le petit couvercle en plastique.",
+   
+      "224": 
+      "Le port OBD se trouve du côté passager, sous le tapis. Retirez le tapis et le couvercle en plastique pour voir la boîte de fusibles. Le port OBD est visible à la gauche des fusibles",
+   
+      "225": 
+      "Le port OBD se trouve à la droite du siège du conducteur. Le port OBD est visible à la gauche du levier de vitesses. Retirez le couvercle en plastique.",
+   
+      "226": 
+      "Le port OBD se trouve sur la porte du côté conducteur. Du côté conducteur, veuillez retirer le couvercle en plastique.",
+   
+      "227": 
+      "Le port OBD se trouve sous le volant, à droite. Le port OBD se trouve sous le volant, à la gauche du levier de vitesses.",
+   
+      "228": 
+      "Le port OBD se trouve sous le volant. Retirez le couvercle en plastique. Voici le port OBD de la voiture",
+   
+      "229": 
+      "Le port OBD se trouve à la gauche du volant. Retirez le couvercle et le port OBD se trouve en dessous.",
+   
+      "230": 
+      "Le port OBD se trouve sur le côté gauche du panneau situé sous le tableau de bord.",
+   
+      "231": 
+      "Le port OBD se trouve sous le volant à gauche, au fond de la boîte à fusibles. Desserrez les deux vis et retirez le couvercle.",
+   
+     "232": 
+      "Le port OBD se trouve près des pédales. Il est possible de voir le port OBD près de la porte.",
+   
+      "233": 
+      "Le port OBD se trouve sous le volant. Le port OBD se trouve au-dessus du repose-pied.",
+   
+      "234": 
+      "Le port OBD se trouve à gauche du volant. Le panneau du haut-parleur doit être retiré (2 vis). Retirez les fils du haut-parleur. Retirez complètement le panneau.",
+   
+      "235": 
+      "Le port OBD se trouve derrière le couvercle de la boîte à fusibles, sous le volant. Dévissez le couvercle de la boîte à fusibles. Le port OBD se trouve à gauche des fusibles.",
+   
+      "236": 
+      "Le port OBD se trouve au-dessus des pédales. La prise est visible au-dessus de la pédale de frein.",
+   
+      "237": 
+      "Le port OBD se trouve dans le panneau central.",
+   
+      "238": 
+      "Le port OBD se trouve sous le volant (près du levier d'ouverture du capot).",
+   
+      "239": 
+      "Le port OBD se trouve à gauche du volant, à l'intérieur de la boîte à fusibles. Retirez le couvercle en plastique pour atteindre la boîte à fusibles.",
+   
+      "240": 
+      "Le port OBD se trouve sous le volant, à gauche. Retirez le couvercle qui se trouve sous le volant, à gauche.",
+   
+      "241": 
+      "Le port OBD se trouve sous la console centrale. Retirez le cendrier, puis retirez le couvercle en plastique qui se trouve au-dessus de l'allume-cigarette.",
+   
+      "242": 
+      "Le port OBD se trouve sous le volant (à gauche). Le port OBD se trouve à l'intérieur du compartiment de fusibles (retirez le couvercle de plastique).",
+   
+     "243": 
+      "Le port OBD se trouve sous le volant, à l'intérieur du plateau de rangement du conducteur. Ouvrez le compartiment de rangement pour atteindre le port OBD (à droite).",
+   
+      "244": 
+      "Le port OBD est sous le volant, à gauche. Retirez le couvercle en plastique de la boîte à fusibles.",
+   
+      "245": 
+      "Le port OBD se trouve sous le volant, à gauche. Le port OBD se trouve près du levier d'ouverture du capot.",
+   
+      "246": 
+      "Le port OBD se trouve sous le volant, au-dessus des pédales.",
+   
+      "247": 
+      "Le port OBD se trouve sous le volant. Le port OBD se trouve près de la pédale de frein.",
+   
+      "248": 
+      "Le port OBD se trouve au-dessus des pédales, à gauche. Le port OBD se trouve entre la lumière et le levier d'ouverture du capot.",
+   
+      "249": 
+      "Le port OBD se trouve au-dessus des pédales, à gauche, au dessus de la pédale d'embrayage.",
+   
+      "250": 
+      "Le port OBD se trouve au-dessus des pédales.",
+      "251": "Le port OBD se trouve derrière le cendrier, sous la radio.",
+      "252": "Le port OBD se trouve près des pédales.",
+      "253": "Le port OBD se trouve du côté passager. Le port OBD se trouve sous le compartiment de rangement.",
+      "254": "Le port OBD se trouve sous le volant (près des pédales), au-dessus de la pédale de frein",
+      "255": "Le port OBD se trouve sous le volant, tout au bas des pédales.",
+      "256": "Le port OBD se trouve sous le volant à gauche, à droite du levier de capot",
+      "257": "Le port OBD se trouve sous le volant, à droite.",
+      "258": "Le port OBD se trouve sous le volant à gauche, près du levier d'ouverture du capot",
+      "259": "Le port OBD se trouve sous le volant, au-dessus des pédales.",
+      "260": "Le port OBD se trouve sous le volant, sous le couvercle.",
+      "261": "Le port OBD se trouve sous le volant. Le port OBD se trouve au-dessus de la pédale d'accélérateur.",
+      "262": "Le port OBD se trouve près de la console centrale, près de la pédale d'accélérateur.",
+      "263": "Le port OBD se trouve près du frein de stationnement. Retirez le couvercle affichant l'inscription \\OBD-II\\.",
+      "264": "Le port OBD se trouve sous le volant (côté gauche). Ouvrez la trappe qui se trouve à gauche du volant et tirez sur celle-ci. Déverrouillez la partie supérieure en premier.",
+      "265": "Le port OBD se trouve sous le volant, à gauche. Retirez le couvercle de la boîte à fusibles.",
+      "266": "Le port OBD se trouve sous le volant. Retirez le couvercle de plastique sous le volant pour atteindre le port OBD.",
+      "267": "Le port OBD se trouve sous le volant. Le port OBD se trouve au-dessus de la pédale d'accélérateur.",
+      "268": "Le port OBD se trouve sous le volant. Le port OBD se trouve au-dessus de la pédale d'accélérateur.",
+      "269": "Le port OBD se trouve sous le volant. Le port OBD se trouve à gauche des pédales (au-dessus du repose-pied).",
+      "270": "Le port OBD se trouve sous le volant, au-dessus de la pédale d'accélérateur."
+    },  
+    "show_picture": "Zobrazit obrázek umístění OBD-II portu",
+    "hide_picture": "Skrýt obrázek umístění OBD-II portu",
+    "select_new_vehicle": "Vybrat nový vůz",
+    "loading": "Nahrávám…"
+  },
+  "vehicle_compatibility": {
+   "home":"Accueil",
+    "title":"Check to see if your car is compatible.",
+    "desc":"Most cars that are model year 1996 or newer have an OBD-II (On Board Diagnostics version 2) port that the device plugs into.",
+    "select_car":"Sélectionnez votre voiture.",
+    "check_if_compatible":"Check if your car is compatible with T-Mobile SyncUP DRIVE.",
+    "check_if_compatible_warning":"(Not all cars with OBD-II ports are compatible with all the features.)",
+    "select_make":"SÉLECTIONNER LA MARQUE",
+    "select_model":"SÉLECTIONNER LE MODÈLE",
+    "select_year":"SÉLECTIONNER L'ANNÉE",
+    "select_engine": "",
+    "need_help":"BESOIN D'AIDE POUR LOCALISER VOTRE PORT?",
+    "click_here":"CLIQUEZ ICI",
+    "has_obd":"VOTRE VOITURE POSSÈDE UN PORT OBD-II",
+    "loading":"Chargement en cours...",
+    "compatible":"VOTRE VÉHICULE EST COMPATIBLE",
+    "not_compatible":"VOTRE VÉHICULE N'EST PAS COMPATIBLE",
+    "compatibility": {
+      "rogers": {
+        "Full": "Votre voiture est compatible avec le service Auto intelligente de Rogers. Veuillez noter que l’expérience peut différer en fonction de la marque et du modèle de voiture.",
+        "Partial": "Votre voiture est compatible avec le service Auto intelligente de Rogers. Veuillez noter que l’expérience peut différer en fonction de la marque et du modèle de voiture.",
+        "Minimum": "Malheureusement, votre voiture n’est pas compatible avec le service Auto intelligente de Rogers. Veuillez ne pas installer le dispositif dans votre voiture.",
+        "NotCompatible": "Malheureusement, votre voiture n’est pas compatible avec le service Auto intelligente de Rogers. Veuillez ne pas installer le dispositif dans votre voiture.",
+        "Unknown": "Votre voiture est compatible avec le service Auto intelligente de Rogers. Veuillez noter que l’expérience peut différer en fonction de la marque et du modèle de voiture."
+      },
+      "telus": {
+        "Full": "Félicitations, le dispositif TELUS Voiture+ est compatible avec votre véhicule.",
+        "Partial": "Félicitations, le dispositif TELUS Voiture+ est compatible avec votre véhicule.",
+        "Minimum": "Malheureusement, le dispositif TELUS Voiture+ n'est pas compatible avec votre véhicule.",
+        "NotCompatible": "Malheureusement, le dispositif TELUS Voiture+ n'est pas compatible avec votre véhicule.",
+        "Unknown": "Bienvenue! Le dispositif TELUS Voiture+ n'a pas été testé avec votre véhicule. Il se peut que certaines fonctions de données ne fonctionnent pas."
+      }
+    }
+  }
+}

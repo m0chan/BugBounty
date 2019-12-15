@@ -1,0 +1,16 @@
+http://static-prd10.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: static-prd10.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Server: Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 06ec40eb-f01e-00b5-0654-b3e87c000000
+< Content-Length: 278
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:21 GMT
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AccountRequiresHttps</Code><Message>The account being accessed does not support http.
+RequestId:06ec40eb-f01e-00b5-0654-b3e87c000000
+Time:2019-12-15T14:30:21.7201971Z</Message><AccountName>mojioprd10cdn</AccountName></Error>

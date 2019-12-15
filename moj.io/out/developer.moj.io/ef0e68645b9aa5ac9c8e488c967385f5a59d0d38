@@ -1,0 +1,30 @@
+http://developer.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: developer.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:29:15 GMT
+< Set-Cookie: __cfduid=deb91f581a913d442e0aa46786873d35c1576420155; expires=Tue, 14-Jan-20 14:29:15 GMT; path=/; domain=.moj.io; HttpOnly
+< Cf-Cache-Status: DYNAMIC
+< Cf-Ray: 54591bd1dae43645-MAN
+< Content-Type: text/html; charset=utf-8
+< X-Amz-Request-Id: 3EC730736C42093F
+< X-Amz-Id-2: 2oMXoTHMj+8QGHig/wQ3aWkjqxsgH41LM3rxW1PqNg8UdpX+xgDZ2myuRlpdYzW5nQpnM/nfR+k=
+< Server: cloudflare
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+<ul>
+<li>Code: NoSuchBucket</li>
+<li>Message: The specified bucket does not exist</li>
+<li>BucketName: developer.moj.io</li>
+<li>RequestId: 3EC730736C42093F</li>
+<li>HostId: 2oMXoTHMj+8QGHig/wQ3aWkjqxsgH41LM3rxW1PqNg8UdpX+xgDZ2myuRlpdYzW5nQpnM/nfR+k=</li>
+</ul>
+<hr />
+</body>
+</html>

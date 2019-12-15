@@ -1,0 +1,15 @@
+https://stg2-nginx.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: stg2-nginx.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:30:26 GMT
+< Content-Length: 0
+< Location: https://stg2-api.moj.io/swagger/ui/index
+< Server: nginx/1.15.6
+< Set-Cookie: ARRAffinity=b4de86b5eed7998383b6998068c99fd5fff73af4be8101fe0a02dec98f3e34af;Path=/;HttpOnly;Domain=stg2-nginx.moj.io
+< Request-Context: appId=cid-v1:efbef410-6cd7-40a7-b985-46fe54a0dbd4
+< X-Powered-By: ASP.NET
+

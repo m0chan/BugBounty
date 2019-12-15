@@ -1,0 +1,58 @@
+<div ng-controller="tcuVisualizer as mc">
+   <div class="row">
+      <div class="col-md-8">
+         <div class="panel panel-default">
+            <div style="height:665px" class="panel-body">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div id="map_canvas" style="height:648px"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="panel-footer">
+               <div class="row">
+                  <div class="col-md-12">
+                     <button ng-click="ShowOnMap()" class="mb-sm btn btn-labeled btn-info">
+                        <span class="btn-label"><i class="fa fa-crosshairs"></i>
+                        </span>Show On Map</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title">Events</h4>
+            </div>
+            <div style="height:265px;overflow-y:scroll" class="panel-body">
+               <ul class="fa-ul">
+                  <li ng-repeat="ev in EventData"><i ng-click="ChangeViewStatus(ev)" ng-class="{'fa-caret-right':!ev._viewStatus || ev._viewStatus=='c','fa-caret-down':ev._viewStatus=='e'}" class="fa fa-li"></i><a ng-click="HighlightIt(ev)">{{ev.SequenceNumber | number}} : {{ev.OpCode}} - {{ev[AdvTitle]}}</a>
+                     <ul
+                     ng-if="ev._viewStatus=='e'">
+                        <li ng-repeat="(key,fl) in ev"><a ng-click="ShowFieldOnTitle(key)">{{key}}:&nbsp;{{fl}}</a>
+                        </li>
+               </ul>
+               </li>
+               </ul>
+            </div>
+            <div class="panel-footer">
+               <input type="file" fileread="EventData" readtype="text" class="mb-sm btn btn-labeled btn-info" />
+            </div>
+         </div>
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title">Events</h4>
+            </div>
+            <div style="height:265px;overflow-y:scroll" class="panel-body">
+               <ul class="fa-ul">
+                  <li ng-repeat="(key,fl) in EventSelected" ng-if="EventSelected">
+                     <span ng-if="ShowField(key,fl)">{{key}}:&nbsp;{{fl}}</span>
+                  </li>
+               </ul>
+            </div>
+            <div class="panel-footer">footer</div>
+         </div>
+      </div>
+   </div>
+</div>

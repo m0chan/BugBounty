@@ -1,0 +1,17 @@
+https://au1-live1-eh-cdn1.azureedge.net/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: au1-live1-eh-cdn1.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ASP.NET_SessionId=4hzmtuv030txoi33unrrkog0; path=/;HttpOnly; secure; HttpOnly; SameSite=Lax
+< Content-Length: 0
+< Pragma: no-cache
+< Server: Microsoft-IIS/10.0
+< Date: Sun, 15 Dec 2019 14:30:06 GMT
+< Expires: -1
+< X-Powered-By: ASP.NET
+< Access-Control-Allow-Origin: *
+< Cache-Control: no-cache
+

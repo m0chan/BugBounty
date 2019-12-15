@@ -1,0 +1,13 @@
+https://staging-services-na.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: staging-services-na.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=1582b7e8a6ece875590acf90006da05427639af2aca114fa2cbad1f286ab7b6f;Path=/;HttpOnly;Domain=staging-services-na.moj.io
+< Date: Sun, 15 Dec 2019 14:29:16 GMT
+< Content-Length: 0
+

@@ -1,0 +1,24 @@
+https://reports.saas.devshared.ondemand.qas.com/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: reports.saas.devshared.ondemand.qas.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Iinfo: 10-120837604-120837728 NNNN CT(71 148 0) RT(1576420190775 299) q(0 0 2 -1) r(3 6) U11
+< Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding
+< Date: Sun, 15 Dec 2019 14:29:51 GMT
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: visid_incap_1405244=z5FzoD08QLen9EO1+a4eHF9D9l0AAAAAQUIPAAAAAAB6kupZSA1vxHW0suYFQTxY; expires=Mon, 14 Dec 2020 10:03:33 GMT; path=/; Domain=.saas.devshared.ondemand.qas.com; Secure
+< Set-Cookie: incap_ses_453_1405244=byUDCFxbh2w+pVZiF2JJBl9D9l0AAAAAf6t/pbKC+YYa++jG0x2bqQ==; path=/; Domain=.saas.devshared.ondemand.qas.com; Secure
+< X-Cdn: Incapsula
+< Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://cdn.edq.com/ https://cdn.walkme.com/ https://playerserver.walkme.com https://www.googletagmanager.com/ https://www.gstatic.com/ https://www.google-analytics.com/ https://d3sbxpiag177w8.cloudfront.net/; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.edq.com/ https://www.gstatic.com/ https://stackpath.bootstrapcdn.com/ https://cdn.walkme.com/; font-src 'self' data: https://fonts.gstatic.com/ https://cdn.edq.com/ https://stackpath.bootstrapcdn.com/; connect-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/ https://ec.walkme.com/ https://reportsapi.saas.devshared.ondemand.qas.com/ https://rapi.walkme.com; img-src 'self' data: https://www.edq.com/ https://cdn.edq.com/ https://ec.walkme.com/ https://cdn.walkme.com/ https://www.google-analytics.com/; frame-src 'self' https://cdn.walkme.com/;
+< Content-Type: application/xml
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< X-Ms-Request-Id: b6c0428d-a01e-0136-1d54-b32ab4000000
+< X-Ms-Version: 2014-02-14
+< Content-Length: 215
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:b6c0428d-a01e-0136-1d54-b32ab4000000
+Time:2019-12-15T14:29:52.1961651Z</Message></Error>

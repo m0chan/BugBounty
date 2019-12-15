@@ -1,0 +1,39 @@
+<h3>Service Item Creator
+   <div class="pull-right">
+      <button class="btn btn-default">Create</button>
+   </div>
+</h3>
+<div class="row">
+   <div class="col-xs-4">
+      <table class="table table-striped">
+         <thead class="bb">
+            <tr>
+               <th>Service</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr ng-repeat="(pos,row) in Service">
+               <td>{{row.name}}</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div class="col-xs-8">
+      <table class="table table-striped">
+         <thead class="bb">
+            <tr>
+               <th><i class="fa fa-square-o"></i>
+               </th>
+               <th>Vehicles</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr ng-repeat="(pos,row) in Vehicle">
+               <th><i ng-click="row.Selected=!row.Selected" ng-class="{'fa-check-square-o':row.Selected,'fa-square-o':!row.Selected}" class="fa"></i>
+               </th>
+               <td>{{row.Name}}</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>

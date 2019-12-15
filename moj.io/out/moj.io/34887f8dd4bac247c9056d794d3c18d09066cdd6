@@ -1,0 +1,22 @@
+https://moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cf-Ray: 54591da94f88d210-MAN
+< Set-Cookie: __cfduid=d23608222b7789d77c2f6598232dd56671576420230; expires=Tue, 14-Jan-20 14:30:30 GMT; path=/; domain=.moj.io; HttpOnly
+< Set-Cookie: aelia_cs_selected_currency=CAD; expires=Mon, 16-Dec-2019 14:30:31 GMT; path=/
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Server: cloudflare
+< Content-Type: text/html; charset=UTF-8
+< Pragma: no-cache
+< X-Powered-By: PHP/5.3.29
+< Date: Sun, 15 Dec 2019 14:30:31 GMT
+< X-Pingback: https://www.moj.io/xmlrpc.php
+< Location: https://www.moj.io/swagger-ui
+< Cf-Cache-Status: DYNAMIC
+

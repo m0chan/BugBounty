@@ -1,0 +1,20 @@
+https://preview.my.moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: preview.my.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html
+< Content-Length: 151
+< Cf-Ray: 54591c5c7acee58f-MAN
+< Server: cloudflare
+< Date: Sun, 15 Dec 2019 14:29:37 GMT
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>

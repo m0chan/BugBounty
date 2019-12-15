@@ -1,0 +1,20 @@
+https://cdn.billforney.com/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: cdn.billforney.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Azure-Ref: 0hkP2XQAAAAAx4cPO1CBFRJJCFaxv59gjTUFOMzBFREdFMDMxOAA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< Date: Sun, 15 Dec 2019 14:30:30 GMT
+< Content-Length: 0
+< X-Cache: TCP_MISS
+< Strict-Transport-Security: max-age=2592000
+< X-Powered-By: William Forney
+< X-Content-Type-Options: nosniff
+< X-Azure-Ref-Originshield: 0hkP2XQAAAACttjoHxM9uS7qWjKpiW7EgTE9OMjFFREdFMDMxNgA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< Request-Context: appId=cid-v1:58dd9d2d-7583-4bbe-aa25-e93c0adacb78
+< X-Ua-Compatible: IE=Edge,chrome=1
+< Content-Security-Policy: object-src 'none';
+< Arr-Disable-Session-Affinity: True
+

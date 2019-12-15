@@ -1,0 +1,17 @@
+https://static-prd3.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: static-prd3.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 215
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:28:23 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 3e8df1dc-f01e-003c-6e53-b3a3ed000000
+< X-Ms-Version: 2009-09-19
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:3e8df1dc-f01e-003c-6e53-b3a3ed000000
+Time:2019-12-15T14:28:23.8716930Z</Message></Error>

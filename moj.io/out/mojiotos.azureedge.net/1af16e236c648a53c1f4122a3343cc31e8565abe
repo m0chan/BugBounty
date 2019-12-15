@@ -1,0 +1,17 @@
+https://mojiotos.azureedge.net/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: mojiotos.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:27:55 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: e63ccddb-901e-00cb-5353-b30784000000
+< X-Ms-Version: 2014-02-14
+< Content-Length: 215
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:e63ccddb-901e-00cb-5353-b30784000000
+Time:2019-12-15T14:27:55.4542908Z</Message></Error>

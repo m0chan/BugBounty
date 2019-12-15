@@ -1,0 +1,15 @@
+https://prd1-nginx.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: prd1-nginx.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Server: nginx/1.15.6
+< Request-Context: appId=cid-v1:9a078a5a-f690-4446-8daa-949a94461788
+< Nginx-Version: 4.11.0.17
+< X-Mojio-Route: sfapi
+< Set-Cookie: ARRAffinity=b784f31dc2c7c1f776b53061bb56366b5ddf709af3f125a312dbd1a1a096ab9f;Path=/;HttpOnly;Domain=prd1-nginx.moj.io
+< Date: Sun, 15 Dec 2019 14:29:50 GMT
+

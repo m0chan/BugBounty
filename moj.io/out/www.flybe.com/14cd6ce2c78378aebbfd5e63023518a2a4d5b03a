@@ -1,0 +1,15 @@
+http://www.flybe.com/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: www.flybe.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.flybe.com/application.wadl
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Date: Sun, 15 Dec 2019 14:29:55 GMT
+< Cache-Control: max-age=3600
+< Expires: Sun, 15 Dec 2019 15:29:55 GMT
+< Cf-Ray: 54591cce7d47d220-MAN
+

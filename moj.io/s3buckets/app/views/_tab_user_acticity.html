@@ -1,0 +1,64 @@
+<!--Created by pooyaparidel on 15-03-17.-->
+<h4>User Activity</h4>
+<div class="panel-body panel-default col-md-6">
+   <div class="panel-heading">
+      <h4 class="panel-title">User</h4>
+      <div class="panel-body">
+         <table class="col-xs-12">
+            <tbody>
+               <tr>
+                  <td>User Name</td>
+                  <td>{{User.UserName}}</td>
+               </tr>
+               <tr>
+                  <td>Email</td>
+                  <td>{{User.Email}}</td>
+               </tr>
+               <tr>
+                  <td>First Name</td>
+                  <td>{{User.FirstName}}</td>
+               </tr>
+               <tr>
+                  <td>Last Name</td>
+                  <td>{{User.LastName}}</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </div>
+</div>
+<div class="panel-body panel-default col-md-6">
+   <div class="panel-heading">
+      <h4 class="panel-title">Vehicle</h4>
+      <div class="panel-body">
+         <table class="col-xs-12">
+            <tbody>
+               <tr>
+                  <td>Vehicle Name</td>
+                  <td>{{Vehicle.Name}}</td>
+               </tr>
+               <tr>
+                  <td>License Plate</td>
+                  <td>{{Vehicle.LicensePlate}}</td>
+               </tr>
+               <tr>
+                  <td>False Detected</td>
+                  <td>{{Vehicle.FaultsDetected}}</td>
+               </tr>
+               <tr>
+                  <td>Last Contact Time</td>
+                  <td>{{Vehicle.LastContactTime | date:'yy-MM-dd HH:mm'}}</td>
+               </tr>
+               <tr>
+                  <td>Last Location</td>
+                  <td>
+                     <mojio-location ng-if="Vehicle" geoloc="Vehicle.LastLocation"></mojio-location>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </div>
+</div>
+<div class="clearfix"></div>
+<morris-chart xkey="xkey" ykeys="ykeys" labels="labels" data="myModel" ng-if="myModel"></morris-chart>

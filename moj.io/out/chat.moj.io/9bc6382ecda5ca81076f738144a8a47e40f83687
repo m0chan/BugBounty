@@ -1,0 +1,15 @@
+http://chat.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: chat.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Vary: Accept-Encoding
+< Cf-Ray: 54591d0a5f9fd20c-MAN
+< Expires: Thu, 01 Jan 1970 00:00:01 GMT
+< Location: https://mojiochat.slack.com/
+< Server: cloudflare
+< Date: Sun, 15 Dec 2019 14:30:05 GMT
+< Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+

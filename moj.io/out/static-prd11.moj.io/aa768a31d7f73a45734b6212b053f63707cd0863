@@ -1,0 +1,19 @@
+http://static-prd11.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: static-prd11.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Content-Type: application/xml
+< X-Cache: TCP_MISS
+< X-Ms-Request-Id: a800e114-901e-0030-1f53-b3004c000000
+< X-Azure-Ref-Originshield: 0F0P2XQAAAAANuyYGnEVdQZ/2cYLNVpQxTE9OMjFFREdFMDMwNgBjZTNjODVlYy03ZDRhLTRjNjEtYTIzNS01NzE1ODdhNzBmODk=
+< Content-Length: 281
+< X-Azure-Ref: 0F0P2XQAAAADiMqTX0zBWSJa8eII+pq+6TUFOMzBFREdFMDMwOQBjZTNjODVlYy03ZDRhLTRjNjEtYTIzNS01NzE1ODdhNzBmODk=
+< Date: Sun, 15 Dec 2019 14:28:39 GMT
+< Server: Microsoft-HTTPAPI/2.0
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AccountRequiresHttps</Code><Message>The account being accessed does not support http.
+RequestId:a800e114-901e-0030-1f53-b3004c000000
+Time:2019-12-15T14:28:39.9308221Z</Message><AccountName>mojioprd11stocdn</AccountName></Error>

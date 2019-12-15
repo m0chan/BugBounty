@@ -1,0 +1,14 @@
+https://accounts.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: accounts.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: Kestrel
+< Content-Security-Policy: default-src 'self' static-prd1.moj.io; font-src 'self' https://fonts.gstatic.com static-prd1.moj.io data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com static-prd1.moj.io 'unsafe-inline'; script-src 'self' 'unsafe-inline' static-prd1.moj.io; img-src 'self' static-prd1.moj.io
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=32b9fb9902870b7091a954ea692711f028d354822fb717dd7fd0b9de935f3045;Path=/;HttpOnly;Domain=accounts.moj.io
+< Date: Sun, 15 Dec 2019 14:28:38 GMT
+< Content-Length: 0
+

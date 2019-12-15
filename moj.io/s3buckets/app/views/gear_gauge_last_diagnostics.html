@@ -1,0 +1,19 @@
+<div class="text-center bg-white">
+   <div class="row pt-lg">
+      <em class="fa icon-gauge fa-2x text-gray-light"></em>
+   </div>
+   <div class="row">
+      <span class="widget-title">{{ "gear.gear_gauge_last_diagnostics.Title" | translate }}</span>
+   </div>
+   <div class="row pb-sm">
+      <span class="widget-byapp">{{ "gear.gear_gauge_last_diagnostics.SubTitle" | translate }}</span>
+   </div>
+</div>
+<br/>
+<div ng-repeat="r in $parent.AllData.SelectedVehicle.FaultsSummary" class="row text-center mt-lg mb0">
+   <div class="h5 col-xs-6 text-right mb0 pb0">{{r.title | translate}}</div>
+   <div class="h5 col-xs-5 text-left mb0 pb0">
+      <span ng-show="r.count!=0">{{r.count}}</span>
+      <em ng-show="r.count==0" class="fa fa-check"></em>
+   </div>
+</div>

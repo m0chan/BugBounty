@@ -1,0 +1,19 @@
+https://democdn.dx2.co.nz/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: democdn.dx2.co.nz
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Ms-Version: 2009-09-19
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:21 GMT
+< X-Ms-Request-Id: f81a0a91-201e-0074-6f54-b38621000000
+< Content-Length: 215
+< Access-Control-Allow-Origin: *
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:f81a0a91-201e-0074-6f54-b38621000000
+Time:2019-12-15T14:29:22.1089827Z</Message></Error>

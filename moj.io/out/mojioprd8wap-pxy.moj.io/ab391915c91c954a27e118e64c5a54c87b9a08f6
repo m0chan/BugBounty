@@ -1,0 +1,13 @@
+http://mojioprd8wap-pxy.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: mojioprd8wap-pxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< Location: https://mojioprd8wap-pxy.moj.io/phpinfo.php
+< Server: Microsoft-IIS/10.0
+< Date: Sun, 15 Dec 2019 14:28:51 GMT
+

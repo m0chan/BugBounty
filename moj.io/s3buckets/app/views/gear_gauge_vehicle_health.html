@@ -1,0 +1,16 @@
+<div class="text-center bg-white">
+   <div class="row pt-lg">
+      <em class="fa icon-gauge fa-2x text-gray-light"></em>
+   </div>
+   <div class="row">
+      <span class="widget-title">{{ "gear.gear_gauge_vehicle_health.Title" | translate }}</span>
+   </div>
+   <div class="row pb-sm">
+      <span class="widget-byapp">{{ "gear.gear_gauge_vehicle_health.SubTitle" | translate }}</span>
+   </div>
+</div>
+<div class="text-center mt-xl">
+   <h4 class="text-gray-darker text-thin widget-status mt-lg">{{HealthStatus($parent.AllData.SelectedVehicle.FaultsDetected) | translate }}</h4>
+   <h2 class="text-info num-lg">{{$parent.AllData.SelectedVehicle.Diagnostic.length || 0}}</h2>
+   <h4 class="text-gray-darker text-thin widget-units">{{ "gear.gear_gauge_vehicle_health.TotalDtcFaults" | translate }}</h4>
+</div>

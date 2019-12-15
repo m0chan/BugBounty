@@ -1,0 +1,12 @@
+http://json.not.lol/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: json.not.lol
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:29:05 GMT
+< Location: https://json.not.lol/admin.php
+< Server: ECAcc (lpl/EF55)
+< Content-Length: 0
+

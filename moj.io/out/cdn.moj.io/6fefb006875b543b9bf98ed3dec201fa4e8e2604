@@ -1,0 +1,17 @@
+https://cdn.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: cdn.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:19 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: efd05261-601e-0116-1154-b3127f000000
+< X-Ms-Version: 2014-02-14
+< Content-Length: 215
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:efd05261-601e-0116-1154-b3127f000000
+Time:2019-12-15T14:29:20.7716491Z</Message></Error>

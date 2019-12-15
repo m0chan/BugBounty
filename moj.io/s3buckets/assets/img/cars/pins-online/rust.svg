@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="67px" viewBox="0 0 56 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>pin-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.1862596,53.3725193 L27,65 L32.8137404,53.3725193 C44.9311168,50.713424 54,39.9157876 54,27 C54,12.0883118 41.9116882,0 27,0 C15.4743422,0 5.63541836,7.2217669 1.76140916,17.3871201 C0.623295122,20.3735176 0,23.6139696 0,27 C0,39.9157876 9.06888321,50.713424 21.1862596,53.3725193 Z" id="path-1"></path>
+        <filter x="-3.7%" y="-1.5%" width="107.4%" height="106.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="01-Design:-Flow-and-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.02-(Low-Severity-DTC,-Low-Battery)-Copy-3" transform="translate(-114.000000, -47.000000)">
+            <g id="pin-2" transform="translate(115.000000, 47.000000)">
+                <g id="Combined-Shape-Copy-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M21.1862596,53.3725193 L27,65 L32.8137404,53.3725193 C44.9311168,50.713424 54,39.9157876 54,27 C54,12.0883118 41.9116882,0 27,0 C15.4743422,0 5.63541836,7.2217669 1.76140916,17.3871201 C0.623295122,20.3735176 0,23.6139696 0,27 C0,39.9157876 9.06888321,50.713424 21.1862596,53.3725193 Z" id="Combined-Shape-Copy-3" fill="#AF301D"></path>
+            </g>
+        </g>
+    </g>
+</svg>

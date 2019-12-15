@@ -1,0 +1,15 @@
+https://blog-tamrin-me.azureedge.net/package.json
+
+> GET /package.json HTTP/1.1
+> Host: blog-tamrin-me.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html
+< Date: Sun, 15 Dec 2019 14:29:41 GMT
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ARRAffinity=4ccb4edf034b4c292a759f58f1fe0b36439ce23b4ede883fdc1fbdb2a1e46fb6;Path=/;HttpOnly;Domain=blog-tamrin-me.azurewebsites.net
+< X-Powered-By: ASP.NET
+< Content-Length: 103
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

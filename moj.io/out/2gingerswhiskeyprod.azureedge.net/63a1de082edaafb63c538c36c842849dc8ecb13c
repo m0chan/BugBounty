@@ -1,0 +1,21 @@
+https://2gingerswhiskeyprod.azureedge.net/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: 2gingerswhiskeyprod.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 200
+< Cache-Control: must-revalidate, no-cache, private
+< Content-Language: en
+< Set-Cookie: ApplicationGatewayAffinity=40cca647548833b3c76c30734d13832ed525a111c3753bf8571732fbec236651;Path=/;Domain=www.2gingerswhiskey.com
+< X-Generator: Drupal 8 (https://www.drupal.org)
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Ua-Compatible: IE=edge
+< Content-Type: text/html; charset=UTF-8
+< Date: Sun, 15 Dec 2019 14:29:51 GMT
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< Server: Apache/2.4.39 (Ubuntu)
+
+<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>The requested URL "http://www.2gingerswhiskey.com/security.txt" was not found on this server.</p></body></html>

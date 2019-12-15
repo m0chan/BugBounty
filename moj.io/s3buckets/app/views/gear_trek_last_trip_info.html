@@ -1,0 +1,50 @@
+<div class="text-center bb">
+   <div class="row pt-lg">
+      <em class="fa icon-trek fa-2x text-gray-light"></em>
+   </div>
+   <div class="row">
+      <span class="widget-title">MY LAST TRIP</span>
+   </div>
+   <div class="row pb-sm">
+      <span class="widget-byapp">BY TREK</span>
+   </div>
+</div>
+<div class="row text-center mt-lg">
+   <div class="col-xs-1 col-xs-offset-1">
+      <div class="bg-info text-circle">A</div>
+   </div>
+   <div class="col-xs-9 text-left">{{$parent.AllData.SelectedVehicle.LastTripData.StartAddress.Address1}}
+      <br/>
+      <span class="text-gray">10:12:12 AM</span>
+   </div>
+</div>
+<div class="row text-center">
+   <div class="col-xs-1 col-xs-offset-1">
+      <div class="bg-danger text-circle">B</div>
+   </div>
+   <div class="col-xs-9 text-left">{{$parent.AllData.SelectedVehicle.LastTripData.EndAddress.Address1}}
+      <br/>
+      <span class="text-gray">10:12:12 AM</span>
+   </div>
+</div>
+<div class="row text-center">
+   <div class="col-xs-1 col-xs-offset-1">
+      <em class="icon-trip"></em>
+   </div>
+   <div class="col-xs-3 text-left">Distance</div>
+   <div class="col-xs-6 text-left">{{$parent.AllData.SelectedVehicle.LastTripData.Distance | convertUnit:'Distance':$root.app.layout.unit | number:'1'}} {{'Km' | unitTitle:$root.app.layout.unit}}</div>
+</div>
+<div class="row">
+   <div class="col-xs-1 col-xs-offset-1">
+      <em class="fa fa-clock-o"></em>
+   </div>
+   <div class="col-xs-3 text-left">Duration</div>
+   <div class="col-xs-6 text-left">{{showDuration($parent.AllData.SelectedVehicle.LastTripData) | secondsToDateTime | date:'HH:mm:ss'}}</div>
+</div>
+<div class="row">
+   <div class="col-xs-1 col-xs-offset-1">
+      <em class="icon-fuel"></em>
+   </div>
+   <div class="col-xs-3 text-left">Efficiency</div>
+   <div class="col-xs-6 text-left">{{$parent.AllData.SelectedVehicle.LastTripData.FuelEfficiency | convertUnit:'FuelEfficiency':$root.app.layout.unit | number:'1'}} {{'liter/100km' | unitTitle:$root.app.layout.unit}}</div>
+</div>

@@ -1,0 +1,16 @@
+https://tmobile-us-phoenix-production-identity.moj.io/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: tmobile-us-phoenix-production-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Powered-By: ASP.NET
+< X-Mojio-Route: legacy
+< Date: Sun, 15 Dec 2019 14:30:10 GMT
+< Content-Length: 0
+< Server: nginx/1.15.6
+< Set-Cookie: ARRAffinity=db2c42efd81e683a7fbcb0ce1af1488e88082bed9fc82c9330e8855bd20ce941;Path=/;HttpOnly;Domain=tmobile-us-phoenix-production-identity.moj.io
+< Content-Security-Policy: default-src 'self' static.moj.io; font-src 'self' https://fonts.gstatic.com static.moj.io data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com static.moj.io 'unsafe-inline'; script-src 'self' 'unsafe-inline' static.moj.io; img-src 'self' static.moj.io
+< Nginx-Version: 4.11.0.8
+

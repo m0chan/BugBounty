@@ -1,0 +1,25 @@
+http://dev0-trackerfota.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: dev0-trackerfota.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Azure-Ref-Originshield: 090L2XQAAAACvVOaeZeulQYRBZQprNRGKTE9OMjFFREdFMDMxNgA5MDYxYzNhOS05NGUxLTQ5MWEtYmI3Ni0wYjAzMzQ4MGFlYzI=
+< Date: Sun, 15 Dec 2019 14:28:07 GMT
+< X-Cache: TCP_MISS
+< Content-Type: text/html; charset=iso-8859-1
+< Vary: Accept-Encoding
+< Server: Apache/2.2.22 (Ubuntu)
+< X-Azure-Ref: 090L2XQAAAACfj9eT6gWMR7HZSRcKALaZTUFOMzBFREdFMDMxOQA5MDYxYzNhOS05NGUxLTQ5MWEtYmI3Ni0wYjAzMzQ4MGFlYzI=
+< Keep-Alive: timeout=5, max=100
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /phpinfo.php was not found on this server.</p>
+<hr>
+<address>Apache/2.2.22 (Ubuntu) Server at 109.74.206.50 Port 80</address>
+</body></html>

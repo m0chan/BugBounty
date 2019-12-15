@@ -1,0 +1,14 @@
+http://www-goodr-staging.azureedge.net/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: www-goodr-staging.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:29:46 GMT
+< Expires: Sun, 15 Dec 2019 14:29:45 GMT
+< Location: https://www.staging-maddfunding.com/
+< Server: ECAcc (lpl/EF51)
+< Content-Length: 0
+< Cache-Control: no-cache
+

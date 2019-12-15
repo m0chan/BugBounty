@@ -1,0 +1,15 @@
+http://bcdn.flybe.com/api
+
+> GET /api HTTP/1.1
+> Host: bcdn.flybe.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=3600
+< Expires: Sun, 15 Dec 2019 15:29:25 GMT
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Cf-Ray: 54591c11ebfd3675-MAN
+< Date: Sun, 15 Dec 2019 14:29:25 GMT
+< Location: https://bcdn.flybe.com/api
+

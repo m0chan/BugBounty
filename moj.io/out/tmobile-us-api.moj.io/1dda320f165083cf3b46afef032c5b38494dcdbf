@@ -1,0 +1,14 @@
+http://tmobile-us-api.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: tmobile-us-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=012b04a499f2f6af4abe42fcc32cfd883195465efc5e6640ec6f551551db4a16;Path=/;HttpOnly;Domain=tmobile-us-api.moj.io
+< Date: Sun, 15 Dec 2019 14:30:15 GMT
+< Content-Length: 0
+< Location: http://tmobile-us-api.moj.io/swagger/ui/index
+< Request-Context: appId=cid-v1:b4f3dc5f-bd72-4647-99a2-e4a1ecb0016e
+

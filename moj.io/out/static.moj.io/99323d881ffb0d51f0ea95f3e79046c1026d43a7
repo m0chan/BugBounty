@@ -1,0 +1,16 @@
+http://static.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: static.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:25 GMT
+< Server: Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 1b06dbd4-001e-0007-6254-b38c14000000
+< Content-Length: 276
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AccountRequiresHttps</Code><Message>The account being accessed does not support http.
+RequestId:1b06dbd4-001e-0007-6254-b38c14000000
+Time:2019-12-15T14:30:25.3712580Z</Message><AccountName>mojioassets</AccountName></Error>

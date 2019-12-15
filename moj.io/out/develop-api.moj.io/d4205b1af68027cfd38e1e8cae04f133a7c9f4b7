@@ -1,0 +1,15 @@
+https://develop-api.moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: develop-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html
+< Request-Context: appId=cid-v1:fc56ac72-abcd-4cb9-a5a9-adfadd8ea579
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=1afaa7f1b72f18339442ad472c08d3b7e701f1af0a92b3eef97d79e69e6bd8ec;Path=/;HttpOnly;Domain=develop-api.moj.io
+< Date: Sun, 15 Dec 2019 14:29:40 GMT
+< Content-Length: 103
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

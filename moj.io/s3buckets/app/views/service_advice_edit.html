@@ -1,0 +1,11 @@
+<i ng-click="advice.show=!advice.show" ng-class="{ 'fa-caret-right': !advice.show, 'fa-caret-down': advice.show }" class="fa-li fa"></i>
+<img width="32" height="32" src="{{advice.icon}}" ng-click="" image-uploader="advice.icon" class="bt bl br bb" />&nbsp;<a href="" editable-text="advice.name" buttons="no">{{ advice.name || 'No Name Advice' }}</a>
+<ul ng-show="advice.show" class="fa-ul">
+   <li><i class="fa-li fa fa-align-justify"></i>Description:&nbsp;<a href="" editable-text="advice.description" buttons="no">{{advice.description || 'No Description'}}</a>
+   </li>
+   <li><i class="fa-li fa fa-picture-o"></i>Artwork:&nbsp;
+      <img image-modal="advice.artwork" style="max-width:32px;height:auto" src="{{advice.artwork}}" ng-click="" class="bt bl br bb" /><a ng-click="" image-uploader="advice.artwork">Change</a>
+   </li>
+   <li><a are-you-sure="$parent.RemoveAdvice(advice,parent)" class="text-danger"><i class="fa fa-li fa-minus-square"></i>Delete</a>
+   </li>
+</ul>

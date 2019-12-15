@@ -1,0 +1,14 @@
+http://tmobile-us-push.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: tmobile-us-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=96267d732e65ca0d29c035444c65e39a9da9a9cd4ec07e02900087916e850fb3;Path=/;HttpOnly;Domain=tmobile-us-push.moj.io
+< Date: Sun, 15 Dec 2019 14:29:57 GMT
+< Content-Length: 103
+< Content-Type: text/html
+< X-Powered-By: ASP.NET
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

@@ -1,0 +1,18 @@
+http://reports.saas.devshared.ondemand.qas.com/package.json
+
+> GET /package.json HTTP/1.1
+> Host: reports.saas.devshared.ondemand.qas.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://cdn.edq.com/ https://cdn.walkme.com/ https://playerserver.walkme.com https://www.googletagmanager.com/ https://www.gstatic.com/ https://www.google-analytics.com/ https://d3sbxpiag177w8.cloudfront.net/; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.edq.com/ https://www.gstatic.com/ https://stackpath.bootstrapcdn.com/ https://cdn.walkme.com/; font-src 'self' data: https://fonts.gstatic.com/ https://cdn.edq.com/ https://stackpath.bootstrapcdn.com/; connect-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/ https://ec.walkme.com/ https://reportsapi.saas.devshared.ondemand.qas.com/ https://rapi.walkme.com; img-src 'self' data: https://www.edq.com/ https://cdn.edq.com/ https://ec.walkme.com/ https://cdn.walkme.com/ https://www.google-analytics.com/; frame-src 'self' https://cdn.walkme.com/;
+< Date: Sun, 15 Dec 2019 14:29:36 GMT
+< Location: https://reports.saas.devshared.ondemand.qas.com/package.json
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: visid_incap_1405244=3DidfYaxRbCxfWuCaXvbhE9D9l0AAAAAQUIPAAAAAAAnSFS13DsayO8Okw3uF0sr; expires=Mon, 14 Dec 2020 10:03:33 GMT; path=/; Domain=.saas.devshared.ondemand.qas.com
+< Set-Cookie: incap_ses_453_1405244=jIDIBHmXXlnilFZiF2JJBk9D9l0AAAAAWvYXfcFQHb3Vqbkh7PVpuw==; path=/; Domain=.saas.devshared.ondemand.qas.com
+< X-Iinfo: 10-120832988-120832989 NNNN CT(93 -1 0) RT(1576420175732 0) q(0 0 1 -1) r(2 2) U11
+< Content-Length: 0
+< X-Cdn: Incapsula
+

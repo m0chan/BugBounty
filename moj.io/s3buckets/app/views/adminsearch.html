@@ -1,0 +1,18 @@
+<h3>Admin Search</h3>
+<tabset>
+   <tab>
+      <tab-heading><i class="fa fa-user">&nbsp;User</i>
+      </tab-heading>
+      <user-grid broadcast="'off'" admin-mode="true" settings="false" row-detail="'advjson'" footer="'pagination'" subDevice="'on'" subVehicle="'on'" sub-subs-grid="'on'" api="[{'MojioModel':'Users','defaultCriteria':':key','criteria':''}]"></user-grid>
+   </tab>
+   <tab>
+      <tab-heading><i class="fa fa-hdd-o">&nbsp;Mojio</i>
+      </tab-heading>
+      <device-grid search-imei="false" search-property="false" broadcast="'off'" admin-mode="true" settings="false" delete="true" row-detail="'advjson'" footer="'pagination'" api="[{'MojioModel':'Mojios','defaultCriteria':':key','criteria':''}]"></device-grid>
+   </tab>
+   <tab>
+      <tab-heading><i class="fa fa-car">&nbsp;Vehicle</i>
+      </tab-heading>
+      <vehicle-grid broadcast="'off'" admin-mode="true" settings="true" row-detail="'advjson'" sub-trip="'on'" sub-event="'on'" sub-subs-grid="'on'" footer="footer" api="[{'MojioModel':'Vehicles','defaultCriteria':':key','criteria':''}]"></vehicle-grid>
+   </tab>
+</tabset>

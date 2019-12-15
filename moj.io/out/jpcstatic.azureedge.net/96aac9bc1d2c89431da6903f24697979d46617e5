@@ -1,0 +1,18 @@
+https://jpcstatic.azureedge.net/api
+
+> GET /api HTTP/1.1
+> Host: jpcstatic.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 4b576ac3-201e-003b-6a54-b3cf15000000
+< Content-Length: 223
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: x-ms-request-id,Server,Content-Length,Date,Transfer-Encoding
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:31 GMT
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:4b576ac3-201e-003b-6a54-b3cf15000000
+Time:2019-12-15T14:29:31.6220742Z</Message></Error>

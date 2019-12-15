@@ -1,0 +1,10 @@
+<!-- top navbar-->
+<header ng-include="'app/views/partials/simulator-top-navbar.html'" class="topnavbar-wrapper"></header>
+<!-- sidebar-->
+<aside ng-include="'app/views/partials/mymojio-sidebar.html'" ng-controller="SidebarController" class="aside"></aside>
+<toaster-container toaster-options="{'time-out': 2500, 'close-button':true, 'animation-class': 'toast-top-center'}"></toaster-container>
+<!-- Main section-->
+<section>
+   <!-- Page content-->
+   <div ng-if="$root.user.name!=''" ui-view="" autoscroll="false" ng-class="app.viewAnimation" class="content-wrapper"></div>
+</section>

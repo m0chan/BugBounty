@@ -1,0 +1,12 @@
+http://jsonformatter.azureedge.net/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: jsonformatter.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: ECAcc (lpl/EF55)
+< Content-Length: 0
+< Date: Sun, 15 Dec 2019 14:25:30 GMT
+< Location: https://jsonformatter.azureedge.net/admin.php
+

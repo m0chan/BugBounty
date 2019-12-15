@@ -1,0 +1,13 @@
+http://develop-services.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: develop-services.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=29a84269f7cf75407d6f2198f4aca948dbae19c4b09df6cff19e39284003d20b;Path=/;HttpOnly;Domain=develop-services.moj.io
+< Date: Sun, 15 Dec 2019 14:23:50 GMT
+

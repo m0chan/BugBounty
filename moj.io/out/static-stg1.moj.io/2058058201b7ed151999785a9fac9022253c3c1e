@@ -1,0 +1,16 @@
+https://static-stg1.moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: static-stg1.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Content-Length: 226
+< Content-Type: application/xml
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: e90b9068-601e-0061-5e54-b36c96000000
+< Date: Sun, 15 Dec 2019 14:29:42 GMT
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>OutOfRangeInput</Code><Message>One of the request inputs is out of range.
+RequestId:e90b9068-601e-0061-5e54-b36c96000000
+Time:2019-12-15T14:29:42.0487273Z</Message></Error>

@@ -1,0 +1,150 @@
+<!-- top navbar-->
+<header class="topnavbar-wrapper">
+   <!-- START Top Navbar-->
+   <nav role="navigation" class="navbar topnavbar">
+      <!-- START navbar header-->
+      <div class="navbar-header">
+         <a href="#/" class="navbar-brand">
+            <div class="brand-logo">
+               <img src="app/img/motion-l.png" alt="App Logo" class="img-responsive" />
+            </div>
+            <div class="brand-logo-collapsed">
+               <img src="app/img/motion-s.png" alt="App Logo" class="img-responsive" />
+            </div>
+         </a>
+      </div>
+      <!-- END navbar header-->
+      <!-- START Nav wrapper-->
+      <div class="nav-wrapper">
+         <!-- START Left navbar-->
+         <ul class="nav navbar-nav">
+            <li>
+               <!-- Button used to collapse the left sidebar. Only visible on tablet and desktops-->
+               <a ng-click="app.layout.isCollapsed = !app.layout.isCollapsed" class="hidden-xs">
+                  <em class="fa fa-navicon"></em>
+               </a>
+               <!-- Button to show/hide the sidebar on mobile. Visible on mobile only.-->
+               <a toggle-state="aside-toggled" no-persist="no-persist" class="visible-xs sidebar-toggle">
+                  <em class="fa fa-navicon"></em>
+               </a>
+            </li>
+         </ul>
+         <!-- END Left navbar-->
+         <!-- START Right Navbar-->
+         <ul class="nav navbar-nav navbar-right">
+            <li dropdown="dropdown" class="mt0 ml-xl dropdown dropdown-list">
+               <a dropdown-toggle="dropdown-toggle" class="mt-sm">
+                  <img id="userGlobalPic" style="width:20px;height:20px" src="app/img/user.png" class="mt0 mb0 pt0 pb0 img-circle" />&nbsp; {{user.name}}
+                  <em class="fa fa-angle-down"></em>
+               </a>
+               <ul role="menu" class="dropdown-menu">
+                  <li ng-click="$state.go('my.managedevice',{})">
+                     <!-- START list group-->
+                     <div class="list-group">
+                        <!-- list item-->
+                        <a class="list-group-item">
+                           <div class="media-box">
+                              <div class="pull-left">
+                                 <em class="fa icon-profile"></em>
+                              </div>
+                              <div class="media-box-body clearfix">My Account</div>
+                           </div>
+                        </a>
+                     </div>
+                  </li>
+                  <li ng-repeat="(localeId, langName) in $root.language.available" ng-show="$root.language.selected!=langName">
+                     <!-- START list group-->
+                     <div ng-click="$root.language.set(localeId, $event)" class="list-group">
+                        <!-- list item-->
+                        <a class="list-group-item">
+                           <div class="media-box">
+                              <div class="pull-left">
+                                 <em class="fa fa-globe"></em>
+                              </div>
+                              <div class="media-box-body clearfix">{{langName}}</div>
+                           </div>
+                        </a>
+                     </div>
+                  </li>
+                  <li ng-click="userLogout()">
+                     <!-- START list group-->
+                     <div class="list-group">
+                        <!-- list item-->
+                        <a class="list-group-item">
+                           <div class="media-box">
+                              <div class="pull-left">
+                                 <em class="fa fa-power-off"></em>
+                              </div>
+                              <div class="media-box-body clearfix">Logout</div>
+                           </div>
+                        </a>
+                     </div>
+                  </li>
+               </ul>
+            </li>
+            <!-- END Offsidebar menu-->
+         </ul>
+         <!-- END Right Navbar-->
+      </div>
+      <!-- END Nav wrapper-->
+      <!-- START Search form-->
+      <form role="search" action="search.html" class="navbar-form">
+         <div class="form-group has-feedback">
+            <input type="text" placeholder="{{ 'topbar.search.PLACEHOLDER' | translate }}" class="form-control" />
+            <div search-dismiss="search-dismiss" class="fa fa-times form-control-feedback"></div>
+         </div>
+         <button type="submit" class="hidden btn btn-default">Submit</button>
+      </form>
+      <!-- END Search form-->
+   </nav>
+   <!-- END Top Navbar-->
+</header>
+<!-- sidebar-->
+<aside ng-controller="SidebarController" class="aside">
+   <!-- Inline template with sidebar items markup and ng-directives-->
+   <script type="text/ng-template" id="sidebar-renderer.html">
+      <span ng-if="item.heading">{{(item.translate | translate) || item.text}}</span><a ng-if="!item.heading" ng-href="{{$state.href(item.sref, item.params)}}" title="{{item.text}}"><em ng-hide="inSubmenu" class="{{item.icon}}"></em><div ng-if="item.alert" class="label label-success pull-right">{{item.alert}}</div><span>{{(item.translate | translate) || item.text}}</span></a><ul ng-if="item.submenu" collapse="isCollapse(pIndex)" ng-init="addCollapse(pIndex, item)" class="nav sidebar-subnav"><li class="sidebar-subnav-header">{{(item.translate | translate) || item.text}}</li><li ng-repeat="item in item.submenu" ng-include="'sidebar-renderer.html'" ng-class="getMenuItemPropClasses(item)" ng-init="pIndex=(pIndex+'-'+$index); inSubmenu = true" ng-click="toggleCollapse(pIndex)"></li></ul>
+   </script>
+   <!-- START Sidebar (left)-->
+   <div class="aside-inner">
+      <nav sidebar="" class="sidebar">
+         <!-- START sidebar nav-->
+         <ul class="nav">
+            <!-- Iterates over all sidebar items-->
+            <li ng-class="getMenuItemPropClasses(item)" ng-repeat="item in menuItems" ng-init="pIndex = $index" ng-include="'sidebar-renderer.html'" ng-click="toggleCollapse(pIndex, true)"></li>
+         </ul>
+         <!-- END sidebar nav-->
+      </nav>
+   </div>
+   <!-- END Sidebar (left)-->
+</aside>
+<!-- offsidebar-->
+<aside class="offsidebar">
+   <!-- START Off Sidebar (right)-->
+   <nav>
+      <tabset justified="true">
+         <tab>
+            <tab-heading>
+               <em class="fa fa-sliders"></em>
+            </tab-heading>
+            <div ng-include="'app/views/partials/settings.html'"></div>
+         </tab>
+         <!--tabtab-heading
+  em.fa.fa-chain-broken
+div
+  div(ng-include="'app/views/partials/offsidebar-tab2.html'")
+-->
+      </tabset>
+   </nav>
+   <!-- END Off Sidebar (right)-->
+</aside>
+<toaster-container toaster-options="{'time-out': 3000, 'close-button':true, 'animation-class': 'toast-top-center'}"></toaster-container>
+<!-- Main section-->
+<section>
+   <!-- Page content-->
+   <div ng-show="$root.user.name!=''" ui-view="" autoscroll="false" ng-class="app.viewAnimation" class="content-wrapper"></div>
+</section>
+<!-- Page footer-->
+<footer>
+   <span>&copy; {{app.year}} - {{ app.name }}</span>
+</footer>

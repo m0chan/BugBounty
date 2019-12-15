@@ -1,0 +1,23 @@
+https://www.corteva.com/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: www.corteva.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Sun, 15 Dec 2019 14:53:51 GMT
+< Server: ECAcc (lpl/EF33)
+< Set-Cookie: TS01cd730d=01afac7ebb619437e2ea68f4b632d3e2213c62de38a84a22634ac86ddbc99f572bc709908728b86c1e1122ddf8df272b80506238dd; Path=/; Secure; HTTPOnly
+< Content-Length: 248
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Sun, 15 Dec 2019 14:23:50 GMT
+< Location: https://www.corteva.com/phpinfo.php.html
+< Cache-Control: max-age=1800
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.corteva.com/phpinfo.php.html">here</a>.</p>
+</body></html>

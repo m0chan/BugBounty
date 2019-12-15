@@ -1,0 +1,15 @@
+https://stg1-api.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: stg1-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Request-Context: appId=cid-v1:efbef410-6cd7-40a7-b985-46fe54a0dbd4
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=4e8a51dc9165bd907c70a65faa47eb80f0a0ecc06a9af22efb19a5cbc488f39b;Path=/;HttpOnly;Domain=stg1-api.moj.io
+< Date: Sun, 15 Dec 2019 14:28:50 GMT
+< Content-Length: 103
+< Content-Type: text/html
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

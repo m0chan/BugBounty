@@ -1,0 +1,94 @@
+<h3>My Cars</h3>
+<!-- START widgets box-->
+<div ng-controller="mymojioCarsController" class="row">
+   <tabset>
+      <tab ng-repeat="vehicle in tabset.tabs" select="changeTab(vehicle)">
+         <tab-heading><i tooltip="{{vehicle.Name}}" class="fa fa-car">&nbsp;</i>
+            <span ng-if="tabset.tabs.length&lt;7 || vehicle._active">{{vehicle.Name}}</span>
+         </tab-heading>
+         <div ng-if="vehicle._active" class="row">
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="panel panel-primary">
+                     <div class="panel-heading"><i class="fa fa fa-car"></i>&nbsp; My Car's Status</div>
+                     <div class="panel-body">
+                        <h4>Parked</h4>
+                     </div>
+                  </div>
+                  <div class="panel panel-primary">
+                     <div class="panel-heading"><i class="fa fa fa-cubes"></i>&nbsp; Device</div>
+                     <div class="panel-body">
+                        <h4>Status: Disconnected</h4>
+                        <h4>IMEI: 2343423423423</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-9">
+                  <div class="panel panel-primary">
+                     <div class="panel-heading">Notifications</div>
+                     <div class="panel-body">
+                        <notification-grid broadcast="'off'" admin-mode="false" settings="false" row-detail="'off'" footer="'pagination'" api="[{'MojioModel':'Vehicles/' + vehicle._id + '/Events','defaultCriteria':'EventType=MILWarning,Accident,TowStart,LowBattery,ConnectionLost,HardAcceleration,HardBrake,LowFuel,Speed,Diagnostic','criteria':''}]"></notification-grid>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="panel">
+                     <div class="panel-body">
+                        <div class="col-md-3">
+                           <div class="panel panel-default">
+                              <div class="panel-heading">Car's Image</div>
+                              <div class="panel-body">image</div>
+                           </div>
+                        </div>
+                        <div class="col-md-3">
+                           <div class="panel panel-default">
+                              <div class="panel-heading">Car's Name</div>
+                              <div class="panel-body">{{vehicle.Name}}</div>
+                           </div>
+                           <div class="panel panel-default">
+                              <div class="panel-heading">Car's Plate</div>
+                              <div class="panel-body">{{vehicle.LicensePlate}}</div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="panel panel-default">
+                              <div class="panel-heading">Car's Info</div>
+                              <div class="panel-body">
+                                 <div class="row">
+                                    <div class="col-md-12">Vehicle Identification Number (VIN)</div>
+                                    <div class="col-md-12">{{vehicle.VIN}}</div>
+                                 </div>
+                                 <hr/>
+                                 <div class="row">
+                                    <div class="col-md-4">
+                                       <div class="row">
+                                          <div class="col-md-12">Make</div>
+                                          <div class="col-md-12">{{vehicle.Info.Make}}</div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="row">
+                                          <div class="col-md-12">Model</div>
+                                          <div class="col-md-12">{{vehicle.Info.Model}}</div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="row">
+                                          <div class="col-md-12">Year</div>
+                                          <div class="col-md-12">{{vehicle.Info.Year}}</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </tab>
+   </tabset>
+</div>

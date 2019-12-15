@@ -1,0 +1,18 @@
+https://prodblobcdnnew.azureedge.net/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: prodblobcdnnew.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Date: Sun, 15 Dec 2019 14:29:50 GMT
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 1e6b1ce5-501e-0116-3954-b3d7ad000000
+< Content-Length: 226
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: x-ms-request-id,Server,Content-Length,Date,Transfer-Encoding
+< Content-Type: application/xml
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>OutOfRangeInput</Code><Message>One of the request inputs is out of range.
+RequestId:1e6b1ce5-501e-0116-3954-b3d7ad000000
+Time:2019-12-15T14:29:51.3733247Z</Message></Error>

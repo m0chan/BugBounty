@@ -1,0 +1,28 @@
+https://tmobile-cz-segment-proxy.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: tmobile-cz-segment-proxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Security-Policy: default-src 'self'
+< Content-Length: 149
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=32b9fb9902870b7091a954ea692711f028d354822fb717dd7fd0b9de935f3045;Path=/;HttpOnly;Domain=tmobile-cz-segment-proxy.moj.io
+< Date: Sun, 15 Dec 2019 14:30:30 GMT
+< Request-Context: appId=cid-v1:d2da7254-80af-4f23-a3d0-8b25a889d971
+< Access-Control-Allow-Origin: *
+< X-Content-Type-Options: nosniff
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /swagger-ui</pre>
+</body>
+</html>

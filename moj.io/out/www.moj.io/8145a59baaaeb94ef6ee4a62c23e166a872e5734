@@ -1,0 +1,20 @@
+http://www.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: www.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Content-Length: 194
+< Location: https://www.moj.io/application.wadl
+< Server: nginx/1.14.0 (Ubuntu)
+< Date: Sun, 15 Dec 2019 14:29:55 GMT
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.14.0 (Ubuntu)</center>
+</body>
+</html>

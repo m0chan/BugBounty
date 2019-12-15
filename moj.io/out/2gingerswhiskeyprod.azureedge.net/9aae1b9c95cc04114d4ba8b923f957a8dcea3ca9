@@ -1,0 +1,322 @@
+https://2gingerswhiskeyprod.azureedge.net/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: 2gingerswhiskeyprod.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html; charset=UTF-8
+< Date: Sun, 15 Dec 2019 14:28:30 GMT
+< X-Generator: Drupal 8 (https://www.drupal.org)
+< Cache-Control: must-revalidate, no-cache, private
+< X-Frame-Options: SAMEORIGIN
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< Server: Apache/2.4.39 (Ubuntu)
+< X-Drupal-Cache: HIT
+< Content-Language: en
+< X-Content-Type-Options: nosniff
+< X-Ua-Compatible: IE=edge
+< Set-Cookie: ApplicationGatewayAffinity=acb12004b22e3118c4b8f0143cbc9f2349b8966e7e3ec21172ce0405f247dfb8;Path=/;Domain=www.2gingerswhiskey.com
+
+<!doctype html>
+<html itemscope itemtype="http://schema.org/" lang="en-us" class="locale-en-us">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65538320-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-65538320-1');
+    </script>
+            <meta charset="UTF-8"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+        <meta http-equiv="x-dns-prefetch-control" content="on"/>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta content="index,follow,all" name="robots"/>
+                                <link rel="stylesheet" href="/sites/default/files/css/css_Y-18bCpOGHsLZ1kgxyJyUH1mPktZhgnkDXgDwEID0mM.css?pwlvvl" media="all" />
+<link rel="stylesheet" href="/sites/default/files/css/css_zItchWMlb850Fgi0qND3O8KYO8LwvDj90rPiwCsy8OU.css?pwlvvl" media="all" />
+
+        <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","bsi_age_gate":{"countries":[{"code":"US","age":"21","label":"United States"},{"code":"AF","age":"illegal","label":"Afghanistan"},{"code":"AL","age":"18","label":"Albania"},{"code":"DZ","age":"18","label":"Algeria"},{"code":"AD","age":"18","label":"Andorra"},{"code":"AG","age":"0","label":"Antigua and Barbuda"},{"code":"AR","age":"18","label":"Argentina"},{"code":"AM","age":"18","label":"Armenia"},{"code":"AU","age":"18","label":"Australia"},{"code":"AT","age":"18","label":"Austria"},{"code":"AZ","age":"18","label":"Azerbaijan"},{"code":"BS","age":"18","label":"Bahamas"},{"code":"BH","age":"illegal","label":"Bahrain"},{"code":"DB","age":"","label":"Bangladesh"},{"code":"BY","age":"18","label":"Belarus"},{"code":"BE","age":"18","label":"Belgium"},{"code":"BZ","age":"18","label":"Belize"},{"code":"BJ","age":"20","label":"Benin"},{"code":"BM","age":"0","label":"Bermuda"},{"code":"BT","age":"18","label":"Bhutan"},{"code":"BO","age":"18","label":"Bolivia"},{"code":"BA","age":"18","label":"Bosnia and Herzegovina"},{"code":"BW","age":"18","label":"Botswana"},{"code":"BR","age":"18","label":"Brazil"},{"code":"DN","age":"illegal","label":"Brunei"},{"code":"BG","age":"18","label":"Bulgaria"},{"code":"BI","age":"16","label":"Burundi"},{"code":"CV","age":"18","label":"Cabo Verde"},{"code":"KH","age":"0","label":"Cambodia"},{"code":"CM","age":"0","label":"Cameroon"},{"code":"CA","age":"19","label":"Canada"},{"code":"KY","age":"18","label":"Cayman Islands"},{"code":"CL","age":"18","label":"Chile"},{"code":"CN","age":"18","label":"China"},{"code":"Code","age":"18","label":"Colombia"},{"code":"KM","age":"","label":"Comoros"},{"code":"CR","age":"18","label":"Costa Rica"},{"code":"HR","age":"18","label":"Croatia"},{"code":"CU","age":"16","label":"Cuba"},{"code":"CY","age":"18","label":"Cyprus"},{"code":"CZ","age":"18","label":"Czech Republic"},{"code":"DK","age":"18","label":"Denmark"},{"code":"DJ","age":"0","label":"Djibouti"},{"code":"DM","age":"16","label":"Dominica"},{"code":"DO","age":"18","label":"Dominican Republic"},{"code":"EC","age":"18","label":"Ecuador"},{"code":"EG","age":"21","label":"Egypt"},{"code":"SV","age":"18","label":"El Salvador"},{"code":"ER","age":"18","label":"Eritrea"},{"code":"EE","age":"18","label":"Estonia"},{"code":"ET","age":"18","label":"Ethiopia"},{"code":"FJ","age":"18","label":"Fiji"},{"code":"FI","age":"18","label":"Finland"},{"code":"FR","age":"18","label":"France"},{"code":"GA","age":"18","label":"Gabon"},{"code":"GM","age":"16","label":"Gambia"},{"code":"GE","age":"18","label":"Georgia"},{"code":"DE","age":"18","label":"Germany"},{"code":"GH","age":"18","label":"Ghana"},{"code":"GR","age":"18","label":"Greece"},{"code":"GD","age":"0","label":"Grenada"},{"code":"GT","age":"18","label":"Guatemala"},{"code":"GW","age":"0","label":"Guinea Bissau"},{"code":"GY","age":"18","label":"Guyana"},{"code":"HT","age":"0","label":"Haiti"},{"code":"HN","age":"18","label":"Honduras"},{"code":"HU","age":"18","label":"Hungary"},{"code":"IS","age":"20","label":"Iceland"},{"code":"IN","age":"","label":"India"},{"code":"ID","age":"21","label":"Indonesia"},{"code":"IR","age":"illegal","label":"Iran"},{"code":"IQ","age":"illegal","label":"Iraq"},{"code":"IE","age":"18","label":"Ireland"},{"code":"IL","age":"18","label":"Israel"},{"code":"IT","age":"18","label":"Italy"},{"code":"JM","age":"18","label":"Jamaica"},{"code":"JP","age":"20","label":"Japan"},{"code":"JO","age":"18","label":"Jordan"},{"code":"KZ","age":"21","label":"Kazakhstan"},{"code":"KE","age":"18","label":"Kenya"},{"code":"KI","age":"21","label":"Kiribati"},{"code":"KR","age":"19","label":"Korea, Republic of"},{"code":"KW","age":"illegal","label":"Kuwait"},{"code":"KG","age":"18","label":"Kyrgyzstan"},{"code":"LA","age":"18","label":"Lao People\u0027s Democratic Republic"},{"code":"LV","age":"18","label":"Latvia"},{"code":"LB","age":"18","label":"Lebanon"},{"code":"LS","age":"18","label":"Lesotho"},{"code":"LR","age":"18","label":"Liberia"},{"code":"LY","age":"illegal","label":"Libya"},{"code":"LI","age":"18","label":"Liechtenstein"},{"code":"LT","age":"18","label":"Lithuania"},{"code":"LU","age":"16","label":"Luxembourg"},{"code":"MK","age":"18","label":"Macedonia"},{"code":"MW","age":"18","label":"Malawi"},{"code":"MY","age":"18","label":"Malaysia"},{"code":"MV","age":"illegal","label":"Maldives"},{"code":"ML","age":"none","label":"Mali"},{"code":"MT","age":"17","label":"Malta"},{"code":"MH","age":"21","label":"Marshall Islands"},{"code":"MR","age":"illegal","label":"Mauritania"},{"code":"MU","age":"18","label":"Mauritius"},{"code":"MX","age":"18","label":"Mexico"},{"code":"MD","age":"18","label":"Moldova"},{"code":"MC","age":"18","label":"Monaco"},{"code":"MN","age":"21","label":"Mongolia"},{"code":"ME","age":"18","label":"Montenegro"},{"code":"MA","age":"","label":"Morocco"},{"code":"MZ","age":"18","label":"Mozambique"},{"code":"MM","age":"18","label":"Myanmar"},{"code":"NA","age":"18","label":"Namibia"},{"code":"NR","age":"21","label":"Nauru"},{"code":"NP","age":"18","label":"Nepal"},{"code":"NL","age":"18","label":"Netherlands"},{"code":"NZ","age":"18","label":"New Zealand"},{"code":"NI","age":"18","label":"Nicaragua"},{"code":"NE","age":"18","label":"Niger"},{"code":"NG","age":"","label":"Nigeria"},{"code":"NU","age":"18","label":"Niue"},{"code":"NO","age":"20","label":"Norway"},{"code":"OM","age":"21","label":"Oman"},{"code":"PK","age":"illegal","label":"Pakistan"},{"code":"PW","age":"21","label":"Palau"},{"code":"PA","age":"18","label":"Panama"},{"code":"PG","age":"18","label":"Papua New Guinea"},{"code":"PY","age":"20","label":"Paraguay"},{"code":"PE","age":"18","label":"Peru"},{"code":"PH","age":"18","label":"Philippines"},{"code":"PL","age":"18","label":"Poland"},{"code":"PT","age":"18","label":"Portugal"},{"code":"QA","age":"illegal","label":"Qatar"},{"code":"RO","age":"18","label":"Romania"},{"code":"RU","age":"18","label":"Russia"},{"code":"RW","age":"18","label":"Rwanda"},{"code":"KN","age":"18","label":"Saint Kitts and Nevis"},{"code":"LC","age":"18","label":"Saint Lucia"},{"code":"VC","age":"16","label":"Saint Vincent"},{"code":"WS","age":"21","label":"Samoa"},{"code":"SM","age":"16","label":"San Marino"},{"code":"ST","age":"0","label":"Sao Tome and Principe"},{"code":"SA","age":"illegal","label":"Saudi Arabia"},{"code":"SN","age":"18","label":"Senegal"},{"code":"RS","age":"18","label":"Serbia"},{"code":"SC","age":"18","label":"Seychelles"},{"code":"SL","age":"none","label":"Sierra Leone"},{"code":"SG","age":"18","label":"Singapore"},{"code":"SK","age":"18","label":"Slovakia"},{"code":"SI","age":"18","label":"Slovenia"},{"code":"SB","age":"21","label":"Solomon Islands"},{"code":"ZA","age":"18","label":"South Africa"},{"code":"ES","age":"18","label":"Spain"},{"code":"LK","age":"21","label":"Sri Lanka"},{"code":"SD","age":"illegal","label":"Sudan"},{"code":"SR","age":"18","label":"Suriname"},{"code":"SZ","age":"18","label":"Swaziland"},{"code":"SE","age":"20","label":"Sweden"},{"code":"CH","age":"18","label":"Switzerland"},{"code":"SY","age":"0","label":"Syria"},{"code":"TJ","age":"18","label":"Tajikistan"},{"code":"TZ","age":"18","label":"Tanzania"},{"code":"TH","age":"20","label":"Thailand"},{"code":"TL","age":"0","label":"Timor-Leste"},{"code":"TG","age":"0","label":"Togo"},{"code":"TO","age":"21","label":"Tonga"},{"code":"TT","age":"18","label":"Trinidad and Tobago"},{"code":"TR","age":"18","label":"Turkey"},{"code":"TM","age":"18","label":"Turkmenistan"},{"code":"UG","age":"18","label":"Uganda"},{"code":"UA","age":"18","label":"Ukraine"},{"code":"AE","age":"","label":"United Arab Emirates"},{"code":"GB","age":"18","label":"United Kingdom"},{"code":"UY","age":"18","label":"Uruguay"},{"code":"UZ","age":"20","label":"Uzbekistan"},{"code":"VU","age":"18","label":"Vanuatu"},{"code":"VE","age":"18","label":"Venezuela"},{"code":"VN","age":"18","label":"Vietnam"},{"code":"YE","age":"illegal","label":"Yemen"},{"code":"ZM","age":"14","label":"Zambia"},{"code":"ZW","age":"18","label":"Zimbabwe"}],"failed_redirect":"https:\/\/responsibility.org\/"},"product_locator":{"product_locator_url":"https:\/\/stagelocator.beamsuntory.com\/?brandId=1045\u0026cssUrl=2gingers\u0026productId=","contact_us_url":"https:\/\/beamsuntory.desk.com\/customer\/widget\/emails\/new?brand=2%20Gingers\u0026CssUrl=https:\/\/www.2gingerswhiskey.com\/core.css\u0026LotCode=684748-2-gingers","contact_us_css":""},"base_url":"https:\/\/www.2gingerswhiskey.com","user":{"uid":0,"permissionsHash":"99ee29eba8c3f4aaaecb5ab4818ac2e29785f5f3f6fe69c3a8a5b1ce7a0944f7"}}</script>
+
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="/sites/default/files/js/js_Xj_LmFbHq6XAyD1I2dzPVSljo73_ToAAKF5UhNFd6yA.js"></script>
+
+        <base href="/"/>
+</head>
+<body data-viewport data-device data-tracking="page_view">
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+        
+
+
+<header>
+<div data-role="wrapper">
+	<div class="title-bar" data-responsive-toggle="top-menu" data-hide-for="large">
+		<a href="https://www.2gingerswhiskey.com"><img class="badge" src="/sites/default/files/2Gs-Emblem.png"/></a>
+		<div class="mobile-menu">
+			<div class="mobile-logo"><a href="https://www.2gingerswhiskey.com" class="image-link"><img class="logo" src="https://www.2gingerswhiskey.com/modules/custom/bsi_core/src/img/logo.png" /></a></div>
+		</div>
+		<div class="title-icon">
+			<button class="menu-icon" type="button" data-toggle></button>
+		</div>
+	</div>
+	<div data-sticky-container>
+		<div class="top-bar" id="top-menu" data-animate="" data-sticky data-options="marginTop:0;stickyOn: large;" style="width:100%">
+			<div class="badge">
+				<a href="https://www.2gingerswhiskey.com"><img src="/sites/default/files/2Gs-Emblem.png"/></a>
+			</div>
+			<div class="menu-centered">
+				<!--<ul class="vertical large-horizontal menu-centered menu">
+					<li class="menu-left"><a href="#story" scroll-to >The Story</a></li>
+					<li class="show-for-large"><a href="/" class="image-link"><img class="logo" src="/img/logo.png" /></a></li>
+					<li class="menu-right"><a href="#products">The Whiskey</a></li>
+				</ul>-->
+				
+  	<ul class="vertical large-horizontal menu-centered menu">
+	 <li class="show-for-large"><a href="" class="image-link"><img class="logo" src="https://www.2gingerswhiskey.com/modules/custom/bsi_core/src/img/logo.png" /></a></li>
+		     <ul class="vertical large-horizontal menu-centered menu">
+									<li class="menu-left"><a href="/#story">The Story</a></li>
+																
+													<li class="menu-center"><a href="/#products">The Whiskey</a></li>
+												
+																<li class="menu-right"><a href="/#product-2">THE RECIPES</a></li>
+									
+																			<li class="menu-contest"><a href="/contest">THE CONTEST</a></li>
+						
+																		
+					</ul>		
+		
+	</ul>
+	
+
+
+			</div> 
+		</div>
+	</div>
+</div>
+</header>
+        The requested page could not be found.
+
+
+    
+    
+
+
+<footer>
+<div class="wrapper">
+    <div class="contact">
+		        <div class="row reach-us">
+		<div class="small-12 medium-6 small-centered columns">
+							<div class="icon"><p> </p></div>
+							
+					</div>
+            <div class="small-12 columns"><h2>Reach Us</h2>
+
+<div>Email: <a href="mailto:info@2gingerswhiskey.com">info@2gingerswhiskey.com</a></div>
+</div>
+        </div>
+        <div class="row visit-us">
+            <div class="small-12 columns"><h2>Visit Us</h2>
+
+<div>Lower Main St, Aghamore</div>
+
+<div>Kilbeggan, Co. Westmeath, Ireland</div>
+</div>
+        </div>
+        <div class="row connect">
+            <div class="small-12 columns">
+                <h2>
+                    Connect with us
+                </h2>
+                <div class="menu-centered">
+                    
+  			<ul class="menu">
+							<li>
+								<a href="https://www.facebook.com/2Gingers" class="image-link" target="_blank">					<img class="center" src="https://www.2gingerswhiskey.com/modules/custom/bsi_core/src/img/facebook.png" />
+				</a>
+				</li>
+							<li>
+								<a href="https://twitter.com/2gingerswhiskey" class="image-link" target="_blank">					<img class="center" src="https://www.2gingerswhiskey.com/modules/custom/bsi_core/src/img/twitter.png" />
+				</a>
+				</li>
+					</ul>
+	
+
+                </div>
+            </div>
+			<div class="small-12 medium-6 small-centered columns">
+							<div class="icon"><p> </p></div>
+							
+					</div>
+        </div>
+		    </div>
+    
+				<ul data-role="menu">
+							<li class="menu-item">
+					<a href="https://www.beamsuntory.com/" target="_blank">Beam Suntory Inc.</a>
+				</li>
+							<li class="menu-item">
+					<a href="http://www.beamsuntory.com/docs/BeamSuntoryMarketingCode_2015.pdf" target="_blank">Marketing Code</a>
+				</li>
+							<li class="menu-item">
+					<a href="https://www.beamsuntory.com/en/supply-chain-transparency">Supply Chain Transparency</a>
+				</li>
+							<li class="menu-item">
+					<a href="/terms" data-drupal-link-system-path="node/11">Terms and Conditions</a>
+				</li>
+							<li class="menu-item">
+					<a href="/privacy" data-drupal-link-system-path="node/13">Updated Privacy Policy</a>
+				</li>
+					</ul>
+	
+
+
+		<div class="bottom">
+			<div class="row">
+				<div class="small-12 columns">
+					<img src="https://www.2gingerswhiskey.com/modules/custom/bsi_core/src/img/2G-Emblem-Footer.png" alt="2ginger badge" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 columns">
+				<div class="text-center">
+					
+                                        
+    
+            <div><p class="text-center">2 GINGERS® Blended Irish Whiskey 40% Alc./Vol. ©<script>document.write(new Date().getFullYear())</script> Kilbeggan Distilling Import Company, Chicago, IL USA All trademarks are property of their respective owners.</p>
+</div>
+      
+
+				</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 columns">
+					<a href="http://www.drinksmart.com/"><img src="https://www.2gingerswhiskey.com/modules/custom/bsi_core/src/img/drink_smart.png" alt="drinksmart logo" /></a>
+				</div>
+			</div>
+		</div>
+</div>
+<div id="bottom_border" class="bottom_border"></div> 
+</footer>
+    
+
+
+<div class="full reveal" id="agegate" data-reveal data-options="closeOnEsc:false;closeOnClick:false;" age-gate ng-controller="AgeGateController" data-ng-init="init()">
+	<section data-role="agegate">
+		<div class="wrapper">
+									<div class="row">
+				<div class="small-12 columns">
+					<form id="contactform" name="ageForm">
+								<div class="row">
+			<div class="small-12 columns">
+				<img src="https://www.2gingerswhiskey.com/modules/custom/bsi_core/src/img/logo.png" class="center">
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12 columns">
+				<img src="https://www.2gingerswhiskey.com/modules/custom/bsi_core/src/img/Divider.png" class="center">
+			</div>
+		</div>
+		<div class="row">
+		<div class="small-12 small-centered text-center columns">
+		<p>
+		MUST BE 21 YEARS OF AGE TO ENTER
+		</p>
+		</div>
+		</div>		
+		<div class="row">
+			<div class="small-1 columns text-center"><p> </p></div>
+			<div class="small-3 columns text-center month">
+				<label id="month">
+					<label id="month">
+	<input name="month" ng-model="user.month" ng-change="monthChange(ageForm, 'day')" limit-to="2" select-on-click my-decimals type="tel" placeholder="00" class="text-center" autocomplete="off">
+	<span class="icon"></span>
+</label>
+<div class="text">
+  Month
+</div>					<span class="icon"></span>
+				</label>
+			</div>
+			<div class="small-3 columns text-center day">
+				<label id="day">
+					<label id="day">
+	<input name="day" ng-model="user.day" ng-change="dayChange(ageForm,'year')" limit-to="2" select-on-click my-decimals type="tel" placeholder="00" class="text-center" autocomplete="off">
+	<span class="icon"></span>
+</label>
+<div class="text">
+  Day
+</div>					<span class="icon"></span>
+				</label>
+			</div>
+			<div class="small-5 columns text-center year">
+				<label id="year">
+					<label id="year">
+	<input name="year" ng-model="user.year" ng-change="yearChange(ageForm, 'remember')" limit-to="4" select-on-click my-decimals type="tel" placeholder="0000" class="text-center" autocomplete="off">
+	<span class="icon"></span>
+</label>
+<div class="text">
+  Year
+</div>					<span class="icon"></span>
+				</label>
+			</div>
+		</div>												
+		<div class="row">
+			<fieldset id="remember" class="small-12 medium-11 medium-centered large-8 columns">
+				<fieldset id="remember">
+    <input id="rememeber-box" ng-model="user.remember" type="checkbox">
+    <label for="rememeber-box">REMEMBER ME</label>
+</fieldset>			</fieldset>
+		</div>			
+		<!-- <div class="row">
+		<div class="small-12 small-centered columns text-center error-message ng-binding">
+		</div>
+		</div> -->
+		<div class="row">
+		<div class="small-12 columns text-center terms">
+		By entering you agree to our <a href="https://www.2gingerswhiskey.com/terms" class="normal">Terms and Conditions</a> and our <a href="https://www.2gingerswhiskey.com/privacy" class="normal">Privacy Policy</a>.
+		</div>
+		</div>	
+		<div class="row">
+			<div class="small-12 columns text-center">
+			<input type="submit" name="submit" id="enter" href="#" class="button" value="Enter" ng-click="enter()">			</div>
+		</div>
+    								
+					</form>				
+				</div>
+			</div>
+					<div class="row footer">
+			<div class="small-12 columns">
+			
+                                        
+    
+            <div><p class="text-center">2 GINGERS® Blended Irish Whiskey 40% Alc./Vol. ©<script>document.write(new Date().getFullYear())</script> Kilbeggan Distilling Import Company, Chicago, IL USA All trademarks are property of their respective owners.</p>
+</div>
+      
+
+			<a href="http://www.drinksmart.com/" class="drink-smart">
+				<img src="https://www.2gingerswhiskey.com/modules/custom/bsi_core/src/img/Drink-Smart.png" alt="drinksmart logo">
+			</a>
+			</div>
+		</div>
+    		</div>
+	</section>
+</div>
+
+  </div>
+
+    
+    
+<!--[if lte IE 9]>
+<![endif]-->
+
+<script src="/sites/default/files/js/js_oZhy98IND7CCERS_4thdosdL_HMMZaKPQfzBrQ8VUdU.js"></script>
+
+
+</body>
+</html>

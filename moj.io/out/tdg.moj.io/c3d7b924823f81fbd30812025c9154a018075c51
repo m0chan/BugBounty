@@ -1,0 +1,32 @@
+http://tdg.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: tdg.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Id-2: 3CfXlnUmTqgKvyCzWkSh8ZftjYHeDcpnCmsnfFUsxD7mOu7wK430TDXHOB4q6C39wTCFw5VC1hw=
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 454
+< Date: Sun, 15 Dec 2019 14:30:00 GMT
+< Server: AmazonS3
+< X-Amz-Request-Id: A61ADC8F0A1B8D9F
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<h1>403 Forbidden</h1>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+<li>RequestId: A61ADC8F0A1B8D9F</li>
+<li>HostId: 3CfXlnUmTqgKvyCzWkSh8ZftjYHeDcpnCmsnfFUsxD7mOu7wK430TDXHOB4q6C39wTCFw5VC1hw=</li>
+</ul>
+<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+</ul>
+<hr/>
+</body>
+</html>

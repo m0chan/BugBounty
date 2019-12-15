@@ -1,0 +1,18 @@
+http://force-us-app.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: force-us-app.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://force-us-app.moj.io/security.txt
+< Content-Length: 0
+< Date: Sun, 15 Dec 2019 14:29:51 GMT
+< X-Served-By: cache-man4123-MAN
+< X-Cache: HIT
+< Server: Varnish
+< Accept-Ranges: bytes
+< X-Cache-Hits: 0
+< X-Timer: S1576420191.380549,VS0,VE0
+< Retry-After: 0
+

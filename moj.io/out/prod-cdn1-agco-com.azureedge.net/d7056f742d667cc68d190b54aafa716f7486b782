@@ -1,0 +1,23 @@
+https://prod-cdn1-agco-com.azureedge.net/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: prod-cdn1-agco-com.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:29:21 GMT
+< Location: https://prod-cdn1-agco-com.azureedge.net/apidocs.html
+< Server: ECAcc (lpl/EF4E)
+< Content-Length: 261
+< Cache-Control: max-age=1800
+< Content-Type: text/html; charset=iso-8859-1
+< Expires: Sun, 15 Dec 2019 14:59:21 GMT
+< Set-Cookie: TS01cd730d=01afac7ebb204bac3dbdff60da5ea7c66b951ba36420e3f4a88f16376a859b2b17734c80e97995d7bfe12d09ae2f554b99c681f4e3; Path=/; Secure; HTTPOnly
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://prod-cdn1-agco-com.azureedge.net/apidocs.html">here</a>.</p>
+</body></html>

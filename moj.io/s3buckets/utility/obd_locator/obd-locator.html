@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-controller="myCtrl">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<head>
+    <meta charset="UTF-8">
+
+    <title>OBD Locator</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.1.3/ui-bootstrap-tpls.min.js"></script>
+    <script src="bower_components/angular-translate/angular-translate.min.js"></script>
+    <script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+
+    <script src="script/common.js?v=20161120-01"></script>
+    <script src="script/obd-locator.js?v=20161120-01"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6269334/6300352/css/fonts.css" />
+
+    <link ng-href="style/{{brand}}/style.css" rel="stylesheet"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body ng-class="iframe == 'true'? 'bg-khaki' : 'bg-charcoal'">
+
+    <div class="container-fluid">
+
+        <div ng-if="iframe == 'false'">
+            <div class="row bg-blue pt15"> <!-- Carrier Logo  -->
+                <a href="{{logoUrl}}" class="fs16 fw400 text-white">
+                    <img class="logo" ng-src="style/{{brand}}/logo.png"/>
+                </a>
+            </div> <!-- Carrier Logo  -->
+
+            <div class="row bg-blue text-center text-white fs35 fw800 ls3 pt25 text-padding"> <!-- Title -->
+                {{ 'obd_locator.title' | translate }}
+            </div> <!-- Title -->
+
+            <div class="row bg-blue text-center text-white fs16 fw400 pt5 text-padding"> <!-- Description -->
+                {{ 'obd_locator.desc' | translate }}
+            </div> <!-- Description -->
+
+            <div class="row bg-blue pt25 pb40 text-center">
+                <img ng-src="style/{{brand}}/device.png" />
+            </div>
+        </div>
+
+        <div class="row bg-khaki fs35 fw800 pt25 ls3 text-padding text-center text-dark">
+            {{ 'obd_locator.select_car' | translate }}
+        </div>
+
+        <div class="row bg-khaki fs16 fw400 pt16 text-padding text-center text-dark">
+            {{ 'obd_locator.check_if_compatible' | translate }}
+        </div>
+
+        <div class="row bg-khaki pt15 text-center">
+            <span>
+                <select class="nice" ng-model="data.Selected.Year" ng-change="YearChange()">
+                    <option value="">{{ 'obd_locator.select_year' | translate }}</option>
+                    <option ng-repeat="option in data.Years" value="{{option}}">{{option}}</option>
+                </select>
+            </span>
+            <span>
+                <select class="nice" ng-model="data.Selected.Make" ng-change="MakeChange()" ng-disabled="data.Selected.Year==''">
+                    <option value="">{{ 'obd_locator.select_make' | translate }}</option>
+                    <option ng-repeat="option in data.Makes | orderBy" value="{{option}}">{{option}}</option>
+                </select>
+            </span>
+            <span>
+                <select class="nice" ng-model="data.Selected.Model" ng-change="ModelChange()" ng-disabled="data.Selected.Make==''">
+                    <option value="">{{ 'obd_locator.select_model' | translate }}</option>
+                    <option ng-repeat="option in data.Models | orderBy" value="{{option}}">{{option}}</option>
+                </select>
+            </span>
+            <span>
+                <select class="nice" ng-model="data.Selected.Engine" ng-change="EngineChange()" ng-disabled="data.Selected.Model==''">
+                    <option value="">{{ 'obd_locator.select_engine' | translate }}</option>
+                    <option ng-repeat="option in data.Engines | orderBy" value="{{option}}">{{option}}</option>
+                </select>
+            </span>
+        </div>
+
+        <div class="row bg-khaki fs18 fw800 pt25 ls3 text-padding text-center text-dark">
+            {{data.Compatible}}
+        </div>
+
+        <div class="row bg-khaki fs16 fw400 pt5 pb25 text-padding text-center text-dark">
+            {{data.Location}}
+        </div>
+
+        <div class="row bg-khaki text-center m">
+            <img ng-if="data.Image.length!=0" ng-src="style/{{brand}}/{{data.Image}}.png" class="img-responsive img-center" />
+        </div>
+
+        <div ng-if="iframe == 'false'">
+            <div class="row fs25 fw800 pt25 ls3 text-padding text-center text-white">
+                {{ 'obd_locator.need_help' | translate }}
+            </div>
+
+            <div class="row pb25 ls3 pt15 text-padding text-center text-white"> <!-- Contact Us - Button -->
+                <a href="{{contactUrl}}" class="contact-button fs14" target="_blank">{{ 'obd_locator.contact_us' | translate }}</a>
+            </div> <!-- Contact Us - Button -->
+            <div class="version">{{ 'obd_locator.version' | translate }}</div> 
+        </div> 
+
+    </div>
+        
+</body>
+
+</html>

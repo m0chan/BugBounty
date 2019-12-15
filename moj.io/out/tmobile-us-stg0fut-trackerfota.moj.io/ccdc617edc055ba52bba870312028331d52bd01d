@@ -1,0 +1,96 @@
+http://tmobile-us-stg0fut-trackerfota.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: tmobile-us-stg0fut-trackerfota.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+< X-Cache: TCP_MISS
+< X-Powered-By: PHP/7.2.25
+< X-Azure-Ref: 0O0P2XQAAAAClxkQUjuOhQ4bXa0p9nSjdTUFOMzBFREdFMDMyMQAwY2JjZGJhMC1mZmNmLTRiNjAtOTYxMC0zZDEzMzA4ZDdjOGQ=
+< Cache-Control: max-age=0; private
+< Content-Type: text/html; charset=UTF-8
+< Server: Apache
+< X-Azure-Ref-Originshield: 0O0P2XQAAAABodyj1eOThSLiopyYtAR4hTE9OMjFFREdFMDMxMwAwY2JjZGJhMC1mZmNmLTRiNjAtOTYxMC0zZDEzMzA4ZDdjOGQ=
+< Date: Sun, 15 Dec 2019 14:29:14 GMT
+< Keep-Alive: timeout=15
+
+<!DOCTYPE html>
+<html class="no-js seed-csp4" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Nothing found for  Apidocs</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		
+		<!-- Bootstrap and default Style -->
+<link rel="stylesheet" href="http://aidesigns.net/wp-content/plugins/coming-soon/themes/default/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://aidesigns.net/wp-content/plugins/coming-soon/themes/default/style.css">
+<style type="text/css">
+/* calculated styles */
+
+	/* Background Style */
+    html{
+		        	background: #fafafa;
+		    }
+    .seed-csp4 body{
+							background: transparent;
+				}
+	
+	
+	
+    /* Text Styles */
+    	    .seed-csp4 body{
+	        font-family: Helvetica, Arial, sans-serif	    }
+
+	    .seed-csp4 h1, .seed-csp4 h2, .seed-csp4 h3, .seed-csp4 h4, .seed-csp4 h5, .seed-csp4 h6{
+	        font-family: Helvetica, Arial, sans-serif	    }
+    
+    		.seed-csp4 body{
+			color:#666666;
+		}
+    
+            
+
+    		.seed-csp4 h1, .seed-csp4 h2, .seed-csp4 h3, .seed-csp4 h4, .seed-csp4 h5, .seed-csp4 h6{
+			color:#444444;
+		}
+    
+
+    		.seed-csp4 a, .seed-csp4 a:visited, .seed-csp4 a:hover, .seed-csp4 a:active{
+			color:#27AE60;
+		}
+
+
+    </style>
+<!-- JS -->
+<script src="http://aidesigns.net/wp-includes/js/jquery/jquery.js"></script>
+<script src="http://aidesigns.net/wp-content/plugins/coming-soon/themes/default/bootstrap/js/bootstrap.js"></script>
+<script src="http://aidesigns.net/wp-content/plugins/coming-soon/themes/default/js/script.js"></script>
+<!-- Modernizr -->
+<script src="http://aidesigns.net/wp-content/plugins/coming-soon/themes/default/js/modernizr.min.js"></script>
+
+		
+	</head>
+<body>
+<div id="seed-csp4-page">
+		<div id="seed-csp4-content">
+			
+			<h1 id="seed-csp4-headline">Our Website is Coming Soon</h1>
+			<div id="seed-csp4-description"><p>Sub Takeover</p>
+</div>
+		</div><!-- / #seed-csp4-content -->
+
+
+<!--[if lt IE 9]>
+		<script>
+		jQuery(document).ready(function($){$.supersized({slides:[ {image : ''} ]});});
+		</script>
+		<![endif]-->
+</div>
+</body>
+</html>
+
+<!-- Coming Soon Page and Maintenance Mode by SeedProd. Learn more: http://www.seedprod.com -->

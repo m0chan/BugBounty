@@ -1,0 +1,30 @@
+http://developer.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: developer.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Cf-Cache-Status: DYNAMIC
+< Cf-Ray: 54591b16df96366f-MAN
+< X-Amz-Id-2: BlEbZdr7KKij4LXkZdKvdTgQIs9xv9ifge4clOorIRQ7e20fuxxDo/jMJCKe5NCGANK3aipRuds=
+< Server: cloudflare
+< Date: Sun, 15 Dec 2019 14:28:45 GMT
+< Content-Type: text/html; charset=utf-8
+< Set-Cookie: __cfduid=db0d9c9ac837d38d6223392802b38eb111576420125; expires=Tue, 14-Jan-20 14:28:45 GMT; path=/; domain=.moj.io; HttpOnly
+< X-Amz-Request-Id: C2D99A747A68DAEE
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+<ul>
+<li>Code: NoSuchBucket</li>
+<li>Message: The specified bucket does not exist</li>
+<li>BucketName: developer.moj.io</li>
+<li>RequestId: C2D99A747A68DAEE</li>
+<li>HostId: BlEbZdr7KKij4LXkZdKvdTgQIs9xv9ifge4clOorIRQ7e20fuxxDo/jMJCKe5NCGANK3aipRuds=</li>
+</ul>
+<hr />
+</body>
+</html>

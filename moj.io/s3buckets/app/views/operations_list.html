@@ -1,0 +1,55 @@
+<h3>Operation List</h3>
+<span ng-controller="mojioGridController" data-alias="OperationsGrid" data-mojioapi="[{&quot;MojioModel&quot;:&quot;operations&quot;,&quot;defaultCriteria&quot;:&quot;&quot;,&quot;criteria&quot;:&quot;&quot;}]">
+   <span st-pipe="callServer" st-table="displayed">
+      <div class="panel-body">
+         <table class="table">
+            <thead ng-show="selectedRow==null">
+               <tr>
+                  <th colspan="1"><i class="fa fa-tasks fa-2x"></i>
+                  </th>
+                  <th ng-show="s.f[0].show" data-show="true" st-sort="IMEI" class="fieldHeader">NAME</th>
+                  <th ng-show="s.f[1].show" data-show="true" st-sort="NAME" class="fieldHeader">TYPE</th>
+                  <th ng-show="s.f[2].show" data-show="true" st-sort="STATE" class="fieldHeader">STATE</th>
+                  <th ng-show="s.f[3].show" data-show="true" st-sort="CONTACT" class="fieldHeader">PROGRESS</th>
+                  <th ng-show="s.f[4].show" data-show="true" st-sort="CONTACT" class="fieldHeader">DATE SUBMITTED</th>
+                  <th ng-show="s.f[5].show" data-show="true" st-sort="CONTACT" class="fieldHeader">DATE MODIFIED</th>
+               </tr>
+            </thead>
+            <tbody ng-show="selectedRow==null &amp;&amp; !isLoading">
+               <tr ng-repeat="row in displayed">
+                  <td>
+                     <a href="" ng-click="detailRow(row)">
+                        <li class="fa fa-eye"></li>
+                     </a>
+                  </td>
+                  <td ng-show="s.f[0].show">{{row.Name}}</td>
+                  <td ng-show="s.f[1].show">{{row.Type}}</td>
+                  <td ng-show="s.f[2].show">{{row.OperationState}}</td>
+                  <td ng-show="s.f[3].show">
+                     <progressbar max="100" value="row.Progress" ng-style="{height:7}" class="progress-striped active"></progressbar>
+                  </td>
+                  <td ng-show="s.f[4].show">{{row.DateSubmitted | date:'yy-MM-dd HH:mm'}}</td>
+                  <td ng-show="s.f[5].show">{{row.DateModified | date:'yy-MM-dd HH:mm'}}</td>
+               </tr>
+            </tbody>
+            <tbody ng-show="selectedRow!=null &amp;&amp; selectedType==&quot;&quot;">
+               <tr>
+                  <td>
+                     <button type="button" href="" ng-click="detailRow(null)" class="btn">
+                        <li class="fa fa-arrow-left"></li>Close</button>
+                     <br/>
+                     <br/>
+                     <pre ng-if="rowDetail=='lite'">{{selectedRow | json}}</pre>
+                     <json-formatter ng-if="rowDetail!='lite'" open="1" json="selectedRow"></json-formatter>
+                  </td>
+               </tr>
+            </tbody>
+            <tr ng-show="selectedRow==null &amp;&amp; (displayed.length!=0 || isLoading)">
+               <td ng-show="isLoading" colspan="40"><i class="fa fa-spinner fa-spin fa-2x"></i>
+               </td>
+               <td ng-show="!isLoading" st-pagination="" st-displayed-pages="10" st-items-by-page="itemsPerPage || 10" colspan="40" class="text-center"></td>
+            </tr>
+         </table>
+      </div>
+   </span>
+</span>

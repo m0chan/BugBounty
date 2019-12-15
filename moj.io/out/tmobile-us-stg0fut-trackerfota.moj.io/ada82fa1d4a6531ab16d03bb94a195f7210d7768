@@ -1,0 +1,14 @@
+https://tmobile-us-stg0fut-trackerfota.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: tmobile-us-stg0fut-trackerfota.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Internal Server Error
+< Content-Length: 26
+< X-Cache: TCP_MISS
+< X-Azure-Ref-Originshield: 0LEP2XQAAAABn3emuTaVsR4IItN0bq9GaTE9OMjFFREdFMDMxNgAwY2JjZGJhMC1mZmNmLTRiNjAtOTYxMC0zZDEzMzA4ZDdjOGQ=
+< X-Azure-Ref: 0LEP2XQAAAACqtOk6qMG/Ro7naO5TYu+NTUFOMzBFREdFMDMyMQAwY2JjZGJhMC1mZmNmLTRiNjAtOTYxMC0zZDEzMzA4ZDdjOGQ=
+< Date: Sun, 15 Dec 2019 14:29:00 GMT
+
+Internal Error 0x830c0108.

@@ -1,0 +1,13 @@
+<i ng-click="offer.show=!offer.show" ng-class="{ 'fa-caret-right': !offer.show, 'fa-caret-down': offer.show }" class="fa-li fa"></i>
+<img width="32" height="32" src="{{offer.icon}}" ng-click="" image-uploader="offer.icon" class="bt bl br bb" />&nbsp;<a href="" editable-text="offer.name" buttons="no">{{ offer.name || 'No Name Offer' }}</a>
+<ul ng-show="offer.show" class="fa-ul">
+   <li><i class="fa-li fa fa-align-justify"></i>Description:&nbsp;<a href="" editable-text="offer.description" buttons="no">{{offer.description || 'No Description'}}</a>
+   </li>
+   <li><i class="fa-li fa fa-picture-o"></i>Artwork:&nbsp;
+      <img image-modal="offer.artwork" style="max-width:32px;height:auto" src="{{offer.artwork}}" ng-click="" class="bt bl br bb" /><a ng-click="" image-uploader="offer.artwork">Change</a>
+   </li>
+   <li><i class="fa-li fa fa-calendar"></i>Expires:&nbsp;<a href="" editable-text="offer.expires" buttons="no">{{offer.expires}}</a>
+   </li>
+   <li><a are-you-sure="$parent.RemoveOffer(offer,parent)" class="text-danger"><i class="fa fa-li fa-minus-square"></i>Delete</a>
+   </li>
+</ul>

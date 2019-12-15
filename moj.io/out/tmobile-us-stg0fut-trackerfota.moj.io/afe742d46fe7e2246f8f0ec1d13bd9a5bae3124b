@@ -1,0 +1,236 @@
+http://tmobile-us-stg0fut-trackerfota.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: tmobile-us-stg0fut-trackerfota.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Keep-Alive: timeout=15
+< Link: <http://aidesigns.net/wp-json/>; rel="https://api.w.org/"
+< X-Azure-Ref: 0XkL2XQAAAAAkzqCbFsAVQJPe984XpXc6TUFOMzBFREdFMDMyMAAwY2JjZGJhMC1mZmNmLTRiNjAtOTYxMC0zZDEzMzA4ZDdjOGQ=
+< Date: Sun, 15 Dec 2019 14:25:34 GMT
+< X-Azure-Ref-Originshield: 0XkL2XQAAAABoBmG2Et7mR4PfyVdxQ61hTE9OMjFFREdFMDMwOQAwY2JjZGJhMC1mZmNmLTRiNjAtOTYxMC0zZDEzMzA4ZDdjOGQ=
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< Content-Type: text/html; charset=UTF-8
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+< Server: Apache
+< X-Cache: TCP_MISS
+< X-Powered-By: PHP/7.2.25
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://aidesigns.net/xmlrpc.php">
+<title>Nothing found for  Admin Php</title>
+
+<!-- All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[338,379] -->
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="root@m0chan &raquo; Feed" href="http://aidesigns.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="root@m0chan &raquo; Comments Feed" href="http://aidesigns.net/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/aidesigns.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.16"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='DOPBSP-css-dopselect-css'  href='http://aidesigns.net/wp-content/plugins/booking-system/libraries/css/jquery.dop.Select.css?ver=4.7.16' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_frontend-css'  href='http://aidesigns.net/wp-content/plugins/photo-gallery/css/bwg_frontend.css?ver=1.3.37' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_font-awesome-css'  href='http://aidesigns.net/wp-content/plugins/photo-gallery/css/font-awesome/font-awesome.css?ver=4.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_mCustomScrollbar-css'  href='http://aidesigns.net/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.css?ver=1.3.37' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_sumoselect-css'  href='http://aidesigns.net/wp-content/plugins/photo-gallery/css/sumoselect.css?ver=3.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='kraft-lite-font-css'  href='//fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C600%2C700%2C800%2C900%7CPT+Sans%3A300%2C400%2C600%2C700&#038;ver=4.7.16' type='text/css' media='all' />
+<link rel='stylesheet' id='kraft-lite-basic-style-css'  href='http://aidesigns.net/wp-content/themes/kraft-lite/style.css?ver=4.7.16' type='text/css' media='all' />
+<link rel='stylesheet' id='kraft-lite-editor-style-css'  href='http://aidesigns.net/wp-content/themes/kraft-lite/editor-style.css?ver=4.7.16' type='text/css' media='all' />
+<link rel='stylesheet' id='kraft-lite-nivoslider-style-css'  href='http://aidesigns.net/wp-content/themes/kraft-lite/css/nivo-slider.css?ver=4.7.16' type='text/css' media='all' />
+<link rel='stylesheet' id='kraft-lite-main-style-css'  href='http://aidesigns.net/wp-content/themes/kraft-lite/css/responsive.css?ver=4.7.16' type='text/css' media='all' />
+<link rel='stylesheet' id='kraft-lite-base-style-css'  href='http://aidesigns.net/wp-content/themes/kraft-lite/css/style_base.css?ver=4.7.16' type='text/css' media='all' />
+<link rel='stylesheet' id='kraft-lite-font-awesome-style-css'  href='http://aidesigns.net/wp-content/themes/kraft-lite/css/font-awesome.min.css?ver=4.7.16' type='text/css' media='all' />
+<link rel='stylesheet' id='kraft-lite-animation-style-css'  href='http://aidesigns.net/wp-content/themes/kraft-lite/css/animation.css?ver=4.7.16' type='text/css' media='all' />
+<link rel='stylesheet' id='newsletter-subscription-css'  href='http://aidesigns.net/wp-content/plugins/newsletter/subscription/style.css?ver=4.8.9' type='text/css' media='all' />
+<script type='text/javascript' src='http://aidesigns.net/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/booking-system/libraries/js/dop-prototypes.js?ver=4.7.16'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/photo-gallery/js/bwg_frontend.js?ver=1.3.37'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectsL10n = {"bwg_select_tag":"Select Tag","bwg_search":"Search"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/photo-gallery/js/jquery.mobile.js?ver=1.3.37'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=1.3.37'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/photo-gallery/js/jquery.fullscreen-0.4.1.js?ver=0.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/photo-gallery/js/bwg_gallery_box.js?ver=1.3.37'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/themes/kraft-lite/js/jquery.nivo.slider.js?ver=4.7.16'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/themes/kraft-lite/js/custom.js?ver=4.7.16'></script>
+<link rel='https://api.w.org/' href='http://aidesigns.net/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://aidesigns.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://aidesigns.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.16" />
+        	<style type="text/css">
+					
+					a, .header .header-inner .nav ul li a:hover, 
+					.header .header-inner .nav ul li.current_page_item a,
+					.social-icons a:hover, 
+					.signin_wrap .right .fa, .wrap_one .fa,
+					.services-wrap .one_third:hover h4,
+					.services-wrap .one_third:hover a.rdmore,
+					.blog_lists h2 a:hover,
+					#sidebar ul li a:hover,
+					.recent-post h6:hover,
+					.cols-3 ul li a:hover, .cols-3 ul li.current_page_item a
+					{ color:#34c6f6;}
+					
+					.searchbox-icon, .searchbox-submit, 
+					.services-wrap .one_third:hover .fa, 
+					h3.widget-title, 
+					.pagination ul li .current, .pagination ul li a:hover, 
+					#commentform input#submit:hover{ background-color:#34c6f6;}
+					
+			</style>
+	<style type="text/css">
+		
+	</style>
+	</head>
+
+<body class="error404">
+<div class="header">
+
+        <div class="header-inner">
+                <div class="logo">
+                        <a href="http://aidesigns.net/">
+                                <h1>root@m0chan</h1>
+                                <span class="tagline"></span>
+                        </a>
+                 </div><!-- logo -->
+                <div class="toggle">
+                <a class="toggleMenu" href="#">Menu</a>
+                </div><!-- toggle -->
+                <div class="nav">
+                    <div class="menu-mainmenu-container"><ul id="menu-mainmenu" class="menu"><li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="http://aidesigns.net"><i ></i>Home<span></span></a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://aidesigns.net/services/"><i ></i>Services<span></span></a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://aidesigns.net/portfolio-2/"><i ></i>Portfolio<span></span></a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://aidesigns.net/portfolio/"><i ></i>Contact Us<span></span></a></li>
+</ul></div>                </div><!-- nav --><div class="clear"></div>
+                    </div><!-- header-inner -->
+</div><!-- header -->
+
+
+<div class="container">
+    <div class="page_content">
+        <section class="site-main" id="sitemain">
+                <h1 class="entry-title">404 Not Found</h1>
+            <div class="page-content">
+                <p class="text-404">Looks like you have taken a wrong turn..... Don't worry... it happens to the best of us. Maybe try a search?</p>
+               <div class="clear"></div>
+               <div><form role="search" method="get" class="search-form" action="http://aidesigns.net/">
+	<label>
+				<input type="search" class="search-field" placeholder="Search..." value="" name="s">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+</div>
+               <div class="space20 clear"></div>
+               <div><h2><strong>Recent Posts</strong></h2>	<a href='http://aidesigns.net/hello-world/'>Hello world!</a><br />
+</div>
+            </div><!-- .page-content -->
+        </section>
+        <div class="clear"></div>
+    </div>
+</div>
+<div id="footer-wrapper">
+    	<div class="container">
+             <div class="cols-3 widget-column-1">
+               <h5>About Kraft</h5>
+                <p>Nam aliquet aliquam ipsum eget volutpat. Duis nec porta purus. Integer adipiscing augue sit amet libero vulputate, et fermentum nibh rutrum. In bibendum nisi sed consequat hendrerit. Aliquam.</p>
+<p>Quisque elementum, dolor nec tempus eleifend, nibh mauris aliquet ante, eu tempus sapien nisi non nunc. Nulla facilisi. Suspendisse lobortis laoreet risus, a posuere mauris facilisis at. In viverra euismod velit non cursus. </p>               <div class="clear"></div>
+
+              <p class="parastyle"></p>
+              <p>07976117634              Email: <a href="mailto:aidan@aidesigns.net">aidan@aidesigns.net</a></p>
+
+
+
+                <div class="clear"></div>
+                <div class="social-icons">
+					                    <a title="facebook" class="fa fa-facebook fa-1x" target="_blank" href="#facebook"></a>
+                    
+                                        <a title="twitter" class="fa fa-twitter fa-1x" target="_blank" href="#twitter"></a>
+                    
+                                        <a title="google-plus" class="fa fa-google-plus fa-1x" target="_blank" href="#gplus"></a>
+                    
+                                        <a title="linkedin" class="fa fa-linkedin fa-1x" target="_blank" href="#linkedin"></a>
+                                    </div>
+              </div>
+
+             <div class="cols-3 widget-column-2">
+            	<h5>Useful Links</h5>
+                <div class="menu">
+                  <ul>
+                   <li><a href="#">Home</a></li><li><a href="#">About Us</a></li><li><a href="#">Portfolio</a></li><li><a href="#">Contact Us</a></li>                  </ul>
+                </div>
+
+              </div>
+               <div class="cols-3 widget-column-3">
+                   <h5><u>Contact Us</u></h5>
+                   <p>Upperflat, Brightview, High Street, Rattray, PH10 7DL</p>
+                   <br>
+					         <i class="fa fa-phone" aria-hidden="true">07976117634></i>
+                </div>
+            <div class="clear"></div>
+        </div><!--end .container-->
+
+        <div class="copyright-wrapper">
+        	<div class="container">
+            	
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+<script type='text/javascript' src='http://aidesigns.net/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='http://aidesigns.net/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/booking-system/libraries/js/jquery.dop.Select.js?ver=4.7.16'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/booking-system/assets/js/jquery.dop.frontend.BSPCalendar.js?ver=4.7.16'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/booking-system/assets/js/frontend.js?ver=4.7.16'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/booking-system/assets/js/deposit/frontend-deposit.js?ver=4.7.16'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/booking-system/assets/js/discounts/frontend-discounts.js?ver=4.7.16'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/booking-system/assets/js/fees/frontend-fees.js?ver=4.7.16'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/booking-system/assets/js/rules/frontend-rules.js?ver=4.7.16'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var newsletter = {"messages":{"email_error":"The email is not correct","name_error":"The name is not correct","surname_error":"The last name is not correct","privacy_error":"You must accept the privacy statement"},"profile_max":"20"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://aidesigns.net/wp-content/plugins/newsletter/subscription/validate.js?ver=4.8.9'></script>
+<script type='text/javascript' src='http://aidesigns.net/wp-includes/js/wp-embed.min.js?ver=4.7.16'></script>
+
+</body>
+</html>

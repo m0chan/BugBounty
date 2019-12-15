@@ -1,0 +1,15 @@
+http://jira.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: jira.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Sun, 15 Dec 2019 15:29:16 GMT
+< Server: cloudflare
+< Date: Sun, 15 Dec 2019 14:29:16 GMT
+< Cache-Control: max-age=3600
+< Location: https://1mojio.atlassian.net/apidocs
+< Vary: Accept-Encoding
+< Cf-Ray: 54591bdc9b603639-MAN
+

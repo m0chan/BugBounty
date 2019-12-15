@@ -1,0 +1,14 @@
+http://static-goodr-staging.azureedge.net/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: static-goodr-staging.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Sun, 15 Dec 2019 14:30:25 GMT
+< Location: https://static.staging-maddfunding.com/
+< Server: ECAcc (lpl/EF41)
+< Content-Length: 0
+< Cache-Control: no-cache
+< Date: Sun, 15 Dec 2019 14:30:26 GMT
+

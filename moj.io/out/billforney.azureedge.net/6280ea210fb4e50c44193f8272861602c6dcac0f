@@ -1,0 +1,20 @@
+https://billforney.azureedge.net/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: billforney.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:30:10 GMT
+< X-Cache: TCP_MISS
+< Strict-Transport-Security: max-age=2592000
+< X-Powered-By: William Forney
+< Content-Security-Policy: object-src 'none';
+< Arr-Disable-Session-Affinity: True
+< X-Azure-Ref-Originshield: 0ckP2XQAAAAAKzk2HYGevR68MYa3aJ10lTE9OMjFFREdFMDMxNQA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< X-Azure-Ref: 0ckP2XQAAAACLi1l566XBSYZWmHqwE1koTUFOMzBFREdFMDMxMAA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< Content-Length: 0
+< Request-Context: appId=cid-v1:58dd9d2d-7583-4bbe-aa25-e93c0adacb78
+< X-Content-Type-Options: nosniff
+< X-Ua-Compatible: IE=Edge,chrome=1
+

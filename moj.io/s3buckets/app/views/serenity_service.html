@@ -1,0 +1,16 @@
+<h3>Service Editor</h3>
+<div class="row">
+   <div class="col-md-4">
+      <div ng-click="EditService('')" class="well">
+         <h2 class="mt0 pt0"><i class="fa fa-plus-square"></i>&nbsp; New Service</h2>Create New Service and Edit it
+         <div class="mt-lg"><i class="fa fa-pencil"></i>&nbsp;Create</div>
+      </div>
+   </div>
+   <div ng-repeat="s in Service" class="col-md-4">
+      <div ng-click="EditService(s._id)" class="well">
+         <h2 class="mt0 pt0">
+            <img width="32" height="32" src="{{s.icon}}" class="bt bl br bb" />&nbsp; {{ s.name || 'No Name Service' }}</h2>{{ Service.description || 'No Service Description' }}
+         <div class="mt-lg"><i class="fa fa-pencil"></i>&nbsp;Edit</div>
+      </div>
+   </div>
+</div>

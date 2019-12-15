@@ -1,0 +1,33 @@
+<!--Created by pooyaparidel on 15-03-27.-->
+<h3>{{ "mymojio_support.Title" | translate}}</h3>
+<div class="row inside mb-lg">
+   <h3 class="ml-lg">{{ "mymojio_support.FAQ" | translate}}</h3>
+   <div ng-if="$root.language.selectedId=='en'" class="row">
+      <mymojio-faq-en class="col-md-12"></mymojio-faq-en>
+   </div>
+   <div ng-if="$root.language.selectedId=='cs_CZ'" class="row">
+      <mymojio-faq-cs class="col-md-12"></mymojio-faq-cs>
+   </div>
+   <div class="row">
+      <div class="col-md-6 text-center text-gray-darker">
+         <h5>
+            <!-- email_off--><a ng-click="SendEmail()">{{ "mymojio_support.Feedback" | translate}}<br/><em class="fa fa-2x fa-envelope-o"></em><br/><div class="text-uppercase">{{ "mymojio_support.Email" | translate}}</div></a>
+            <!-- /email_off-->
+         </h5>
+      </div>
+      <div class="col-md-6 text-center text-gray-darker">
+         <div class="text-uppercase">{{ "mymojio_support.Call" | translate}}</div>1-855-55-MOJIO (1-855-556-6546)</div>
+   </div>
+   <div class="row">
+      <div class="col-xs-6">
+         <a href="https://www.moj.io/blog/">
+            <img src="app/img/MyMojioSupport2.png" style="padding:0px" class="col-xs-12" />
+         </a>
+      </div>
+      <div class="col-xs-6">
+         <a href="https://www.youtube.com/user/getmojio">
+            <img src="app/img/MyMojioSupport3.png" style="padding:0px" class="col-xs-12" />
+         </a>
+      </div>
+   </div>
+</div>

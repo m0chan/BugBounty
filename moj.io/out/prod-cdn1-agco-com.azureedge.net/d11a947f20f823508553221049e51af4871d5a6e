@@ -1,0 +1,23 @@
+https://prod-cdn1-agco-com.azureedge.net/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: prod-cdn1-agco-com.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Set-Cookie: TS01cd730d=01afac7ebbb2b8269f37b43d8ed3482c19e5fa8ced6e455987c08858e42d44bca1999e940953815fac5d967b8d3baf8f129eb2fe89; Path=/; Secure; HTTPOnly
+< Content-Length: 263
+< Cache-Control: max-age=1800
+< Content-Type: text/html; charset=iso-8859-1
+< Location: https://prod-cdn1-agco-com.azureedge.net/admin.php.html
+< Server: ECAcc (lpl/EF55)
+< Date: Sun, 15 Dec 2019 14:29:12 GMT
+< Expires: Sun, 15 Dec 2019 14:59:12 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://prod-cdn1-agco-com.azureedge.net/admin.php.html">here</a>.</p>
+</body></html>

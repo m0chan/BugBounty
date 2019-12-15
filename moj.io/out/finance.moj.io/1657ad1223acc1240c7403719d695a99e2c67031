@@ -1,0 +1,34 @@
+http://finance.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: finance.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Sun, 15 Dec 2019 14:25:36 GMT
+< Set-Cookie: __cfduid=dfdb80bde1b92d70b27920f8688a684c11576419935; expires=Tue, 14-Jan-20 14:25:35 GMT; path=/; domain=.moj.io; HttpOnly
+< X-Amz-Id-2: Zj2vOegRknXrQSmX8cFJfNsjdf0V7dCRn4vww9xug4UHODEkoR/vzA2FN6fDdNmOR8hJDzAFt/U=
+< Cf-Ray: 54591676388ce58f-MAN
+< Content-Type: text/html; charset=utf-8
+< X-Amz-Request-Id: FE588EADCBBF81AE
+< Cf-Cache-Status: DYNAMIC
+< Server: cloudflare
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<h1>403 Forbidden</h1>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+<li>RequestId: FE588EADCBBF81AE</li>
+<li>HostId: Zj2vOegRknXrQSmX8cFJfNsjdf0V7dCRn4vww9xug4UHODEkoR/vzA2FN6fDdNmOR8hJDzAFt/U=</li>
+</ul>
+<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+</ul>
+<hr />
+</body>
+</html>

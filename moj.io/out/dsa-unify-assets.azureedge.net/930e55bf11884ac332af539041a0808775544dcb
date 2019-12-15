@@ -1,0 +1,19 @@
+https://dsa-unify-assets.azureedge.net/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: dsa-unify-assets.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Ms-Request-Id: 002d0955-201e-001e-6b54-b321da000000
+< X-Ms-Version: 2009-09-19
+< Content-Length: 215
+< Date: Sun, 15 Dec 2019 14:30:30 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding
+< Content-Type: application/xml
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:002d0955-201e-001e-6b54-b321da000000
+Time:2019-12-15T14:30:31.0459388Z</Message></Error>

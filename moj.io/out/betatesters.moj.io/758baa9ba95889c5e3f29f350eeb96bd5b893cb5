@@ -1,0 +1,18 @@
+http://betatesters.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: betatesters.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: no-cache
+< X-Xss-Protection: 1; mode=block
+< Date: Sun, 15 Dec 2019 14:30:17 GMT
+< Content-Type: text/html; charset=utf-8
+< Status: 404 Not Found
+< X-Request-Id: 692176b2-a005-4042-8427-af7a93893ac8
+< X-Rack-Cache: miss
+< X-Ua-Compatible: IE=Edge,chrome=1
+
+ 

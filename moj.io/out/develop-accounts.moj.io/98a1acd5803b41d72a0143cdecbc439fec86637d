@@ -1,0 +1,16 @@
+http://develop-accounts.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: develop-accounts.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 429 API calls quota exceeded! Please, retry after 24 seconds.
+< Date: Sun, 15 Dec 2019 14:30:32 GMT
+< X-Retry-After: 24
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=2e0d280249cee615a7f2635cd8f7519c56300ed338ce14a1dd5651ba60806c72;Path=/;HttpOnly;Domain=develop-accounts.moj.io
+< Content-Type: application/json
+< Server: Kestrel
+< Content-Security-Policy: default-src 'self' ; font-src 'self' https://fonts.gstatic.com  data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com  'unsafe-inline'; script-src 'self' 'unsafe-inline' ; img-src 'self'
+
+{"error":"mojio_request_throttling","error_description":"API calls quota exceeded! Please, retry after 24 seconds.","retry_after":"24","rule_name":"Minute"}

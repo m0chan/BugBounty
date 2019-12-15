@@ -1,0 +1,119 @@
+<!-- top navbar-->
+<header class="topnavbar-wrapper">
+   <div class="nav-logo">
+      <img src="app/img/logo.png" alt="App Logo" width="48px" height="auto" class="img-responsive" />
+   </div>
+   <div class="nav-mojiotext">My Mojio</div>
+   <!-- START Top Navbar-->
+   <nav role="navigation" class="navbar topnavbar">
+      <!-- START Nav wrapper-->
+      <div class="nav-wrapper">
+         <!-- START Left navbar-->
+         <ul class="nav navbar-nav">
+            <li class="mr-lg ml-sm"></li>
+            <li class="ml-lg">
+               <!-- Button to show/hide the sidebar on mobile. Visible on mobile only.-->
+               <a toggle-state="aside-toggled" no-persist="no-persist" class="visible-xs">
+                  <em class="fa fa-2x fa-navicon"></em>
+               </a>
+            </li>
+         </ul>
+         <!-- END Left navbar-->
+         <!-- START Right Navbar-->
+         <ul class="nav navbar-nav navbar-right">
+            <!--li-->
+            <!--  a(toggle-state="offsidebar-open", no-persist,title="Settings")-->
+            <!--    em.fa.fa-bell-o-->
+            <!-- END Offsidebar menu-->
+            <li dropdown="dropdown" class="mt0 ml-xl dropdown dropdown-list">
+               <a dropdown-toggle="dropdown-toggle" class="mt-sm">
+                  <img id="userGlobalPic" style="width:30px;height:30px" src="app/img/user.png" class="mt0 mb0 pt0 pb0 img-circle" />&nbsp; {{user.name}}
+                  <em class="fa fa-angle-down"></em>
+               </a>
+               <ul role="menu" class="dropdown-menu">
+                  <li ng-click="$state.go('my.managedevice',{})">
+                     <!-- START list group-->
+                     <div class="list-group">
+                        <!-- list item-->
+                        <a class="list-group-item">
+                           <div class="media-box">
+                              <div class="pull-left">
+                                 <em class="fa icon-profile"></em>
+                              </div>
+                              <div class="media-box-body clearfix">My Account</div>
+                           </div>
+                        </a>
+                     </div>
+                  </li>
+                  <li ng-repeat="(localeId, langName) in $root.language.available" ng-show="$root.language.selected!=langName">
+                     <!-- START list group-->
+                     <div ng-click="$root.language.set(localeId, $event)" class="list-group">
+                        <!-- list item-->
+                        <a class="list-group-item">
+                           <div class="media-box">
+                              <div class="pull-left">
+                                 <em class="fa fa-globe"></em>
+                              </div>
+                              <div class="media-box-body clearfix">{{langName}}</div>
+                           </div>
+                        </a>
+                     </div>
+                  </li>
+                  <li ng-click="userLogout()">
+                     <!-- START list group-->
+                     <div class="list-group">
+                        <!-- list item-->
+                        <a class="list-group-item">
+                           <div class="media-box">
+                              <div class="pull-left">
+                                 <em class="fa fa-power-off"></em>
+                              </div>
+                              <div class="media-box-body clearfix">Logout</div>
+                           </div>
+                        </a>
+                     </div>
+                  </li>
+               </ul>
+            </li>
+            <!-- END Offsidebar menu-->
+         </ul>
+         <!-- END Right Navbar-->
+      </div>
+      <!-- END Nav wrapper-->
+      <!-- START Search form-->
+      <form role="search" ng-if="$root.selectedProject.ProjectName=='Admin'" class="navbar-form">
+         <div class="form-group has-feedback">
+            <input type="text" placeholder="Search users, mojios and vehicles" ng-keypress="doSearch($event)" class="form-control" />
+            <div search-dismiss="search-dismiss" class="fa fa-times form-control-feedback"></div>
+         </div>
+         <button type="submit" class="hidden btn btn-default">Submit</button>
+      </form>
+      <!-- END Search form-->
+   </nav>
+   <!-- END Top Navbar-->
+</header>
+<!-- sidebar-->
+<aside ng-controller="SidebarController" class="aside">
+   <!-- Inline template with sidebar items markup and ng-directives-->
+   <script type="text/ng-template" id="sidebar-renderer.html">
+      <span ng-if="item.heading">{{(item.translate | translate) || item.text}}</span><a ng-if="!item.heading" ng-href="{{$state.href(item.sref, item.params)}}" title="{{item.text}}"><em class="{{item.icon}}">&nbsp;</em><div ng-if="item.alert" class="label label-success pull-right">{{item.alert}}</div><span>{{(item.translate | translate) || item.text}}</span></a><ul ng-if="item.submenu" collapse="isCollapse(pIndex)" ng-init="addCollapse(pIndex, item)" class="nav sidebar-subnav"><li class="sidebar-subnav-header">{{(item.translate | translate) || item.text}}</li><li ng-repeat="item in item.submenu" ng-include="'sidebar-renderer.html'" ng-class="getMenuItemPropClasses(item)" ng-init="pIndex=(pIndex+'-'+$index); inSubmenu = true" ng-click="toggleCollapse(pIndex)"></li></ul>
+   </script>
+   <!-- START Sidebar (left)-->
+   <div class="aside-inner">
+      <nav sidebar="" class="sidebar">
+         <!-- START sidebar nav-->
+         <ul class="nav">
+            <!-- Iterates over all sidebar items-->
+            <li ng-class="getMenuItemPropClasses(item)" ng-repeat="item in menuItems" ng-init="pIndex = $index" ng-include="'sidebar-renderer.html'" ng-click="toggleCollapse(pIndex, true)" class="bb"></li>
+         </ul>
+         <!-- END sidebar nav-->
+      </nav>
+   </div>
+   <!-- END Sidebar (left)-->
+</aside>
+<toaster-container toaster-options="{'time-out': 2500, 'close-button':true, 'animation-class': 'toast-top-center'}"></toaster-container>
+<!-- Main section-->
+<section>
+   <!-- Page content-->
+   <div ng-show="$root.user.name!=''" ui-view="" autoscroll="false" ng-class="app.viewAnimation" class="content-wrapper"></div>
+</section>

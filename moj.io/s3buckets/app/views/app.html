@@ -1,0 +1,16 @@
+<!-- top navbar-->
+<header ng-include="'app/views/partials/top-navbar.html'" class="topnavbar-wrapper"></header>
+<!-- sidebar-->
+<aside ng-include="'app/views/partials/sidebar.html'" ng-controller="SidebarController" class="aside"></aside>
+<!-- offsidebar-->
+<aside ng-include="'app/views/partials/offsidebar.html'" class="offsidebar"></aside>
+<toaster-container toaster-options="{'time-out': 3000, 'close-button':true, 'animation-class': 'toast-top-center'}"></toaster-container>
+<!-- Main section-->
+<section>
+   <!-- Page content-->
+   <div ng-if="$root.user.name!=''" ui-view="" autoscroll="false" ng-class="app.viewAnimation" class="content-wrapper"></div>
+</section>
+<!-- Page footer-->
+<footer>
+   <span>&copy; {{app.year}} - {{ app.name }}</span>
+</footer>

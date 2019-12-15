@@ -1,0 +1,17 @@
+http://tmobile-us-phoenix-staging-identity.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: tmobile-us-phoenix-staging-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Security-Policy: default-src 'self' mojiodevassets-frontend.azureedge.net; font-src 'self' https://fonts.gstatic.com mojiodevassets-frontend.azureedge.net data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com mojiodevassets-frontend.azureedge.net 'unsafe-inline'; script-src 'self' 'unsafe-inline' mojiodevassets-frontend.azureedge.net; img-src 'self' mojiodevassets-frontend.azureedge.net
+< Nginx-Version: 4.11.0.19
+< X-Mojio-Route: legacy
+< Date: Sun, 15 Dec 2019 14:23:23 GMT
+< Content-Length: 0
+< Server: nginx/1.15.6
+< Set-Cookie: ARRAffinity=8d7521f6d37f73008e8bc41dc5fc763d56d6a43e07a5cbf74608f04f3ca73aa9;Path=/;HttpOnly;Domain=tmobile-us-phoenix-staging-identity.moj.io
+< Set-Cookie: ARRAffinity=fee32919d2c92a18a9513bc2956a7bd6178b03d988ba5663272b18c259f8760c;Path=/;HttpOnly;Domain=tmobile-us-phoenix-staging-identity.moj.io
+< X-Powered-By: ASP.NET
+

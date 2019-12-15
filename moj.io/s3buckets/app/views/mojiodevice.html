@@ -1,0 +1,74 @@
+<!--Created by pooyaparidel on 15-03-27.-->
+<h3>{{ "mymojio_account.title" | translate }}</h3>
+<div class="row">
+   <div class="col-md-12 card">
+      <div class="row">
+         <div class="col-md-12 bb text-center text-space-3 bg-info-light p-lg">{{ "mymojio_account.MyMojioDevices" | translate }}</div>
+      </div>
+      <span>
+         <span st-pipe="callServer" st-table="displayed">
+            <div class="panel-body">
+               <table class="table table-striped">
+                  <thead ng-show="selectedRow==null" class="bb">
+                     <tr>
+                        <th>{{ "common.ImeiLong" | translate }}</th>
+                        <th>{{ "mymojio_account.Name" | translate }}</th>
+                        <th class="visible-md visible-lg">{{ "mymojio_account.LastContact" | translate }}</th>
+                        <th>
+                           <li class="fa fa-car"></li>
+                        </th>
+                        <th>{{ "mymojio_account.Unclaim" | translate }}</th>
+                     </tr>
+                  </thead>
+                  <tbody ng-show="selectedRow==null &amp;&amp; !isLoading">
+                     <tr ng-repeat="(pos,row) in result" ng-dblclick="PrintInConsole(row)">
+                        <td>{{row.IMEI}}</td>
+                        <td><a href="" editable-text="row.Name" onaftersave="updateDevice(row)">{{ row.Name || 'No Name' }}</a>
+                        </td>
+                        <td class="visible-md visible-lg">{{row.LastContactTime | date:'yy-MM-dd &nbsp; HH:mm:ss'}}</td>
+                        <td>
+                           <span ng-show="row.Vehicle!=null"><a href="" editable-text="row.Vehicle.Name" onaftersave="updateVehicle(row.Vehicle)">{{ row.Vehicle.Name || ('mymojio_account.NoName' | translate) }}</a>
+                              <br/><a href="" editable-text="row.Vehicle.LicensePlate" onaftersave="updateVehicle(row.Vehicle)">{{ row.Vehicle.LicensePlate || ('mymojio_account.NoLicensePlate' | translate) }}</a>
+                              <br/>{{ row.Vehicle.VIN }}</span>
+                        </td>
+                        <td>
+                           <a href="" are-you-sure="deleteRow(row)">
+                              <li class="fa fa-trash-o"></li>
+                           </a>
+                        </td>
+                     </tr>
+                  </tbody>
+                  <tfoot>
+                     <tr ng-if="!showClaim">
+                        <th colspan="5">
+                           <a ng-click="$parent.ShowAddNewDevice()">
+                              <div class="h4 bblue">
+                                 <li class="fa fa-plus-circle"></li>&nbsp; {{ "mymojio_account.AddDevicePlusTitle" | translate }}</div>
+                           </a>
+                        </th>
+                     </tr>
+                     <tr ng-if="showClaim">
+                        <th colspan="5">
+                           <div class="row">
+                              <div class="col-md-9">
+                                 <div class="input-group">
+                                    <span class="input-group-btn">
+                                       <div class="btn btn-default">{{ "common.ImeiLong" | translate }}</div>
+                                    </span>
+                                    <input ng-model="Data.IMEI" class="form-control" />
+                                 </div>
+                              </div>
+                              <div class="col-md-2">
+                                 <button ng-disabled="ClaimOnProcess" ng-click="claim(newSearch)" class="btn btn-default"><i ng-show="ClaimOnProcess" class="fa fa-spinner fa-spin"></i>
+                                    <li ng-show="!ClaimOnProcess" class="fa fa-cubes"></li>&nbsp; {{ "mymojio_account.ClaimBtn" | translate }}</button>
+                              </div>
+                           </div>
+                        </th>
+                     </tr>
+                  </tfoot>
+               </table>
+            </div>
+         </span>
+      </span>
+   </div>
+</div>

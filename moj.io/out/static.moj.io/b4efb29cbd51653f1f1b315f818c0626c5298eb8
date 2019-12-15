@@ -1,0 +1,16 @@
+http://static.moj.io/api
+
+> GET /api HTTP/1.1
+> Host: static.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Content-Length: 276
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:25 GMT
+< Server: Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 01e3b288-601e-0053-6554-b3669e000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AccountRequiresHttps</Code><Message>The account being accessed does not support http.
+RequestId:01e3b288-601e-0053-6554-b3669e000000
+Time:2019-12-15T14:29:25.3972715Z</Message><AccountName>mojioassets</AccountName></Error>

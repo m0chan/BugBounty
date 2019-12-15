@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-controller="myCtrl">
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicle Compatibility</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.1.3/ui-bootstrap-tpls.min.js"></script>
+    <script src="../bower_components/angular-translate/angular-translate.min.js"></script>
+    <script src="../bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+
+    <script src="script/common.js?v=20170221-01"></script>
+    <script src="script/vehicle-compatibility-full.js?v=20170221-01"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6269334/6300352/css/fonts.css" />
+
+    <link href="style/tmobile/style.css?v=20170221-01" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body class="bg-charcoal">
+
+    <div class="container-fluid">
+
+        <div class="row bg-blue pt15">
+            <img class="logo" ng-src="style/{{brand}}/logo.png" />
+            <a href="https://moj.io/" class="home-link fs16 fw400 text-white">{{ 'vehicle_compatibility.home' | translate }}</a>
+        </div>
+        <div class="row bg-blue text-center text-white fs35 fw800 ls3 pt25 text-padding">
+            {{ 'vehicle_compatibility.title' | translate }}
+        </div>
+        <div class="row bg-blue text-center text-white fs16 fw400 pt5 text-padding">
+            {{ 'vehicle_compatibility.desc' | translate }}
+        </div>
+
+        <div class="row bg-blue pt25 pb40 text-center" >
+            <img class="obd-port"  ng-src="style/{{brand}}/device.png" />
+        </div>
+
+        <div class="row bg-khaki fs35 fw800 pt25 ls3 text-padding text-center text-dark">
+            {{ 'vehicle_compatibility.select_car' | translate }}
+        </div>
+        <div class="row bg-khaki fs16 fw400 pt16 text-padding text-center text-dark">
+            {{ 'vehicle_compatibility.check_if_compatible' | translate }}
+        </div>
+        <div class="row bg-khaki fs12 fw400 pt16 pb25 text-padding text-center text-dark">
+            {{ 'vehicle_compatibility.check_if_compatible_warning' | translate }}
+        </div>
+
+        <div class="row bg-khaki pt15 text-center">
+            <span>
+                <select class="nice" ng-model="data.Selected.Year" ng-change="YearChange()">
+                    <option value="">{{ 'vehicle_compatibility.select_year' | translate }}</option>
+                    <option ng-repeat="option in data.Years | orderBy : option.key" value="{{option.key}}">{{option.val}}</option>
+                </select>
+            </span>
+
+            <span>
+                <select class="nice" ng-model="data.Selected.Make" ng-change="MakeChange()" ng-disabled="data.Selected.Year==''">
+                    <option value="">{{ 'vehicle_compatibility.select_make' | translate }}</option>
+                    <option ng-repeat="option in data.Makes | orderBy : option.key" value="{{option.key}}">{{option.val}}</option>
+                </select>
+            </span>
+
+            <span>
+                <select class="nice" ng-model="data.Selected.Model" ng-change="ModelChange()" ng-disabled="data.Selected.Make==''">
+                    <option value="">{{ 'vehicle_compatibility.select_model' | translate }}</option>
+                    <option ng-repeat="option in data.Models | orderBy : option.key" value="{{option.key}}">{{option.val}}</option>
+                </select>
+            </span>
+
+            <span>
+                <select class="nice" ng-model="data.Selected.Engine" ng-change="EngineChange()" ng-disabled="data.Selected.Model==''">
+                    <option value="">{{ 'vehicle_compatibility.select_engine' | translate }}</option>
+                    <option ng-repeat="option in data.Engines | orderBy : option.key" value="{{option.key}}">{{option.val}}</option>
+                </select>
+            </span>
+
+        </div>
+
+        <div class="row bg-khaki fs18 fw800 pt25 ls3 text-padding text-center text-dark">
+            {{data.Compatible}}
+        </div>
+
+        <div ng-if="data.IsCompatible===true && data.ObdLocation.length===0" class="row bg-khaki fs25 fw800 pt25 ls3 text-padding text-center text-dark">
+            <a href="" ng-click="obdLocation()">
+                {{ 'vehicle_compatibility.need_help' | translate }}
+            </a>
+        </div>
+
+        <span ng-if="data.ObdLocation.length!=0">
+            <div class="row bg-khaki fs16 fw400 text-padding text-center text-dark">
+                {{data.ObdLocation}}
+            </div>
+            <div class="row bg-khaki text-center">
+                <img ng-if="data.Image.length!=0"   ng-src="style/{{brand}}/{{data.LocationIl}}.png" class="img-responsive img-center"/>
+                <img ng-show="data.ObdImage.length!=0" ng-src="{{data.ObdImage}}" class="flt-image img-responsive img-center img-round"/>
+            </div>
+
+        </span>
+
+
+        <div class="row bg-khaki fs18 fw800 ls3 text-padding text-center text-dark">
+            <a href="http://www.edmunds.com/?id=apis"> <img src="https://open-api.edmunds.com/api/openapi/v1/logo?size=300&format=horizontal&retina=true&color=gray&api_key=n6naefd838g9bjtwhx9mhxpq"> </a>
+        </div>
+        
+    </div>
+
+
+</body>
+</html>

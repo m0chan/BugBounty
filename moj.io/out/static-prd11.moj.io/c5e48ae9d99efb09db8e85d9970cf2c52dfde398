@@ -1,0 +1,19 @@
+http://static-prd11.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: static-prd11.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< X-Azure-Ref-Originshield: 0fUP2XQAAAADFEnFqYGUMSpvdKvEDvGdHTE9OMjFFREdFMDMwOABjZTNjODVlYy03ZDRhLTRjNjEtYTIzNS01NzE1ODdhNzBmODk=
+< X-Azure-Ref: 0fUP2XQAAAABrydvOLPZdQKiPXiJfG87YTUFOMzBFREdFMDMxOQBjZTNjODVlYy03ZDRhLTRjNjEtYTIzNS01NzE1ODdhNzBmODk=
+< Date: Sun, 15 Dec 2019 14:30:21 GMT
+< Content-Length: 281
+< Content-Type: application/xml
+< Server: Microsoft-HTTPAPI/2.0
+< X-Cache: TCP_MISS
+< X-Ms-Request-Id: 6cc3d67c-901e-00f7-5154-b37c8d000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AccountRequiresHttps</Code><Message>The account being accessed does not support http.
+RequestId:6cc3d67c-901e-00f7-5154-b37c8d000000
+Time:2019-12-15T14:30:21.8297203Z</Message><AccountName>mojioprd11stocdn</AccountName></Error>

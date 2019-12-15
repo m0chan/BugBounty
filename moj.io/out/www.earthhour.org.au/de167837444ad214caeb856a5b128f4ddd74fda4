@@ -1,0 +1,16 @@
+http://www.earthhour.org.au/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: www.earthhour.org.au
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.earthhour.org.au/application.wadl
+< Server: Microsoft-IIS/10.0
+< X-Powered-By: ASP.NET
+< Content-Length: 168
+< Content-Type: text/html; charset=UTF-8
+< Date: Sun, 15 Dec 2019 14:30:01 GMT
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.earthhour.org.au/application.wadl">here</a></body>

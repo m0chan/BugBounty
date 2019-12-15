@@ -1,0 +1,17 @@
+https://tmobile-us-phoenix-production-push.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: tmobile-us-phoenix-production-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: nginx/1.15.6
+< Nginx-Version: 4.11.0.8
+< Date: Sun, 15 Dec 2019 14:29:10 GMT
+< Content-Length: 103
+< Content-Type: text/html
+< Set-Cookie: ARRAffinity=e3a8761ce3056497006ce92f995ddcf6bb4651f4a55edeef03442174d6d35b37;Path=/;HttpOnly;Domain=tmobile-us-phoenix-production-push.moj.io
+< X-Powered-By: ASP.NET
+< X-Mojio-Route: legacy
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

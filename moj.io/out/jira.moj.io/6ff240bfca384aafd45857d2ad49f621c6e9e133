@@ -1,0 +1,16 @@
+https://jira.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: jira.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cf-Ray: 54591cf629c3d20c-MAN
+< Date: Sun, 15 Dec 2019 14:30:01 GMT
+< Cache-Control: max-age=3600
+< Location: https://1mojio.atlassian.net/application.wadl
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Expires: Sun, 15 Dec 2019 15:30:01 GMT
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+

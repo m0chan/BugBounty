@@ -1,0 +1,14 @@
+http://push.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 103
+< Content-Type: text/html
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=958fdb7ff8ace78447742aa0c3879024612cc12c120d57f532881bce461a1e8d;Path=/;HttpOnly;Domain=push.moj.io
+< Date: Sun, 15 Dec 2019 14:27:51 GMT
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

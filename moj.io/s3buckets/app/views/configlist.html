@@ -1,0 +1,91 @@
+<h3>Configuration List</h3>
+<span ng-controller="mojioGridController" data-alias="ConfigGrid" data-mojioapi="[{&quot;MojioModel&quot;:&quot;configurations&quot;}]">
+   <div class="panel panel-default">
+      <div class="panel-heading"><i class="fa fa-codepen fa-fw"></i> Configuration List
+         <div class="pull-right">
+            <div dropdown="dropdown" class="btn-group">
+               <button type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="btn btn-default dropdown-toggle">Fields
+                  <span class="caret"></span>
+               </button>
+               <ul role="menu" class="dropdown-menu">
+                  <li ng-repeat="x in s.f"><a ng-click="ShowHide(x.name)"><i ng-show="!x.show" class="fa fa-square-o"></i><i ng-show="x.show" class="fa fa-check-square-o"></i>{{ x.name }}</a>
+                  </li>
+               </ul>
+            </div>
+            <div dropdown="dropdown" class="btn-group">
+               <button type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="btn btn-default dropdown-toggle">Page Size
+                  <span class="fa fa-list"></span>
+               </button>
+               <ul role="menu" class="dropdown-menu">
+                  <li><a ng-click="changeItemsPerPage(10)"><i class="fa fa-check-square-o"></i>10</a>
+                  </li>
+                  <li><a ng-click="changeItemsPerPage(20)"><i class="fa fa-check-square-o"></i>20</a>
+                  </li>
+               </ul>
+            </div>
+            <div dropdown="dropdown" class="btn-group">
+               <button type="button" dropdown-toggle="dropdown-toggle" ng-disabled="disabled" class="btn btn-default dropdown-toggle">Export
+                  <span class="fa fa-download"></span>
+               </button>
+               <ul role="menu" class="dropdown-menu pull-right">
+                  <li><a ng-click="exportData(EXPORT_CURRENT_PAGE,EXPORT_CSV)"><i class="fa fa-check-square-o"></i>Export Current Page</a>
+                  </li>
+                  <li><a ng-click="exportData(EXPORT_VISITED_PAGES,EXPORT_CSV)"><i class="fa fa-check-square-o"></i>Export Visited Pages</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!-- /.panel-heading-->
+      <div class="panel-body">
+         <table st-pipe="callServer" st-table="displayed" class="table">
+            <thead ng-show="selectedRow==null">
+               <tr>
+                  <th>&nbsp;</th>
+                  <th ng-show="s.f[0].show" data-show="true" st-sort="IMEI" class="fieldHeader">Name</th>
+                  <th ng-show="s.f[1].show" data-show="true" st-sort="NAME" class="fieldHeader">ID</th>
+                  <th ng-show="s.f[2].show" data-show="false" st-sort="STATE" class="fieldHeader">Type</th>
+                  <th ng-show="s.f[3].show" data-show="true" st-sort="CONTACT" class="fieldHeader">State</th>
+                  <th ng-show="s.f[4].show" data-show="true" st-sort="CONTACT" class="fieldHeader">Description</th>
+                  <th ng-show="s.f[5].show" data-show="true" st-sort="CONTACT" class="fieldHeader">Date Modified</th>
+               </tr>
+            </thead>
+            <tbody ng-show="selectedRow==null &amp;&amp; !isLoading">
+               <tr ng-repeat="row in displayed">
+                  <td>
+                     <a href="" ng-click="detailRow(row)">
+                        <li class="fa fa-code"></li>
+                     </a>
+                  </td>
+                  <td ng-show="s.f[0].show"><a href="" ng-click="showDetailView('admin.configdetail','configRow',row)">{{row.ProfileName}}</a>
+                  </td>
+                  <td ng-show="s.f[1].show">{{row.ProfileId}}</td>
+                  <td ng-show="s.f[2].show">{{row.DeviceType}}</td>
+                  <td ng-show="s.f[3].show">{{row.DeployState}}</td>
+                  <td ng-show="s.f[4].show">{{row.Description | limitTo : 25}} ...</td>
+                  <td ng-show="s.f[5].show">{{row.DateModified | date:'yy-MM-dd HH:mm'}}</td>
+               </tr>
+            </tbody>
+            <tbody ng-show="selectedRow!=null &amp;&amp; selectedType==&quot;&quot;">
+               <tr>
+                  <td>
+                     <button type="button" href="" ng-click="detailRow(null)" class="btn">
+                        <li class="fa fa-arrow-left"></li>Close</button>
+                     <br/>
+                     <br/>
+                     <pre ng-if="rowDetail=='lite'">{{selectedRow | json}}</pre>
+                     <json-formatter ng-if="rowDetail!='lite'" open="1" json="selectedRow"></json-formatter>
+                  </td>
+               </tr>
+            </tbody>
+            <tr ng-show="selectedRow==null &amp;&amp; (displayed.length!=0 || isLoading)">
+               <td ng-show="isLoading" colspan="40"><i class="fa fa-spinner fa-spin fa-2x"></i>
+               </td>
+               <td ng-show="!isLoading" st-pagination="" st-displayed-pages="10" st-items-by-page="itemsPerPage || 10" colspan="40" class="text-center"></td>
+            </tr>
+         </table>
+      </div>
+      <!-- /.panel-bod-->
+   </div>
+   <!-- /.panel-->
+</span>

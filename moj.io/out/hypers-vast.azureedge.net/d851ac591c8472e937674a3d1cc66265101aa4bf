@@ -1,0 +1,15 @@
+https://hypers-vast.azureedge.net/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: hypers-vast.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Accept-Ranges: bytes
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:29:28 GMT
+< Server: ECAcc (lpl/EF55)
+< X-Amz-Request-Id: tx0000000000000021e4d5b-005df64338-34fcc4-default
+< Content-Length: 223
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><BucketName>admin.php</BucketName><RequestId>tx0000000000000021e4d5b-005df64338-34fcc4-default</RequestId><HostId>34fcc4-default-default</HostId></Error>

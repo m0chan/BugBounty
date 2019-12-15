@@ -1,0 +1,13 @@
+https://cdn.realgear.net/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: cdn.realgear.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Cache-Control: max-age=10
+< X-Hw: 1576420191.cds062.lo4.hn,1576420191.cds062.lo4.h2c
+< Date: Sun, 15 Dec 2019 14:29:51 GMT
+< Content-Length: 0
+< Accept-Ranges: bytes
+

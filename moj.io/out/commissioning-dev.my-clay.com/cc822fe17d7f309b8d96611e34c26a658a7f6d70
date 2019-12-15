@@ -1,0 +1,25 @@
+https://commissioning-dev.my-clay.com/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: commissioning-dev.my-clay.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Vary: Accept-Encoding
+< Server: Microsoft-IIS/10.0
+< Strict-Transport-Security: max-age=31536000
+< X-Xss-Protection: 1; mode=block
+< Set-Cookie: ARRAffinity=f70fbb83832a243a23bf79bb4c9d4e8c6a56fd4ba4351ee57499fc343dd71000;Path=/;HttpOnly;Domain=commissioning-dev.my-clay.com
+< Content-Type: text/html
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: no-referrer
+< Etag: "073a42134acd51:0"
+< Content-Security-Policy: default-src 'self' https://*.google-analytics.com https://*.hotjar.com; img-src 'self' 'unsafe-inline' data: *; connect-src https://*.my-clay.com https://*.saltoks.com https://*.google-analytics.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com; style-src 'self' 'unsafe-inline' data: https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; frame-src https://*.my-clay.com https://*.hotjar.com;
+< X-Frame-Options: sameorigin
+< Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+< Last-Modified: Fri, 06 Dec 2019 12:53:18 GMT
+< X-Powered-By: ASP.NET
+< Date: Sun, 15 Dec 2019 14:28:51 GMT
+
+<!doctype html><html lang="en"><head><title>Larry</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self' https://*.google-analytics.com https://*.hotjar.com; img-src 'self' 'unsafe-inline' data: *; connect-src 'self' https://*.my-clay.com https://*.google-analytics.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com; style-src 'self' 'unsafe-inline' data: https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; frame-src 'self' https://*.my-clay.com https://*.hotjar.com;"><link rel="shortcut icon" href="/favicon.ico"><link href="/vendor.57f3faf219a86387472c.css" rel="stylesheet"><link href="/app.bb1755b6bc19f4761c77.css" rel="stylesheet"></head><body><div id="root" class="height-100"></div><script type="text/javascript" src="/vendor.afe365e7afcdb03dd315.js"></script><script type="text/javascript" src="/app.2c87636130d02909b4b9.js"></script><script type="text/javascript" src="/silentRenew.96de782bf6b55f1d5ef7.js"></script></body></html>

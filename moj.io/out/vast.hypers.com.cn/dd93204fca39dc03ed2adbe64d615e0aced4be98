@@ -1,0 +1,15 @@
+https://vast.hypers.com.cn/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: vast.hypers.com.cn
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:48 GMT
+< Server: ECAcc (lpl/EF41)
+< X-Amz-Request-Id: tx0000000000000021e5120-005df64387-34fcc4-default
+< Content-Length: 224
+< Accept-Ranges: bytes
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><BucketName>swagger-ui</BucketName><RequestId>tx0000000000000021e5120-005df64387-34fcc4-default</RequestId><HostId>34fcc4-default-default</HostId></Error>

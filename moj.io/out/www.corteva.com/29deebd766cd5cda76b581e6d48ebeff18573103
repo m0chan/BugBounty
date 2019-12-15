@@ -1,0 +1,23 @@
+https://www.corteva.com/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: www.corteva.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:29:11 GMT
+< Location: https://www.corteva.com/admin.php.html
+< Server: ECAcc (lpl/EF55)
+< Cache-Control: max-age=1800
+< Content-Type: text/html; charset=iso-8859-1
+< Expires: Sun, 15 Dec 2019 14:59:12 GMT
+< Set-Cookie: TS01cd730d=01afac7ebbf1830f8a73e7126e9bc6222130555d427c6f486a9f3a83931489791dfe38950bba2e720728fc4463025e93aac32e06b5; Path=/; Secure; HTTPOnly
+< Content-Length: 246
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.corteva.com/admin.php.html">here</a>.</p>
+</body></html>

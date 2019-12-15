@@ -1,0 +1,16 @@
+http://static-stg0.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: static-stg0.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:28:08 GMT
+< Server: Blob Service Version 1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 94711b5b-801e-0033-6853-b3f06d000000
+< Content-Length: 226
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>OutOfRangeInput</Code><Message>One of the request inputs is out of range.
+RequestId:94711b5b-801e-0033-6853-b3f06d000000
+Time:2019-12-15T14:28:09.3676495Z</Message></Error>

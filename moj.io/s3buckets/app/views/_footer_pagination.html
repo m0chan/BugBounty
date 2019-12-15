@@ -1,0 +1,5 @@
+<tr ng-show="selectedRow==null &amp;&amp; (displayed.length!=0 || isLoading)">
+   <td ng-show="isLoading" colspan="40"><i class="fa fa-spinner fa-spin fa-2x"></i>
+   </td>
+   <td ng-show="!isLoading" st-pagination="" st-displayed-pages="10" st-items-by-page="itemsPerPage || 10" colspan="40" class="text-center"></td>
+</tr>

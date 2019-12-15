@@ -1,0 +1,27 @@
+<script type="text/ng-template" id="tree_item_renderer.html">
+   <i ng-if="node.type=='folder' &amp;&amp; node.status=='expand'" ng-click="node.status='collapse'" class="fa fa-li fa-minus-square-o"></i><i ng-if="node.type=='folder' &amp;&amp; node.status=='collapse'" ng-click="node.status='expand'" class="fa fa-li fa-plus-square-o"></i><i ng-if="node.type!='folder'" class="fa fa-li fa-file-o"></i><span ng-if="node.type=='folder'">{{FileTitle(node)}}</span><a ng-click="NodeClick(node)" ng-if="node.type!='folder'">{{FileTitle(node)}}</a><ul ng-if="node.status=='expand'" class="fa-ul"><li ng-repeat="node in node.children" ng-include="'tree_item_renderer.html'"></li></ul>
+</script>
+<div class="row">
+   <div ng-if="selectedNode.level!=0" ng-click="SelectNode(MasterNode)" class="col-md-2">
+      <div class="text-center">
+         <span class="fa-stack fa-lg">
+            <em class="fa fa-circle fa-stack-2x text-red"></em>
+            <em class="fa fa-stack-1x fa-inverse text-black fa-bars"></em>
+         </span>
+      </div>
+      <div class="text-center">Table of Content</div>
+   </div>
+   <div ng-repeat="ch in selectedNodeChild" ng-click="SelectNode(ch)" class="col-md-2">
+      <div class="text-center">
+         <span class="fa-stack fa-lg">
+            <em class="fa fa-circle fa-stack-2x text-green"></em>
+            <em class="fa fa-stack-1x fa-inverse text-white {{ch.icon}}"></em>
+         </span>
+      </div>
+      <div class="text-center">{{ch.title}}</div>
+   </div>
+</div>
+<hr/>
+<div class="row">
+   <div ng-bind-html="selectedPage.content" class="col-md-12"></div>
+</div>

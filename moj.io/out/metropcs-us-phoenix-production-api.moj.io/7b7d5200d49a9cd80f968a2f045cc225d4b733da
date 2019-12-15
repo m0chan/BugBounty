@@ -1,0 +1,15 @@
+https://metropcs-us-phoenix-production-api.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: metropcs-us-phoenix-production-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx/1.15.6
+< Set-Cookie: ARRAffinity=a14e0af18371a67f7f4655d00f329de4019598a3defa059c33dc40bd30368aa3;Path=/;HttpOnly;Domain=metropcs-us-phoenix-production-api.moj.io
+< Request-Context: appId=cid-v1:b4f3dc5f-bd72-4647-99a2-e4a1ecb0016e
+< X-Powered-By: ASP.NET
+< Date: Sun, 15 Dec 2019 14:30:35 GMT
+< Content-Length: 0
+< Location: https://prd7-api.moj.io/swagger/ui/index
+

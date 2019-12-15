@@ -1,0 +1,13 @@
+http://trial-services.moj.io/api
+
+> GET /api HTTP/1.1
+> Host: trial-services.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:29:29 GMT
+< Content-Length: 0
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=08b2787e685755c8278070b2941cc2118fcbb31420f6621b7975435e86ae875f;Path=/;HttpOnly;Domain=trial-services.moj.io
+

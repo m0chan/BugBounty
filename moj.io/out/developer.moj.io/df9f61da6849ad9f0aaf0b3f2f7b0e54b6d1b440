@@ -1,0 +1,30 @@
+http://developer.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: developer.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html; charset=utf-8
+< Server: cloudflare
+< Cf-Ray: 54591ccbc9add20c-MAN
+< Date: Sun, 15 Dec 2019 14:29:55 GMT
+< Set-Cookie: __cfduid=d632e83a8afcd968772dd902323db0d561576420195; expires=Tue, 14-Jan-20 14:29:55 GMT; path=/; domain=.moj.io; HttpOnly
+< X-Amz-Request-Id: 23D543F75345CA92
+< X-Amz-Id-2: B3RCAjnCNp1C5mcfD71m2kk3WyTX8OrDCqnn5Z3Z73e1lqIv27ZFiR4ryhR81thk9r1r9QwNgwg=
+< Cf-Cache-Status: DYNAMIC
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+<ul>
+<li>Code: NoSuchBucket</li>
+<li>Message: The specified bucket does not exist</li>
+<li>BucketName: developer.moj.io</li>
+<li>RequestId: 23D543F75345CA92</li>
+<li>HostId: B3RCAjnCNp1C5mcfD71m2kk3WyTX8OrDCqnn5Z3Z73e1lqIv27ZFiR4ryhR81thk9r1r9QwNgwg=</li>
+</ul>
+<hr />
+</body>
+</html>

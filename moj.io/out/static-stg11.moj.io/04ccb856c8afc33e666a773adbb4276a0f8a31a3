@@ -1,0 +1,16 @@
+http://static-stg11.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: static-stg11.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Date: Sun, 15 Dec 2019 14:29:46 GMT
+< Server: Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: a0850912-501e-0037-3754-b3ad27000000
+< Content-Length: 278
+< Content-Type: application/xml
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AccountRequiresHttps</Code><Message>The account being accessed does not support http.
+RequestId:a0850912-501e-0037-3754-b3ad27000000
+Time:2019-12-15T14:29:47.0529549Z</Message><AccountName>mojiostg11cdn</AccountName></Error>

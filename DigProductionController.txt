@@ -1,0 +1,456 @@
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> productioncontroller-lb.255.14.255.255.0.ec.starbucks.com.cn CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44704
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;productioncontroller-lb.255.14.255.255.0.ec.starbucks.com.cn. IN CNAME
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 89
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> productioncontroller-lb.255.14.255.255.0.starbucks.com.cn CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41420
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;productioncontroller-lb.255.14.255.255.0.starbucks.com.cn. IN CNAME
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 86
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> splunkforwarders03.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55371
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;splunkforwarders03.productioncontroller.starbucks.com. IN CNAME
+
+;; ANSWER SECTION:
+splunkforwarders03.productioncontroller.starbucks.com. 7188 IN CNAME sbspbs03.westus.cloudapp.azure.com.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 127
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> t02-1-ag.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29476
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;t02-1-ag.productioncontroller.starbucks.com. IN	CNAME
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 72
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> t02-ag.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65039
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;t02-ag.productioncontroller.starbucks.com. IN CNAME
+
+;; ANSWER SECTION:
+t02-ag.productioncontroller.starbucks.com. 7188	IN CNAME 90be717a-8818-4042-b8ad-e1e015420609.cloudapp.net.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 133
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> d02-tm.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34818
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;d02-tm.productioncontroller.starbucks.com. IN CNAME
+
+;; ANSWER SECTION:
+d02-tm.productioncontroller.starbucks.com. 7188	IN CNAME s00175tmd02.trafficmanager.net.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 114
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> t02-ag.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4098
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;t02-ag.productioncontroller.starbucks.com. IN CNAME
+
+;; ANSWER SECTION:
+t02-ag.productioncontroller.starbucks.com. 7188	IN CNAME 90be717a-8818-4042-b8ad-e1e015420609.cloudapp.net.
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 133
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> d02-1-ag.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39237
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;d02-1-ag.productioncontroller.starbucks.com. IN	CNAME
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 72
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> s03-1-ag.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48595
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;s03-1-ag.productioncontroller.starbucks.com. IN	CNAME
+
+;; ANSWER SECTION:
+s03-1-ag.productioncontroller.starbucks.com. 7188 IN CNAME 93ef0cbf-a1a7-46fb-98db-b412dda13483.cloudapp.net.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 135
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> d02-ag.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31309
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;d02-ag.productioncontroller.starbucks.com. IN CNAME
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 70
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> splunkforwarders03.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33993
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;splunkforwarders03.productioncontroller.starbucks.com. IN CNAME
+
+;; ANSWER SECTION:
+splunkforwarders03.productioncontroller.starbucks.com. 7188 IN CNAME sbspbs03.westus.cloudapp.azure.com.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 127
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> p01-1-lb.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62499
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;p01-1-lb.productioncontroller.starbucks.com. IN	CNAME
+
+;; ANSWER SECTION:
+p01-1-lb.productioncontroller.starbucks.com. 7188 IN CNAME sbp01-1.westus.cloudapp.azure.com.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 116
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> p01-ag.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5501
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;p01-ag.productioncontroller.starbucks.com. IN CNAME
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 70
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> p01.productioncontroller-splunkforwarder.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52200
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;p01.productioncontroller-splunkforwarder.starbucks.com.	IN CNAME
+
+;; ANSWER SECTION:
+p01.productioncontroller-splunkforwarder.starbucks.com.	7188 IN	CNAME sbspbp01.westus.cloudapp.azure.com.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 128
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> p01-tm.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36312
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;p01-tm.productioncontroller.starbucks.com. IN CNAME
+
+;; ANSWER SECTION:
+p01-tm.productioncontroller.starbucks.com. 7188	IN CNAME s00175tmp01.trafficmanager.net.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 114
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> p01.productioncontroller-lb.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1971
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;p01.productioncontroller-lb.starbucks.com. IN CNAME
+
+;; ANSWER SECTION:
+p01.productioncontroller-lb.starbucks.com. 7188	IN CNAME sbp01.westus.cloudapp.azure.com.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 112
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> p01-1-ag.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7177
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;p01-1-ag.productioncontroller.starbucks.com. IN	CNAME
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 72
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> t02-tm.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8918
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;t02-tm.productioncontroller.starbucks.com. IN CNAME
+
+;; ANSWER SECTION:
+t02-tm.productioncontroller.starbucks.com. 7188	IN CNAME s00175tmt02.trafficmanager.net.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 114
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> s03.productioncontroller-lb.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32007
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;s03.productioncontroller-lb.starbucks.com. IN CNAME
+
+;; ANSWER SECTION:
+s03.productioncontroller-lb.starbucks.com. 287 IN CNAME	sbs03.westus.cloudapp.azure.com.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 112
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> s03-tm.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24941
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;s03-tm.productioncontroller.starbucks.com. IN CNAME
+
+;; ANSWER SECTION:
+s03-tm.productioncontroller.starbucks.com. 7188	IN CNAME s00175tms03.trafficmanager.net.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:01 BST 2019
+;; MSG SIZE  rcvd: 114
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> s03-1-lb.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57744
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;s03-1-lb.productioncontroller.starbucks.com. IN	CNAME
+
+;; ANSWER SECTION:
+s03-1-lb.productioncontroller.starbucks.com. 7189 IN CNAME sbs03-1.westus.cloudapp.azure.com.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:02 BST 2019
+;; MSG SIZE  rcvd: 116
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> s03.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64901
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;s03.productioncontroller.starbucks.com.	IN CNAME
+
+;; ANSWER SECTION:
+s03.productioncontroller.starbucks.com.	288 IN CNAME f260b415-7070-4236-ab4d-476c31b926f0.cloudapp.net.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:02 BST 2019
+;; MSG SIZE  rcvd: 130
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6237
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;productioncontroller.starbucks.com. IN	CNAME
+
+;; ANSWER SECTION:
+productioncontroller.starbucks.com. 7189 IN CNAME 3ea6c331-3d03-4ffe-b5c4-43ab7ed25c77.cloudapp.net.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:02 BST 2019
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.11.3-1ubuntu1.9-Ubuntu <<>> s03-ag.productioncontroller.starbucks.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23642
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;s03-ag.productioncontroller.starbucks.com. IN CNAME
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Oct 01 16:19:02 BST 2019
+;; MSG SIZE  rcvd: 70
+

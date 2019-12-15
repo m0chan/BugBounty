@@ -1,0 +1,13 @@
+https://services-eu.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: services-eu.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: Kestrel
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=d327189b20c1979b566a6c8b46e0455ffb518fa9471c6212a7e5ff7502c4caca;Path=/;HttpOnly;Domain=services-eu.moj.io
+< Date: Sun, 15 Dec 2019 14:29:01 GMT
+< Content-Length: 0
+

@@ -1,0 +1,8 @@
+<h3>Choose Dealer</h3>
+<div class="row">
+   <div ng-repeat="s in Dealer" class="col-md-12">
+      <div ng-click="ChooseDealer(s)" class="well">
+         <h2 class="mt0 pt0">
+            <img src="{{s.icon}}" class="bt bl br bb" />&nbsp; {{ s.name || 'No Name Dealer' }}</h2>{{ Dealer.description || 'No Dealer Description' }}</div>
+   </div>
+</div>

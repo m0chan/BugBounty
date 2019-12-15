@@ -1,0 +1,63 @@
+https://mojio-cz-web.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: mojio-cz-web.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Last-Modified: Wed, 26 Jun 2019 13:53:31 GMT
+< X-Amz-Error-Code: NoSuchKey
+< X-Amz-Request-Id: 2DC86D4892191CD7
+< Cf-Cache-Status: DYNAMIC
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Date: Sun, 15 Dec 2019 14:29:16 GMT
+< X-Amz-Error-Message: The specified key does not exist.
+< Cf-Ray: 54591bdc1827e58b-MAN
+< Content-Type: text/html
+< Set-Cookie: __cfduid=db5f5541ddf5efba133613ea069ef119e1576420156; expires=Tue, 14-Jan-20 14:29:16 GMT; path=/; domain=.moj.io; HttpOnly
+< X-Amz-Error-Detail-Key: admin.php
+< X-Amz-Id-2: EuoDImMrBiFzJdOTT8yWJvNlu157QR0mbbEFl0g+OLQn4C/FhOmqxkpqCgVqfFuh6DEQkdjlNJE=
+< Server: cloudflare
+
+<!DOCTYPE html>
+<html>
+<head>
+<base href="/"> <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' webpack:; child-src blob: ; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com *.googleapis.com *.mapbox.com data:; img-src 'self' www.google-analytics.com *.gstatic.com *.googleapis.com data: blob: ; connect-src 'self' *.moj.io ws: *.mapbox.com *.google-analytics.com data: wss: *.moj.io; style-src 'self' 'unsafe-inline' *.googleapis.com *.mapbox.com; font-src 'self' *.gstatic.com data:;" />
+<title>Motion Web Dashboard</title>
+<meta name="description" content="Motion Web Dashboard" />
+<meta name="msapplication-TileColor" content="#00bcd4" />
+<meta name="msapplication-TileImage" content="/assets/icon/ms-icon-144x144.png" />
+<meta name="theme-color" content="#00bcd4">
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/icon/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/icon/apple-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/icon/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/icon/apple-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/icon/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/icon/apple-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/icon/apple-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/icon/apple-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-icon-180x180.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icon/android-icon-192x192.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/icon/favicon-96x96.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png" />
+<link rel="manifest" href="/assets/manifest.json" />
+<style>html { display:none; }</style>
+<script src="/assets/js/index.js"></script>
+
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+
+</head>
+<body>
+<app>
+Loading...
+</app>
+
+<script type="text/javascript" src="runtime.a27c03894826c18b51cd.js"></script><script type="text/javascript" src="polyfills.78c9bbb84aea3c0d2fa9.js"></script><script type="text/javascript" src="vendor.b940f5232ac3a9ce1b98.js"></script><script type="text/javascript" src="main.ec936da3490e2d0cf84b.js"></script></body>
+</html>

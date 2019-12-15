@@ -1,0 +1,18 @@
+2019-12-15 14:44:45       [found] : simulator.moj.io | 5016594 bytes | ACLs: {'authUsers': ['READ', 'WRITE', 'READ_ACP', 'WRITE_ACP'], 'allUsers': ['READ_ACP']}
+2019-12-15 14:44:49       [found] : staging-simulator.moj.io | 5293385 bytes | ACLs: {'authUsers': ['READ', 'WRITE', 'READ_ACP', 'WRITE_ACP'], 'allUsers': ['READ', 'READ_ACP']}
+2019-12-15 14:44:52       [found] : staging-simulator.moj.io | 5293385 bytes | ACLs: {'authUsers': ['READ', 'WRITE', 'READ_ACP', 'WRITE_ACP'], 'allUsers': ['READ', 'READ_ACP']}
+2019-12-15 14:44:55       [found] : prod-simulator.moj.io | 4554283 bytes | ACLs: {'authUsers': ['READ', 'WRITE', 'READ_ACP', 'WRITE_ACP'], 'allUsers': ['READ_ACP']}
+2019-12-15 14:44:58       [found] : prod-simulator.moj.io | 4554283 bytes | ACLs: {'authUsers': ['READ', 'WRITE', 'READ_ACP', 'WRITE_ACP'], 'allUsers': ['READ_ACP']}
+2019-12-15 14:45:01       [found] : simulator.moj.io | 5016594 bytes | ACLs: {'authUsers': ['READ', 'WRITE', 'READ_ACP', 'WRITE_ACP'], 'allUsers': ['READ_ACP']}
+2019-12-15 14:45:08       [found] : my.moj.io | 38626394 bytes | ACLs: {'authUsers': ['READ', 'READ_ACP'], 'allUsers': ['READ_ACP']}
+2019-12-15 14:45:13       [found] : my.moj.io | 38626394 bytes | ACLs: {'authUsers': ['READ', 'READ_ACP'], 'allUsers': ['READ_ACP']}
+2019-12-15 14:45:18       [found] : trial-my.moj.io | 4539151 bytes | ACLs: {'authUsers': ['READ', 'WRITE', 'READ_ACP', 'WRITE_ACP'], 'allUsers': ['READ_ACP']}
+2019-12-15 14:45:20       [found] : trial-my.moj.io | 4539151 bytes | ACLs: {'authUsers': ['READ', 'WRITE', 'READ_ACP', 'WRITE_ACP'], 'allUsers': ['READ_ACP']}
+2019-12-15 14:46:52       [found] : tmobile-pl-web.moj.io | 4814620 bytes | ACLs: {'authUsers': ['READ', 'READ_ACP', 'READ', 'READ_ACP'], 'allUsers': ['READ_ACP', 'READ']}
+2019-12-15 14:46:54       [found] : tmobile-pl-web.moj.io | 4814620 bytes | ACLs: {'authUsers': ['READ', 'READ_ACP', 'READ', 'READ_ACP'], 'allUsers': ['READ_ACP', 'READ']}
+2019-12-15 14:47:29       [found] : cz-my.moj.io | 5294290 bytes | ACLs: {'authUsers': ['READ', 'WRITE', 'READ_ACP', 'WRITE_ACP'], 'allUsers': ['READ']}
+2019-12-15 14:47:41       [found] : tmobile-cz-web.moj.io | 19504750 bytes | ACLs: {'authUsers': ['READ', 'READ_ACP', 'READ', 'READ_ACP'], 'allUsers': ['READ_ACP', 'READ']}
+2019-12-15 14:47:45       [found] : tmobile-cz-web.moj.io | 19504750 bytes | ACLs: {'authUsers': ['READ', 'READ_ACP', 'READ', 'READ_ACP'], 'allUsers': ['READ_ACP', 'READ']}
+2019-12-15 14:49:03       [found] : mojio-cz-web.moj.io | 4843315 bytes | ACLs: {'authUsers': ['READ', 'READ_ACP', 'READ', 'READ_ACP'], 'allUsers': ['READ_ACP', 'READ']}
+2019-12-15 14:49:06       [found] : mojio-cz-web.moj.io | 4843315 bytes | ACLs: {'authUsers': ['READ', 'READ_ACP', 'READ', 'READ_ACP'], 'allUsers': ['READ_ACP', 'READ']}
+2019-12-15 14:49:38       [found] : cz-my.moj.io | 5294290 bytes | ACLs: {'authUsers': ['READ', 'WRITE', 'READ_ACP', 'WRITE_ACP'], 'allUsers': ['READ']}

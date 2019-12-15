@@ -1,0 +1,14 @@
+http://plugin.staging-maddfunding.com/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: plugin.staging-maddfunding.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:29:15 GMT
+< Expires: Sun, 15 Dec 2019 14:29:14 GMT
+< Location: https://plugin.staging-maddfunding.com/
+< Server: ECAcc (lpl/EF4E)
+< Content-Length: 0
+< Cache-Control: no-cache
+

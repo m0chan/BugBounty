@@ -1,0 +1,257 @@
+<!--Created by pooyaparidel on 15-03-27.-->
+<h3>{{ "mymojio_account.title" | translate }}
+   <label ng-click="$event.stopPropagation()" class="h5 pull-right switch">
+      <div class="row">
+         <div class="col-xs-4">Metric</div>
+         <div class="col-xs-3">
+            <input type="checkbox" ng-model="app.layout.isMetric" />
+            <span></span>
+         </div>
+         <div class="col-xs-3">Imperial</div>
+      </div>
+   </label>
+</h3>
+<div class="row">
+   <div class="col-md-5 ml-lg mr-lg card">
+      <div class="row">
+         <div class="col-md-12 bb text-center text-space-3 acct-title">{{ "mymojio_account.editAccountTitle" | translate }}</div>
+      </div>
+      <div class="row bg-white">
+         <div class="col-xs-8 col-xs-offset-2 text-center">
+            <img id="UserPic" src="app/img/user.png" class="img-circle ml0 mt-xl mb-lg" />
+            <br/>
+            <div ng-click="uploadImage()" class="btn-file mojiobtn pull-right">{{ "mymojio_account.uploadPicBtn" | translate }}
+               <input id="userpic" type="file" file="File" fileread="FileContent" readtype="binary" />
+            </div>
+            <br/>
+            <br/>
+         </div>
+      </div>
+      <div class="row bg-white form-horizontal">
+         <div class="form-group">
+            <label class="control-label col-xs-4 text-right">{{ "mymojio_account.Email" | translate }}</label>
+            <div class="col-xs-6">{{me.Email}}
+               <div ng-messages="accountForm.UserName.$error">
+                  <div ng-message="required" class="text-warning">{{ "mymojio_account.EmailRequired" | translate }}</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <form name="accountForm" ng-submit="SaveUserInfo(accountForm.$valid)">
+         <div class="row bg-white form-horizontal">
+            <div class="form-group">
+               <label class="control-label col-xs-4 text-right">{{ "mymojio_account.Username" | translate }}</label>
+               <div class="col-xs-6">{{me.UserName}}
+                  <div ng-messages="accountForm.UserName.$error">
+                     <div ng-message="required" class="text-warning">{{ "mymojio_account.UsernameRequired" | translate }}</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row bg-white form-horizontal">
+            <div class="form-group">
+               <label class="control-label col-xs-4 text-right">{{ "mymojio_account.FirstName" | translate }}</label>
+               <div class="col-xs-6">
+                  <input name="FirstName" ng-model="me.FirstName" required="required" class="form-control col-xs-8" />
+                  <div ng-messages="accountForm.FirstName.$error">
+                     <div ng-message="required" class="text-warning">{{ "mymojio_account.FirstNameRequired" | translate }}</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row bg-white form-horizontal">
+            <div class="form-group">
+               <label class="control-label col-xs-4 text-right">{{ "mymojio_account.LastName" | translate }}</label>
+               <div class="col-xs-6">
+                  <input name="LastName" ng-model="me.LastName" required="required" class="form-control col-xs-8" />
+                  <div ng-messages="accountForm.LastName.$error">
+                     <div ng-message="required" class="text-warning">{{ "mymojio_account.LastNameRequired" | translate }}</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row bg-white form-horizontal">
+            <div class="col-xs-10 text-right">
+               <button type="submit" class="mojiobtn">{{ "mymojio_account.SaveChangeBtn" | translate }}</button>
+            </div>
+         </div>
+      </form>
+      <div class="row bg-white">
+         <div class="col-xs-12">&nbsp;</div>
+      </div>
+      <form name="pwdForm" ng-submit="changePassword(pwdForm.$valid)">
+         <div class="row bg-white form-horizontal">
+            <div class="form-group">
+               <label class="control-label col-xs-4 text-right">{{ "mymojio_account.CurrentPassword" | translate }}</label>
+               <div class="col-xs-6">
+                  <input type="password" name="Current" ng-model="pwd.Current" required="required" title="" autocomplete="off" class="form-control col-xs-8" />
+                  <div ng-messages="pwdForm.Current.$error">
+                     <div ng-message="required" class="text-warning">{{ "mymojio_account.CurrentPasswordRequired" | translate }}</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row bg-white form-horizontal">
+            <div class="form-group">
+               <label class="control-label col-xs-4 text-right">{{ "mymojio_account.NewPassword" | translate }}</label>
+               <div class="col-xs-6">
+                  <input type="password" name="NewPwd" ng-model="pwd.NewPassword" required="required" autocomplete="off" class="form-control col-xs-8" />
+                  <div ng-messages="pwdForm.NewPwd.$error">
+                     <div ng-message="required" class="text-warning">{{ "mymojio_account.NewPasswordRequired" | translate }}</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row bg-white form-horizontal">
+            <div class="form-group">
+               <label class="control-label col-xs-4 text-right">{{ "mymojio_account.RetypePassword" | translate }}</label>
+               <div class="col-xs-6">
+                  <input type="password" name="RetypePwd" ng-model="pwd.RetypePassword" required="required" compare-to="pwd.NewPassword" autocomplete="off" class="form-control col-xs-8" />
+                  <div ng-messages="pwdForm.RetypePwd.$error" class="text-warning">
+                     <div ng-message="required">{{ "mymojio_account.RetypePasswordRequired" | translate }}</div>
+                     <div ng-message="compareTo">{{ "mymojio_account.RetypePasswordNotmatch" | translate }}</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row bg-white form-horizontal">
+            <div class="col-xs-10 text-right">
+               <button type="submit" class="mojiobtn">{{ "mymojio_account.ChangePasswordBtn" | translate }}</button>
+            </div>
+         </div>
+         <div class="row bg-white bb">
+            <div class="col-xs-12">&nbsp;</div>
+         </div>
+      </form>
+   </div>
+   <div class="col-md-6 ml-lg mr-lg">
+      <div class="row">
+         <div class="col-md-12 card">
+            <div class="row">
+               <div class="col-md-12 bb text-center text-space-3 acct-title">{{ "mymojio_account.MyMojioDevices" | translate }}</div>
+            </div>
+            <span data-alias="UserMojioGrid" data-mojioapi="[{&quot;MojioModel&quot;:&quot;Mojios&quot;,&quot;defaultCriteria&quot;:&quot;&quot;,&quot;criteria&quot;:&quot;&quot;}]" ng-controller="mojioGridController">
+               <span st-pipe="callServer" st-table="displayed">
+                  <div class="panel-body">
+                     <table class="table table-striped">
+                        <thead ng-show="selectedRow==null" class="bb">
+                           <tr>
+                              <th class="visible-md visible-lg">{{ "mymojio_account.RowNumber" | translate }}</th>
+                              <th>{{ "common.ImeiLong" | translate }}</th>
+                              <th>{{ "mymojio_account.Name" | translate }}</th>
+                              <th class="visible-md visible-lg">{{ "mymojio_account.LastContact" | translate }}</th>
+                              <th>{{ "mymojio_account.Unclaim" | translate }}</th>
+                           </tr>
+                        </thead>
+                        <tbody ng-show="selectedRow==null &amp;&amp; !isLoading">
+                           <tr ng-repeat="(pos,row) in displayed" ng-dblclick="PrintInConsole(row)">
+                              <td class="visible-md visible-lg">{{pos+1}}</td>
+                              <td>{{row.Imei}}</td>
+                              <td><a href="" editable-text="row.Name" onaftersave="updateDevice(row)">{{ row.Name || 'No Name' }}</a>
+                              </td>
+                              <td class="visible-md visible-lg">{{row.LastContactTime | date:'yy-MM-dd &nbsp; HH:mm:ss'}}</td>
+                              <td>
+                                 <a href="" are-you-sure="deleteRow(row,&quot;Mojios/{id}/User&quot;)">
+                                    <li class="fa fa-trash-o"></li>
+                                 </a>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tfoot>
+                           <tr ng-show="selectedRow==null &amp;&amp; (displayed.length!=0 || isLoading)">
+                              <td ng-show="isLoading" colspan="40"><i class="fa fa-spinner fa-spin fa-2x"></i>
+                              </td>
+                              <td ng-show="!isLoading" st-pagination="" st-displayed-pages="10" st-items-by-page="itemsPerPage || 10" colspan="40" class="text-center"></td>
+                           </tr>
+                           <tr ng-if="!showClaim">
+                              <th colspan="5">
+                                 <a ng-click="$parent.ShowAddNewDevice()">
+                                    <div class="h4 bblue">
+                                       <li class="fa fa-plus-circle"></li>&nbsp; {{ "mymojio_account.AddDevicePlusTitle" | translate }}</div>
+                                 </a>
+                              </th>
+                           </tr>
+                           <tr ng-if="showClaim">
+                              <th colspan="5">
+                                 <div class="row">
+                                    <div class="col-md-9">
+                                       <div class="input-group">
+                                          <span class="input-group-btn">
+                                             <div class="btn btn-default">{{ "common.ImeiLong" | translate }}</div>
+                                          </span>
+                                          <input ng-model="Data.IMEI" class="form-control" />
+                                       </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                       <button ng-disabled="ClaimOnProcess" ng-click="claim(newSearch)" class="btn btn-default"><i ng-show="ClaimOnProcess" class="fa fa-spinner fa-spin"></i>
+                                          <li ng-show="!ClaimOnProcess" class="fa fa-cubes"></li>&nbsp; {{ "mymojio_account.ClaimBtn" | translate }}</button>
+                                    </div>
+                                 </div>
+                              </th>
+                           </tr>
+                        </tfoot>
+                     </table>
+                  </div>
+               </span>
+            </span>
+         </div>
+      </div>
+      <div class="row">&nbsp;</div>
+      <div class="row">
+         <div class="col-md-12 card">
+            <div class="row">
+               <div class="col-md-12 bb text-center text-space-3 acct-title">{{ "mymojio_account.MyVehicles" | translate }}</div>
+            </div>
+            <span data-alias="UserMojioGrid" data-mojioapi="[{&quot;MojioModel&quot;:&quot;Vehicles&quot;,&quot;defaultCriteria&quot;:&quot;&quot;,&quot;criteria&quot;:&quot;&quot;}]" ng-controller="mojioGridController">
+               <span st-pipe="callServer" st-table="displayed">
+                  <div class="panel-body">
+                     <table class="table table-striped">
+                        <thead ng-show="selectedRow==null" class="bb">
+                           <tr>
+                              <th></th>
+                              <th>{{ "mymojio_account.Status" | translate }}</th>
+                              <th>{{ "mymojio_account.Name" | translate }}</th>
+                              <th>{{ "common.LicensePlate" | translate }}</th>
+                              <th class="visible-md visible-lg">Last Contact</th>
+                              <th>{{ "mymojio_account.Delete" | translate }}</th>
+                           </tr>
+                        </thead>
+                        <tbody ng-show="selectedRow==null &amp;&amp; !isLoading">
+                           <tr ng-repeat="(pos,row) in displayed" ng-dblclick="PrintInConsole(row)">
+                              <td><i ng-class="{'fa-square-o':!row.selected,'fa-check-square-o':row.selected}" ng-click="selectVehicle(row)" class="fa"></i>
+                              </td>
+                              <td>{{CarStatus(row)}}</td>
+                              <td><a href="" editable-text="row.Name" onaftersave="updateVehicle(row)">{{ row.Name || ('mymojio_account.NoName' | translate) }}</a>
+                              </td>
+                              <td><a href="" editable-text="row.LicensePlate" onaftersave="updateVehicle(row)">{{ row.LicensePlate || ('mymojio_account.NoLicensePlate' | translate) }}</a>
+                              </td>
+                              <td class="visible-md visible-lg">{{row.LastContactTime | date:'yy-MM-dd &nbsp; HH:mm:ss'}}</td>
+                              <td>
+                                 <a href="" are-you-sure="deleteRow(row)">
+                                    <li class="fa fa-trash-o"></li>
+                                 </a>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tfoot>
+                           <tr ng-show="SelectedVehicle==2">
+                              <th colspan="6">
+                                 <button ng-click="MergeVehicles(displayed,newSearch)" class="mb-sm btn btn-labeled btn-danger btn-xs">
+                                    <span class="btn-label"><i class="fa fa-compress"></i>
+                                    </span>&nbsp; Merge</button>
+                              </th>
+                           </tr>
+                           <tr ng-show="selectedRow==null &amp;&amp; (displayed.length!=0 || isLoading)">
+                              <td ng-show="isLoading" colspan="40"><i class="fa fa-spinner fa-spin fa-2x"></i>
+                              </td>
+                              <td ng-show="!isLoading" st-pagination="" st-displayed-pages="10" st-items-by-page="itemsPerPage || 10" colspan="40" class="text-center"></td>
+                           </tr>
+                        </tfoot>
+                     </table>
+                  </div>
+               </span>
+            </span>
+         </div>
+      </div>
+   </div>
+</div>

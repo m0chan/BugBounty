@@ -1,0 +1,16 @@
+https://test.moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: test.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Content-Type: text/plain; charset=utf-8
+< Strict-Transport-Security: max-age=31536000
+< X-Xss-Protection: 1
+< Date: Sun, 15 Dec 2019 14:29:41 GMT
+< Content-Security-Policy: block-all-mixed-content
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: DENY
+

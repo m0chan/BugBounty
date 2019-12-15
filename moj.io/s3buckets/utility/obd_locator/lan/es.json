@@ -1,0 +1,70 @@
+{
+    "obd_locator":
+    {
+      "version":"V.0.2",
+      "home":"Inicio",
+      "title":"Verifique si su coche es compatible.",
+      "desc":"La mayoría de coches del año 1996 o modelos más recientes disponen de un puerto OBD-II ('On Board Diagnostics', versión 2) para conectar el dispositivo.",
+      "select_car":"Seleccione su coche.",
+      "check_if_compatible":"Verifique donde está ubicado el puerto OBD-II en su coche.",
+      "check_if_compatible_warning":"(No todos los coches con puertos OBD-II son compatibles con todas las funciones)",
+      "select_make":"SELECCIONAR MARCA",
+      "select_model":"SELECCIONAR MODELO",
+      "select_year":"SELECCIONAR AÑO",
+      "select_engine":"SELECCIONAR MOTOR",
+      "need_help":"¿TODAVÍA NECESITA AYUDA?",
+      "contact_us":"CONTACTE CON NOSOTROS",
+      "has_obd":"SU COCHE DISPONE DE PUERTO OBD-II",
+      "select_new_vehicle":"SELECCIONAR NUEVO VEHÍCULO",
+      "loading":"Cargando..."
+    },
+    "vehicle_compatibility":
+    {
+      "home":"Inicio",
+      "title":"Verifique si su coche es compatible.",
+      "desc":"La mayoría de coches del año 1996 o modelos más recientes disponen de un puerto OBD-II ('On Board Diagnostics', versión 2) para conectar el dispositivo.",
+      "select_car":"Seleccione su coche.",
+      "check_if_compatible":"Verifique si su coche es compatible con la unidad de sincronización de T-Mobile.",
+      "check_if_compatible_warning":"(No todos los coches con puertos OBD-II son compatibles con todas las funciones)",
+      "select_make":"SELECCIONAR MARCA",
+      "select_model":"SELECCIONAR MODELO",
+      "select_year":"SELECCIONAR AÑO",
+      "select_engine":"SELECCIONAR MOTOR",
+      "need_help":"¿NECESITA AYUDA PARA UBICAR SU PUERTO?",
+      "click_here":"HAGA CLIC AQUÍ",
+      "has_obd":"SU COCHE DISPONE DE UN PUERTO OBD-II",
+      "loading":"Cargando...",
+      "compatible":"SU COCHE ES COMPATIBLE",
+      "not_compatible":"SU COCHE NO ES COMPATIBLE",
+      "compatibility": {
+        "telus": {
+          "Full": "¡Felicidades! TELUS Drive+ es compatible con su vehículo.",
+          "Partial": "¡Felicidades! TELUS Drive+ es compatible con su vehículo.",
+          "Minimum": "Desgraciadamente, TELUS Drive+ no es compatible con su vehículo.",
+          "NotCompatible": "Desgraciadamente, TELUS Drive+ no es compatible con su vehículo.",        
+          "Unknown": "¡Bienvenido! TELUS Drive+ no ha sido probado en su vehículo. Es posible que algunas funciones de datos no estén disponibles para este vehículo en concreto."
+        },
+        "rogers": {
+          "Full": "Rogers Smart Drive es compatible con su vehículo. Por favor, tenga en cuenta que su experiencia puede variar según la marca y el modelo del vehículo.",
+          "Partial": "Rogers Smart Drive es compatible con su vehículo. Por favor, tenga en cuenta que su experiencia puede variar según la marca y el modelo del vehículo.",
+          "Minimum": "Desgraciadamente, Rogers Smart Drive no es compatible con su vehículo. Por favor, no instale el dispositivo en su vehículo.",
+          "NotCompatible": "Desgraciadamente, Rogers Smart Drive no es compatible con su vehículo. Por favor, no instale el dispositivo en su vehículo.",
+          "Unknown": "Rogers Smart Drive es compatible con su vehículo. Por favor, tenga en cuenta que su experiencia puede variar según la marca y el modelo del vehículo."
+        },
+        "tmobile": {
+          "Full": "¡Felicidades! SyncUP Drive es compatible con su vehículo. Esperamos que disfrute su experiencia con la conectividad de vehículos.",
+          "Partial": "¡Buenas noticias! SyncUP Drive es compatible con su vehículo. Es posible que algunas lecturas de consumo de carburante no estén disponibles para este vehículo en particular.",
+          "Minimum": "¡Alerta! SyncUP Drive no es compatible con su vehículo.",
+          "NotCompatible": "¡Stop! SyncUP DRIVE no es compatible con su vehículo. Le rogamos que quite el SyncUP Drive del vehículo.",
+          "Unknown": "¡Bienvenido! SyncUP DRIVE no ha sido probado en su vehículo. Es posible que algunas funciones de datos no estén disponibles para este vehículo en concreto."
+        },
+        "tdg": {
+          "Full": "CarConnect es compatible con su vehículo. Por favor, tenga en cuenta que su experiencia puede variar según la marca y el modelo del vehículo.",
+          "Partial": "CarConnect es compatible con su vehículo. Por favor, tenga en cuenta que su experiencia puede variar según la marca y el modelo del vehículo.",
+         "Minimum": "Desgraciadamente, CarConnect no es compatible con su vehículo. Por favor, no instale el dispositivo en su vehículo.",
+          "NotCompatible": "Desgraciadamente, CarConnect no es compatible con su vehículo. Por favor, no instale el dispositivo en su vehículo.",
+          "Unknown": "CarConnect es compatible con su vehículo. Por favor, tenga en cuenta que su experiencia puede variar según la marca y el modelo del vehículo."
+        }
+      }
+    }
+  }

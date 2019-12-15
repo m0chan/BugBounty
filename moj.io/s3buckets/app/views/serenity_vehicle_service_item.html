@@ -1,0 +1,164 @@
+<h3>Customer Information</h3>
+<div class="row">
+   <div class="col-xs-12">
+      <div style="text-align: center"><i ng-class="{hidden: !isLoading}" class="fa fa-spinner fa-spin fa-4x"></i>
+      </div>
+      <table ng-hide="isLoading" class="table table-hover table-responsive table-condensed">
+         <thead class="bb">
+            <tr>
+               <th>Customer</th>
+               <th>Vehicle</th>
+               <th>MIL</th>
+               <th>DTC</th>
+               <th>Dates</th>
+               <th>Stats</th>
+               <th>Details</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr ng-repeat-start="customer in CustomerEntries">
+               <td>{{ customer.FirstName }} {{ customer.LastName }} - {{ customer.UserName }}
+                  <br/>{{ customer.Email }}
+                  <br/>Phone: {{ customer.PhoneNumber }}</td>
+               <td>{{ customer.VehicleName }}
+                  <br/>{{ customer.VIN }}</td>
+               <td>{{ customer.MilStatus }}</td>
+               <td>
+                  <div ng-repeat="code in customer.DTC"><a popover="{{code.Description}}" popover-placement="top" popover-trigger="mouseenter">{{ code.Code }}</a>
+                  </div>
+               </td>
+               <td>
+                  <div popover="Claim Date" popover-placement="top" popover-trigger="mouseenter">C: {{customer.createDate | date:'yyyy-MM-dd'}}</div>
+                  <div popover="Last Service Item" popover-placement="top" popover-trigger="mouseenter">S: {{customer.lastServiceItemDate | date:'yyyy-MM-dd'}}</div>
+                  <div popover="Last Offer" popover-placement="top" popover-trigger="mouseenter">O: {{customer.lastOfferDate | date:'yyyy-MM-dd'}}</div>
+                  <div popover="Last Offer Validation" popover-placement="top" popover-trigger="mouseenter">V: {{customer.lastOfferValidationDate | date:'yyyy-MM-dd'}}</div>
+                  <div popover="Last Redemption Date" popover-placement="top" popover-trigger="mouseenter">R: {{customer.lastRedemptionDate | date:'yyyy-MM-dd'}}</div>
+               </td>
+               <td>
+                  <div>&nbsp;</div>
+                  <div popover="Service Item Count" popover-placement="top" popover-trigger="mouseenter">S: {{customer.ServiceItemCount}}</div>
+                  <div popover="Offer Count" popover-placement="top" popover-trigger="mouseenter">O: {{customer.OfferCount}}</div>
+                  <div popover="Validated Offer Count" popover-placement="top" popover-trigger="mouseenter">V: {{customer.UsedOfferCount}}</div>
+                  <div popover="Redemption Count" popover-placement="top" popover-trigger="mouseenter">R: {{customer.RedemptionCount}}</div>
+               </td>
+               <td>
+                  <div ng-click="toggleDisplayServices(customer)"><i ng-hide="customer.displayServices" class="fa fa-caret-square-o-left"></i><i ng-show="customer.displayServices" class="fa fa-caret-square-o-down"></i>
+                  </div>
+               </td>
+            </tr>
+            <tr ng-repeat-end="ng-repeat-end" ng-show="customer.displayServices">
+               <td colspan="200">
+                  <div style="text-align: center"><i ng-class="{hidden: !customer.isLoading}" class="fa fa-spinner fa-spin fa-3x"></i>
+                  </div>
+                  <h4 ng-hide="!customer.hasServiceItems || customer.isLoading">Service Items</h4>
+                  <table ng-hide="!customer.hasServiceItems || customer.isLoading" class="table table-hover table-responsive table-condensed">
+                     <thead class="bb">
+                        <tr>
+                           <th>Name</th>
+                           <th>Date given</th>
+                           <th>Date dismissed</th>
+                           <th>Date completed</th>
+                           <th>Offers</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr ng-repeat-start="serviceItem in customer.ServiceItems">
+                           <td>{{ serviceItem.Name }}</td>
+                           <td>{{ serviceItem.DateGiven }} {{ serviceItem.TimeGiven }}</td>
+                           <td>{{ serviceItem.DateDismissed }} {{ serviceItem.TimeDismissed }}</td>
+                           <td>{{ serviceItem.DateCompleted }} {{ serviceItem.TimeCompleted }}</td>
+                           <td>
+                              <div ng-click="toggleDisplayOffers(serviceItem)"><i ng-hide="serviceItem.displayOffers" class="fa fa-caret-square-o-left"></i><i ng-show="serviceItem.displayOffers" class="fa fa-caret-square-o-down"></i>
+                              </div>
+                           </td>
+                        </tr>
+                        <tr ng-repeat-end="ng-repeat-end" ng-show="serviceItem.displayOffers">
+                           <td colspan="200">
+                              <h4 ng-hide="!serviceItem.hasOffers">Offers</h4>
+                              <table ng-hide="!serviceItem.hasOffers" class="table table-hover table-responsive table-condensed">
+                                 <thead class="bb">
+                                    <tr>
+                                       <th>Discount item</th>
+                                       <th>Offer Name</th>
+                                       <th>Discount</th>
+                                       <th>Code</th>
+                                       <th>Date issued</th>
+                                       <th>Redemptions</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr ng-repeat-start="offer in serviceItem.Offers">
+                                       <td>{{ offer.DiscountItem }}</td>
+                                       <td>{{ offer.Name }}</td>
+                                       <td>{{ offer.DiscountAmount }} {{ offer.DiscountType }}</td>
+                                       <td>{{ offer.RedemptionCode }}</td>
+                                       <td>{{ offer.Given | date:'yyyy-MM-dd'}}</td>
+                                       <td>
+                                          <div ng-click="toggleDisplayRedemptionsValidations(offer)"><i ng-hide="offer.displayRedemptions" class="fa fa-caret-square-o-left"></i><i ng-show="offer.displayRedemptions" class="fa fa-caret-square-o-down"></i>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr ng-repeat-end="ng-repeat-end" ng-show="offer.displayRedemptions">
+                                       <td colspan="200">
+                                          <div style="text-align: center"><i ng-class="{hidden: !offer.isRedemptionLoading}" class="fa fa-spinner fa-spin"></i>
+                                          </div>
+                                          <h4 ng-hide="!offer.hasRedemptions || offer.isRedemptionLoading">Redemptions</h4>
+                                          <table ng-hide="!offer.hasRedemptions || offer.isRedemptionLoading" class="table table-bordered table-hover table-responsive table-condensed">
+                                             <thead class="bb">
+                                                <tr>
+                                                   <th>Date Redeemed</th>
+                                                   <th>Latitude</th>
+                                                   <th>Longitude</th>
+                                                   <th>Value</th>
+                                                </tr>
+                                             </thead>
+                                             <tbody>
+                                                <tr ng-repeat="redemption in offer.Redemptions">
+                                                   <td>{{ redemption.DateRedeemed }} {{ redemption.TimeRedeemed }}</td>
+                                                   <td>{{ redemption.Lat }}</td>
+                                                   <td>{{ redemption.Lon }}</td>
+                                                   <td>{{ redemption.Value }}</td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <span ng-hide="offer.hasRedemptions || offer.isRedemptionLoading"><b>No redemptions available to display!</b>
+                                          </span>
+                                          <div style="text-align: center"><i ng-class="{hidden: !offer.isValidationLoading}" class="fa fa-spinner fa-spin"></i>
+                                          </div>
+                                          <h4 ng-hide="!offer.hasValidations || offer.isValidationLoading">Validations</h4>
+                                          <table ng-hide="!offer.hasValidations || offer.isValidationLoading" class="table table-bordered table-hover table-responsive table-condensed">
+                                             <thead class="bb">
+                                                <tr>
+                                                   <th>Date Validated</th>
+                                                   <th>Agent</th>
+                                                   <th>Repair Order</th>
+                                                </tr>
+                                             </thead>
+                                             <tbody>
+                                                <tr ng-repeat="validation in offer.Validations">
+                                                   <td>{{ validation.DateValidated }} {{ validation.TimeValidated }}</td>
+                                                   <td>{{ validation.Agent }}</td>
+                                                   <td>{{ validation.RepairOrder }}</td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <span ng-hide="offer.hasValidations || offer.isValidationLoading"><b>No validations available to display!</b>
+                                          </span>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <span ng-hide="serviceItem.hasOffers"><b>No offers available to display!</b>
+                              </span>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <span ng-hide="customer.hasServiceItems"><b>No services available to display!</b>
+                  </span>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>

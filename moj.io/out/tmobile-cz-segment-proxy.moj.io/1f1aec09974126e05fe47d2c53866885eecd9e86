@@ -1,0 +1,28 @@
+https://tmobile-cz-segment-proxy.moj.io/package.json
+
+> GET /package.json HTTP/1.1
+> Host: tmobile-cz-segment-proxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: Microsoft-IIS/10.0
+< Request-Context: appId=cid-v1:d2da7254-80af-4f23-a3d0-8b25a889d971
+< Access-Control-Allow-Origin: *
+< Content-Security-Policy: default-src 'self'
+< Date: Sun, 15 Dec 2019 14:29:39 GMT
+< Content-Length: 151
+< X-Content-Type-Options: nosniff
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=0e620387664f656d9541c5bdbe8212bf1f49b6890c45c520fb65fba7c5240709;Path=/;HttpOnly;Domain=tmobile-cz-segment-proxy.moj.io
+< Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /package.json</pre>
+</body>
+</html>

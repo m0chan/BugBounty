@@ -1,0 +1,14 @@
+https://telekom-de-push.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: telekom-de-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 103
+< Content-Type: text/html
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=85749329b460578b5538b02378bcd6e753dadaf6a2dc663e2ab035f52d59bdc4;Path=/;HttpOnly;Domain=telekom-de-push.moj.io
+< Date: Sun, 15 Dec 2019 14:28:40 GMT
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

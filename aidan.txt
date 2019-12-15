@@ -1,0 +1,150 @@
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:19 GMT
+Content-Type: text/html
+Location: https://borgan.selectra.io/
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:19 GMT
+Content-Type: text/html
+Location: https://zoho.selectra.io/
+Vary: Origin
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:19 GMT
+Content-Type: text/html
+Location: https://porygon.selectra.io/
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 302 Found
+Location: /podo_display/
+Set-Cookie: PHPSESSID=abf0f901c1abac98c1026cf84ae1f57c; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-type: text/html
+X-Cloud-Trace-Context: 309ea9b4e080ff353b7d55171ae207a1;o=1
+Date: Wed, 02 Oct 2019 15:28:19 GMT
+Server: Google Frontend
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:19 GMT
+Content-Type: text/html
+Location: https://staging.beatrice.selectra.io/
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 404 Not Found
+Content-Length: 1551
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 02 Oct 2019 15:28:19 GMT
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:20 GMT
+Content-Type: text/html
+Location: https://tictac.selectra.io/
+Vary: Origin
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:20 GMT
+Content-Type: text/html
+Location: https://admin.selectra.io/
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 404 Not Found
+Date: Wed, 02 Oct 2019 15:28:20 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+X-Request-Id: 96b3e0dc-06da-461a-b6b6-32d076f288ba
+X-Runtime: 0.142596
+X-Cloud-Trace-Context: 7fbcf46c4aede066899998089b6e6dcf/2131942799637519232;o=1
+Via: 1.1 google
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:20 GMT
+Content-Type: text/html
+Location: https://energia.selectra.io/
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:20 GMT
+Content-Type: text/html
+Location: https://mew.selectra.io/
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:20 GMT
+Content-Type: text/html
+Location: https://training.energia.selectra.io/
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:20 GMT
+Content-Type: text/html
+Location: https://gas.selectra.io/
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:20 GMT
+Content-Type: text/html
+Location: https://staging.energia.selectra.io/
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:21 GMT
+Content-Type: text/html
+Location: https://api.borgan.selectra.io/
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:21 GMT
+Content-Type: text/html
+Location: https://ww.selectra.info/
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:21 GMT
+Content-Type: text/html
+Location: https://landorus.selectra.io/
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 302 Found
+Date: Wed, 02 Oct 2019 15:28:21 GMT
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Location: https://sso.selectra.io/oauth/authorize?client_id=e5b4d5617208e3d3b59d89d5f4ef2881823b07aa878c56558d7f4241890b9a86&redirect_uri=http%3A%2F%2Fdialga.selectra.io%2Fselectra_auth%2Foauth%2Fcallback&response_type=code
+Cache-Control: no-cache
+Set-Cookie: session_id=ImFkMjZiMTc2YTdhZWIwMWQxNmNjMmM3MWMyYTQzMDdkIg%3D%3D--897f77bb593f48ba1923620e7af838dd3ad2cc4f; path=/
+Set-Cookie: _dialga_v2_session=akEzbTJKTXBnZXFRYmFXV1Q2MmQvOEpHczh6Um5WZHVsUXlsT2xnS2dNRnBCcGRWNDlpWmhLNisrQ2Vma2tFcElLN2RhMUVtZG94S2g4TEM2SCtrdXovWDlTUXNDK2NWaW1MRHc2UTRlSlk9LS1GWjNKS29weGt3L1FCUFNUeDRHeWF3PT0%3D--6818f3b120632a55c9613a8464944cd36b35421e; path=/; HttpOnly
+X-Request-Id: 0a94ec78-8358-4da8-b536-5a3dd6379239
+X-Runtime: 0.003383
+X-Cloud-Trace-Context: f95bbde59eeec4869e64f03953104a2d/30056692927763256;o=0
+Vary: Origin
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Oct 2019 15:28:21 GMT
+Content-Type: text/html
+Location: https://cloud.energia.selectra.io/
+Via: 1.1 google
+Transfer-Encoding: chunked
+

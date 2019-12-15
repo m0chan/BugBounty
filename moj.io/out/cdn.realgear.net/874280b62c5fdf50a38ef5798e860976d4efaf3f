@@ -1,0 +1,13 @@
+https://cdn.realgear.net/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: cdn.realgear.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 0
+< Accept-Ranges: bytes
+< Cache-Control: max-age=10
+< X-Hw: 1576420151.cds043.lo4.hn,1576420151.cds043.lo4.h2c
+< Date: Sun, 15 Dec 2019 14:29:11 GMT
+

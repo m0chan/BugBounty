@@ -1,0 +1,55 @@
+http://simulator.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: simulator.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Request-Id: E19D462151DDBD91
+< X-Amz-Id-2: fxvO6wUwZASj4RUrz1To/lZaullzRJFQZclGXWrKH3WpvWPyzGaYlAJjEHHYJPETbOHaKOi1deM=
+< X-Amz-Error-Code: AccessDenied
+< Last-Modified: Sun, 09 Jul 2017 14:55:40 GMT
+< Cf-Cache-Status: DYNAMIC
+< Set-Cookie: __cfduid=d7366d17d42dba50c4e364912d05080421576420125; expires=Tue, 14-Jan-20 14:28:45 GMT; path=/; domain=.moj.io; HttpOnly
+< Server: cloudflare
+< Cf-Ray: 54591b171a76d224-MAN
+< X-Amz-Error-Message: Access Denied
+< Date: Sun, 15 Dec 2019 14:28:45 GMT
+< Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en" data-ng-app="angle">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Mojio Dashboard">
+<meta name="keywords" content="MOJIO, Connected Car">
+<title data-ng-bind="pageTitle()">MOJIO Website</title>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?v=1234" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="app/css/base.css">
+<link rel="stylesheet" href="app/css/app.css">
+<link rel="stylesheet" ng-href="app/css/theme-a.css">
+<link rel="shortcut icon" href="app/img/mojioapp.png">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans">
+</head>
+<body data-ng-class="{ 'layout-fixed' : app.layout.isFixed, 'aside-collapsed' : app.layout.isCollapsed, 'layout-boxed' : app.layout.isBoxed, 'layout-fs': app.useFullLayout, 'hidden-footer': app.hiddenFooter, 'layout-h': app.layout.horizontal, 'aside-float': app.layout.isFloat}">
+<noscript>
+      <h4 class="text-center">
+         <div>
+            <img src="app/img/logo.png" class="mb-lg">
+         </div>You must have JavaScript enabled to use this website.</h4>
+   </noscript>
+<div ng-if="$root.ready" data-ui-view="" data-autoscroll="false" class="wrapper"></div>
+<script src="//maps.googleapis.com/maps/api/js?libraries=visualization&amp;key=AIzaSyDuW1FrTw0XwFteuAaIaOiGZOv_KjvXZZo"></script>
+<script src="app/js/base.js"></script>
+<script src="app/js/templates.js"></script>
+<script src="app/js/app.js"></script>
+<script src="app/js/markerwithlabel.js"></script>
+<script type="text/javascript">
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+          analytics.load("KXm8b9cfJkd9QYw63DSFrhI3CsffB69p");
+          analytics.page()
+      }}();
+   </script>
+</body>
+</html>

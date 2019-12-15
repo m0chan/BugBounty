@@ -1,0 +1,23 @@
+<div class="text-center text-gray-darker bb">
+   <div class="text-center bg-white">
+      <div class="row pt-lg">
+         <em class="fa icon-trek fa-2x text-gray-light"></em>
+      </div>
+      <div class="row">
+         <span class="widget-title">TIMELINE</span>
+      </div>
+   </div>
+</div>
+<div ng-if="Notifications.length==0" class="row">
+   <div class="col-xs-12 text-gray text-center h2">No Events</div>
+</div>
+<div ng-repeat="row in Notifications" class="row bb bg-darkness">
+   <div class="col-xs-2">
+      <div style="width:8px;height:72px;background-color:{{VehicleColor(row.VehicleId)}}" class="cartag"></div>
+   </div>
+   <div class="col-xs-10">
+      <div class="h3 mt-lg widget-title">{{VehicleName(row.VehicleId)}}</div>
+      <div class="h4">{{EventTitle(row.EventType)}}</div>
+      <div class="span">{{row.Time | timeago}} ago</div>
+   </div>
+</div>

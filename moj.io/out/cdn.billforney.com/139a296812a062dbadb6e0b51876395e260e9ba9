@@ -1,0 +1,19 @@
+http://cdn.billforney.com/api/apidocs
+
+> GET /api/apidocs HTTP/1.1
+> Host: cdn.billforney.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Request-Context: appId=cid-v1:58dd9d2d-7583-4bbe-aa25-e93c0adacb78
+< Content-Security-Policy: object-src 'none';
+< Arr-Disable-Session-Affinity: True
+< Content-Length: 0
+< Date: Sun, 15 Dec 2019 14:30:05 GMT
+< X-Cache: TCP_MISS
+< X-Powered-By: William Forney
+< X-Content-Type-Options: nosniff
+< X-Ua-Compatible: IE=Edge,chrome=1
+< X-Azure-Ref-Originshield: 0bUP2XQAAAABAV2AVfLZXTqSN6/z5LYrrTE9OMjFFREdFMDMxOQA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< X-Azure-Ref: 0bUP2XQAAAAB8EkLPa7q8TanGpta061XYTUFOMzBFREdFMDMxMQA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+

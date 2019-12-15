@@ -1,0 +1,18 @@
+http://force-jp-app.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: force-jp-app.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Accept-Ranges: bytes
+< X-Served-By: cache-man4124-MAN
+< Server: Varnish
+< Retry-After: 0
+< Location: https://force-jp-app.moj.io/admin.php
+< Date: Sun, 15 Dec 2019 14:29:05 GMT
+< X-Cache: HIT
+< X-Cache-Hits: 0
+< X-Timer: S1576420145.182522,VS0,VE0
+

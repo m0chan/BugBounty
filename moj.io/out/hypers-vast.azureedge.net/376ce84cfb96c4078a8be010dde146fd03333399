@@ -1,0 +1,15 @@
+https://hypers-vast.azureedge.net/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: hypers-vast.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Sun, 15 Dec 2019 14:29:38 GMT
+< Server: ECAcc (lpl/EF4E)
+< X-Amz-Request-Id: tx0000000000000021e4dca-005df64341-34fcc4-default
+< Content-Length: 221
+< Accept-Ranges: bytes
+< Content-Type: application/xml
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><BucketName>apidocs</BucketName><RequestId>tx0000000000000021e4dca-005df64341-34fcc4-default</RequestId><HostId>34fcc4-default-default</HostId></Error>

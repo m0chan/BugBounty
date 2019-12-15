@@ -1,0 +1,14 @@
+https://tmobile-pl-identity.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: tmobile-pl-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=0e620387664f656d9541c5bdbe8212bf1f49b6890c45c520fb65fba7c5240709;Path=/;HttpOnly;Domain=tmobile-pl-identity.moj.io
+< Date: Sun, 15 Dec 2019 14:28:34 GMT
+< Content-Length: 0
+< Server: Kestrel
+< Content-Security-Policy: default-src 'self' static-prd1.moj.io; font-src 'self' https://fonts.gstatic.com static-prd1.moj.io data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com static-prd1.moj.io 'unsafe-inline'; script-src 'self' 'unsafe-inline' static-prd1.moj.io; img-src 'self' static-prd1.moj.io
+< X-Powered-By: ASP.NET
+

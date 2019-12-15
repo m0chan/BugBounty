@@ -1,0 +1,16 @@
+<h3>Dealer Editor</h3>
+<div class="row">
+   <div class="col-md-6">
+      <div ng-click="EditDealer('')" class="well">
+         <h2 class="mt0 pt0"><i class="fa fa-plus-square"></i>&nbsp; New Dealer</h2>Create New Dealer and Edit it
+         <div class="mt-lg"><i class="fa fa-pencil"></i>&nbsp;Create</div>
+      </div>
+   </div>
+   <div ng-repeat="s in Dealer" class="col-md-6">
+      <div ng-click="EditDealer(s._id)" class="well">
+         <h2 class="mt0 pt0">
+            <img width="32" height="32" src="{{s.icon}}" class="bt bl br bb" />&nbsp; {{ s.name || 'No Name Dealer' }}</h2>{{ Dealer.description || 'No Dealer Description' }}
+         <div class="mt-lg"><i class="fa fa-pencil"></i>&nbsp;Edit</div>
+      </div>
+   </div>
+</div>

@@ -1,0 +1,29 @@
+http://blog.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: blog.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Authorization Required
+< Cf-Ray: 545916729917bfbb-MAN
+< Date: Sun, 15 Dec 2019 14:25:35 GMT
+< Set-Cookie: __cfduid=dd6947f6435b2008a1cbee3facbefe07e1576419935; expires=Tue, 14-Jan-20 14:25:35 GMT; path=/; domain=.moj.io; HttpOnly
+< Cf-Cache-Status: DYNAMIC
+< Server: cloudflare
+< Content-Type: text/html; charset=iso-8859-1
+< Www-Authenticate: Basic realm="Authentication Required"
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>401 Authorization Required</title>
+</head><body>
+<h1>Authorization Required</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested. Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+<hr>
+<address>Apache/2.2.34 (Amazon) Server at blog.moj.io Port 80</address>
+</body></html>

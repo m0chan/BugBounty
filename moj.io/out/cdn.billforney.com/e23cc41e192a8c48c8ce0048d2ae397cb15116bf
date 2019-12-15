@@ -1,0 +1,19 @@
+http://cdn.billforney.com/package.json
+
+> GET /package.json HTTP/1.1
+> Host: cdn.billforney.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Security-Policy: object-src 'none';
+< Arr-Disable-Session-Affinity: True
+< X-Azure-Ref: 0T0P2XQAAAAA6mkYhXXWERINpuZpA4S19TUFOMzBFREdFMDMxMQA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< Request-Context: appId=cid-v1:58dd9d2d-7583-4bbe-aa25-e93c0adacb78
+< X-Content-Type-Options: nosniff
+< X-Ua-Compatible: IE=Edge,chrome=1
+< X-Azure-Ref-Originshield: 0T0P2XQAAAADCvgKvsqEoQIOpbAnHrU1fTE9OMjFFREdFMDMxMwA2NzBiYjJkYi0yYjg1LTQzMTQtOTNmMy0wYTk4YTAyZDM5Nzk=
+< Date: Sun, 15 Dec 2019 14:29:35 GMT
+< Content-Length: 0
+< X-Cache: TCP_MISS
+< X-Powered-By: William Forney
+

@@ -1,0 +1,15 @@
+https://tmobile-us-api.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: tmobile-us-api.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 103
+< Content-Type: text/html
+< Request-Context: appId=cid-v1:b4f3dc5f-bd72-4647-99a2-e4a1ecb0016e
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=96267d732e65ca0d29c035444c65e39a9da9a9cd4ec07e02900087916e850fb3;Path=/;HttpOnly;Domain=tmobile-us-api.moj.io
+< Date: Sun, 15 Dec 2019 14:28:50 GMT
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

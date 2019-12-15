@@ -1,0 +1,14 @@
+https://motion-push.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: motion-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 24
+< Request-Context: appId=cid-v1:860c1b62-c93f-4794-adb1-4e1aead449ae
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=2f5991bee69c7bc3d988b7496f48a0f3e661985a9b1894d713c80ac473563fe2;Path=/;HttpOnly;Domain=motion-push.moj.io
+< Date: Sun, 15 Dec 2019 14:30:35 GMT
+
+{ "Message": "404 eh!" }

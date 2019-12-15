@@ -1,0 +1,25 @@
+https://stg7-nginx.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: stg7-nginx.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Server: nginx/1.15.6
+< Set-Cookie: __cfduid=d2ebaa9bd8b383121f430c356b7e3c9e41576420236; expires=Tue, 14-Jan-20 14:30:36 GMT; path=/; domain=.moj.io; HttpOnly
+< Set-Cookie: ARRAffinity=81e1f111fb40730d6455cff9726eca51022363fe71a34a36f52d37876019d205;Path=/;HttpOnly;Domain=stg7-nginx.moj.io
+< Cf-Cache-Status: DYNAMIC
+< Cf-Ray: 54591dd13818558c-ORD
+< Date: Sun, 15 Dec 2019 14:30:36 GMT
+< Location: https://www.moj.io/swagger-ui
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.moj.io/swagger-ui">here</a>.</p>
+<hr>
+<address>Apache/2.2.34 (Amazon) Server at moj.io Port 80</address>
+</body></html>

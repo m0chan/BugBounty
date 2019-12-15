@@ -1,0 +1,15 @@
+http://2gingerswhiskeyprod.azureedge.net/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: 2gingerswhiskeyprod.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Date: Sun, 15 Dec 2019 14:28:23 GMT
+< Location: https://2gingerswhiskeyprod.azureedge.net/phpinfo.php
+< Server: Microsoft-IIS/10.0
+< Content-Length: 166
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.2gingerswhiskey.com/phpinfo.php">here</a></body>

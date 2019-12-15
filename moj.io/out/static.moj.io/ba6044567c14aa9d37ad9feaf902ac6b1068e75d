@@ -1,0 +1,17 @@
+https://static.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: static.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:28:59 GMT
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 2753ab7e-f01e-003b-1553-b338cf000000
+< X-Ms-Version: 2009-09-19
+< Content-Length: 215
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:2753ab7e-f01e-003b-1553-b338cf000000
+Time:2019-12-15T14:29:00.9763755Z</Message></Error>

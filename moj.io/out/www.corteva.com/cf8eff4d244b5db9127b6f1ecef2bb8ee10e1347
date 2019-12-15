@@ -1,0 +1,23 @@
+https://www.corteva.com/api
+
+> GET /api HTTP/1.1
+> Host: www.corteva.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=1800
+< Expires: Sun, 15 Dec 2019 14:59:31 GMT
+< Location: https://www.corteva.com/api.html
+< Server: ECAcc (lpl/EF52)
+< Set-Cookie: TS01cd730d=01afac7ebbcd48f982061131e31ea10fdd53c057604eab0fc4e2fa2d42b799b3594cf7d470fe626b708cae11e319987d0589f134cf; Path=/; Secure; HTTPOnly
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Sun, 15 Dec 2019 14:29:31 GMT
+< Content-Length: 240
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.corteva.com/api.html">here</a>.</p>
+</body></html>

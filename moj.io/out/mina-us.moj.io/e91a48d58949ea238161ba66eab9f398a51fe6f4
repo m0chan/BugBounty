@@ -1,0 +1,30 @@
+https://mina-us.moj.io/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: mina-us.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html; charset=utf-8
+< Set-Cookie: __cfduid=dac2a18af6ae45febab04d4125ce152631576419939; expires=Tue, 14-Jan-20 14:25:39 GMT; path=/; domain=.moj.io; HttpOnly
+< Access-Control-Allow-Origin: *
+< Content-Security-Policy: default-src 'self'
+< X-Content-Type-Options: nosniff
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Server: cloudflare
+< Vary: Accept-Encoding
+< Date: Sun, 15 Dec 2019 14:25:40 GMT
+< X-Powered-By: Express
+< Cf-Cache-Status: DYNAMIC
+< Cf-Ray: 545916909852362d-MAN
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /admin.php</pre>
+</body>
+</html>

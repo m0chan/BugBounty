@@ -1,0 +1,16 @@
+http://static-prd10.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: static-prd10.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Content-Type: application/xml
+< Date: Sun, 15 Dec 2019 14:30:01 GMT
+< Server: Microsoft-HTTPAPI/2.0
+< X-Ms-Request-Id: 221dea03-f01e-0110-5654-b39530000000
+< Content-Length: 278
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AccountRequiresHttps</Code><Message>The account being accessed does not support http.
+RequestId:221dea03-f01e-0110-5654-b39530000000
+Time:2019-12-15T14:30:01.7632291Z</Message><AccountName>mojioprd10cdn</AccountName></Error>

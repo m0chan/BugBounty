@@ -1,0 +1,13 @@
+http://mojioprd0futwap-identity.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: mojioprd0futwap-identity.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 15 Dec 2019 14:30:14 GMT
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< Location: https://mojioprd0futwap-identity.moj.io/swagger
+< Server: Microsoft-IIS/10.0
+

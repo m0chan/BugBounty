@@ -1,0 +1,14 @@
+https://metropcs-us-push.moj.io/phpinfo.php
+
+> GET /phpinfo.php HTTP/1.1
+> Host: metropcs-us-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: ARRAffinity=0d7eaa93ccf04e2494816f0f168f4e2170cd80b95a36687e39877b2728981272;Path=/;HttpOnly;Domain=metropcs-us-push.moj.io
+< Date: Sun, 15 Dec 2019 14:23:55 GMT
+< Content-Length: 103
+< Content-Type: text/html
+< X-Powered-By: ASP.NET
+
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.

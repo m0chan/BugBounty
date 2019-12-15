@@ -1,0 +1,56 @@
+<div class="row">
+   <div class="panel-body">
+      <div>
+         <div class="col-md-5">
+            <div class="input-group">
+               <span class="input-group-btn">
+                  <div class="btn btn-default">From</div>
+               </span>
+               <input type="text" ng-model="DateRange.From" datepicker-popup="yyyy.MM.dd" is-open="FromOpened" ng-click="FromOpened=true" ng-required="true" close-text="" class="form-control" />
+            </div>
+         </div>
+         <div class="col-md-5">
+            <div class="input-group">
+               <span class="input-group-btn">
+                  <div class="btn btn-default">To</div>
+               </span>
+               <input type="text" ng-model="DateRange.To" datepicker-popup="yyyy.MM.dd" is-open="ToOpened" ng-click="ToOpened=true" ng-required="true" close-text="" class="form-control" />
+            </div>
+         </div>
+         <div class="col-md-2">
+            <button ng-click="prepareData()" class="btn btn-default">
+               <li class="fa fa-search"></li>&nbsp; Load</button>
+         </div>
+      </div>
+      <div>
+         <table class="table table-hover">
+            <thead ng-show="selectedRow==null">
+               <tr>
+                  <th></th>
+                  <th class="fieldHeader">NAME</th>
+                  <th class="fieldHeader"># of Trips</th>
+                  <th class="fieldHeader">Mileage</th>
+                  <th class="fieldHeader">Duration</th>
+                  <th class="fieldHeader">Fuel Consumption</th>
+                  <th class="fieldHeader">Fuel Efficency</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr ng-repeat="row in vehicles">
+                  <td>
+                     <a ng-if="broadcast!='off'" href="" ng-click="broadcast(row)">
+                        <li class="fa fa-tag"></li>
+                     </a>
+                  </td>
+                  <td>{{row.Name}}</td>
+                  <td>{{row.TripsNo}}</td>
+                  <td>{{row.Mileage | number:'2'}}</td>
+                  <td>{{row.Duration | hhmmss}}</td>
+                  <td>{{row.FuelConsumption | number:'2'}}</td>
+                  <td>{{row.FuelEfficency | number:'2'}}</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </div>
+</div>

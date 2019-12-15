@@ -1,0 +1,21 @@
+http://static.topsmurfs.com/admin.php
+
+> GET /admin.php HTTP/1.1
+> Host: static.topsmurfs.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Referrer-Policy: no-referrer
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< Date: Sun, 15 Dec 2019 14:29:10 GMT
+< Location: https://static.topsmurfs.com/admin.php
+< Content-Length: 0
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=UTF-8
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+< Feature-Policy: accelerometer 'none'; camera 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; usb 'none'
+< Vary: Accept-Encoding,Cookie
+

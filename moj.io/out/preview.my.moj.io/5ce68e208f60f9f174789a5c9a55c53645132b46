@@ -1,0 +1,29 @@
+http://preview.my.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: preview.my.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Request-Id: F3FB678663BCC185
+< Cf-Cache-Status: DYNAMIC
+< Server: cloudflare
+< Content-Type: text/html; charset=utf-8
+< Set-Cookie: __cfduid=d96f378a51c47edeb061e99a993e9261d1576420142; expires=Tue, 14-Jan-20 14:29:02 GMT; path=/; domain=.moj.io; HttpOnly
+< X-Amz-Id-2: kZt3UHOOzfEH/+QzqhGXPBE9TO7T0sDdqY7nLaeQUITUdvCQIJD0+ackshTGnMjgc1sEoE3swwA=
+< Cf-Ray: 54591b804822e597-MAN
+< Date: Sun, 15 Dec 2019 14:29:02 GMT
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<h1>403 Forbidden</h1>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+<li>RequestId: F3FB678663BCC185</li>
+<li>HostId: kZt3UHOOzfEH/+QzqhGXPBE9TO7T0sDdqY7nLaeQUITUdvCQIJD0+ackshTGnMjgc1sEoE3swwA=</li>
+</ul>
+<hr />
+</body>
+</html>

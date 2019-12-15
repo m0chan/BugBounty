@@ -1,0 +1,14 @@
+https://vivint-us-push.moj.io/apidocs
+
+> GET /apidocs HTTP/1.1
+> Host: vivint-us-push.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 24
+< Request-Context: appId=cid-v1:b4f3dc5f-bd72-4647-99a2-e4a1ecb0016e
+< X-Powered-By: ASP.NET
+< Set-Cookie: ARRAffinity=ec7f294f5f0867aba055949e019e55aa34b55308ccf662e178e67b87bf473d84;Path=/;HttpOnly;Domain=vivint-us-push.moj.io
+< Date: Sun, 15 Dec 2019 14:29:21 GMT
+
+{ "Message": "404 eh!" }

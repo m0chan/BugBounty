@@ -1,0 +1,30 @@
+http://developer.moj.io/swagger-ui
+
+> GET /swagger-ui HTTP/1.1
+> Host: developer.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: cloudflare
+< Cf-Ray: 54591d876eac364b-MAN
+< Date: Sun, 15 Dec 2019 14:30:25 GMT
+< Content-Type: text/html; charset=utf-8
+< X-Amz-Request-Id: 6671E9529E4821A9
+< X-Amz-Id-2: a/xJSuNNLQemajWyTFs5M54sSc8lkujwlPg8hmxdKx9R4gsrDHvVkWIknVf6mzs/50087GK0AZU=
+< Set-Cookie: __cfduid=d127646c7d0e2412a30b8552914089c631576420225; expires=Tue, 14-Jan-20 14:30:25 GMT; path=/; domain=.moj.io; HttpOnly
+< Cf-Cache-Status: DYNAMIC
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+<ul>
+<li>Code: NoSuchBucket</li>
+<li>Message: The specified bucket does not exist</li>
+<li>BucketName: developer.moj.io</li>
+<li>RequestId: 6671E9529E4821A9</li>
+<li>HostId: a/xJSuNNLQemajWyTFs5M54sSc8lkujwlPg8hmxdKx9R4gsrDHvVkWIknVf6mzs/50087GK0AZU=</li>
+</ul>
+<hr />
+</body>
+</html>

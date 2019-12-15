@@ -1,0 +1,28 @@
+https://tmobile-cz-segment-proxy.moj.io/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: tmobile-cz-segment-proxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Access-Control-Allow-Origin: *
+< X-Content-Type-Options: nosniff
+< X-Powered-By: ASP.NET
+< Date: Sun, 15 Dec 2019 14:29:50 GMT
+< Content-Length: 151
+< Server: Microsoft-IIS/10.0
+< Request-Context: appId=cid-v1:d2da7254-80af-4f23-a3d0-8b25a889d971
+< Content-Security-Policy: default-src 'self'
+< Set-Cookie: ARRAffinity=32b9fb9902870b7091a954ea692711f028d354822fb717dd7fd0b9de935f3045;Path=/;HttpOnly;Domain=tmobile-cz-segment-proxy.moj.io
+< Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /security.txt</pre>
+</body>
+</html>

@@ -1,0 +1,32 @@
+http://tdg.moj.io/info.php
+
+> GET /info.php HTTP/1.1
+> Host: tdg.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Request-Id: 9ABE48EBE6A13B62
+< X-Amz-Id-2: jByXPC9sbQg/NLrJmqC1jaXI60BGQjJkbANdf309KEkLIlI8bP8VQv/UoBncRedGGM+s/y58Xdc=
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 454
+< Date: Sun, 15 Dec 2019 14:29:00 GMT
+< Server: AmazonS3
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<h1>403 Forbidden</h1>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+<li>RequestId: 9ABE48EBE6A13B62</li>
+<li>HostId: jByXPC9sbQg/NLrJmqC1jaXI60BGQjJkbANdf309KEkLIlI8bP8VQv/UoBncRedGGM+s/y58Xdc=</li>
+</ul>
+<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>
+<ul>
+<li>Code: AccessDenied</li>
+<li>Message: Access Denied</li>
+</ul>
+<hr/>
+</body>
+</html>

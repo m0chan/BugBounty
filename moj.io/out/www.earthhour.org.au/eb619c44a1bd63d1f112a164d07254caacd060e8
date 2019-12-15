@@ -1,0 +1,12 @@
+https://www.earthhour.org.au/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: www.earthhour.org.au
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Powered-By: ASP.NET
+< Content-Length: 0
+< Date: Sun, 15 Dec 2019 14:29:46 GMT
+< Server: Microsoft-IIS/10.0
+

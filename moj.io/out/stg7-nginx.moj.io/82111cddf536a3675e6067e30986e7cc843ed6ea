@@ -1,0 +1,25 @@
+http://stg7-nginx.moj.io/application.wadl
+
+> GET /application.wadl HTTP/1.1
+> Host: stg7-nginx.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Set-Cookie: __cfduid=d662d43e95f3389f6ca5e41ff7b5827e01576420201; expires=Tue, 14-Jan-20 14:30:01 GMT; path=/; domain=.moj.io; HttpOnly
+< Set-Cookie: ARRAffinity=81e1f111fb40730d6455cff9726eca51022363fe71a34a36f52d37876019d205;Path=/;HttpOnly;Domain=stg7-nginx.moj.io
+< Cf-Ray: 54591cf4fa9d7159-ORD
+< Content-Type: text/html; charset=iso-8859-1
+< Location: https://www.moj.io/application.wadl
+< Server: nginx/1.15.6
+< Cf-Cache-Status: DYNAMIC
+< Date: Sun, 15 Dec 2019 14:30:01 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.moj.io/application.wadl">here</a>.</p>
+<hr>
+<address>Apache/2.2.34 (Amazon) Server at moj.io Port 80</address>
+</body></html>

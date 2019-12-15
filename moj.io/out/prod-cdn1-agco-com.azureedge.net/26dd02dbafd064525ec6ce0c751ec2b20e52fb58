@@ -1,0 +1,20 @@
+https://prod-cdn1-agco-com.azureedge.net/security.txt
+
+> GET /security.txt HTTP/1.1
+> Host: prod-cdn1-agco-com.azureedge.net
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: max-age=1800
+< Expires: Sun, 15 Dec 2019 14:59:52 GMT
+< Server: ECAcc (lpl/EF51)
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< X-Ua-Compatible: IE=Edge
+< Content-Length: 0
+< Content-Type: text/plain; charset=UTF-8
+< Date: Sun, 15 Dec 2019 14:29:52 GMT
+< Location: https://prod-cdn1-agco-com.azureedge.net/libs/cq/security/content/securityadmin.txt
+< Set-Cookie: TS01cd730d=01afac7ebbeaa236ea84d10bb57a68b5094ea78d763ec504221a5b4262496ea70fefd2d04fd2340bce7bafdc36b893b477fd323c52; Path=/; Secure; HTTPOnly
+< X-Frame-Options: sameorigin
+

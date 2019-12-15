@@ -1,0 +1,18 @@
+http://segment-proxy.moj.io/swagger
+
+> GET /swagger HTTP/1.1
+> Host: segment-proxy.moj.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Request-Context: appId=cid-v1:d2da7254-80af-4f23-a3d0-8b25a889d971,roleName=Web
+< X-Powered-By: ASP.NET
+< Date: Sun, 15 Dec 2019 14:30:20 GMT
+< Content-Length: 20
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Access-Control-Allow-Origin: *
+< X-Content-Type-Options: nosniff
+< Set-Cookie: ARRAffinity=87a9480c63241dff547caf50df0652f04110afd8c5e7c0d05c549971b85b59d4;Path=/;HttpOnly;Domain=segment-proxy.moj.io
+
+Cannot GET /swagger
