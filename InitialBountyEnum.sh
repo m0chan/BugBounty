@@ -24,3 +24,7 @@ echo "\nStarting DirSearch for Basic Paths on Found Hosts"
 python3 $Tools/dirsearch/dirsearch.py -L $2.httprobe -e .* -w $Tools/paths --simple-report=$2.dirsearch
 echo "\nChecking Discovered Domains for Sub Takeovers"
 subjack -w $2
+
+
+echo "\n Running HTTPProbe Results Through JSearch"
+
